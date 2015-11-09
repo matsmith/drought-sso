@@ -1,0 +1,99 @@
+{
+	"get": {
+		"": {
+			"/externalservices/user-certificate?&id=1&locale=en_US": {
+				"userCertificateResponse": {
+					"userCertificateResponse":{
+						"user":{
+							"id":"233",
+							"firstName":"Seymour",
+							"lastName":"Butts"
+						},
+						"certificates":[
+							{
+								"id":9,
+								"type":"CERT_OF_ACHIEVEMENT",
+								"name":"balanceSubmission",
+								"status":"NOTIFIED",
+								"productEnrollmentId":"1",
+								"date":"12/12/2014",
+								"displayTitleText":"HealthMedia&reg; Balance&reg;",
+								"certificateContent":{
+									"titleText":"Balance&#8482;",
+									"headerText":"Congratulations",
+									"subHeaderText":"you have just completed",
+									"companyLogo":"/hm-logo.png"
+								}
+							}
+						],
+						"responseCode": 0
+					}
+				}
+			},
+			"": {
+				"userCertificateResponse":{
+					"user":{
+						"id":"233",
+						"firstName":"Seymour",
+						"lastName":"Butts"
+					},
+					"certificates":[
+						{
+							"id":9,
+							"type":"CERT_OF_ACHIEVEMENT",
+							"name":"balanceSubmission",
+							"status":"NOTIFIED",
+							"productEnrollmentId":"1",
+							"date":"12/12/2014",
+							"displayTitleText":"HealthMedia&reg; Balance&reg;",
+							"certificateContent":{
+								"titleText":"Balance&#8482;",
+								"headerText":"Congratulations",
+								"subHeaderText":"you have just completed",
+								"companyLogo":"/hm-logo.png"
+							}
+						},
+						{
+							"id": 11,
+							"type":"CERT_OF_ACHIEVEMENT",
+							"name":"balanceSubmission",
+							"status":"NOTIFIED",
+							"productEnrollmentId":"1",
+							"date":"5/15/2014",
+							"displayTitleText":"HealthMedia&reg; Move&reg;",
+							"certificateContent":{
+								"titleText":"Balance&#8482;",
+								"headerText":"Congratulations",
+								"subHeaderText":"you have just completed",
+								"companyLogo":"/hm-logo.png"
+							}
+						}
+					],
+					"responseCode": 0
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"userCertificateResponse": {
+					"certificates":[
+						{
+							"id":42,
+							"type":"CERT_OF_ACHIEVEMENT",
+							"name":"balanceSubmission",
+							"status": "VIEWED",
+							"productEnrollmentId":"1",
+							"headerText":"Congratulations",
+							"text":"you have just completed",
+							"displayName":"Balance",
+							"displayDate":"12/12/2014",
+							"companyLogo":"xyz.gif"
+						}
+					]
+				}
+			}
+		}
+	}
+}

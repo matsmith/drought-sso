@@ -1,0 +1,32 @@
+{
+  "name": "drought",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.0",
+    "express": ">=3.2.6",
+    "hogan-express": "^0.5.2",
+    "jQuery": "^1.7.4",
+    "jsdom": "^7.0.2",
+    "less-middleware": ">=0.1.12",
+    "promise": "^7.0.4",
+    "request": "^2.65.0",
+    "underscore": ">=1.4.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "config": {
+      "debug" : false,
+      "stubs" : false,
+      "locale" : "en_US",
+      "wnpSessionId" : "12345",
+      "authToken" : "d64fedce-1e49-48e0-b56e-eb9ea7a2f190",
+      "authTokenType" : "bearer",
+      "refreshToken" : "66666",
+      "refreshAuthHeader" : "Basic dGVzdF9zaG9ydDpzZWNyZXQ=",
+      "correlationId": "",
+      "serviceBaseUrl": "http://localhost:3000/externalservices/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"get": {
+		"": {
+			"": {
+				"feature1__features": {
+					"feature1__feature": [
+						""
+					]
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"feature1.ampCompanyFeatures": [
+					""
+				]
+			}
+		}
+	},
+	"put": {
+		"": {
+			"": {
+				"feature1.ampCompanyFeatures": [
+					""
+				]
+			}
+		}
+	}
+}

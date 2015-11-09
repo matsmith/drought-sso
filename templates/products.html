@@ -1,0 +1,75 @@
+<style>
+  [data-wnpwidget-container="programListingContainer"] {
+    background-image: url('https://dpqacr01-media.healthmedia.com/media/images/backgrounds/wheat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>
+<div class="program-listing-container container" data-wnptheme="default" data-wnpwidget="programListingContainer">
+
+	<div class="interested-programs row">
+
+        <section data-widget-name="weightSkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget">
+            <div class="flip-container body" data-wnptheme="default" data-wnpwidget="programListingWidget">
+            	<div class="flipper programSide" data-bind="css: flipSide">
+            		<div class="content-height">
+            			<header>
+                            <nav class="above">
+                                <button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+                                <span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    	                    </nav>
+                        </header>
+                        <p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With HealthMedia® BALANCE®, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+                        <nav class="below">
+                        	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+                        	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+                        		Get Started<span class="fa fa-caret-right"></span>
+                        	</button>
+                        </nav>
+                    </div>
+            	    <div class="back c5-background-color">
+            			<header>
+                        <nav class="above">
+                            <button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+                            <span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+                        </nav>
+                        </header>
+                            <p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With HealthMedia® BALANCE®, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+                            <nav class="below">
+                                <button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+                                <button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+                                    Get Started<span class="fa fa-caret-right"></span>
+                                </button>
+                            </nav>
+            		</div>
+    		        <div class="front">
+                        <header>
+                            <h4 class="program-name c4-color c4-border-bottom-color">HealthMedia® BALANCE®</h4>
+                            <h3 class="program-title c4-color">Manage Your Weight</h3>
+                        </header>
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 38px;">Your mind, body, and food habits are all key to managing your weight. HealthMedia® BALANCE® addresses all three, to help you reach your goals and maximize your energy.</p>
+                        <nav class="below">
+                    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-dom-id="details-weightSkills">Details</button>
+                            <button class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-weightSkills">
+                                Get Started<span class="fa fa-caret-right"></span>
+                            </button>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="uninterested-programs-wrap row hide-visibility ui-accordion ui-widget ui-helper-reset" data-bind="css: { 'hide-visibility': titleInt() < 1 }" role="tablist" style="margin-left: -165px; width: 1278px;">
+		<h3 class="c3-color uninterested-programs-bar ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" data-bind="event: {click: updateChevronIcon}" role="tab" id="ui-accordion-1-header-0" aria-controls="ui-accordion-1-panel-0" aria-selected="false" aria-expanded="false" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+			<span data-bind="text: titleOpen">You have&nbsp;</span>
+			<span class="program-number" data-bind="text: titleInt">0</span>
+			<span data-bind="text: titlePlural">programs</span>
+			<span data-bind="text: titleClose">you're not interested in.</span>
+			<span class="icon-chevron open-closed-indicator" data-bind="text: chevronIcon"></span>
+		</h3>
+		<div class="uninterested-programs row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-0" aria-labelledby="ui-accordion-1-header-0" role="tabpanel" aria-hidden="true" style="display: none;"></div>
+    </div>
+</div>

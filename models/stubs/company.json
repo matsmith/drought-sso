@@ -1,0 +1,1037 @@
+{
+	"post": {
+		"": {
+			"/externalservices/company": {
+				"{\"company1__companies\":{\"company1__company\":{\"company1__externalCompanyId\":\"PHS\",\"company1__name\":\"Public Health Source\",\"company1__status\":{\"common1__status\":\"ACTIVE\"},\"company1__usedBy\":\"APPLICATION_AND_REPORTING\",\"company1__parentCompany\":{\"entity1__id\":\"\"},\"company1__rootCompany\":{\"entity1__id\":\"\"},\"company1__uniqueUserCompany\":{\"entity1__id\":\"\"},\"company1__companyType\":\"STANDARD\"}}}": {
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 5188
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								}
+							}
+						]
+					}
+				},
+				"": {
+					"company1__companies": ""
+				}
+			},
+			"": {
+				"company1__companies": ""
+			}
+		}
+	},
+	"get": {
+		"": {
+			"": {
+				"company1__companies": ""
+			},
+			"/externalservices/company/?query=rootCompany.id-companyType-externalId.isLike-result.maxCount&rootCompany.id=5188&companyType=STANDARD&externalId=phs&result.maxCount=100": {
+				"company1__companies": {
+					"company1__company": [
+						{
+							"entity1__id": 5189,
+							"entity1__createDate": "2014-03-28T13:25:13.000-04:00",
+							"company1__externalCompanyId": "phsmember",
+							"company1__name": "PHS Member",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5189
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8995,
+							"entity1__createDate": "2014-03-28T13:29:01.000-04:00",
+							"company1__externalCompanyId": "phsnonmember",
+							"company1__name": "PHS Non Member",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5188
+							},
+							"company1__companyType": "STANDARD"
+						}
+					]
+				}
+			},
+			"/externalservices/company/?query=parentCompany.isNull": {
+				"company1__companies": {
+					"company1__company": [
+						{
+							"entity1__id": 15003,
+							"entity1__createDate": "2015-03-10T16:05:35.000-04:00",
+							"company1__externalCompanyId": "AMPRootCompany",
+							"company1__name": "AMP Root Company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 15003
+							},
+							"company1__rootCompany": {
+								"entity1__id": 15003
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 15003
+							},
+							"company1__companyType": "DEMO"
+						},
+						{
+							"entity1__id": 11,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "AdminUsers",
+							"company1__name": "AdminUsers",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 11
+							},
+							"company1__rootCompany": {
+								"entity1__id": 11
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 11
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8775,
+							"entity1__createDate": "2014-03-28T13:27:34.000-04:00",
+							"company1__externalCompanyId": "Alpha",
+							"company1__name": "Alpha",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8775
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8775
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8775
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9207,
+							"entity1__createDate": "2014-03-28T13:31:54.000-04:00",
+							"company1__externalCompanyId": "Cigna",
+							"company1__name": "Cigna",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9207
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9207
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9207
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 6,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "Coventry",
+							"company1__name": "Coventry",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 6
+							},
+							"company1__rootCompany": {
+								"entity1__id": 6
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 6
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 1,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "HMI",
+							"company1__name": "HMI",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 1
+							},
+							"company1__rootCompany": {
+								"entity1__id": 1
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 1
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8616,
+							"entity1__createDate": "2014-03-28T13:26:31.000-04:00",
+							"company1__externalCompanyId": "HMIDemo",
+							"company1__name": "HMIDemo",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8616
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8616
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8616
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 14308,
+							"entity1__createDate": "2015-02-19T10:45:48.000-05:00",
+							"company1__externalCompanyId": "MySecondCompany_Aparna",
+							"company1__name": "MySecondCompany Aparna",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 14308
+							},
+							"company1__rootCompany": {
+								"entity1__id": 14308
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 14308
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 2,
+							"entity1__createDate": "2014-03-28T13:24:20.000-04:00",
+							"company1__externalCompanyId": "Navistar",
+							"company1__name": "Navistar",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 2
+							},
+							"company1__rootCompany": {
+								"entity1__id": 2
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 2
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 14401,
+							"entity1__createDate": "2015-02-18T13:30:20.000-05:00",
+							"company1__externalCompanyId": "NestleRootCompany",
+							"company1__name": "NestleRootCompany",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 14401
+							},
+							"company1__rootCompany": {
+								"entity1__id": 14401
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 14401
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 5188,
+							"entity1__createDate": "2014-03-28T13:25:13.000-04:00",
+							"company1__externalCompanyId": "PHS",
+							"company1__name": "PHS",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5188
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 5,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "SQA",
+							"company1__name": "QA Access Code",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9253,
+							"entity1__createDate": "2014-03-28T13:33:06.000-04:00",
+							"company1__externalCompanyId": "VSP",
+							"company1__name": "VSP Vision Care",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9253
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9253
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9253
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 14501,
+							"entity1__createDate": "2015-02-23T18:09:59.000-05:00",
+							"company1__externalCompanyId": "activate",
+							"company1__name": "Activate Health Care",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 14501
+							},
+							"company1__rootCompany": {
+								"entity1__id": 14501
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 14501
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9117,
+							"entity1__createDate": "2014-03-28T13:31:29.000-04:00",
+							"company1__externalCompanyId": "argus",
+							"company1__name": "The Argus Group",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9117
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9117
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9117
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9441,
+							"entity1__createDate": "2014-03-28T13:39:49.000-04:00",
+							"company1__externalCompanyId": "assuranthealth",
+							"company1__name": "Assurant Health",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9441
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9441
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9441
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9014,
+							"entity1__createDate": "2014-03-28T13:31:20.000-04:00",
+							"company1__externalCompanyId": "bcbsla",
+							"company1__name": "Blue Cross Blue Shield of Louisiana",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9014
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9014
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9014
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 10006,
+							"entity1__createDate": "2014-05-05T23:34:16.000-04:00",
+							"company1__externalCompanyId": "bcbswy",
+							"company1__name": "BCBSWY",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 10006
+							},
+							"company1__rootCompany": {
+								"entity1__id": 10006
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 10006
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 11519,
+							"entity1__createDate": "2014-09-16T12:35:12.000-04:00",
+							"company1__externalCompanyId": "capitalbluecross",
+							"company1__name": "Capital Blue Cross",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 11519
+							},
+							"company1__rootCompany": {
+								"entity1__id": 11519
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 11519
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 10102,
+							"entity1__createDate": "2014-05-07T12:25:02.000-04:00",
+							"company1__externalCompanyId": "caresource",
+							"company1__name": "CareSource",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 10102
+							},
+							"company1__rootCompany": {
+								"entity1__id": 10102
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 10102
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 11601,
+							"entity1__createDate": "2014-09-19T16:53:54.000-04:00",
+							"company1__externalCompanyId": "cphe",
+							"company1__name": "CarePath",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 11601
+							},
+							"company1__rootCompany": {
+								"entity1__id": 11601
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 11601
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 11901,
+							"entity1__createDate": "2014-10-09T12:23:52.000-04:00",
+							"company1__externalCompanyId": "cust_demo",
+							"company1__name": "Customer Demos",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 11901
+							},
+							"company1__rootCompany": {
+								"entity1__id": 11901
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 11901
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 11301,
+							"entity1__createDate": "2014-09-10T10:30:58.000-04:00",
+							"company1__externalCompanyId": "e2emock1",
+							"company1__name": "E2E Mock 1",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 11301
+							},
+							"company1__rootCompany": {
+								"entity1__id": 11301
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 11301
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8774,
+							"entity1__createDate": "2014-03-28T13:27:34.000-04:00",
+							"company1__externalCompanyId": "eistemplate",
+							"company1__name": "Template Company for EIS",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION",
+							"company1__parentCompany": {
+								"entity1__id": 8774
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8774
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8774
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9271,
+							"entity1__createDate": "2014-03-28T13:35:16.000-04:00",
+							"company1__externalCompanyId": "eistest",
+							"company1__name": "EIS Test",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9271
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9271
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9271
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9364,
+							"entity1__createDate": "2014-03-28T13:37:13.000-04:00",
+							"company1__externalCompanyId": "flblue",
+							"company1__name": "Florida Blue",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9364
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9364
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9364
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9270,
+							"entity1__createDate": "2014-03-28T13:35:11.000-04:00",
+							"company1__externalCompanyId": "gs_test",
+							"company1__name": "GS Test",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9270
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9270
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9270
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 14817,
+							"entity1__createDate": "2015-03-05T16:37:51.000-05:00",
+							"company1__externalCompanyId": "hecinv",
+							"company1__name": "HECOR Study",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 14817
+							},
+							"company1__rootCompany": {
+								"entity1__id": 14817
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 14817
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8805,
+							"entity1__createDate": "2014-03-28T13:27:49.000-04:00",
+							"company1__externalCompanyId": "hmi-succeed-only",
+							"company1__name": "Company at Access Code Level",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8805
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8805
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8805
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9261,
+							"entity1__createDate": "2014-03-28T13:33:26.000-04:00",
+							"company1__externalCompanyId": "kaiser_permanente",
+							"company1__name": "Kaiser Permanente",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9261
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9261
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9261
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9517,
+							"entity1__createDate": "2014-03-28T13:42:29.000-04:00",
+							"company1__externalCompanyId": "lakenona",
+							"company1__name": "Lake Nona",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9517
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9517
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9517
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 10037,
+							"entity1__createDate": "2014-05-05T23:34:22.000-04:00",
+							"company1__externalCompanyId": "lovelace",
+							"company1__name": "Lovelace Health Plan",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 10037
+							},
+							"company1__rootCompany": {
+								"entity1__id": 10037
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 10037
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 15301,
+							"entity1__createDate": "2015-03-17T13:48:30.000-04:00",
+							"company1__externalCompanyId": "philshealthclub",
+							"company1__name": "Phil's Health Club",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 15301
+							},
+							"company1__rootCompany": {
+								"entity1__id": 15301
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 15301
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9634,
+							"entity1__createDate": "2014-03-28T13:46:05.000-04:00",
+							"company1__externalCompanyId": "ref10691",
+							"company1__name": "REF 10691 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9634
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9634
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9634
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8807,
+							"entity1__createDate": "2014-03-28T13:27:53.000-04:00",
+							"company1__externalCompanyId": "ref6724",
+							"company1__name": "Company at Access Code Level",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8807
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8807
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8807
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 8790,
+							"entity1__createDate": "2014-03-28T13:27:47.000-04:00",
+							"company1__externalCompanyId": "ref6823",
+							"company1__name": "Company at Access Code Level",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8790
+							},
+							"company1__rootCompany": {
+								"entity1__id": 8790
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 8790
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9353,
+							"entity1__createDate": "2014-03-28T13:36:49.000-04:00",
+							"company1__externalCompanyId": "ref8237",
+							"company1__name": "REF 8237 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9353
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9353
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9353
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9348,
+							"entity1__createDate": "2014-03-28T13:36:37.000-04:00",
+							"company1__externalCompanyId": "ref8421",
+							"company1__name": "REF 8421 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9348
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9348
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9348
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9268,
+							"entity1__createDate": "2014-03-28T13:34:22.000-04:00",
+							"company1__externalCompanyId": "ref8778",
+							"company1__name": "REF 8778 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9268
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9268
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9268
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9352,
+							"entity1__createDate": "2014-03-28T13:36:47.000-04:00",
+							"company1__externalCompanyId": "ref9746",
+							"company1__name": "REF 9746 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9352
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9352
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9352
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9347,
+							"entity1__createDate": "2014-03-28T13:36:35.000-04:00",
+							"company1__externalCompanyId": "ref9812",
+							"company1__name": "REF 9812 company",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9347
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9347
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9347
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9472,
+							"entity1__createDate": "2014-03-28T13:41:32.000-04:00",
+							"company1__externalCompanyId": "tavistock",
+							"company1__name": "Tavistock Group",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9472
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9472
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9472
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 14201,
+							"entity1__createDate": "2015-02-11T14:05:27.000-05:00",
+							"company1__externalCompanyId": "test",
+							"company1__name": "test",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 14201
+							},
+							"company1__rootCompany": {
+								"entity1__id": 14201
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 14201
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 20,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "testhmi",
+							"company1__name": "Test HMI",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 20
+							},
+							"company1__rootCompany": {
+								"entity1__id": 20
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 20
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 15101,
+							"entity1__createDate": "2015-03-10T09:41:32.000-04:00",
+							"company1__externalCompanyId": "testrootmar10",
+							"company1__name": "March 10 Test Root",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 15101
+							},
+							"company1__rootCompany": {
+								"entity1__id": 15101
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 15101
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 9418,
+							"entity1__createDate": "2014-03-28T13:38:52.000-04:00",
+							"company1__externalCompanyId": "wicotest",
+							"company1__name": "HealthPlanOne",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 9418
+							},
+							"company1__rootCompany": {
+								"entity1__id": 9418
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 9418
+							},
+							"company1__companyType": "STANDARD"
+						},
+						{
+							"entity1__id": 10502,
+							"entity1__createDate": "2014-06-27T15:36:40.000-04:00",
+							"company1__externalCompanyId": "wnp",
+							"company1__name": "WnP",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 10502
+							},
+							"company1__rootCompany": {
+								"entity1__id": 10502
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 10502
+							},
+							"company1__companyType": "STANDARD"
+						}
+					]
+				}
+			}
+		}
+	}
+}

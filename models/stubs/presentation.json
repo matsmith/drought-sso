@@ -1,0 +1,738 @@
+{
+	"get": {
+		"": {
+			"": {},
+			"/externalservices/presentation?q=page-type&page=assess&type=navigation": {
+				"presentations": {
+					"responseCode": 0,
+					"page": "assess",
+					"areas": [
+						{
+							"name": "primaryNavigation",
+							"type": "navigation",
+							"blocks": [
+								{
+									"name": "homeLink",
+									"value": "Home",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/home"
+										}
+									]
+								},
+								{
+									"name": "assessLink",
+									"value": "My Health Discovery",
+									"type": "link",
+									"blocks": [
+										{
+											"name": "assessTutorialLink",
+											"value": "Getting Started",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/assess/tutorial"
+												}
+											]
+										},
+										{
+											"name": "assessReferencesLink",
+											"value": "References",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/assess/references"
+												}
+											]
+										}
+									],
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/program-coaching/digital-health-coaching#assess"
+										}
+									]
+								},
+								{
+									"name": "coachingLink",
+									"value": "Coaching",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/coaching"
+										}
+									]
+								},
+								{
+									"name": "userCentricToDoList",
+									"value": "To Do List",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/todolist"
+										}
+									]
+								},
+								{
+									"name": "toolsLink",
+									"value": "Tools",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/tools"
+										}
+									]
+								},
+								{
+									"name": "helpLink",
+									"value": "Help",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/help"
+										}
+									]
+								},
+								{
+									"name": "privacyLink",
+									"value": "Privacy Policy",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/privacy-statement"
+										}
+									]
+								},
+								{
+									"name": "termsLink",
+									"value": "Terms of Use",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/terms-of-use"
+										}
+									]
+								},
+								{
+									"name": "resourcesLink",
+									"value": "Resources",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/resources"
+										}
+									]
+								},
+								{
+									"name": "pointsLink",
+									"value": "500",
+									"type": "content"
+								},
+								{
+									"name": "pointsIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "profileLink",
+											"value": "View My Account",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/account"
+												}
+											]
+										},
+										{
+											"name": "logOutLink",
+											"value": "Logout",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/logout"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "profileIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "profileLink",
+											"value": "View My Account",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/account"
+												}
+											]
+										},
+										{
+											"name": "logOutLink",
+											"value": "Logout",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/logout"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"/externalservices/presentation?q=page-type&page=portal&type=navigation": {
+				"presentations": {
+					"responseCode": 0,
+					"page": "portal",
+					"areas": [
+						{
+							"name": "primaryNavigation",
+							"type": "navigation",
+							"blocks": [
+								{
+									"name": "homeLink",
+									"value": "Home",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/home"
+										}
+									]
+								},
+								{
+									"name": "assessLink",
+									"value": "My Health Discovery",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/program-coaching/digital-health-coaching#assess"
+										}
+									]
+								},
+								{
+									"name": "coachingLink",
+									"value": "Coaching",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/coaching"
+										}
+									]
+								},
+								{
+									"name": "userCentricToDoList",
+									"value": "To Do List",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/todolist"
+										}
+									]
+								},
+								{
+									"name": "toolsLink",
+									"value": "Tools",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/tools"
+										}
+									]
+								},
+								{
+									"name": "resourcesLink",
+									"value": "Resources",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/resources"
+										}
+									]
+								},
+								{
+									"name": "helpLink",
+									"value": "Help",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/help"
+										}
+									]
+								},
+								{
+									"name": "privacyLink",
+									"value": "Privacy Policy",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/privacy-statement"
+										}
+									]
+								},
+								{
+									"name": "termsLink",
+									"value": "Terms of Use",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/terms-of-use"
+										}
+									]
+								},
+								{
+									"name": "pointsLink",
+									"value": "500",
+									"type": "content"
+								},
+								{
+									"name": "pointsIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "incentivesLink",
+											"value": "My Incentives",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "#"
+												}
+											]
+										},
+										{
+											"name": "achievementsLink",
+											"value": "My Achievements",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "#"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "profileIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "profileLink",
+											"value": "View My Account",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/account"
+												}
+											]
+										},
+										{
+											"name": "logOutLink",
+											"value": "Logout",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/logout"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"/externalservices/presentation?q=page-type&page=noLinks&type=navigation": {
+				"presentations": {
+					"responseCode": 0,
+					"page": "portal",
+					"areas": [
+						{
+							"name": "primaryNavigation",
+							"type": "navigation",
+							"blocks": [
+								{
+									"name": "helpLink",
+									"value": "Help",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/help"
+										}
+									]
+								},
+								{
+									"name": "privacyLink",
+									"value": "Privacy Policy",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/privacy-statement"
+										}
+									]
+								},
+								{
+									"name": "termsLink",
+									"value": "Terms of Use",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/terms-of-use"
+										}
+									]
+								},
+								{
+									"name": "pointsLink",
+									"value": "500",
+									"type": "content"
+								},
+								{
+									"name": "pointsIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "incentivesLink",
+											"value": "My Incentives",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "#"
+												}
+											]
+										},
+										{
+											"name": "achievementsLink",
+											"value": "My Achievements",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "#"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "profileIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "profileLink",
+											"value": "View My Account",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/account"
+												}
+											]
+										},
+										{
+											"name": "logOutLink",
+											"value": "Logout",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/logout"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"/externalservices/presentation?q=name-page&page=portal&name=primaryCTA": {
+				"presentations": {
+					"responseCode": 0,
+					"page": "portal",
+					"areas": [
+						{
+							"name": "primaryCTA",
+							"type": "layout",
+							"blocks": [
+								{
+									"name": "SucceedCTAContent",
+									"type": "content",
+									"value": "Tumblr Pitchfork Blue Bottle, meggings health goth listicle yr PBR&B fap quinoa tofu jean shorts. Ugh irony umami, small batch fingerstache leggings cronut whatever.",
+									"properties": [
+										{
+											"name": "category",
+											"value": "HRA"
+										}
+									],
+									"blocks": [
+										{
+											"name": "SucceedCTALink",
+											"type": "link",
+											"value": "Go To Succeed",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/go/to/succeed"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "CoachingCTAContent",
+									"type": "content",
+									"value": "Shoreditch jean shorts art party, Carles Truffaut Thundercats Bushwick PBR Schlitz. Kogi McSweeney's freegan, fap wolf next level migas Pinterest Thundercats tote bag post-ironic Pitchfork direct trade.",
+									"properties": [
+										{
+											"name": "category",
+											"value": "Coaching"
+										}
+									],
+									"blocks": [
+										{
+											"name": "CoachingCTALink",
+											"type": "link",
+											"value": "Go to Coaching",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/go/to/coaching"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"/externalservices/presentation?q=page&page=portal": {
+				"presentations": {
+					"responseCode": 0,
+					"page": "portal",
+					"areas": [
+						{
+							"name": "primaryCTA",
+							"type": "layout",
+							"blocks": [
+								{
+									"name": "SucceedCTAContent",
+									"type": "content",
+									"value": "Tumblr Pitchfork Blue Bottle, meggings health goth listicle yr PBR&B fap quinoa tofu jean shorts. Ugh irony umami, small batch fingerstache leggings cronut whatever.",
+									"properties": [
+										{
+											"name": "category",
+											"value": "HRA"
+										}
+									],
+									"blocks": [
+										{
+											"name": "SucceedCTALink",
+											"type": "link",
+											"value": "Go To Succeed",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/go/to/succeed"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "CoachingCTAContent",
+									"type": "content",
+									"value": "Shoreditch jean shorts art party, Carles Truffaut Thundercats Bushwick PBR Schlitz. Kogi McSweeney's freegan, fap wolf next level migas Pinterest Thundercats tote bag post-ironic Pitchfork direct trade.",
+									"properties": [
+										{
+											"name": "category",
+											"value": "Coaching"
+										}
+									],
+									"blocks": [
+										{
+											"name": "CoachingCTALink",
+											"type": "link",
+											"value": "Go to Coaching",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/go/to/coaching"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "primaryNavigation",
+							"type": "navigation",
+							"blocks": [
+								{
+									"name": "homeLink",
+									"value": "Home",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/home"
+										}
+									]
+								},
+								{
+									"name": "assessLink",
+									"value": "My Health Discovery",
+									"type": "link",
+									"blocks": [
+										{
+											"name": "assessTutorialLink",
+											"value": "Getting Started",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/assess/tutorial"
+												}
+											]
+										},
+										{
+											"name": "assessReferencesLink",
+											"value": "References",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/assess/references"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "coachingLink",
+									"value": "Coaching",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/coaching"
+										}
+									]
+								},
+								{
+									"name": "userCentricToDoList",
+									"value": "To Do List",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/todolist"
+										}
+									]
+								},
+								{
+									"name": "toolsLink",
+									"value": "Tools",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/tools"
+										}
+									]
+								},
+								{
+									"name": "resourcesLink",
+									"value": "Resources",
+									"type": "link",
+									"properties": [
+										{
+											"name": "href",
+											"value": "/mhmsite/resources"
+										}
+									]
+								},
+								{
+									"name": "pointsLink",
+									"value": "500",
+									"type": "content"
+								},
+								{
+									"name": "pointsIcon",
+									"type": "icon"
+								},
+								{
+									"name": "profileIcon",
+									"type": "icon",
+									"blocks": [
+										{
+											"name": "profileLink",
+											"value": "View My Account",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/account"
+												}
+											]
+										},
+										{
+											"name": "logOutLink",
+											"value": "Logout",
+											"type": "link",
+											"properties": [
+												{
+													"name": "href",
+													"value": "/mhmsite/logout"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}

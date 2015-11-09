@@ -1,0 +1,1133 @@
+{
+	"get": {
+		"": {
+			"/externalservices/skillplan?q=findByProductEnrollment&enrollmentId=1234&locale=en_US": {
+				"skillPlanResponse": {
+					"product": "weightSkills",
+					"enrollmentId": 1234,
+					"nextSkillDate": "2014-07-04T13:19:41.000-0400",
+					"goal": {
+						"content": [
+							{
+								"type": "goal",
+								"content": "<p>tailored content paragraph 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>tailored content paragraph 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non viverra mauris, nec lacinia massa.</p><h3>Here's an h3</h3><p>With some content after.</p>"
+							}
+						]
+					},
+					"skill": [
+						{
+							"id": 23,
+							"name": "WeightPortionControlSkill",
+							"displayName": "Tracking Your Food",
+							"description": "Tracking Your Food description",
+							"content": [
+								{
+									"type": "introduction",
+									"content": "<p>This is an intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Vivamus non viverra mauris, nec lacinia massa. Sed rutrum, lectus ac auctor posuere, magna enim semper lorem, sed auctor magna arcu et sapien. In tempus justo ut neque pellentesque vehicula. Vestibulum ligula odio, pretium eu porta quis, aliquam vitae risus. Suspendisse lectus eros, placerat at aliquam eu, vestibulum quis felis. Sed aliquet mauris sit amet lorem interdum, vitae vehicula lectus consequat. Vestibulum quis fringilla orci.</p><ul><li>This is an unordered list.</li><li>Donec a consectetur augue.</li><li>Phasellus eu enim dolor.</li><li>Maecenas non volutpat dolor.</li></ul>"
+								}, {
+									"type": "heading",
+									"content": "This is a <em>heading</em>"
+								}, {
+									"type": "block",
+									"content": "<p>This is a block content type with a <strong>paragraph</strong> in it. Sed laoreet turpis at pulvinar volutpat. Vivamus vitae lectus nisi. Aenean a neque magna. Proin vel ante sit amet sapien scelerisque sagittis eget et dui. Nullam varius varius rhoncus. Morbi posuere rutrum ante eget sollicitudin. In a tincidunt magna.</p><ul><li>This is an unordered list.</li><li>Cras eget dapibus metus.</li><li>Sed vitae enim eget enim facilisis vulputate.</li><li>Vestibulum ut posuere quam.</li><li>Donec sit amet molestie justo.</li></ul>"
+								}, {
+									"type": "block",
+									"content": "<p>This is a block content type with some paragraphs and headers in it. This element is a paragraph.</p><h1>This is an h1. ppqqgg</h1><p>followed by a paragraph</p><h2>and then an h2 jjppqqggyy</h2><p>and then a paragraph</p><h3>and then an h3 ppqqggyyjj</h3><p>and then a paragraph</p>"
+								}, {
+									"type": "quoteText",
+									"content": "This is a blockquote. Mauris ac erat nunc. Maecenas eget felis turpis. Vestibulum iaculis et magna ac placerat. Nunc fringilla molestie sapien, ac scelerisque sem malesuada eu."
+								}, {
+									"type": "tabCallout",
+									"items": [
+										{
+											"title": "Tab 1 Title and more to make this really long",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>Below is a video with 4:3 aspect ratio.</p>"
+												}, {
+													"type": "video",
+													"content": "https://dpdevcr03-media.healthmedia.com/media/videos/tool_relaxation/pmr.m4v"
+												}, {
+													"type": "block",
+													"content": "<p>Below is where a video with 16:9 aspect ratio would fit.</p>"
+												}, {
+													"type": "hdvideo",
+													"content": "https://dpdevcr03-media.healthmedia.com/media/videos/tool_relaxation/deepbreathing.m4v"
+												}, {
+													"type": "block",
+													"content": "<p>Below is an audio file.</p>"
+												}, {
+													"type": "audio",
+													"content": "https://dpdevcr03-media.healthmedia.com/media/audios/tool_relaxation/meditation.mp3"
+												}
+											]
+										}, {
+											"title": "Tab 2 Title",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>tab 2 content</p>"
+												}, {
+													"type": "image",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "imageSmall",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "imageMedium",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "tabCallout",
+													"items": [
+														{
+															"title": "Subtab 1 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subtab 1 content</p>"
+																}, {
+																	"type": "block",
+																	"content": "<p>some paragraph text here</p>"
+																}
+															]
+														}, {
+															"title": "Subtab 2 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subtab 2 content</p>"
+																}
+															]
+														}
+													]
+												}
+											]
+										}, {
+											"title": "Tab 3 Title",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>tab 3 content</p>"
+												}, {
+													"type": "image",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "accordionCallout",
+													"items": [
+														{
+															"title": "accordion in tab 1 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>section 1 content</p>"
+																}, {
+																	"type": "block",
+																	"content": "<p>some paragraph text here</p>"
+																}
+															]
+														}, {
+															"title": "accordion in tab  2 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>section 2 content</p>"
+																}, {
+																	"type": "image",
+																	"content": "http://placekitten.com/g/400/200"
+																}
+															]
+														}, {
+															"title": "accordion in tab  3 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>section 3 content</p>"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}, {
+									"type": "accordionCallout",
+									"items": [
+										{
+											"title": "Accordion section 1 Title",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>section 1 content</p>"
+												}, {
+													"type": "block",
+													"content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><h1>Header 1 ggppqq</h1><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p><h2>Header 2</h2><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p><h3>Header 3</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p><h4>Header 4</h4><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>"
+												}
+											]
+										}, {
+											"title": "Accordion section 2 Title",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>section 2 content</p>"
+												}, {
+													"type": "image",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "imageSmall",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "imageMedium",
+													"content": "http://placekitten.com/g/400/200"
+												}, {
+													"type": "accordionCallout",
+													"items": [
+														{
+															"title": "SubAccordion section 1 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subsection 1 content</p>"
+																}, {
+																	"type": "block",
+																	"content": "<p>some paragraph text here</p>"
+																}
+															]
+														}, {
+															"title": "SubAccordion section  2 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subsection 2 content</p>"
+																}, {
+																	"type": "image",
+																	"content": "http://placekitten.com/g/400/200"
+																}
+															]
+														}, {
+															"title": "SubAccordion section  3 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subsection 3 content</p>"
+																}
+															]
+														}
+													]
+												}
+											]
+										}, {
+											"title": "Accordion section 3 Title",
+											"content": [
+												{
+													"type": "block",
+													"content": "<p>section 3 content</p>"
+												}, {
+													"type": "tabCallout",
+													"items": [
+														{
+															"title": "Tab in accordion 1 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subtab 1 content</p>"
+																}, {
+																	"type": "block",
+																	"content": "<p>some paragraph text here</p>"
+																}
+															]
+														}, {
+															"title": "Tab in accordion 2 Title",
+															"content": [
+																{
+																	"type": "block",
+																	"content": "<p>subtab 2 content</p>"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}, {
+									"type": "tabCallout",
+									"items": [
+										{
+											"title": "Null Content Tab 1",
+											"content": null
+										}, {
+											"title": "Null Content Tab 2",
+											"content": null
+										}
+									]
+								}, {
+									"type": "accordionCallout",
+									"items": [
+										{
+											"title": "Null Accordion 1",
+											"content": null
+										}, {
+											"title": "Null Accordion 2",
+											"content": null
+										}
+									]
+								}, {
+									"type": "tabCallout",
+									"items": null
+								}, {
+									"type": "accordionCallout",
+									"items": null
+								}, {
+									"type": "image",
+									"content": "http://placekitten.com/g/400/250"
+								}, {
+									"type": "imageSmall",
+									"content": "http://placekitten.com/g/400/200"
+								}, {
+									"type": "imageMedium",
+									"content": "http://placekitten.com/g/400/200"
+								}
+							]
+						}, {
+							"id": 14,
+							"name": "WeightMotivationSkill",
+							"displayName": "Building/ Increasing Motivation",
+							"description": "Building/Increasing Motivation description",
+							"content": []
+						}, {
+							"id": 15,
+							"name": "WeightPhysicalActivitySkill",
+							"displayName": "Increase Physical Activity",
+							"description": "Increase Physical Activity description",
+							"content": []
+						}, {
+							"id": 16,
+							"name": "WeightNutritionSkill",
+							"displayName": "Improve Nutritional Balance",
+							"description": "Improve Nutritional Balance description",
+							"content": []
+						}, {
+							"id": 17,
+							"name": "WeightRelaxationTechniquesSkill",
+							"displayName": "Relaxation Techniques",
+							"description": "Relaxation Techniques description",
+							"content": [
+								{
+									"type": "introduction",
+									"content": "<p>This is an intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+								}
+							]
+						}
+					],
+					"responseCode": 0,
+					"responseDesc": "Success"
+				}
+			},
+			"": {
+				"skillPlanResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Fatal-Error"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"/externalservices/skillplan?q=findByProductEnrollment&enrollmentId=1234&locale=en_US": {
+			  "skillPlanResponse":{
+				"product":"assess",
+				"enrollmentId":1234,
+				"goal":{
+				  "content":[
+					{
+					  "type":"goal",
+					  "content":""
+					}
+				  ]
+				},
+				"skill":[
+				  {
+					"id":91552,
+					"name":"AssessBioSkill",
+					"content":[
+					  {
+						"type":"block",
+						"content":"<h3>You’re a Puzzle!</h3><p>It’s hard to know if you’re at risk for certain health issues without the numbers. Talk to your doctor to see if you need any tests and what your numbers are. Knowing can help you make positive changes.</p>"
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"TOTAL CHOLESTEROL",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>According to national guidelines, your total cholesterol should be less than 200 mg/dL. You didn’t tell us your total cholesterol number. If you had it tested, check with your doctor to find out your cholesterol number. If you haven't, ask your doctor about testing your cholesterol level.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"BORDERLINE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"BLOOD PRESSURE",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>You didn't tell us your blood pressure numbers. National guidelines recommend that your blood pressure be less than 120/80, unless you have high blood pressure. Talk to your health care provider to find out when you last had your blood pressure checked and what your numbers were. It might be a good time to get it checked again.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"BORDERLINE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"LDL",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>LDL (“bad”) cholesterol can cause fat-build up in your arteries, creating blockages that can cause a heart attack. You didn't tell us your LDL level. National guidelines recommend an LDL of less than 100 mg/dL. Talk to your doctor to learn more about your LDL level.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"BORDERLINE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"HDL",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>HDL (“good”) cholesterol carries fat away from the arteries, helping protect them from plaque build-up. So, in this case, a high number (above 40 mg/dL) is good. You didn't tell us your HDL number. Talk to your doctor to find out your HDL to see if it's within the recommended range.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"LOW"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"MODERATE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"TRIGLYCERIDES",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>Too much triglyceride, a type of fat carried in the bloodstream, is not good for your heart. It's recommended that your triglycerides be under 150 mg/dL. You might need to check with your doctor to see when you last had a blood test for triglycerides and get your triglyceride level tested.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"BORDERLINE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"BLOOD GLUCOSE",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>You didn’t give us your fasting blood sugar number. National guidelines recommend your level be less than 100 mg/dL. Talk to your doctor to find out when you're due for your next blood sugar test.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"LOW"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"IN RANGE"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  }
+					]
+				  },
+				  {
+					"id":91561,
+					"name":"AssessBodySkill",
+					"content":[
+					  {
+						"type":"block",
+						"content":"<h3>Ahead of the Game!</h3><p>Great work! You’re on top of some recommended tests and vaccines. If this is typical of how you handle your health, you’re doing a great job.</p>"
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"WEIGHT",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>Your weight of 140 pounds is within the recommended healthy weight range based on your height. Kudos! A healthy weight is an important factor in your overall health.</p>"
+							  },
+							  {
+								"type":"guidelineValueCallout",
+								"items":[
+								  {
+									"title":"guidelineValues",
+									"content":[
+									  {
+										"type":"startValue",
+										"content":"108"
+									  },
+									  {
+										"type":"endValue",
+										"content":"146"
+									  },
+									  {
+										"type":"units",
+										"content":"LBS"
+									  }
+									]
+								  },
+								  {
+									"title":"labels",
+									"content":[
+									  {
+										"content":""
+									  },
+									  {
+										"content":"HEALTHY"
+									  },
+									  {
+										"content":""
+									  },
+									  {
+										"type":"unknownResponseLabel",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"140 pounds"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"BODY MASS INDEX (BMI)",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>Congratulations! Your BMI falls within the healthy range of 18.5 to 24.9. Based on national guidelines, a healthy weight range for you is between 108 and 146. By making healthy choices you can help keep your weight within a healthy range. Talk to your doctor if you have concerns.</p>"
+							  },
+							  {
+								"type":"guidelineValueCallout",
+								"items":[
+								  {
+									"title":"guidelineValues",
+									"content":[
+									  {
+										"type":"startValue",
+										"content":"18.5"
+									  },
+									  {
+										"type":"endValue",
+										"content":"24.9"
+									  },
+									  {
+										"type":"units",
+										"content":""
+									  }
+									]
+								  },
+								  {
+									"title":"labels",
+									"content":[
+									  {
+										"content":""
+									  },
+									  {
+										"content":"IN RANGE"
+									  },
+									  {
+										"content":""
+									  },
+									  {
+										"type":"unknownResponseLabel",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"24.0"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  }
+					]
+				  },
+				  {
+					"id":91669,
+					"name":"AssessLifestyleSkill",
+					"content":[
+					  {
+						"type":"block",
+						"content":"<h3>You’re Almost There!</h3><p>You’re doing great getting enough strength training, now how about cardio? Getting cardio exercise at least 150 minutes a week may make a big difference in your results and overall health.</p>"
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"EATING HABITS",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>From the info you gave us, you’re eating habits are great. While an apple a day might not keep the doctor away, our eating habits can have a huge impact on our health. Way to go!</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"AT RISK"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"NOT AT RISK"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NOT AT RISK"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"CARDIO EXERCISE",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>National guidelines recommend 150 minutes of cardio exercise a week. While you're getting some cardio, you’re not quite meeting the guideline. Can you think of ways to start getting more cardio on a regular basis?</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"0-60 MINS"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"61-149 MINS"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"150-239 MINS"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"240 OR MORE MINS"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"61-149 MINS"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"STRENGTH TRAINING",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>From the info you gave us, you’re meeting the national guideline of strength training two days a week. You’re doing great things for your health and well-being!</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"NEVER"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"SOMETIMES"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"OFTEN"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"ALWAYS"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"ALWAYS"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"TOBACCO USE",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>You don’t use tobacco. Give yourself a pat on the back!</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"NO"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"YES"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"NO"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"QUALITY OF SLEEP",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>From what you told us, your sleep quality is good. Could it be a little better? Out of the thousands of men who’ve answered this question, 43% had good sleep quality. We’ve prepared some action steps for you below that include tips to help you snooze like a baby.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"POOR"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"FAIR"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"GOOD"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"GREAT"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"GOOD"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  }
+					]
+				  },
+				  {
+					"id":91614,
+					"name":"AssessMindSkill",
+					"content":[
+					  {
+						"type":"block",
+						"content":"<h3>You're ready to go!</h3><p>You have a zest for life that’s hard to miss. Your energy and excitement are strengths that you can use in all areas of your life.</p>"
+					  },
+					  {
+						"type":"resultSummaryDataCallout",
+						"items":[
+						  {
+							"title":"STRESS",
+							"content":[
+							  {
+								"type":"block",
+								"content":"<p>You’re in good company. Out of the thousands of men who’ve answered this question, 12% report having felt nervous or stressed fairly often over the last month. Stress can take a toll on your health. Check out the action steps we’ve prepared for you below to learn ways to manage yours.</p>"
+							  },
+							  {
+								"type":"responseItemCallout",
+								"items":[
+								  {
+									"title":"possibleValues",
+									"content":[
+									  {
+										"type":"responseValue",
+										"content":"LOW"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"MEDIUM"
+									  },
+									  {
+										"type":"responseValue",
+										"content":"HIGH"
+									  },
+									  {
+										"type":"unknownResponseValue",
+										"content":"NOT PROVIDED"
+									  }
+									]
+								  },
+								  {
+									"title":"userValues",
+									"content":[
+									  {
+										"type":"userValue",
+										"content":"HIGH"
+									  }
+									]
+								  }
+								]
+							  }
+							]
+						  }
+						]
+					  }
+					]
+				  }
+				],
+				"responseCode":0
+			  }
+			}
+			,
+			"": {
+				"skillPlanResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Fatal-Error"
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"": {
+					"": {
+						"skillPlanResponse": {
+							"responseCode": 0
+						}
+					}
+				}
+			}
+		}
+	}
+}

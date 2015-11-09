@@ -1,0 +1,29 @@
+{
+	"get": {
+		"": {
+			"": {
+				"segmentResponse": {
+					"segmentExists": false,
+					"availableSegments": [
+						"communityEnthusiast",
+						"committedMultitasker",
+						"energizedChampion",
+						"freeAgent",
+						"teamPlayer",
+						"skepticalStarter"
+					],
+					"segmentQuestionSet": [
+						"SegmentationConfidenceManageHealth",
+						"SegmentationBarrierProgramParticipationIsFearOfFailure",
+						"SegmentationGroupIsBestSupport",
+						"SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+						"SegmentationMotivationMaintainedByTalkingAboutFeelings",
+						"SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+						"SegmentationBarrierPhysicalActivityIsNotEnjoyable"
+					],
+					"responseCode": 0
+				}
+			}
+		}
+	}
+}

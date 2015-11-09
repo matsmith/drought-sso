@@ -1,0 +1,674 @@
+{
+	"get": {
+		"": {
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&dataSource=weightSkillsTool&type=historic&dataDefinition=WeightPounds":{
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"WeightPounds",
+							"result":"USER_DATA_FOUND",
+							"found": [
+								{
+									"value":["165"],
+									"collectionDate":"2014-05-07T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=SelfManagementSkillsLifestyle&dataDefinition=SelfManagementSkillsEmotional&dataDefinition=SelfManagementSkillsMedical":{
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1199",
+							"dataDefinitionName":"SelfManagementSkillsLifestyle",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["6"],
+									"collectionDate":"2014-09-15T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["9"],
+									"collectionDate":"2014-09-15T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["1"],
+									"collectionDate":"2012-01-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								}
+							]
+						},{
+							"id":"1198",
+							"dataDefinitionName":"SelfManagementSkillsEmotional",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["4"],
+									"collectionDate":"2014-08-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["7"],
+									"collectionDate":"2014-08-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["1"],
+									"collectionDate":"2012-01-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								}
+							]
+						},{
+							"id":"1198",
+							"dataDefinitionName":"SelfManagementSkillsEmotional",
+							"result":"USER_DATA_FOUND",
+							"found":[
+							{
+								"value":["4"],
+								"collectionDate":"2014-08-07T12:29:15.000-0400",
+								"dataSource":"diabetesSkills",
+								"type":"historic"
+							},
+							{
+								"value":["7"],
+								"collectionDate":"2014-08-07T12:29:15.000-0400",
+								"dataSource":"diabetesSkills",
+								"type":"historic"
+							},
+							{
+								"value":["1"],
+								"collectionDate":"2012-01-07T12:29:15.000-0400",
+								"dataSource":"diabetesSkills",
+								"type":"historic"
+							}
+							]
+						},{
+							"id":"1197",
+							"dataDefinitionName":"SelfManagementSkillsMedical",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["5"],
+									"collectionDate":"2014-08-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["8"],
+									"collectionDate":"2014-08-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								},
+								{
+									"value":["1"],
+									"collectionDate":"2012-01-07T12:29:15.000-0400",
+									"dataSource":"chronicConditionSkills",
+									"type":"historic"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=BodyMassIndexCategoryCompare": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1492",
+							"dataDefinitionName":"BodyMassIndexCategoryCompare",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["BMINormal"],
+									"collectionDate":"2014-05-07T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic",
+									"setId":"400"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=WeightPounds&dataDefinition=HeightInches&dataDefinition=HeightFeet&dataDefinition=BodyMassIndexCategoryCompare&dataDefinition=BodyMassIndexCategory": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"WeightPounds",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["165"],
+									"collectionDate":"2012-05-01T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic",
+									"setId":"400"
+								},{
+									"value":["195"],
+									"collectionDate":"2014-09-15T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["175"],
+									"collectionDate":"2014-09-15T12:29:30.000-0400",
+									"dataSource":"balance",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["156"],
+									"collectionDate":"2012-01-07T12:29:30.000-0400",
+									"dataSource":"balance",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						},
+						{
+							"id":"1416",
+							"dataDefinitionName":"HeightInches",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["9"],
+									"collectionDate":"2014-05-07T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic",
+									"SetId":"400"
+								}
+							]
+						},
+						{
+							"id":"1417",
+							"dataDefinitionName":"HeightFeet",
+							"result":"USER_DATA_FOUND",
+							"found": [
+								{
+									"value":["5"],
+									"collectionDate":"2014-05-07T12:29:15.000-0400",
+									"dataSource":"weightSkillsTool",
+									"type":"historic",
+									"setId":"400"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=CESDTotalScore&dataSource=depressionSkills&dataSource=depressionSkillsTool": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"CESDTotalScore",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["9"],
+									"collectionDate":"2012-05-01T12:29:15.000-0400",
+									"dataSource":"depressionSkillsTool",
+									"type":"historic",
+									"setId":"400"
+								},{
+									"value":["9"],
+									"collectionDate":"2014-09-15T09:29:15.000-0400",
+									"dataSource":"depressionSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["8"],
+									"collectionDate":"2014-09-14T09:29:30.000-0400",
+									"dataSource":"depressionSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["7"],
+									"collectionDate":"2012-01-07T12:29:30.000-0400",
+									"dataSource":"depressionSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=BehaviorScorePhysicalActivity&dataSource=physicalActivitySkills&dataSource=physicalActivitySkillsTool": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"BehaviorScorePhysicalActivity",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["3.89"],
+									"collectionDate":"2012-05-01T12:29:15.000-0400",
+									"dataSource":"physicalActivitySkillsTool",
+									"type":"historic",
+									"setId":"400"
+								},{
+									"value":["9.23"],
+									"collectionDate":"2014-07-10T12:29:15.000-0400",
+									"dataSource":"physicalActivitySkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["8.66"],
+									"collectionDate":"2014-07-07T12:29:30.000-0400",
+									"dataSource":"physicalActivitySkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["7.12"],
+									"collectionDate":"2012-01-07T12:29:30.000-0400",
+									"dataSource":"physicalActivitySkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=PerceivedStressScale&dataSource=stressSkills&dataSource=stressSkillsTool": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"PerceivedStressScale",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["35"],
+									"collectionDate":"2014-09-15T09:29:15.000-0400",
+									"dataSource":"stressSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["5"],
+									"collectionDate":"2014-08-14T09:29:30.000-0400",
+									"dataSource":"stressSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								},{
+									"value":["15"],
+									"collectionDate":"2014-05-01T12:29:15.000-0400",
+									"dataSource":"stressSkillsTool",
+									"type":"historic",
+									"setId":"400"
+								},{
+									"value":["25"],
+									"collectionDate":"2014-01-07T12:29:30.000-0400",
+									"dataSource":"stressSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&dataSource=weightSkillsTool&type=historic&type=historic&dataDefinition=UnkownDef":{
+				"userDataResponse": {
+					"dataDefinitionName": "UnkownDef",
+					"result": "UNKNOWN_DATA_DEFINITION"
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=ConsumerSegmentationShortSelfSelect&dataDefinition=ConsumerSegmentationShort":{
+				"userDataResponse": {
+					"userData":[
+						{
+							"dataDefinitionName": "ConsumerSegmentationShortSelfSelect",
+							"result": "USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName": "ConsumerSegmentationShort",
+							"result": "USER_DATA_NOT_FOUND"
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=QuitDate": {
+				"userDataResponse": {
+					"userData": [
+						{
+							"id": "1154",
+							"dataDefinitionName": "QuitDate",
+							"result": "USER_DATA_FOUND",
+							"found": [
+								{
+									"value": ["2014-09-15 09:29:15 EST"],
+									"collectionDate": "2014-09-15 09:29:15 EST",
+									"dataSource": "coachingQuestionnaire",
+									"type": "historic",
+									"setId": "230"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"/externalservices/userdata?q=findByDataSource-Type-DataDefinition-ProductEnrollmentId&type=historic&dataDefinition=SmokingImpactHearing&dataDefinition=SmokingImpactVision&dataDefinition=SmokingImpactMouth&dataDefinition=SmokingImpactFaceSkin&dataDefinition=SmokingImpactSmellTaste&dataDefinition=SmokingImpactBelly&dataDefinition=SmokingImpactMuscles&dataDefinition=SmokingImpactHormones&dataDefinition=SmokingImpactSexualHealth&dataDefinition=SmokingImpactHeartHealth&dataDefinition=SmokingImpactLungs&dataDefinition=SmokingImpactAirways&productEnrollmentId=1234": {
+				"userDataResponse": {
+					"userData":[
+						{
+							"id":"1154",
+							"dataDefinitionName":"SmokingImpactHearing",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["true"],
+									"collectionDate":"2014-09-15T09:29:15.000-0400",
+									"dataSource":"smokingCessationSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						},
+						{
+							"id":"1154",
+							"dataDefinitionName":"SmokingImpactVision",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["true"],
+									"collectionDate":"2014-09-15T09:29:15.000-0400",
+									"dataSource":"smokingCessationSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						},
+						{
+							"id":"1154",
+							"dataDefinitionName":"SmokingImpactMouth",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":["true"],
+									"collectionDate":"2014-09-15T09:29:15.000-0400",
+									"dataSource":"smokingCessationSkillsTool",
+									"type":"historic",
+									"setId":"230"
+								}
+							]
+						},
+						{
+							"dataDefinitionName":"SmokingImpactFaceSkin",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactSmellTaste",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactBelly",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactMuscles",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactHormones",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactSexualHealth",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactHeartHealth",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactLungs",
+							"result":"USER_DATA_NOT_FOUND"
+						},
+						{
+							"dataDefinitionName":"SmokingImpactAirways",
+							"result":"USER_DATA_NOT_FOUND"
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"": {
+				"userDataResponse": {
+					"responseCode": 100,
+					"responseDesc": "Illegal Argument"
+				}
+			}
+		},
+		"boosterClubber": {
+			"/externalservices/userdata?q=findByDataSourceTypeAndDataDefinition&type=historic&dataDefinition=ConsumerSegmentationShortSelfSelect&dataDefinition=ConsumerSegmentationShort":{
+				"userDataResponse":{
+					"userData":[
+						{
+							"id":75668,
+							"dataDefinitionName":"ConsumerSegmentationShort",
+							"result":"USER_DATA_FOUND",
+							"found":[
+								{
+									"value":[
+										"BoosterClubber"
+									],
+									"collectionDate":"2015-01-30T11:57:22.000-0500",
+									"dataSource":"segmentation",
+									"type":"historic",
+									"setId":368
+								}
+							]
+						},
+						{
+							"dataDefinitionName":"ConsumerSegmentationShortSelfSelect",
+							"result":"USER_DATA_NOT_FOUND"
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"": {
+				"userDataResponse": {
+					"responseCode": 100,
+					"responseDesc": "Illegal Argument"
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"": {
+					"responsePayload":{
+						"recordUserDataValueResult":[
+							{
+								"dataDefinitionName":"WeightPounds",
+								"dataSourceName":"weightSkillsTool",
+								"value":["165"],
+								"result":"SUCCESS"
+							},{
+								"dataDefinitionName":"SelfManagementSkillsLifestyle",
+								"dataSourceName":"chronicConditionSkillsTool",
+								"value":["1"],
+								"result":"SUCCESS"
+							},{
+								"dataDefinitionName":"SelfManagementSkillsLifestyle",
+								"dataSourceName":"chronicConditionSkillsTool",
+								"value":["5"],
+								"result":"SUCCESS"
+							},{
+								"dataDefinitionName":"SelfManagementSkillsLifestyle",
+								"dataSourceName":"chronicConditionSkillsTool",
+								"value":["6"],
+								"result":"SUCCESS"
+							}
+						],
+						"responseCode":0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"WeightPoundsX\",\"DataSourceName\":\"weightSkillsTool\",\"Values\":[\"235\"]}}]}}": {
+					"responsePayload":{
+						"recordUserDataValueResult":[
+							{
+								"dataDefinitionName":"WeightPoundsX",
+								"dataSourceName":"weightSkillsTool",
+								"value":["235"],
+								"result":"UNKNOWN_DATA_DEFINITION"
+							}
+						],
+						"responseCode":0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"Gender\",\"DataSourceName\":\"assess\",\"Values\":[\"Male\"]}}]}}": {
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "Gender",
+								"dataSourceName": "assess",
+								"value": [
+										"Male"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"SmokedSinceLastTimeInProgram\",\"DataSourceName\":\"smokingCessationSkillsTool\",\"Values\":[\"Yes\"]}}]}}":{
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "SmokedSinceLastTimeInProgram",
+								"dataSourceName": "smokingCessationSkillsTool",
+								"value": [
+									"Yes"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"SmokedSinceLastTimeInProgram\",\"DataSourceName\":\"smokingCessationSkillsTool\",\"Values\":[\"No\"]}}]}}":{
+					"responsePayload": {
+						"responseCode":100,
+						"responseDesc":"Illegal Argument"
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"Gender\",\"DataSourceName\":\"assess\",\"Values\":[\"Female\"]}}]}}": {
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "Gender",
+								"dataSourceName": "assess",
+								"value": [
+									"Female"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"badPostData": {
+					"responsePayload":{
+						"responseCode":100,
+						"responseDesc":"Illegal Argument"
+					}
+				},
+				"badPostDataCausesServerError": {
+					"responsePayload": {
+						"responseCode": 99,
+						"responseDesc": "Unknown Exception"
+					}
+				}
+			}
+		},
+		"assessAuthToken": {
+			"": {
+				"": {
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "generic",
+								"dataSourceName": "assess",
+								"value": [
+									"whatever"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"Gender\",\"DataSourceName\":\"assess\",\"Values\":[\"Male\"]}}]}}": {
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "Gender",
+								"dataSourceName": "assess",
+								"value": [
+										"Male"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"UserDataInfo\":{\"DataInfoList\":[{\"DataInfo\":{\"DataDefinitionName\":\"Gender\",\"DataSourceName\":\"assess\",\"Values\":[\"Female\"]}}]}}": {
+					"responsePayload": {
+						"recordUserDataValueResult": [
+							{
+								"dataDefinitionName": "Gender",
+								"dataSourceName": "assess",
+								"value": [
+									"Female"
+								],
+								"result": "SUCCESS"
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"badPostData": {
+					"responsePayload":{
+						"responseCode":100,
+						"responseDesc":"Illegal Argument"
+					}
+				},
+				"badPostDataCausesServerError": {
+					"responsePayload": {
+						"responseCode": 99,
+						"responseDesc": "Unknown Exception"
+					}
+				}
+			}
+		}
+	}
+}

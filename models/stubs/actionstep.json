@@ -1,0 +1,731 @@
+{
+	"get": {
+		"": {
+			"/externalservices/actionstep?q=findByEnrollmentId&enrollmentId=1234": {
+				"actionStepResponse": {
+					"actionStep": [
+						{
+							"id": 42,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "1",
+							"priority": 1,
+							"rating": "",
+							"name": "actionStep1",
+							"title": "Action <em><sup>Step</sup></em> 1",
+							"description": "Action 1 step <strong>description.</strong>This action step should return to 'COMPLETED state if you remove it from your list'. The rest will return to NOT_STARTED. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 1 completion text",
+							"completionTextHeader": "Action Step 1 Completion Header"
+						}, {
+							"id": 13,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "actionStep2",
+							"title": "Action Step 2 with a Really Long Title",
+							"description": "Action 2 step description. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 2 completion text",
+							"completionTextHeader": "Action Step 2 Completion Header"
+						}, {
+							"id": 83,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "",
+							"name": "actionStep3",
+							"title": "Action Step 3 gym",
+							"description": "Action step 3 description. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 3 completion text",
+							"completionTextHeader": "Action Step 3 Completion Header"
+						}, {
+							"id": 142,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "1",
+							"priority": 1,
+							"rating": "",
+							"name": "actionStep4",
+							"title": "Action Step 4",
+							"description": "Action 4 step description. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 4 completion text",
+							"completionTextHeader": "Action Step 4 Completion Header"
+						}, {
+							"id": 113,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "actionStep5",
+							"title": "Action Step 5",
+							"description": "Action 5 step description. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 5 completion text",
+							"completionTextHeader": "Action Step 5 Completion Header"
+						}, {
+							"id": 183,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "",
+							"name": "actionStep6",
+							"title": "Action Step 6",
+							"description": "Action step 6 description. Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod.",
+							"completionText": "Action Step 6 completion text",
+							"completionTextHeader": "Action Step 6 Completion Header"
+						}, {
+							"id": 200,
+							"type": "linkMobileApp",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "linkTrackYourHealth",
+							"title": "TYH/linkMobileApp Action Step",
+							"description": "TYH/linkMobileApp Action Step description",
+							"completionText": "TYH/linkMobileApp Action Step completion text",
+							"completionTextHeader": "TYH/linkMobileApp Action Step completion text header",
+							"property": [
+								{
+									"name": "appleStoreUrl",
+									"value": "appleStoreUrlValue"
+								}, {
+									"name": "googleStoreUrl",
+									"value": "googleStoreUrlValue"
+								}
+							]
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched GET url"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"/externalservices/actionstep?q=findByEnrollmentId&enrollmentId=1234": {
+				"actionStepResponse": {
+					"actionStep": [
+						{
+							"id": 91935,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_youreTheFriend",
+							"title": "You're the friend",
+							"description": "Try this next time you catch yourself having a negative thought. Pretend you're responding to a friend who's feeling the way you are. Be as kind and forgiving to yourself as you would be to your friend.",
+							"completionText": "Learning to talk back to our negative thoughts can be hard. Keep treating yourself with kindness and respect.",
+							"completionTextHeader": "Be kind to yourself",
+							"type": "standard"
+						}, {
+							"id": 91936,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_talkBack",
+							"title": "Talk back",
+							"description": "Take a few minutes to think of more positive, alternative thoughts you can use to respond to any negative thoughts that bog you down. Write them down. Then read them to yourself when you feel a negative thought creeping in.",
+							"completionText": "Negative thoughts can creep up at any time. Being prepared can give you the upper hand in reshaping those thoughts.",
+							"completionTextHeader": "You deserve kindness",
+							"type": "standard"
+						}, {
+							"id": 91957,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_writeYourselfALetter",
+							"title": "Write yourself a letter",
+							"description": "Who knows what motivates you better than you? Write a letter to yourself about what's most important to you. Think about how eating better and being more active relate to what you value most in life, your core values. Open the letter a month from now to remind yourself about what drives you.",
+							"completionText": "Knowing your reasons for eating better can help you to stick to your plan.",
+							"completionTextHeader": "You're so good to you",
+							"type": "standard"
+						}, {
+							"id": 91937,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_practiceThePositive",
+							"title": "Practice the positive",
+							"description": "This week, practice using positive alternative thoughts during your day. Repeat these thoughts often to get used to them.",
+							"completionText": "The more you practice positive thoughts, the easier it will be.",
+							"completionTextHeader": "Practice makes perfect!",
+							"type": "standard"
+						}, {
+							"id": 91958,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_prepareForYourVisit",
+							"title": "Prepare for your visit",
+							"description": "Put together everything you need to bring with you to each doctor's visit. Bring your meds, any test results you've gotten since your last visit, your list of questions and concerns, and your insurance info. You can also put together a checklist. Now you're prepared!",
+							"completionText": "Taking time to prepare for your doctor visits can help keep things running smoothly.",
+							"completionTextHeader": "It's all in the prep!",
+							"type": "standard"
+						}, {
+							"id": 91938,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_createARitual",
+							"title": "Create a ritual",
+							"description": "Write down the alternative thoughts you came up with in the <strong>Talk Back</strong> action step. Tape your list on the bathroom wall or above the kitchen sink. That way, you can review and practice saying your alternative thoughts while brushing your teeth or doing the dishes. Make this part of your daily routine. It can help you become more comfortable noticing your thoughts and challenging them on the spot later on.",
+							"completionText": "Continue to review your list and give those negative thoughts the boot!",
+							"completionTextHeader": "Change it up!",
+							"type": "standard"
+						}, {
+							"id": 91960,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_talkItOut",
+							"title": "Talk it out",
+							"description": "Don’t overlook the importance of just talking. If you’re struggling with managing your health, take time this week to see if you can talk through your concerns with someone who cares. Talking it out may help clear your head and help you move forward.",
+							"completionText": "It's so important to be able to talk things out to clear your head.",
+							"completionTextHeader": "Feel better?",
+							"type": "standard"
+						}, {
+							"id": 91939,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_getBackToNature",
+							"title": "Get back to nature",
+							"description": "Here's a great mood booster. If possible, go outdoors at least once a day. Being outside, especially around trees, grass, sunshine, or water, can lift your spirits. If you aren't able to go out, try to spend time near a window where you can see the outdoors.",
+							"completionText": "Even a small connection with nature can boost your mood.",
+							"completionTextHeader": "Way to shine!",
+							"type": "standard"
+						}, {
+							"id": 92093,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_checkYourBloodPressure",
+							"title": "Check your blood pressure",
+							"description": "According to national guidelines, the recommended blood pressure for a healthy adult is below 120/80. Over time, uncontrolled high blood pressure can do serious damage to your heart and arteries. Make an appointment to talk with your doctor about what your blood pressure numbers mean for your lifestyle. There are things you can do to help lower or manage your blood pressure. But first you need to know where you stand.",
+							"completionText": "Good job taking care and finding out more about your blood pressure numbers.",
+							"completionTextHeader": "You know it!",
+							"type": "standard"
+						}, {
+							"id": 92231,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_papOnCervicalCancer",
+							"title": "Pap on!",
+							"description": "A Pap test is strongly advised for someone with a history of cervical cancer. Follow your doctor's advice about how often to have this exam.",
+							"completionText": "It's very important for you to stay on top of your Pap tests.",
+							"completionTextHeader": "You've got the advice",
+							"type": "standard"
+						}, {
+							"id": 92111,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_theGreaterGoodLowHDL",
+							"title": "The greater \"good\"",
+							"description": "HDL is the \"good\" cholesterol. Its job is to carry fat away from your arteries and to protect against plaque buildup. According to national guidelines, your HDL levels are low. People with low levels of HDL are at greater risk for developing coronary heart disease. Some lifestyle changes like eating a heart healthy diet, being active, avoiding tobacco, limiting alcohol, and managing your weight can help support healthy cholesterol. Choose one of these areas that you can commit to making a healthy change for the next 2 weeks.",
+							"completionText": "Taking steps to raise your HDL puts you on the path to better health.",
+							"completionTextHeader": "Doing good!",
+							"type": "standard"
+						}, {
+							"id": 91923,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_exploreYourHabit",
+							"title": "Explore your habit",
+							"description": "This week, pay attention to a habit you'd like to change. Make notes about what’s going on: time, situation, how you feel, who you’re with. Use this info to figure out what's triggering this behavior.",
+							"completionText": "You have the info you need to make a change.",
+							"completionTextHeader": "Great job exploring!",
+							"type": "standard"
+						}, {
+							"id": 91835,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_cutBackOnJunk",
+							"title": "Cut back on junk",
+							"description": "Try limiting or reducing processed foods in your diet. Choose whole wheat pasta, multigrain bread, or oatmeal instead of processed grains. Bring a healthy meal when you're on the on the go rather than eating fast food. Try making a healthy trade at least once a day every day this week.",
+							"completionText": "Change is hard. But even these small changes can do good things for your health.",
+							"completionTextHeader": "You're doing great!",
+							"type": "standard"
+						}, {
+							"id": 91971,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_getYourFluShotDontKNow",
+							"title": "Protect yourself",
+							"description": "For best protection against the flu, get the flu vaccine every year. Call your doctor’s office to find out if you have had the flu vaccine in the last year. If not, make an appointment with your doctor to get it done.<br /><br />The flu vaccine is free for all people with health insurance. Some employers offer a free flu shot annually, and most major drug stores offer the flu vaccine at a low cost. Decide where you’d like to get your shot this year and make an appointment to get it done!",
+							"completionText": "You're taking the right steps for flu protection.",
+							"completionTextHeader": "You're making it happen",
+							"type": "standard"
+						}, {
+							"id": 91836,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_vegOut",
+							"title": "Veg out",
+							"description": "Boost your veggie intake. Add an extra vegetable to your lunch or snack every day this week. Chopped veggies with a light dip or a salad are great ways to get those extra vegetables in.",
+							"completionText": "Adding a few extra veggies to your meals and snacks is a great way to improve your diet.",
+							"completionTextHeader": "Now you're munching!",
+							"type": "standard"
+						}, {
+							"id": 91838,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_planYourCourse",
+							"title": "Plan your course",
+							"description": "Arriving at the grocery store with a battle plan to eat healthy (more veggies, less fat, etc.) can help set you on the right course. This week, try making a shopping list before heading to the market. Map out some healthy snacks and meals for yourself, figure out what you'll need, and then stick to the plan. Stick to the outer aisles of the store. That's where you're more likely to find the freshest and healthiest choices.",
+							"completionText": "Planning your shopping trips and meals will keep you ahead of the game.",
+							"completionTextHeader": "Plan away!",
+							"type": "standard"
+						}, {
+							"id": 92126,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_pickOneLowTriglycerides",
+							"title": "Pick one",
+							"description": "According to national guidelines, your triglyceride number is within a health range, which is under 150 mg/dL. Triglycerides are a fat that is produced in the liver. At high levels, they can increase your risk for heart disease. Even though you're in a healthy range, it's still good to know what you can do to help keep it there. You can help control your blood triglyceride levels by managing your weight, being active, not smoking, limiting alcohol, and limiting simple sugars. Pick one of these areas to focus on for the next 2 weeks. Commit to one change, such as cutting out high sugar beverages, or adding 30 minutes to your workout this week.",
+							"completionText": "You're doing the right thing for your heart by working to decrease your triglyceride levels.",
+							"completionTextHeader": "You're on the right track!",
+							"type": "standard"
+						}, {
+							"id": 91952,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_whatYouLike",
+							"title": "Do what you like",
+							"description": "Perhaps there's a hobby or a club you used to enjoy? This week, choose one activity that you want to get back into or that you'd like to start. Think about what it would take for you to pick it back up, like getting the right equipment or finding a place to go. Now go for it!",
+							"completionText": "Finding a hobby that you enjoy can help lift your spirits.",
+							"completionTextHeader": "Look at you go!",
+							"type": "standard"
+						}, {
+							"id": 91953,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_payAttentionToTriggers",
+							"title": "Pay attention to triggers",
+							"description": "Pay close attention to what triggers your negative thoughts. As you start to recognize when they occur, you can be ready to replace them with a positive thought.",
+							"completionText": "Knowing triggers can keep you ahead of the game.",
+							"completionTextHeader": "You're two steps ahead!",
+							"type": "standard"
+						}, {
+							"id": 92091,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_fuelWithFiber",
+							"title": "Fuel with fiber",
+							"description": "Fruits and vegetables are rich in dietary fiber, which can help lower cholesterol. This week, make an effort to include a fruit or vegetable in most of your meals. Experiment with veggie-based casseroles or soups, add veggies to your pasta, add berries to yogurt or oatmeal, snack on carrots, peppers, or cucumbers. There are plenty of yummy and simple ways to mix them in.",
+							"completionText": "Eating more fruits and veggies may do wonders for your cholesterol and overall health.",
+							"completionTextHeader": "All fueled up!",
+							"type": "standard"
+						}, {
+							"id": 91954,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_reachOutOnline",
+							"title": "Reach out online",
+							"description": "You can find support both online and in person.  Sometimes it’s easier to ask for help when you can remain anonymous. This week, check out online support groups, bulletin boards, or chats. Mental Health America is a good place to start.",
+							"completionText": "Just making that small effort to reach out can help you feel more supported.",
+							"completionTextHeader": "You're not alone",
+							"type": "standard"
+						}, {
+							"id": 92103,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_doWhatYouCan",
+							"title": "Do what you can",
+							"description": "When it comes to your cholesterol, there are some things (like heredity, age, and sex) that you can't change. But some factors (how active you are, what you eat, and how much you weigh) are under your control. For the next two weeks, commit to one change, like eating more fruit or taking a walk every day, and stick with it!",
+							"completionText": "You're taking more control of your health, one healthy change at a time.",
+							"completionTextHeader": "You're in control!",
+							"type": "standard"
+						}, {
+							"id": 91955,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_useYourImagination",
+							"title": "Use your imagination",
+							"description": "This week, explore guided visualization online or at your library. Put on soothing music and follow the instructions to gently guide your mind into a relaxed and healing place. It's easy and effective for most people. And it doesn’t require much – just some basic imagination.",
+							"completionText": "Use deep breathing when you need to relax and heal.",
+							"completionTextHeader": " Relax and heal!",
+							"type": "standard"
+						}, {
+							"id": 91950,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_postiveIntentions",
+							"title": "Positive intentions",
+							"description": "Go to your local library or bookstore and look for uplifting books. Watch a comedy on TV. It's good to surround yourself with positivity as much as possible. That includes what you choose to read or watch in your spare time.",
+							"completionText": "Being mindful of how you spend your time may help keep you in good spirits.",
+							"completionTextHeader": "You're uplifted!",
+							"type": "standard"
+						}, {
+							"id": 91978,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_lowerYourBMI",
+							"title": "Lower your BMI",
+							"description": "Healthy, gradual weight loss takes time, but small steps add up. Losing even a pound a week will make a big difference down the line. This week, work with your doctor to set a goal of how much weight you want to lose. Then think of 3 things you can start doing today that can get you closer to your goal. Maybe it's skipping dessert, going for a walk each day, or eating smaller portions.",
+							"completionText": "Getting started is the first step of your weight loss journey.",
+							"completionTextHeader": "You're taking steps",
+							"type": "standard"
+						}, {
+							"id": 92129,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_cholesterolCheck",
+							"title": "Cholesterol check",
+							"description": "According to national guidelines, its recommended that your total cholesterol be under 200 mg/dL. You can have high cholesterol and not know it. People with high blood cholesterol have a greater chance of getting coronary heart disease.  This week, make an appointment to have your cholesterol checked. Knowledge is power. Knowing where you fall can help you know how to best take action to improve your health.",
+							"completionText": "You're on the right path!",
+							"completionTextHeader": "Done!",
+							"type": "standard"
+						}, {
+							"id": 91983,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_askTheRightQuestions",
+							"title": "Ask the right questions",
+							"description": "When it comes to managing your health, don't waste your time on \"What if… ?\" questions. Instead, change them to \"How can I… ?\". If your worry is, \"What if I forget to take my meds? What do I do then?\" change that to \"How can I remember to take my meds?\" Make it into something you can work to change. Sit down with a \"What if..?\" question this week and figure out what you can do to avoid the problem.",
+							"completionText": "You're not letting worries get the best of you.",
+							"completionTextHeader": "Problem solver!",
+							"type": "standard"
+						}, {
+							"id": 91979,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_checkOutLifestyle",
+							"title": "Check out Lifestyle",
+							"description": "If you haven't yet, fill out the Lifestyle section to view your results. You'll find some great action steps about being active.",
+							"completionText": "We hope you found the Lifestyle section's action steps useful.",
+							"completionTextHeader": "You checked it out",
+							"type": "standard"
+						}, {
+							"id": 91985,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_discussWithYourDocUnder40",
+							"title": "Discuss with your doc",
+							"description": "Mammograms are not generally recommended for women under 40 years of age. That can change depending on your risk factors for breast cancer. At your next visit, talk to your doctor about the risks and benefits of mammograms for a woman your age.",
+							"completionText": "Now you've got the scoop on mammogram screening.",
+							"completionTextHeader": "You have the info",
+							"type": "standard"
+						}, {
+							"id": 91988,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_haveAPapChat",
+							"title": "Have a Pap chat",
+							"description": "Given your history of cervical cancer, follow your doctor's advice for how often to have Pap smears.",
+							"completionText": "You've got the low-down on when you should have your next Pap test.",
+							"completionTextHeader": "You had the chat",
+							"type": "standard"
+						}, {
+							"id": 91877,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_mixItUp",
+							"title": "Mix it up",
+							"description": "Mixing up your routine can help you continue to see results. This week, try a new activity or make small changes to your current routine. Sometimes trying an old activity in a new setting makes a huge difference. The most important part is making changes that will help you reach your goal.",
+							"completionText": "Mixing up your routine may get you the results you're looking for.",
+							"completionTextHeader": "Change is a good thing",
+							"type": "standard"
+						}, {
+							"id": 92150,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_goodToKnowNumberKnown",
+							"title": "\"Good\" to know",
+							"description": "HDL is the \"good\" cholesterol. It's job is to carry fat away from your arteries and to protect against plaque build up. Your HDL levels are lower than what is recommended by national guidelines, which is at least 40 mg/dL. People with low levels of HDL are at greater risk for developing coronary heart disease. Work with your doctor to find out your target HDL number. Both lifestyle changes and some meds may help to raise HDL cholesterol. Talk with your doctor to come up with a treatment plan that will work best for you.",
+							"completionText": "You're on the road to meeting your target HDL number.",
+							"completionTextHeader": "Getting more of the good!",
+							"type": "standard"
+						}, {
+							"id": 92130,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_setAGoal",
+							"title": "Set a goal",
+							"description": "Work with your doctor to set goals for your biometric numbers, including blood pressure and cholesterol. Having a number to work towards can help you stay focused.",
+							"completionText": "Knowing what your numbers are and what they should be is a smart way to care for your health.",
+							"completionTextHeader": "Goal set!",
+							"type": "standard"
+						}, {
+							"id": 92138,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_readTheLabel",
+							"title": "Read the Label",
+							"description": "One of your best tools when it comes to eating better is the Nutrition Facts label on a food package. You can use it to compare foods and find those that are lower in saturated fats, trans fat, total fat, cholesterol, sodium, and calories. Become familiar with a nutrition label. Then the next time you're shopping for food, compare labels. For example, check out the difference in fat and calories in a light or lean product versus a regular.",
+							"completionText": "Reading the labels can help you make the right food choices.",
+							"completionTextHeader": "You've learned the facts!",
+							"type": "standard"
+						}, {
+							"id": 91916,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_beAPlannerDiet",
+							"title": "Know your habits",
+							"description": "Take some time this week to plan out how you'll react when something triggers a bad habit. For example, if you know you often reach for candy at 3 p.m., you might plan to have carrot sticks on hand to start a healthier routine. ",
+							"completionText": "Knowing your triggers can keep you ahead of the game.",
+							"completionTextHeader": "You're two steps ahead!",
+							"type": "standard"
+						}, {
+							"id": 91919,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_getStrongTogether",
+							"title": "Get strong together",
+							"description": "There are lots of group strength training classes, and they can be a fun way to get fit. Take time today to think about your interests, goals, and the type of class that might work for you. Do you crave a high-intensity workout, like boot-camp? Are you looking for the core focus of a Pilates class? Or do you want to learn how to use free weights?",
+							"completionText": "Getting strong can be fun—and social too!",
+							"completionTextHeader": "Explore your options!",
+							"type": "standard"
+						}
+					],
+					"responseCode": 0
+				}
+			}
+			,
+			"": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched GET url"
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"/externalservices/actionstep/42": {
+				"{\"rating\":\"THUMBS_UP\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_UP"
+						}
+					}
+				},
+				"{\"rating\":\"THUMBS_DOWN\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_DOWN"
+						}
+					}
+				},
+				"{\"event\":\"STARTED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "STARTED"
+						}
+					}
+				},
+				"{\"event\":\"COMPLETED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"{\"event\":\"REMOVED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"": {
+					"actionStepResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 42"
+					}
+				}
+			},
+			"/externalservices/actionstep/badId": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched POST url"
+				}
+			},
+			"": {
+				"{\"rating\":\"THUMBS_UP\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_UP"
+						}
+					}
+				},
+				"{\"rating\":\"THUMBS_DOWN\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_DOWN"
+						}
+					}
+				},
+				"{\"event\":\"STARTED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "STARTED"
+						}
+					}
+				},
+				"{\"event\":\"COMPLETED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"{\"event\":\"REMOVED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "NOT_STARTED"
+						}
+					}
+				},
+
+				"": {
+					"actionStepResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 1234"
+					}
+				}
+			}
+		}
+	}
+}

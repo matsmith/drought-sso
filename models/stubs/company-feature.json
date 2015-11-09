@@ -1,0 +1,3580 @@
+{
+	"get": {
+		"": {
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=1": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 26,
+								"feature1__name": "Foodfight",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 24,
+								"feature1__name": "Bmicalc",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 103,
+								"feature1__name": "ThrombosisTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 92,
+								"feature1__name": "WeightSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 35,
+								"feature1__name": "IncentiveLogicServices",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "cf_enabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "title"
+										},
+										"feature1__value": "My Rewards"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 94,
+								"feature1__name": "ChronicConditionSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 76,
+								"feature1__name": "CalculatorsAndActivities",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 33,
+								"feature1__name": "StretchingLibrary",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 101,
+								"feature1__name": "SmokingCessationSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 95,
+								"feature1__name": "PhysicalActivitySkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 39,
+								"feature1__name": "ExerciseLibrary",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 14,
+								"feature1__name": "MedicalLibrary",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "externalSource"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 98,
+								"feature1__name": "StressSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 15,
+								"feature1__name": "StepByStep",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "trackerLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae STEP BY STEP\u2122"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "trackerShortName"
+										},
+										"feature1__value": "Step By Step"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 93,
+								"feature1__name": "DepressionSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 25,
+								"feature1__name": "Portionsizetool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 22,
+								"feature1__name": "Healthnews",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 32,
+								"feature1__name": "RelaxationLibrary",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 74,
+								"feature1__name": "TimeManagementTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 21,
+								"feature1__name": "Cookbook",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 23,
+								"feature1__name": "Healthresources",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 90,
+								"feature1__name": "TrackYourHealth",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 99,
+								"feature1__name": "DiabetesSkillsTool",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 1
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=2": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						""
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=3": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 2,
+								"feature1__name": "Private Labeling",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": ""
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 1,
+								"feature1__name": "Renaming",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "achieveLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae ACHIEVE\u2122 for Cholesterol"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "achieveShortName"
+										},
+										"feature1__value": "Achieve"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "backLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Your Back"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "backShortName"
+										},
+										"feature1__value": "Care for Your Back"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "balanceLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae BALANCE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "balanceShortName"
+										},
+										"feature1__value": "Balance"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "checkinLongName"
+										},
+										"feature1__value": "Check-in"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "checkinShortName"
+										},
+										"feature1__value": "check-in"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Your Health"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsShortName"
+										},
+										"feature1__value": "Care for Your Health"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Depression"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionShortName"
+										},
+										"feature1__value": "Care for Depression"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Diabetes"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesShortName"
+										},
+										"feature1__value": "Care for Diabetes"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "moveLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae MOVE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "moveShortName"
+										},
+										"feature1__value": "Move"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "nourishLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae NOURISH\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "nourishShortName"
+										},
+										"feature1__value": "Nourish"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "pediatricLongName"
+										},
+										"feature1__value": "Pediatric Health Risk Assessment"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "pediatricShortName"
+										},
+										"feature1__value": "Pediatric HRA"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae MOVE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsShortName"
+										},
+										"feature1__value": "Move"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "relaxLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae RELAX\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "relaxShortName"
+										},
+										"feature1__value": "Relax"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae BREATHE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsShortName"
+										},
+										"feature1__value": "Breathe"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae RELAX\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsShortName"
+										},
+										"feature1__value": "Relax"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae BALANCE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsShortName"
+										},
+										"feature1__value": "Balance"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "assessLongName"
+										},
+										"feature1__value": "My Health Discovery"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "assessShortName"
+										},
+										"feature1__value": "My Health Discovery"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "bingeLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae BINGE EATING"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "bingeShortName"
+										},
+										"feature1__value": "Binge Eating"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "breatheLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae BREATHE\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "breatheShortName"
+										},
+										"feature1__value": "Breathe"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "controlLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Blood Pressure"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "controlShortName"
+										},
+										"feature1__value": "Care for Blood Pressure"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Depression"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsShortName"
+										},
+										"feature1__value": "Care for Depression"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Diabetes"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsShortName"
+										},
+										"feature1__value": "Care for Diabetes"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "healthLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Your Health"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "healthShortName"
+										},
+										"feature1__value": "Care for Your Health"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "insomniaLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Sleep"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "insomniaShortName"
+										},
+										"feature1__value": "Care for Sleep"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "painLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae CARE\u00ae for Pain"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "painShortName"
+										},
+										"feature1__value": "Care for Pain"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationLongName"
+										},
+										"feature1__value": "Segmentation"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationShortName"
+										},
+										"feature1__value": "Segmentation"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae SUCCEED SNAPSHOT\u2122"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotShortName"
+										},
+										"feature1__value": "Snapshot"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "succeedLongName"
+										},
+										"feature1__value": "HealthMedia\u00ae SUCCEED\u00ae"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "succeedShortName"
+										},
+										"feature1__value": "Succeed"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisLongName"
+										},
+										"feature1__value": "Thrombosis"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisShortName"
+										},
+										"feature1__value": "Thrombosis"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 2255,
+							"feature1__feature": {
+								"entity1__id": 27,
+								"feature1__name": "Customerlogos",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "logo1url"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/customer/PHS/logos/PHS-logo-2-color-0810.png"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 97,
+								"feature1__name": "FooterLinks",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "privacyPolicyURL"
+										},
+										"feature1__value": "privacy-statement"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "helpEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "contactUsEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "termsOfUseTitle"
+										},
+										"feature1__value": "Terms of Use"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "feedBackTitle"
+										},
+										"feature1__value": "Feedback"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "termsOfUseEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "privacyPolicyEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "termsOfUseURL"
+										},
+										"feature1__value": "terms-of-use"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "privacyPolicyTitle"
+										},
+										"feature1__value": "Privacy Statement"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "helpTitle"
+										},
+										"feature1__value": "Help"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "contactUsURL"
+										},
+										"feature1__value": "contact-us"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "feedBackURL"
+										},
+										"feature1__value": "feedback"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "feedBackEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "helpURL"
+										},
+										"feature1__value": "help"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "contactUsTitle"
+										},
+										"feature1__value": "Contact Us"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 96,
+								"feature1__name": "PrivateLabelCustomColor",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsCustomColor5"
+										},
+										"feature1__value": "#420056"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsCustomColor1"
+										},
+										"feature1__value": "#F0B9FD"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsCustomColor2"
+										},
+										"feature1__value": "#E294F9"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsCustomColor3"
+										},
+										"feature1__value": "#CA5CEB"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "chronicConditionSkillsCustomColor4"
+										},
+										"feature1__value": "#A22EC5"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsCustomColor5"
+										},
+										"feature1__value": "#540036"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsCustomColor4"
+										},
+										"feature1__value": "#d42f9d"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsCustomColor3"
+										},
+										"feature1__value": "#df62b5"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsCustomColor2"
+										},
+										"feature1__value": "#eca1d3"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "diabetesSkillsCustomColor1"
+										},
+										"feature1__value": "#f9e0f0"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsCustomColor4"
+										},
+										"feature1__value": "#00856a"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsCustomColor3"
+										},
+										"feature1__value": "#62cdb6"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsCustomColor5"
+										},
+										"feature1__value": "#005444"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsCustomColor2"
+										},
+										"feature1__value": "#b0e6da"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "smokingCessationSkillsCustomColor1"
+										},
+										"feature1__value": "#d8f2ed"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "programListingWidgetCustomColor3"
+										},
+										"feature1__value": "#59C6FF"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "programListingWidgetCustomColor2"
+										},
+										"feature1__value": "#A7E0FE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "programListingWidgetCustomColor1"
+										},
+										"feature1__value": "#D3F0FE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "programListingWidgetCustomColor5"
+										},
+										"feature1__value": "#235065"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "programListingWidgetCustomColor4"
+										},
+										"feature1__value": "#3182AF"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsCustomColor4"
+										},
+										"feature1__value": "#ac3fb1"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsCustomColor5"
+										},
+										"feature1__value": "#47114a"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsCustomColor2"
+										},
+										"feature1__value": "#daaade"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsCustomColor3"
+										},
+										"feature1__value": "#c272c8"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "stressSkillsCustomColor1"
+										},
+										"feature1__value": "#f3e3f4"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsCustomColor4"
+										},
+										"feature1__value": "#CD422C"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsCustomColor5"
+										},
+										"feature1__value": "#5B1004"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsCustomColor2"
+										},
+										"feature1__value": "#FFB9B9"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsCustomColor3"
+										},
+										"feature1__value": "#FF5C43"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightSkillsCustomColor1"
+										},
+										"feature1__value": "#FFDDDC"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsCustomColor4"
+										},
+										"feature1__value": "#3182AE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsCustomColor5"
+										},
+										"feature1__value": "#245066"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsCustomColor2"
+										},
+										"feature1__value": "#A5E1FD"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsCustomColor3"
+										},
+										"feature1__value": "#5AC6FF"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "depressionSkillsCustomColor1"
+										},
+										"feature1__value": "#D3F0FE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisCustomColor2"
+										},
+										"feature1__value": "#ff00ee"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisCustomColor3"
+										},
+										"feature1__value": "#62cdb6"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationWidgetCustomColor1"
+										},
+										"feature1__value": "#D3F0FE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisCustomColor1"
+										},
+										"feature1__value": "#00ff11"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationWidgetCustomColor4"
+										},
+										"feature1__value": "#3182AF"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationWidgetCustomColor5"
+										},
+										"feature1__value": "#235065"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisCustomColor4"
+										},
+										"feature1__value": "#00856a"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationWidgetCustomColor2"
+										},
+										"feature1__value": "#A7E0FE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "thrombosisCustomColor5"
+										},
+										"feature1__value": "#005444"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "segmentationWidgetCustomColor3"
+										},
+										"feature1__value": "#59C6FF"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsCustomColor1"
+										},
+										"feature1__value": "#FFD19F"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsCustomColor3"
+										},
+										"feature1__value": "#FF8400"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsCustomColor2"
+										},
+										"feature1__value": "#FFB260"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsCustomColor5"
+										},
+										"feature1__value": "#522A00"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivitySkillsCustomColor4"
+										},
+										"feature1__value": "#CE5200"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 37,
+								"feature1__name": "CustomerPortal",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "siteOpenedInNewWindow"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "wrapperLogoutButtonText"
+										},
+										"feature1__value": "Logout"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 36,
+								"feature1__name": "CompanyRenaming",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "companyName"
+										},
+										"feature1__value": "HealthMedia"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 12,
+								"feature1__name": "Site Renaming",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 3
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "Site Name"
+										},
+										"feature1__value": "MyHealthMedia"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=4": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": 2263,
+							"feature1__feature": {
+								"entity1__id": 45,
+								"feature1__name": "CustomResources",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 4
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "subHeaderContentId"
+										},
+										"feature1__value": 55
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "contentIds"
+										},
+										"feature1__value": "17,18,19"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=5": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 61,
+								"feature1__name": "CustomTools",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 5
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "subHeaderContentId"
+										},
+										"feature1__value": 51
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=6": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": 54703,
+							"feature1__feature": {
+								"entity1__id": 51,
+								"feature1__name": "Eligibility",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 6
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "outboundSftpUserName"
+										},
+										"feature1__value": "phs_dev"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "uniqueIdValidation"
+										},
+										"feature1__value": "NUMERIC"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "externalUserIdType"
+										},
+										"feature1__value": "UMEMBERID"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "uniqueIdMinLength"
+										},
+										"feature1__value": 10
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "uniqueIdMaxLength"
+										},
+										"feature1__value": 10
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "eligibilityRequired"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "eligibilityPage.contentId"
+										},
+										"feature1__value": 25
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "outboundReportTargetDir"
+										},
+										"feature1__value": "/outbound/Eligibility"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 88,
+								"feature1__name": "Eligibility Export",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 6
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=7": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": 2257,
+							"feature1__feature": {
+								"entity1__id": 34,
+								"feature1__name": "OngoingRecruitment",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 7
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "embedAccessCode"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "criteriaRules"
+										},
+										"feature1__value": "Default"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "analyticsEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "recruitmentSource"
+										},
+										"feature1__value": "SUCCEED_SNAPSHOT"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "priorityList"
+										},
+										"feature1__value": "breathe,balance,weightSkills,relax,stressSkills,move,physicalActivitySkills,depression,depressionSkills,insomnia,binge,diabetes,diabetesSkills,achieve,control,pain,back,health,chronicConditionSkills,nourish"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "campaignName"
+										},
+										"feature1__value": "DefaultRecruitment"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 52,
+								"feature1__name": "DateRangeRecruitment",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 7
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "priorityList"
+										},
+										"feature1__value": "breathe,balance,weightSkills,relax,stressSkills,move,physicalActivitySkills,depression,depressionSkills,insomnia,binge,diabetes,diabetesSkills,achieve,control,pain,back,health,chronicConditionSkills,nourish"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "analyticsEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "embedAccessCode"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "criteriaRules"
+										},
+										"feature1__value": "Default"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 85,
+								"feature1__name": "StandardEmail",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 7
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "analyticsEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enableWelcomeEmail"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "campaignName"
+										},
+										"feature1__value": "StandardEmail"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "embedAccessCode"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=8": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 31,
+								"feature1__name": "Gina",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 8
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 11,
+								"feature1__name": "HRA Renaming",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 8
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "HRA Long Name"
+										},
+										"feature1__value": "Health Risk Assessment"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "HRA Short Name"
+										},
+										"feature1__value": "HRA"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 30,
+								"feature1__name": "QSets",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 8
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotBiometricsEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "bingeEatingEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "weightManagementEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "anxietyEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "cultureOfHealthEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "alcoholUseEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "painEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "breastCancerRiskEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "nutritionEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "tobaccoEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "physicalActivityEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "mentalHealthEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "drugUseEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sexualBehaviorEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "lungCancerRiskEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sleeplessnessEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "heartDiseaseRiskEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "injuryPreventionWithFirearmsEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotPainEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "biometricsEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotCultureOfHealthEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotSleeplessnessEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "snapshotBingeEatingEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "skinProtectionEnabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 91,
+								"feature1__name": "QuestionnaireSectionBackgroundImages",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 8
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77985BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86066BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_Reactions_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77986BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86065BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_Stress_Causes_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77995BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_Social_Support_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77993BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_Treatment_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77897BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_More_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77906BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77994BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_Habits_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86058BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93382BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Getting_Started_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77997BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_More_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93377BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Your_Habits_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91764BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_Work_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93381BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Your_Overall_Health_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85981BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Health_Care_Team_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93376BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Your_Support_Network_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77990BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77984BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91762BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_Motivation_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85979BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Confidence_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section81010BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77902BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93375BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_More_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85989BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Emotions_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section80905BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93379BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Your_Mindset_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77889BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77991BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91761BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_Quitting_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85847BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Your_Numbers_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85980BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Medications_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86067BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_Work_and_Health_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91760BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_Habits_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77893BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Stress_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77903BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section93519BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/thrombosis/Thrombosis_Your_Medications_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86059BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85785BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_The_Basics_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section85982BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_Lifestyle_Management_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91763BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_Support_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77988BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77987BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Medication_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86009BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/diabetesSkills/Diabetes_WPAI_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77886BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77895BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Support_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77992BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section78082BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77878BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_About_You_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section86064BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/stressSkills/Relax_Perspective_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77904BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77905BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77885BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Motivation_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77996BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/depressionSkills/Depression_Symptoms_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77891BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/weightSkills/Balance_Mental_Health_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section77989BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "section91759BackgroundImage"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/consultation/background/smokingCessationSkills/Breathe_YouandYourHealth_Clear.jpg"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=9": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": 2261,
+							"feature1__feature": {
+								"entity1__id": 44,
+								"feature1__name": "PoweredByLogo",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 10,
+								"feature1__name": "Retake",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "RetakeScreenEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "RetakeByDuration"
+										},
+										"feature1__value": 365
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 84,
+								"feature1__name": "Twilio",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "callbackEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "accessToken"
+										},
+										"feature1__value": "871e4073cce78cb4a04f50645d7f003d"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "phoneNumber"
+										},
+										"feature1__value": "+17346060553"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "accountSid"
+										},
+										"feature1__value": "AC064dc051ab1ccaa24927b06ca881b8d6"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 71,
+								"feature1__name": "CustomerType",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "typeCode"
+										},
+										"feature1__value": "HP"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 69,
+								"feature1__name": "HelpSearch",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 50,
+								"feature1__name": "SessionTimeOutPage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sameWindowActionButtonText"
+										},
+										"feature1__value": "Return Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "newWindowContentId"
+										},
+										"feature1__value": 91
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sameWindowContentId"
+										},
+										"feature1__value": 90
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "newWindowActionButtonText"
+										},
+										"feature1__value": "Close Window"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "logoutButtonText"
+										},
+										"feature1__value": "Logout Now"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 28,
+								"feature1__name": "Sitedomain",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "legacySiteUrl"
+										},
+										"feature1__value": "https://my.localhost/"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "siteUrl"
+										},
+										"feature1__value": "http://localhost/mhmsite"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 49,
+								"feature1__name": "SSOLogOutPage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "newWindowActionButtonText"
+										},
+										"feature1__value": "Return Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sameWindowActionButtonText"
+										},
+										"feature1__value": "Return Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "newWindowContentId"
+										},
+										"feature1__value": 91
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sameWindowContentId"
+										},
+										"feature1__value": 90
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 47,
+								"feature1__name": "RefillReminder",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 67,
+								"feature1__name": "AppointmentReminder",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 83,
+								"feature1__name": "ForgotUsername",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "displayEmployeeId"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 18,
+								"feature1__name": "HPI",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 70,
+								"feature1__name": "ProductResources",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "aboutEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "furtherReadingEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "SMARTGoalsEnabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "productVideoAudioPDFEnabled"
+										},
+										"feature1__value": true
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 68,
+								"feature1__name": "CustomerService",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "phoneNumber"
+										},
+										"feature1__value": "+1-866-433-9284"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 64,
+								"feature1__name": "NonAuthenticationPage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 9
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "sameWindowActionButtonText"
+										},
+										"feature1__value": "Return Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "newWindowActionButtonText"
+										},
+										"feature1__value": "Return Home"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=10": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 89,
+								"feature1__name": "Print",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 10
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "secondPostImportAction"
+										},
+										"feature1__value": "NONE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "tertiaryPostImportAction"
+										},
+										"feature1__value": "NONE"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "allowMultiplePostImportActions"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryPostImportAction"
+										},
+										"feature1__value": "SFTP_PDF"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=11": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 78,
+								"feature1__name": "HomeFooterSubhead",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "contentId"
+										},
+										"feature1__value": 250
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 105,
+								"feature1__name": "PrivateHomePage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "displayCoachingInMessaging"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 42,
+								"feature1__name": "HomeFooterMessage2",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoUrl"
+										},
+										"feature1__value": 120369781
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoImageUrl"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/healthmedia/video/video-people-profiles-thumb.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "subHeaderContentId"
+										},
+										"feature1__value": 9
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoTranscriptContentId"
+										},
+										"feature1__value": 11
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "textContentId"
+										},
+										"feature1__value": 10
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 41,
+								"feature1__name": "HomeFooterMessage1",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoImageUrl"
+										},
+										"feature1__value": "https://localhost-media.healthmedia.net/media/images/healthmedia/video/video-what-we-do-thumb.jpg"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoTranscriptContentId"
+										},
+										"feature1__value": 8
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "textContentId"
+										},
+										"feature1__value": 7
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "videoUrl"
+										},
+										"feature1__value": 120369780
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "subHeaderContentId"
+										},
+										"feature1__value": 6
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 2259,
+							"feature1__feature": {
+								"entity1__id": 43,
+								"feature1__name": "HomeFooterMessage3",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "textContentId"
+										},
+										"feature1__value": 16
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "subHeaderContentId"
+										},
+										"feature1__value": 15
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 17,
+								"feature1__name": "OverviewLandingPage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 11
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=12": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 40,
+								"feature1__name": "CoachingSessionsPage",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 12
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "widgetBasedCoachingSelection"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "productListOrder"
+										},
+										"feature1__value": "breathe,balance,weightSkills,relax,move,physicalActivitySkills,depression,depressionSkills,insomnia,binge,diabetes,achieve,control,pain,back,health,chronicConditionSkills,nourish"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=13": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 57,
+								"feature1__name": "SelectReportingCompany",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "label"
+										},
+										"feature1__value": "Location Code"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 55693,
+							"feature1__feature": {
+								"entity1__id": 16,
+								"feature1__name": "Account",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__company": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__referenceCompany": {
+								"entity1__id": 5188,
+								"company1__externalCompanyId": "PHS",
+								"company1__name": "PHS",
+								"company1__usedBy": "APPLICATION_AND_REPORTING"
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "emailRequired"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "secondaryEmailRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "locationDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "phoneRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "secondaryPhoneDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "zipRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "pinValidationEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryEmailDisplayedAtRegistration"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "secondaryPhoneRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryEmailDisplayed"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "registrationProfileWalkThroughEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryEmailUnlock"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "locationRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "hideSnapshot"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "addressDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryPhoneUnlock"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "addressRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryPhoneDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "pinValidationPrimaryMethod"
+										},
+										"feature1__value": "PIN"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "zipDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "secondaryEmailDisplayed"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "allowRegistrationUnder18Years"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "healthNewsEnabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryEmailRequired"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "primaryPhoneRequired"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "addressUnlock"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 58,
+								"feature1__name": "AddRegistrationExternalIds",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "umemberid.required"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "employeeid.label"
+										},
+										"feature1__value": "Employee ID"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "employeeid.required"
+										},
+										"feature1__value": false
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 1000,
+								"feature1__name": "PrivacyPolicy",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "PrivacyPolicyContentId"
+										},
+										"feature1__value": 1
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "PrivacyPolicyLaunchDate"
+										},
+										"feature1__value": "12/09/2014"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 1000,
+								"feature1__name": "TermsOfUse",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "TermsOfUseContentId"
+										},
+										"feature1__value": 2
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "TermsOfUseLaunchDate"
+										},
+										"feature1__value": "12/09/2014"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 1000,
+								"feature1__name": "ParticipantConsent",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 13
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "ParticipantConsentContentId"
+										},
+										"feature1__value": 3
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "ParticipantConsentLaunchDate"
+										},
+										"feature1__value": "12/09/2014"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=14": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 13,
+								"feature1__name": "Top Nav Renaming",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 14
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "Home Link Name"
+										},
+										"feature1__value": "Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "Coaching Link Name"
+										},
+										"feature1__value": "Coaching"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "Resources Link Name"
+										},
+										"feature1__value": "Resources"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "Tools Link Name"
+										},
+										"feature1__value": "Tools"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": "null",
+							"feature1__feature": {
+								"entity1__id": 62,
+								"feature1__name": "TopNavigation",
+								"feature1__featureCategory": [
+									{
+										"entity1__id": 14
+									}
+								]
+							},
+							"feature1__companyFeatureConfigurations": {
+								"feature1__companyFeatureConfiguration": [
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "home.label"
+										},
+										"feature1__value": "Home"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "todolist.url"
+										},
+										"feature1__value": "todolist"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "todolist.label"
+										},
+										"feature1__value": "To Do List"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "custom1.enabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "resources.label"
+										},
+										"feature1__value": "Resources"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "coaching.label"
+										},
+										"feature1__value": "Coaching"
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "custom2.enabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "resources.enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "coaching.enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "tools.enabled"
+										},
+										"feature1__value": true
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "custom3.enabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "todolist.enabled"
+										},
+										"feature1__value": false
+									},
+									{
+										"feature1__featureConfiguration": {
+											"feature1__configurationName": "tools.label"
+										},
+										"feature1__value": "Tools"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"/externalservices/company-feature?query=company.id-featureCategory.id&company.id=5188&featureCategory.id=15": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						""
+					]
+				}
+			},
+			"": {
+				"feature1__companyFeatures": {
+					"feature1__companyFeature": [
+						""
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"get": {
+		"": {
+			"/externalservices/skill?q=findByEnrollmentId&enrollmentId=1234": {
+				"skillResponse": {
+					"skill":[
+						{
+							"id": 23,
+							"enrollmentId": 1234,
+							"priorityOrder": "1",
+							"seen": true
+						}, {
+							"id": 14,
+							"enrollmentId": 1234,
+							"priorityOrder": "2",
+							"seen": false
+						}, {
+							"id": 15,
+							"enrollmentId": 1234,
+							"priorityOrder": "3",
+							"seen": false
+						}, {
+							"id": 16,
+							"enrollmentId": 1234,
+							"priorityOrder": "4",
+							"seen": true
+						}, {
+							"id": 17,
+							"enrollmentId": 1234,
+							"priorityOrder": "5",
+							"seen": false
+						}
+					],
+					"responseCode":0
+				}
+			},
+			"": {
+				"skillResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched GET url"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"/externalservices/skill?q=findByEnrollmentId&enrollmentId=1234": {
+				"skillResponse": {
+					"skill":[
+						{
+							"id": 23,
+							"enrollmentId": 1234,
+							"priorityOrder": "1",
+							"seen": true
+						}, {
+							"id": 14,
+							"enrollmentId": 1234,
+							"priorityOrder": "2",
+							"seen": false
+						}
+					],
+					"responseCode":0
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"/externalservices/skill/14": {
+				"{\"seen\":true,\"enrollmentId\":1234}": {
+					"skillResponse": {
+						"responseCode": 0
+					}
+				},
+				"": {
+					"skillResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 1234"
+					}
+				}
+			},
+			"/externalservices/skill/15": {
+				"{\"seen\":true,\"enrollmentId\":1234}": {
+					"skillResponse": {
+						"responseCode": 0
+					}
+				},
+				"": {
+					"skillResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 1234"
+					}
+				}
+			},
+			"/externalservices/skill/17": {
+				"{\"seen\":true,\"enrollmentId\":1234}": {
+					"skillResponse": {
+						"responseCode": 0
+					}
+				},
+				"": {
+					"skillResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 1234"
+					}
+				}
+			},
+			"": {
+				"skillResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched POST url"
+				}
+			}
+		}
+	}
+}

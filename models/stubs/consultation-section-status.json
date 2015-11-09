@@ -1,0 +1,530 @@
+{
+	"get": {
+		"": {
+			"": {
+				"consultationSectionStatus": {
+					"responseCode": 99,
+					"responseDesc": "Unknown Exception"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"/externalservices/consultation-section-status?q=findByProductEnrollmentId&productEnrollmentId=1234": {
+				"consultationSectionStatus": {
+					"enrollmentSectionStatus": [
+						{
+							"productEnrollmentId": 1234,
+							"gameStatus": "STARTED",
+							"sectionGroup": [
+								{
+									"id": 1,
+									"name": "BIO",
+									"status": "STARTED",
+									"section": [
+										{
+											"id": 90365,
+											"name": "Bio Level 1",
+											"status": "COMPLETED"
+										},
+										{
+											"id": 90395,
+											"name": "Bio Level 2",
+											"status": "STARTED"
+										}
+									]
+								},
+								{
+									"id": 2,
+									"name": "BODY",
+									"status": "COMPLETED",
+									"section": [
+										{
+											"id": 90419,
+											"name": "Body Level 1",
+											"status": "COMPLETED"
+										},
+										{
+											"id": 90422,
+											"name": "Body Level 2",
+											"status": "COMPLETED"
+										}
+									]
+								},
+								{
+									"id": 3,
+									"name": "MIND",
+									"status": "NOT_STARTED",
+									"section": [
+										{
+											"id": 90432,
+											"name": "Mind Level 1",
+											"status": "NOT_STARTED"
+										},
+										{
+											"id": 90433,
+											"name": "Mind Level 2",
+											"status": "NOT_STARTED"
+										}
+									]
+								},
+								{
+									"id": 4,
+									"name": "LIFESTYLE",
+									"status": "COMPLETED",
+									"section": [
+										{
+											"id": 90434,
+											"name": "Lifestyle Level 1",
+											"status": "COMPLETED"
+										}, {
+											"sectionId": 90435,
+											"name": "Lifestyle Level 2",
+											"status": "COMPLETED"
+										}
+									]
+								}
+							]
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"": {
+				"consultationSectionStatus": {
+					"responseCode": 99,
+					"responseDesc": "Unknown Exception"
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request"
+				},
+				"badPostData": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request"
+				},
+				"badPostDataCausesServerError": {
+					"responseCode": 99,
+					"responseDesc": "Unknown Exception"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"": {
+				"": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request. No POST data."
+				},
+				"badPostDataCausesServerError": {
+					"responseCode": 99,
+					"responseDesc": "Unknown Exception"
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":1,\"section\":[{\"id\":90365,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 1,
+										"name": "BIO",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90365,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":2,\"section\":[{\"id\":90419,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 2,
+										"name": "BODY",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90419,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":3,\"section\":[{\"id\":90432,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 3,
+										"name": "MIND",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90432,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":4,\"section\":[{\"id\":90434,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 4,
+										"name": "LIFESTYLE",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90434,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":1,\"section\":[{\"id\":90395,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 1,
+										"name": "BIO",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90395,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":2,\"section\":[{\"id\":90422,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 2,
+										"name": "BODY",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90422,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":3,\"section\":[{\"id\":90433,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 3,
+										"name": "MIND",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90433,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":4,\"section\":[{\"id\":90435,\"status\":\"STARTED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 4,
+										"name": "LIFESTYLE",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90435,
+												"name": "AboutYou",
+												"status": "STARTED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":1,\"section\":[{\"id\":90365,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 1,
+										"name": "BIO",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90365,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":2,\"section\":[{\"id\":90419,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 2,
+										"name": "BODY",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90419,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":3,\"section\":[{\"id\":90432,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 3,
+										"name": "MIND",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90432,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":4,\"section\":[{\"id\":90434,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 4,
+										"name": "LIFESTYLE",
+										"status": "STARTED",
+										"section": [
+											{
+												"id": 90434,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":1,\"section\":[{\"id\":90395,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 1,
+										"name": "BIO",
+										"status": "COMPLETED",
+										"section": [
+											{
+												"id": 90395,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":2,\"section\":[{\"id\":90422,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 2,
+										"name": "BODY",
+										"status": "COMPLETED",
+										"section": [
+											{
+												"id": 90422,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":3,\"section\":[{\"id\":90433,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 3,
+										"name": "MIND",
+										"status": "COMPLETED",
+										"section": [
+											{
+												"id": 90433,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				},
+				"{\"consultationSectionStatus\":{\"enrollmentSectionStatus\":[{\"productEnrollmentId\":\"1234\",\"sectionGroup\":[{\"id\":4,\"section\":[{\"id\":90435,\"status\":\"COMPLETED\"}]}]}]}}": {
+					"consultationSectionStatus": {
+						"enrollmentSectionStatus": [
+							{
+								"productEnrollmentId": "1234",
+								"gameStatus": "STARTED",
+								"sectionGroup": [
+									{
+										"id": 4,
+										"name": "LIFESTYLE",
+										"status": "COMPLETED",
+										"section": [
+											{
+												"id": 90435,
+												"name": "AboutYou",
+												"status": "COMPLETED"
+											}
+										]
+									}
+								]
+							}
+						],
+						"responseCode": 0
+					}
+				}
+			}
+		}
+	}
+}

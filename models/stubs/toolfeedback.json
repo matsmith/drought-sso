@@ -1,0 +1,179 @@
+{
+	"get": {
+		"": {
+
+			"/externalservices/toolfeedback?q=findByToolName&toolName=weightCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"weightSkills",
+							"feedback": [
+								{
+									"feedbackKey": "BMITargetedContent",
+									"contentKey":"BMIOverweightLostBMINormal",
+									"content": "Way to go! You've lost weight, a lot of weight.  Based on your updated information, your BMI is now in the normal range"
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=smokingCessationCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"smokingCessationCoachingTool",
+							"feedback": []
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=depressionCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"depressionSkills",
+							"feedback": [
+								{
+									"feedbackKey": "CESDTargetedContent",
+									"contentKey":"CESDNormal",
+									"content": "Way to go! You've really improved your outlook.  Based on your updated information, you are well on your way to controlling your depression."
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=physicalActivityCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"physicalActivitySkills",
+							"feedback": [
+								{
+									"feedbackKey": "PhysicalActivityTargetedContent",
+									"contentKey":"PhysicalActivityNormal",
+									"content": "Way to go! You've really improved your outlook.  Based on your updated information, you are well on your way to getting more active."
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=chronicConditionCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"chronicConditionSkills",
+							"feedback": [
+								{
+									"feedbackKey": "LifestyleTargetedContent",
+									"contentKey":"LifestyleUpFromLow",
+									"content": "Way to go! You've lifestyle has changed.  Based on your updated information, your situation has improved greatly"
+								},{
+									"feedbackKey": "EmotionalTargetedContent",
+									"contentKey":"EmotionalUpFromLow",
+									"content": "You are feeling much better. Keep up the good work"
+								},{
+									"feedbackKey": "MedicalTargetedContent",
+									"contentKey":"MedicalUpFromLow",
+									"content": "It looks like you are taking your medications routinely."
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=diabetesCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"diabetesSkills",
+							"feedback": [
+								{
+									"feedbackKey": "LifestyleTargetedContent",
+									"contentKey":"LifestyleUpFromLow",
+									"content": "Way to go! You've changed.  Based on your updated information, your situation has improved greatly"
+								},{
+									"feedbackKey": "EmotionalTargetedContent",
+									"contentKey":"EmotionalUpFromLow",
+									"content": "You are feeling much better. Keep up the good work"
+								},{
+									"feedbackKey": "MedicalTargetedContent",
+									"contentKey":"MedicalUpFromLow",
+									"content": "It looks like you are doing great!"
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?q=findByToolName&toolName=stressCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"stressSkills",
+							"feedback": [
+								{
+									"feedbackKey": "StressTargetedContent",
+									"contentKey":"RelaxNormal",
+									"content": "Way to go! You've really improved your outlook.  Based on your updated information, you are well on your way to controlling your depression."
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/toolfeedback?force=error": {
+				"responseCode": 100,
+				"responseDesc": "Illegal Argument"
+			},
+			"": {
+				"userDataResponse": {
+					"responseCode": 100,
+					"responseDesc": "Illegal Argument"
+				}
+			}
+		},
+		"breatheHasFeedback": {
+			"/externalservices/toolfeedback?q=findByToolName&toolName=smokingCessationCoachingTool&locale=en_US": {
+				"toolFeedbackResponse":{
+					"tool":[
+						{
+							"toolName":"smokingCessationCoachingTool",
+							"feedback": [
+								{
+									"feedbackKey": "breatheToolFeedback",
+									"contentKey":"SlippedNoResponse12",
+									"content": "Way to go! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc": "Success"
+				}
+			},
+			"": {
+				"userDataResponse": {
+					"responseCode": 100,
+					"responseDesc": "Illegal Argument"
+				}
+			}
+		}
+	}
+}

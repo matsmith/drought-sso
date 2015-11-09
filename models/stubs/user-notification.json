@@ -1,0 +1,24 @@
+{
+   "post": {
+      "": {
+         "": {
+            "": {
+               "userNotificationResponse":{
+                  "user":{
+                     "id":"233"
+                  },
+                  "notifications":[
+                     {
+                        "type":"CERT_OF_ACHIEVEMENT",
+                        "refId":"9",
+                        "date":"",
+                        "messageContentId":""
+                     }
+                  ],
+                  "responseCode":0
+               }
+            }
+         }
+      }
+   }
+}

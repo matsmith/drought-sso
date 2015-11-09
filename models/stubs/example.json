@@ -1,0 +1,96 @@
+{
+	"post": {
+		"specificUser": {
+			"/externalservices/example/1234/staticUrlFragment": {
+				"{\"data\":\"abcd\"}": {
+					"this": "payload gets returned",
+					"when": "the url, the data, and the user match",
+					"for": "a post request",
+					"responseCode": 0
+				},
+				"": {
+					"this": "payload gets returned",
+					"when": "the user and url match, but the data doesn't",
+					"for": "a post request",
+					"responseCode": 0
+				}
+			},
+			"": {
+				"{\"data\":\"abcd\"}": {
+					"this": "payload gets returned",
+					"when": "the user and data match, but the url doesn't",
+					"for": "a post request",
+					"DON'T": "MAKE STUBS THAT MATCH THIS PATTERN",
+					"responseCode": 0
+				},
+				"": {
+					"this": "payload gets returned",
+					"when": "the user matches, but the url and data don't",
+					"for": "a post request",
+					"responseCode": 0
+				}
+			}
+		},
+		"": {
+			"/externalservices/example/1234/staticUrlFragment": {
+				"{\"data\":\"abcd\"}": {
+					"this": "payload gets returned",
+					"when": "the url and data match, but the user doesn't",
+					"for": "a post request",
+					"responseCode": 0
+				},
+				"": {
+					"this": "payload gets returned",
+					"when": "the url matches, but the data and user don't",
+					"for": "a post request",
+					"responseCode": 0
+				}
+			},
+			"": {
+				"{\"data\":\"abcd\"}": {
+					"this": "payload gets returned",
+					"when": "the user and url don't match, but the data does",
+					"for": "a post request",
+					"DON'T": "MAKE STUBS THAT MATCH THIS PATTERN",
+					"responseCode": 0
+				},
+				"": {
+					"this": "payload gets returned",
+					"when": "neither user nor url nor data match",
+					"for": "a post request",
+					"responseCode": 0
+				}
+			}
+		}
+	},
+	"get": {
+		"specificUser": {
+			"/externalservices/example?q=findByEnrollmentId&param=abcd": {
+				"this": "payload gets returned",
+				"when": "the user, url, and querystring match",
+				"for": "a get request",
+				"responseCode": 0
+			},
+			"": {
+				"this": "payload gets returned",
+				"when": "the user matches, but the url/querystring doesn't",
+				"for": "a get request",
+				"responseCode": 0
+			}
+		},
+		"": {
+			"/externalservices/example?q=findByEnrollmentId&param=abcd": {
+				"this": "payload gets returned",
+				"when": "the url and the querystring match, but the user doesn't",
+				"for": "a get request",
+				"responseCode": 0
+			},
+			"": {
+				"this": "payload gets returned",
+				"when": "neither the user nor url/querystring don't match",
+				"for": "a get request",
+				"responseCode": 0
+			}
+		}
+	}
+}
