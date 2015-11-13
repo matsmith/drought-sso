@@ -1,0 +1,343 @@
+{
+	"consultationResponse": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 1,
+							"name": "About You",
+							"pageCount": 1,
+							"completeFirst": true,
+							"firstPage": 10,
+							"status": "STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						},
+						{
+							"id": 3,
+							"name": "Motivation",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 30,
+							"status": "NOT_STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						},
+						{
+							"id": 4,
+							"name": "Last Page",
+							"pageCount": 1,
+							"completeFirst": false,
+							"firstPage": 40,
+							"status": "NOT_STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 40,
+		"questionnairePage": [
+			{
+				"content": [
+					{
+						"text": "Bumper Text",
+						"type": "inline"
+					},
+					{
+						"text": "Tailored Text",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "LivesWithYouChildUnder2",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Child(ren) under 2 years old",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "LivesWithYouChild2to12",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Child(ren) between 2 and 12 years old",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "LivesWithYouTeen13to18",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Teen(s) between 13 and 18 years old",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "LivesWithYouAdults",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Other adult(s)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "LivesWithYouAlone",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I live alone.",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 1,
+						"text": "Checkbox > Question 3?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "LivesWithYouAlone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "Question 1 Text? <ul><li>Tailored Text Page</li><li>Lorem ipsum bacon solor los pantalones triceratops blah blah e pluribus unum</li><li>Point 3</li></ul>",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 10,
+				"prepopulated": false,
+				"previousPage": 0
+			},
+			{
+				"content": [
+					{
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"text": "Radio Text",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "This is the text for this question",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"text": "Introductory copy that leads into the upcoming section. Lorem ipsum dolor sit amet adipiscing consectetuer. Magna elit et tortor dolor adipiscing  amet lorem ipsum dolor magna.",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 20,
+				"prepopulated": false,
+				"previousPage": 0
+			},
+			{
+				"content": [
+					{
+						"text": "Bumper Text Section 2",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "Question 1 Section 2 Text?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 30,
+				"prepopulated": false,
+				"previousPage": 0
+			},
+			{
+				"content": [
+					{
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"text": "Radio Text Section 2",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "this is the text for this question in section 2",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"text": "End Bumper Text",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 40,
+				"prepopulated": false,
+				"previousPage": 0
+			}
+		],
+		"responseCode": 0
+	}
+}

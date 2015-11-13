@@ -1,0 +1,142 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 77878,
+							"name": "Getting Started",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_About_You_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_About_You_Tailored_Blur.jpg",
+							"status": "STARTED",
+							"pageCount": 4,
+							"completeFirst": true,
+							"firstPage": 10
+						},
+						{
+							"id": 77885,
+							"name": "Motivation",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Motivation_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Motivation_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 4,
+							"completeFirst": false,
+							"firstPage": 90
+						},
+						{
+							"id": 77886,
+							"name": "Movement",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Physical_Activity_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 140
+						},
+						{
+							"id": 77889,
+							"name": "Habits",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Eating_Habits_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Eating_Habits_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 3,
+							"completeFirst": false,
+							"firstPage": 160
+						},
+						{
+							"id": 77891,
+							"name": "Perspective",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Mental_Health_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Mental_Health_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 1,
+							"completeFirst": false,
+							"firstPage": 190
+						},
+						{
+							"id": 77893,
+							"name": "Energy",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Stress_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Stress_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 200
+						},
+						{
+							"id": 77895,
+							"name": "Support",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Support_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Support_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 220
+						},
+						{
+							"id": 77897,
+							"name": "More About You",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_More_About_You_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_More_About_You_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 240
+						}
+					]
+				}
+			]
+		},
+		"questionnairePage": {
+			"page": 10,
+			"previousPage": 0,
+			"prepopulated": false,
+			"content": [
+				{
+					"type": "inline",
+					"text": "We can help you manage your weight without sacrificing the things you love. Making simple changes in how you approach nutrition and physical activity can help you improve your overall health. By mastering skills using achievable action steps, you can work towards meeting your goals. First, we need to see if this program is a good fit for you.\u00a0"
+				},
+				{
+					"validations": {
+						"validation": [
+							{
+								"name": "required"
+							}
+						]
+					},
+					"helpText": "",
+					"choices": {
+						"choice": [
+							{
+								"text": "Yes",
+								"value": "Yes",
+								"selected": false,
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 1
+							},
+							{
+								"text": "No",
+								"value": "No",
+								"selected": false,
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 2
+							}
+						]
+					},
+					"childQuestions": null,
+					"type": "radio",
+					"text": "<span class=\"wl_skip\">Balance<\/span> is NOT intended for\u00a0<ul><li>pregnant women,<\/li><li>anyone who has or suspects they have an eating disorder,<\/li><li>anyone who is physically or medically unable to exercise, or&nbsp;<\/li><li>anyone who is unable to walk for exercise.&nbsp;<\/li><\/ul><p>If you fall into any of these four categories, you should not participate in this program. Please contact your health care provider to discuss weight management.&nbsp;<\/p>Do any of the four listed categories apply to you?",
+					"ordinal": 2
+				}
+			],
+			"isQuitPage": false
+		},
+		"finalPage": 250,
+		"responseCode": 0
+	}
+}

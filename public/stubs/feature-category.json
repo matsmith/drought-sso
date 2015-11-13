@@ -1,0 +1,75 @@
+{
+	"get": {
+		"": {
+			"/externalservices/feature-category": {
+				"feature1__featureCategories": {
+					"feature1__featureCategory": [
+						{
+							"entity1__id": 1,
+							"feature1__name": "Additional Tools"
+						},
+						{
+							"entity1__id": 2,
+							"feature1__name": "Biometrics"
+						},
+						{
+							"entity1__id": 3,
+							"feature1__name": "Branding"
+						},
+						{
+							"entity1__id": 4,
+							"feature1__name": "Custom Resources"
+						},
+						{
+							"entity1__id": 5,
+							"feature1__name": "Custom Tools"
+						},
+						{
+							"entity1__id": 6,
+							"feature1__name": "Eligibility"
+						},
+						{
+							"entity1__id": 7,
+							"feature1__name": "Emails"
+						},
+						{
+							"entity1__id": 8,
+							"feature1__name": "HRA Optionss"
+						},
+						{
+							"entity1__id": 9,
+							"feature1__name": "Miscellaneous"
+						},
+						{
+							"entity1__id": 10,
+							"feature1__name": "Print"
+						},
+						{
+							"entity1__id": 11,
+							"feature1__name": "Private Home Page"
+						},
+						{
+							"entity1__id": 12,
+							"feature1__name": "Programs/Coaching"
+						},
+						{
+							"entity1__id": 13,
+							"feature1__name": "Registration"
+						},
+						{
+							"entity1__id": 14,
+							"feature1__name": "Site Navigation"
+						},
+						{
+							"entity1__id": 15,
+							"feature1__name": "UnCategorized"
+						}
+					]
+				}
+			},
+			"": {
+				"feature1__featureCategories": ""
+			}
+		}
+	}
+}

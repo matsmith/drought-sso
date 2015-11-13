@@ -1,0 +1,34 @@
+{
+    "validations": {
+        "validation": [
+            {
+                "name": "required"
+            }
+        ]
+    },
+    "helpText": "",
+    "choices": {
+        "choice": [
+            {
+                "text": "Yes",
+                "value": "Yes",
+                "selected": false,
+                "dataDefinitionName": "BalanceGating",
+                "helpText": "",
+                "ordinal": 1
+            },
+            {
+                "text": "No",
+                "value": "No",
+                "selected": false,
+                "dataDefinitionName": "BalanceGating",
+                "helpText": "",
+                "ordinal": 2
+            }
+        ]
+    },
+    "childQuestions": null,
+    "type": "radio",
+    "text": "Question Text?",
+    "ordinal": 1
+}

@@ -1,0 +1,2529 @@
+{
+	"get": {
+		"": {
+			"": {
+				"companyConfigResponse":{
+					"company":"1",
+					"featureList":[
+						{
+							"name": "ProductRenaming",
+							"featureAttributeList":[
+								{
+									"name": "weightSkillsLongName",
+									"value": "WeightSkills"
+								}, {
+									"name": "weightSkillsShortName",
+									"value": "WeightSkills"
+								}, {
+									"name": "depressionSkillsLongName",
+									"value": "DepressionSkills"
+								}, {
+									"name": "depressionSkillsShortName",
+									"value": "DepressionSkills"
+								}, {
+									"name": "chronicConditionSkillsLongName",
+									"value": "ChronicConditionSkills"
+								}, {
+									"name": "chronicConditionSkillsShortName",
+									"value": "CronicConditionSkills"
+								}, {
+									"name": "physicalActivitySkillsLongName",
+									"value": "PhysicalActivitySkills"
+								}, {
+									"name": "physicalActivitySkillsShortName",
+									"value": "PhysicalActivitySkills"
+								}, {
+									"name": "diabetesSkillsLongName",
+									"value": "DiabetesSkills"
+								}, {
+									"name": "diabetesSkillsShortName",
+									"value": "DiabetesSkills"
+								}, {
+									"name": "stressSkillsLongName",
+									"value": "StressSkills"
+								}, {
+									"name": "stressSkillsShortName",
+									"value": "StressSkills"
+								}, {
+									"name": "smokingCessationSkillsLongName",
+									"value": "Breath"
+								}, {
+									"name": "smokingCessationSkillsShortName",
+									"value": "Breath"
+								}
+							]
+						}, {
+							"name": "PrivateLabelCustomColor",
+							"featureAttributeList":[
+								{
+									"name": "weightSkillsCustomColor1",
+									"value": "#FFDDDC"
+								}, {
+									"name": "weightSkillsCustomColor2",
+									"value": "#FFB9B9"
+								}, {
+									"name": "weightSkillsCustomColor3",
+									"value": "#FF6D6D"
+								}, {
+									"name": "weightSkillsCustomColor4",
+									"value": "#C85656"
+								}, {
+									"name": "weightSkillsCustomColor5",
+									"value": "#5A2726"
+								}, {
+									"name": "depressionSkillsCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "depressionSkillsCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "depressionSkillsCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "depressionSkillsCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "depressionSkillsCustomColor5",
+									"value": "#104C7C"
+								}, {
+									"name": "chronicConditionSkillsCustomColor1",
+									"value": "#E4F4D7"
+								}, {
+									"name": "chronicConditionSkillsCustomColor2",
+									"value": "#C3E7AA"
+								}, {
+									"name": "chronicConditionSkillsCustomColor3",
+									"value": "#96E264"
+								}, {
+									"name": "chronicConditionSkillsCustomColor4",
+									"value": "#5D852F"
+								}, {
+									"name": "chronicConditionSkillsCustomColor5",
+									"value": "#3C5A28"
+								}, {
+									"name": "physicalActivitySkillsCustomColor1",
+									"value": "#f8f8f8"
+								}, {
+									"name": "physicalActivitySkillsCustomColor2",
+									"value": "#dbdcde"
+								}, {
+									"name": "physicalActivitySkillsCustomColor3",
+									"value": "#7e8c8d"
+								}, {
+									"name": "physicalActivitySkillsCustomColor4",
+									"value": "#505a5b"
+								}, {
+									"name": "physicalActivitySkillsCustomColor5",
+									"value": "#333333"
+								}, {
+									"name": "diabetesSkillsCustomColor1",
+									"value": "#E4F4D7"
+								}, {
+									"name": "diabetesSkillsCustomColor2",
+									"value": "#C3E7AA"
+								}, {
+									"name": "diabetesSkillsCustomColor3",
+									"value": "#96E264"
+								}, {
+									"name": "diabetesSkillsCustomColor4",
+									"value": "#5D852F"
+								}, {
+									"name": "diabetesSkillsCustomColor5",
+									"value": "#3C5A28"
+								}, {
+									"name": "stressSkillsCustomColor1",
+									"value": "#FFD19F"
+								}, {
+									"name": "stressSkillsCustomColor2",
+									"value": "#FFB260"
+								}, {
+									"name": "stressSkillsCustomColor3",
+									"value": "#FF8500"
+								}, {
+									"name": "stressSkillsCustomColor4",
+									"value": "#CD5300"
+								}, {
+									"name": "stressSkillsCustomColor5",
+									"value": "#502B00"
+								}, {
+									"name": "smokingCessationSkillsCustomColor1",
+									"value": "red"
+								}, {
+									"name": "smokingCessationSkillsCustomColor2",
+									"value": "blue"
+								}, {
+									"name": "smokingCessationSkillsCustomColor3",
+									"value": "green"
+								}, {
+									"name": "smokingCessationSkillsCustomColor4",
+									"value": "yellow"
+								}, {
+									"name": "smokingCessationSkillsCustomColor5",
+									"value": "salmon"
+								}, {
+									"name": "segmentationWidgetCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "segmentationWidgetCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "segmentationWidgetCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "segmentationWidgetCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "segmentationWidgetCustomColor5",
+									"value": "#104C7C"
+								}, {
+									"name": "programListingWidgetCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "programListingWidgetCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "programListingWidgetCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "programListingWidgetCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "programListingWidgetCustomColor5",
+									"value": "#104C7C"
+								}
+							]
+						}, {
+							"name": "WeightSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						},{
+							"name": "PrivateHomePage",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								},
+								{
+								"name":"resourceBundle",
+								"value":"primaryCTA"
+								},
+							  {
+								"name":"coachingLinkResourceBundleKey",
+								"value":"coachingCtaLink"
+							  }
+							]
+						}, {
+							"name": "ChronicConditionSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "PhysicalActivitySkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "DepressionSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "DiabetesSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "StressSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "SmokingCessationSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			}
+		},
+		"weightPrivateLabel": {
+			"": {
+				"companyConfigResponse":{
+					"company":"1",
+					"featureList":[
+						{
+							"name": "ProductRenaming",
+							"featureAttributeList":[
+								{
+									"name": "weightSkillsLongName",
+									"value": "WeightSkills"
+								}, {
+									"name": "weightSkillsShortName",
+									"value": "WeightSkills"
+								}, {
+									"name": "depressionSkillsLongName",
+									"value": "DepressionSkills"
+								}, {
+									"name": "depressionSkillsShortName",
+									"value": "DepressionSkills"
+								}, {
+									"name": "chronicConditionSkillsLongName",
+									"value": "CronicConditionSkills"
+								}, {
+									"name": "chronicConditionSkillsShortName",
+									"value": "CronicConditionSkills"
+								}, {
+									"name": "physicalActivitySkillsLongName",
+									"value": "PhysicalActivitySkills"
+								}, {
+									"name": "physicalActivitySkillsShortName",
+									"value": "PhysicalActivitySkills"
+								}, {
+									"name": "diabetesSkillsLongName",
+									"value": "PhysicalActivitySkills"
+								}, {
+									"name": "diabetesSkillsShortName",
+									"value": "PhysicalActivitySkills"
+								}
+							]
+						}, {
+							"name": "PrivateLabelCss",
+							"featureAttributeList":[
+								{
+									"name": "PrivateLabelCss",
+									"value": "privateLabel.css"
+								}
+							]
+						}, {
+							"name": "PrivateLabelCustomColor",
+							"featureAttributeList":[
+								{
+									"name": "weightSkillsCustomColor1",
+									"value": "#FCDCFF"
+								}, {
+									"name": "weightSkillsCustomColor2",
+									"value": "#F9B9FF"
+								}, {
+									"name": "weightSkillsCustomColor3",
+									"value": "#F46DFF"
+								}, {
+									"name": "weightSkillsCustomColor4",
+									"value": "#BE56C8"
+								}, {
+									"name": "weightSkillsCustomColor5",
+									"value": "#56265A"
+								}, {
+									"name": "depressionSkillsCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "depressionSkillsCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "depressionSkillsCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "depressionSkillsCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "depressionSkillsCustomColor5",
+									"value": "#104C7C"
+								}, {
+									"name": "chronicConditionSkillsCustomColor1",
+									"value": "#E4F4D7"
+								}, {
+									"name": "chronicConditionSkillsCustomColor2",
+									"value": "#C3E7AA"
+								}, {
+									"name": "chronicConditionSkillsCustomColor3",
+									"value": "#96E264"
+								}, {
+									"name": "chronicConditionSkillsCustomColor4",
+									"value": "#5D852F"
+								}, {
+									"name": "chronicConditionSkillsCustomColor5",
+									"value": "#3C5A28"
+								}, {
+									"name": "physicalActivitySkillsCustomColor1",
+									"value": "#f8f8f8"
+								}, {
+									"name": "physicalActivitySkillsCustomColor2",
+									"value": "#dbdcde"
+								}, {
+									"name": "physicalActivitySkillsCustomColor3",
+									"value": "#7e8c8d"
+								}, {
+									"name": "physicalActivitySkillsCustomColor4",
+									"value": "#505a5b"
+								}, {
+									"name": "physicalActivitySkillsCustomColor5",
+									"value": "#333333"
+								}, {
+									"name": "segmentationWidgetCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "segmentationWidgetCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "segmentationWidgetCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "segmentationWidgetCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "segmentationWidgetCustomColor5",
+									"value": "#104C7C"
+								}, {
+									"name": "programListingWidgetCustomColor1",
+									"value": "#D3F0FE"
+								}, {
+									"name": "programListingWidgetCustomColor2",
+									"value": "#A7E0FE"
+								}, {
+									"name": "programListingWidgetCustomColor3",
+									"value": "#3395E2"
+								}, {
+									"name": "programListingWidgetCustomColor4",
+									"value": "#2270AE"
+								}, {
+									"name": "programListingWidgetCustomColor5",
+									"value": "#104C7C"
+								}
+							]
+						}, {
+							"name": "WeightSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "ChronicConditionSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "false"
+								}
+							]
+						}, {
+							"name": "PhysicalActivitySkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "DepressionSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}, {
+							"name": "DiabetesSkillsTool",
+							"featureAttributeList": [
+								{
+									"name": "enabled",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			}
+		},
+		"companyConfigFailure": {
+			"": {
+				"companyConfigResponse":{
+					"responseCode":1000,
+					"responseDesc":"Argument Not Found"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"": {
+			  "companyConfigResponse":{
+				"company":"10016",
+				"featureList":[
+				  {
+					"name":"PrivateLabelCss"
+				  },
+				  {
+					"name":"ProductRenaming",
+					"featureAttributeList":[
+					  {
+						"name":"nutritionSkillsLongName",
+						"value":"Nourish"
+					  },
+					  {
+						"name":"nutritionSkillsShortName",
+						"value":"Nourish"
+					  },
+					  {
+						"name":"smokingCessationSkillsLongName",
+						"value":"Breathe"
+					  },
+					  {
+						"name":"smokingCessationSkillsShortName",
+						"value":"Breathe"
+					  },
+					  {
+						"name":"achieveLongName",
+						"value":"Achieve for Cholesterol"
+					  },
+					  {
+						"name":"achieveShortName",
+						"value":"Achieve"
+					  },
+					  {
+						"name":"backLongName",
+						"value":"Care for Your Back"
+					  },
+					  {
+						"name":"backShortName",
+						"value":"Care for Your Back"
+					  },
+					  {
+						"name":"balanceLongName",
+						"value":"Balance"
+					  },
+					  {
+						"name":"balanceShortName",
+						"value":"Balance"
+					  },
+					  {
+						"name":"bingeLongName",
+						"value":"Binge Eating"
+					  },
+					  {
+						"name":"bingeShortName",
+						"value":"Binge Eating"
+					  },
+					  {
+						"name":"breatheLongName",
+						"value":"Breathe"
+					  },
+					  {
+						"name":"breatheShortName",
+						"value":"Breathe"
+					  },
+					  {
+						"name":"checkinLongName",
+						"value":"Check-in"
+					  },
+					  {
+						"name":"checkinShortName",
+						"value":"check-in"
+					  },
+					  {
+						"name":"chronicConditionSkillsLongName",
+						"value":"Care for Your Health"
+					  },
+					  {
+						"name":"chronicConditionSkillsShortName",
+						"value":"Care for Your Health"
+					  },
+					  {
+						"name":"controlLongName",
+						"value":"Care for Blood Pressure"
+					  },
+					  {
+						"name":"controlShortName",
+						"value":"Care for Blood Pressure"
+					  },
+					  {
+						"name":"depressionLongName",
+						"value":"Care for Depression"
+					  },
+					  {
+						"name":"depressionShortName",
+						"value":"Care for Depression"
+					  },
+					  {
+						"name":"depressionSkillsLongName",
+						"value":"Care for Depression"
+					  },
+					  {
+						"name":"depressionSkillsShortName",
+						"value":"Care for Depression"
+					  },
+					  {
+						"name":"diabetesLongName",
+						"value":"Care for Diabetes"
+					  },
+					  {
+						"name":"diabetesShortName",
+						"value":"Care for Diabetes"
+					  },
+					  {
+						"name":"diabetesSkillsLongName",
+						"value":"Care for Diabetes"
+					  },
+					  {
+						"name":"diabetesSkillsShortName",
+						"value":"Care for Diabetes"
+					  },
+					  {
+						"name":"healthLongName",
+						"value":"Care for Your Health"
+					  },
+					  {
+						"name":"healthShortName",
+						"value":"Care for Your Health"
+					  },
+					  {
+						"name":"insomniaLongName",
+						"value":"Dream"
+					  },
+					  {
+						"name":"insomniaShortName",
+						"value":"Dream"
+					  },
+					  {
+						"name":"moveLongName",
+						"value":"Move"
+					  },
+					  {
+						"name":"moveShortName",
+						"value":"Move"
+					  },
+					  {
+						"name":"nourishLongName",
+						"value":"Nourish"
+					  },
+					  {
+						"name":"nourishShortName",
+						"value":"Nourish"
+					  },
+					  {
+						"name":"painLongName",
+						"value":"Care for Pain"
+					  },
+					  {
+						"name":"painShortName",
+						"value":"Care for Pain"
+					  },
+					  {
+						"name":"physicalActivitySkillsLongName",
+						"value":"Move"
+					  },
+					  {
+						"name":"physicalActivitySkillsShortName",
+						"value":"Move"
+					  },
+					  {
+						"name":"relaxLongName",
+						"value":"Relax"
+					  },
+					  {
+						"name":"relaxShortName",
+						"value":"Relax"
+					  },
+					  {
+						"name":"segmentationLongName",
+						"value":"Segmentation"
+					  },
+					  {
+						"name":"segmentationShortName",
+						"value":"Segmentation"
+					  },
+					  {
+						"name":"snapshotLongName",
+						"value":"Snapshot"
+					  },
+					  {
+						"name":"snapshotShortName",
+						"value":"Snapshot"
+					  },
+					  {
+						"name":"stressSkillsLongName",
+						"value":"Relax"
+					  },
+					  {
+						"name":"stressSkillsShortName",
+						"value":"Relax"
+					  },
+					  {
+						"name":"succeedLongName",
+						"value":"Succeed"
+					  },
+					  {
+						"name":"succeedShortName",
+						"value":"Succeed"
+					  },
+					  {
+						"name":"weightSkillsLongName",
+						"value":"Balance"
+					  },
+					  {
+						"name":"weightSkillsShortName",
+						"value":"Balance"
+					  },
+					  {
+						"name":"heartHealthSkillsLongName",
+						"value":"HeartHealth"
+					  },
+					  {
+						"name":"heartHealthSkillsShortName",
+						"value":"HEARTHEALTH"
+					  },
+					  {
+						"name":"assessLongName",
+						"value":"My Health Discovery"
+					  },
+					  {
+						"name":"assessShortName",
+						"value":"My Health Discovery"
+					  },
+					  {
+						"name":"thrombosisLongName",
+						"value":"Thrombosis"
+					  },
+					  {
+						"name":"thrombosisShortName",
+						"value":"Thrombosis"
+					  },
+					  {
+						"name":"pediatricLongName",
+						"value":"Pediatric Health Risk Assessment"
+					  },
+					  {
+						"name":"pediatricShortName",
+						"value":"Pediatric HRA"
+					  }
+					]
+				  },
+				  {
+					"name":"Foodfight",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"Bmicalc",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"PrivateLabelTheme",
+					"featureAttributeList":[
+					  {
+						"name":"myHealthDiscoveryTheme",
+						"value":"telly"
+					  }
+					]
+				  },
+				  {
+					"name":"ThrombosisTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"Retake",
+					"featureAttributeList":[
+					  {
+						"name":"RetakeScreenEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"RetakeByDuration",
+						"value":"365"
+					  }
+					]
+				  },
+				  {
+					"name":"HomeFooterSubhead",
+					"featureAttributeList":[
+					  {
+						"name":"contentId",
+						"value":"250"
+					  }
+					]
+				  },
+				  {
+					"name":"WeightSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"IncentiveLogicServices",
+					"featureAttributeList":[
+					  {
+						"name":"cf_enabled",
+						"value":"false"
+					  },
+					  {
+						"name":"title",
+						"value":"My Rewards"
+					  },
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"ChronicConditionSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"CalculatorsAndActivities",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"StretchingLibrary",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"SmokingCessationSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"SelectReportingCompany",
+					"featureAttributeList":[
+					  {
+						"name":"label",
+						"value":"Location Code"
+					  }
+					]
+				  },
+				  {
+					"name":"Twilio",
+					"featureAttributeList":[
+					  {
+						"name":"callbackEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"accessToken",
+						"value":"871e4073cce78cb4a04f50645d7f003d"
+					  },
+					  {
+						"name":"phoneNumber",
+						"value":"+17346060553"
+					  },
+					  {
+						"name":"accountSid",
+						"value":"AC064dc051ab1ccaa24927b06ca881b8d6"
+					  }
+					]
+				  },
+				  {
+					"name":"PhysicalActivitySkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"CustomerType",
+					"featureAttributeList":[
+					  {
+						"name":"typeCode",
+						"value":"HP"
+					  }
+					]
+				  },
+				  {
+					"name":"PrivateHomePage",
+					"featureAttributeList":[
+						{
+							"name": "enabled",
+							"value": "true"
+						},
+					  {
+						"name":"resourceBundle",
+						"value":"primaryCTA"
+					  },
+					  {
+						"name":"displayCoachingInMessaging",
+						"value":"true"
+					  },
+					  {
+						"name":"renameCoachingMessagingButton",
+						"value":"Coaching"
+					  },
+					  {
+						"name":"coachingLinkResourceBundleKey",
+						"value":"coachingCtaLink"
+					  }
+					]
+				  },
+				  {
+					"name":"HelpSearch",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"ExerciseLibrary",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"Customerlogos",
+					"featureAttributeList":[
+					  {
+						"name":"logo1url",
+						"value":"https://mi-release-test-media.healthmedia.com//media/images/healthmedia/logo/logo-hm.png"
+					  }
+					]
+				  },
+				  {
+					"name":"Eligibility",
+					"featureAttributeList":[
+					  {
+						"name":"disableBirthDateCheck",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"Print",
+					"featureAttributeList":[
+					  {
+						"name":"secondPostImportAction",
+						"value":"NONE"
+					  },
+					  {
+						"name":"tertiaryPostImportAction",
+						"value":"NONE"
+					  },
+					  {
+						"name":"allowMultiplePostImportActions",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryPostImportAction",
+						"value":"SFTP_PDF"
+					  }
+					]
+				  },
+				  {
+					"name":"MedicalLibrary",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"externalSource",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"StressSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"StepByStep",
+					"featureAttributeList":[
+					  {
+						"name":"iPhoneEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"trackerLongName",
+						"value":"Step by Step"
+					  },
+					  {
+						"name":"enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"trackerShortName",
+						"value":"Step By Step"
+					  }
+					]
+				  },
+				  {
+					"name":"DepressionSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"OngoingRecruitment",
+					"featureAttributeList":[
+					  {
+						"name":"embedAccessCode",
+						"value":"false"
+					  },
+					  {
+						"name":"criteriaRules",
+						"value":"Default"
+					  },
+					  {
+						"name":"analyticsEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"recruitmentSource",
+						"value":"BOTH"
+					  },
+					  {
+						"name":"priorityList",
+						"value":"breathe,balance,weightSkills,relax,stressSkills,move,physicalActivitySkills,depression,depressionSkills,insomnia,binge,diabetes,diabetesSkills,achieve,control,pain,back,health,chronicConditionSkills,nourish"
+					  },
+					  {
+						"name":"campaignName",
+						"value":"DefaultRecruitment"
+					  },
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"SessionTimeOutPage",
+					"featureAttributeList":[
+					  {
+						"name":"sameWindowActionButtonText",
+						"value":"Return Home"
+					  },
+					  {
+						"name":"newWindowContentId",
+						"value":"91"
+					  },
+					  {
+						"name":"sameWindowContentId",
+						"value":"90"
+					  },
+					  {
+						"name":"newWindowActionButtonText",
+						"value":"Close Window"
+					  },
+					  {
+						"name":"logoutButtonText",
+						"value":"Logout Now"
+					  }
+					]
+				  },
+				  {
+					"name":"Portionsizetool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"FooterLinks",
+					"featureAttributeList":[
+					  {
+						"name":"privacyPolicyURL",
+						"value":"/mhmsite/privacy-statement"
+					  },
+					  {
+						"name":"helpEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"helpLinkResourceBundleKey",
+						"value":"helpLink"
+					  },
+					  {
+						"name":"contactUsEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"termsLinkResourceBundleKey",
+						"value":"termsLink"
+					  },
+					  {
+						"name":"termsOfUseTitle",
+						"value":"Terms of Use"
+					  },
+					  {
+						"name":"feedBackTitle",
+						"value":"Feedback"
+					  },
+					  {
+						"name":"termsOfUseEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"privacyPolicyEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"termsOfUseURL",
+						"value":"/mhmsite/terms-of-use"
+					  },
+					  {
+						"name":"privacyPolicyTitle",
+						"value":"Privacy Statement"
+					  },
+					  {
+						"name":"privacyLinkResourceBundleKey",
+						"value":"privacyLink"
+					  },
+					  {
+						"name":"helpTitle",
+						"value":"Help"
+					  },
+					  {
+						"name":"contactUsURL",
+						"value":"contact-us"
+					  },
+					  {
+						"name":"feedBackURL",
+						"value":"feedback"
+					  },
+					  {
+						"name":"feedBackEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"resourceBundle",
+						"value":"primaryNavigation"
+					  },
+					  {
+						"name":"helpURL",
+						"value":"/mhmsite/help"
+					  },
+					  {
+						"name":"contactUsTitle",
+						"value":"Contact Us"
+					  }
+					]
+				  },
+				  {
+					"name":"Sitedomain",
+					"featureAttributeList":[
+					  {
+						"name":"legacySiteUrl",
+						"value":"https://dfr02-base.healthmedia.com/"
+					  },
+					  {
+						"name":"siteUrl",
+						"value":"https://mi-release-test-coaching.healthmedia.com/mhmsite"
+					  }
+					]
+				  },
+				  {
+					"name":"Top Nav Renaming",
+					"featureAttributeList":[
+					  {
+						"name":"Home Link Name",
+						"value":"Home"
+					  },
+					  {
+						"name":"Coaching Link Name",
+						"value":"Coaching"
+					  },
+					  {
+						"name":"Resources Link Name",
+						"value":"Resources"
+					  },
+					  {
+						"name":"Tools Link Name",
+						"value":"Tools"
+					  }
+					]
+				  },
+				  {
+					"name":"Healthnews",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"SSOLogOutPage",
+					"featureAttributeList":[
+					  {
+						"name":"newWindowActionButtonText",
+						"value":"Return Home"
+					  },
+					  {
+						"name":"sameWindowActionButtonText",
+						"value":"Return Home"
+					  },
+					  {
+						"name":"newWindowContentId",
+						"value":"91"
+					  },
+					  {
+						"name":"sameWindowContentId",
+						"value":"90"
+					  }
+					]
+				  },
+				  {
+					"name":"Eligibility Export",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"RelaxationLibrary",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"TimeManagementTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"RefillReminder",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"Account",
+					"featureAttributeList":[
+					  {
+						"name":"secondaryEmailRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"emailRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"locationDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"transgenderEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"phoneRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"secondaryPhoneDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"zipRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"pinValidationEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryEmailDisplayedAtRegistration",
+						"value":"true"
+					  },
+					  {
+						"name":"secondaryPhoneRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryEmailDisplayed",
+						"value":"true"
+					  },
+					  {
+						"name":"registrationProfileWalkThroughEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryEmailUnlock",
+						"value":"false"
+					  },
+					  {
+						"name":"locationRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"hideSnapshot",
+						"value":"false"
+					  },
+					  {
+						"name":"addressDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryPhoneUnlock",
+						"value":"false"
+					  },
+					  {
+						"name":"addressRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryPhoneDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"pinValidationPrimaryMethod",
+						"value":"PIN"
+					  },
+					  {
+						"name":"zipDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"secondaryEmailDisplayed",
+						"value":"false"
+					  },
+					  {
+						"name":"participantAuthExpanded",
+						"value":"false"
+					  },
+					  {
+						"name":"allowRegistrationUnder18Years",
+						"value":"false"
+					  },
+					  {
+						"name":"healthNewsEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryEmailRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"primaryPhoneRequired",
+						"value":"false"
+					  },
+					  {
+						"name":"addressUnlock",
+						"value":"false"
+					  },
+					  {
+						"name":"ssoGenderUnlock",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"PrivateLabelCustomColor",
+					"featureAttributeList":[
+					  {
+						"name":"chronicConditionSkillsCustomColor5",
+						"value":"#420056"
+					  },
+					  {
+						"name":"chronicConditionSkillsCustomColor1",
+						"value":"#F0B9FD"
+					  },
+					  {
+						"name":"chronicConditionSkillsCustomColor2",
+						"value":"#E294F9"
+					  },
+					  {
+						"name":"chronicConditionSkillsCustomColor3",
+						"value":"#CA5CEB"
+					  },
+					  {
+						"name":"chronicConditionSkillsCustomColor4",
+						"value":"#A22EC5"
+					  },
+					  {
+						"name":"diabetesSkillsCustomColor5",
+						"value":"#540036"
+					  },
+					  {
+						"name":"diabetesSkillsCustomColor4",
+						"value":"#d42f9d"
+					  },
+					  {
+						"name":"diabetesSkillsCustomColor3",
+						"value":"#df62b5"
+					  },
+					  {
+						"name":"diabetesSkillsCustomColor2",
+						"value":"#eca1d3"
+					  },
+					  {
+						"name":"diabetesSkillsCustomColor1",
+						"value":"#f9e0f0"
+					  },
+					  {
+						"name":"smokingCessationSkillsCustomColor4",
+						"value":"#00856a"
+					  },
+					  {
+						"name":"smokingCessationSkillsCustomColor3",
+						"value":"#62cdb6"
+					  },
+					  {
+						"name":"smokingCessationSkillsCustomColor5",
+						"value":"#005444"
+					  },
+					  {
+						"name":"smokingCessationSkillsCustomColor2",
+						"value":"#b0e6da"
+					  },
+					  {
+						"name":"smokingCessationSkillsCustomColor1",
+						"value":"#d8f2ed"
+					  },
+					  {
+						"name":"programListingWidgetCustomColor3",
+						"value":"#59C6FF"
+					  },
+					  {
+						"name":"programListingWidgetCustomColor2",
+						"value":"#A7E0FE"
+					  },
+					  {
+						"name":"programListingWidgetCustomColor1",
+						"value":"#D3F0FE"
+					  },
+					  {
+						"name":"programListingWidgetCustomColor5",
+						"value":"#235065"
+					  },
+					  {
+						"name":"programListingWidgetCustomColor4",
+						"value":"#3182AF"
+					  },
+					  {
+						"name":"stressSkillsCustomColor4",
+						"value":"#ac3fb1"
+					  },
+					  {
+						"name":"stressSkillsCustomColor5",
+						"value":"#47114a"
+					  },
+					  {
+						"name":"stressSkillsCustomColor2",
+						"value":"#daaade"
+					  },
+					  {
+						"name":"stressSkillsCustomColor3",
+						"value":"#c272c8"
+					  },
+					  {
+						"name":"stressSkillsCustomColor1",
+						"value":"#f3e3f4"
+					  },
+					  {
+						"name":"weightSkillsCustomColor4",
+						"value":"#CD422C"
+					  },
+					  {
+						"name":"weightSkillsCustomColor5",
+						"value":"#5B1004"
+					  },
+					  {
+						"name":"weightSkillsCustomColor2",
+						"value":"#FFB9B9"
+					  },
+					  {
+						"name":"weightSkillsCustomColor3",
+						"value":"#FF5C43"
+					  },
+					  {
+						"name":"weightSkillsCustomColor1",
+						"value":"#FFDDDC"
+					  },
+					  {
+						"name":"depressionSkillsCustomColor4",
+						"value":"#3182AE"
+					  },
+					  {
+						"name":"depressionSkillsCustomColor5",
+						"value":"#245066"
+					  },
+					  {
+						"name":"depressionSkillsCustomColor2",
+						"value":"#A5E1FD"
+					  },
+					  {
+						"name":"depressionSkillsCustomColor3",
+						"value":"#5AC6FF"
+					  },
+					  {
+						"name":"depressionSkillsCustomColor1",
+						"value":"#D3F0FE"
+					  },
+					  {
+						"name":"thrombosisCustomColor2",
+						"value":"#ff00ee"
+					  },
+					  {
+						"name":"thrombosisCustomColor3",
+						"value":"#62cdb6"
+					  },
+					  {
+						"name":"segmentationWidgetCustomColor1",
+						"value":"#D3F0FE"
+					  },
+					  {
+						"name":"thrombosisCustomColor1",
+						"value":"#00ff11"
+					  },
+					  {
+						"name":"segmentationWidgetCustomColor4",
+						"value":"#3182AF"
+					  },
+					  {
+						"name":"segmentationWidgetCustomColor5",
+						"value":"#235065"
+					  },
+					  {
+						"name":"thrombosisCustomColor4",
+						"value":"#00856a"
+					  },
+					  {
+						"name":"segmentationWidgetCustomColor2",
+						"value":"#A7E0FE"
+					  },
+					  {
+						"name":"thrombosisCustomColor5",
+						"value":"#005444"
+					  },
+					  {
+						"name":"segmentationWidgetCustomColor3",
+						"value":"#59C6FF"
+					  },
+					  {
+						"name":"nutritionSkillsCustomColor5",
+						"value":"#3e4416"
+					  },
+					  {
+						"name":"nutritionSkillsCustomColor4",
+						"value":"#6f8000"
+					  },
+					  {
+						"name":"nutritionSkillsCustomColor3",
+						"value":"#a2b720"
+					  },
+					  {
+						"name":"nutritionSkillsCustomColor2",
+						"value":"#d0db8f"
+					  },
+					  {
+						"name":"nutritionSkillsCustomColor1",
+						"value":"#e8edc7"
+					  },
+					  {
+						"name":"physicalActivitySkillsCustomColor1",
+						"value":"#FFD19F"
+					  },
+					  {
+						"name":"physicalActivitySkillsCustomColor3",
+						"value":"#FF8400"
+					  },
+					  {
+						"name":"physicalActivitySkillsCustomColor2",
+						"value":"#FFB260"
+					  },
+					  {
+						"name":"physicalActivitySkillsCustomColor5",
+						"value":"#522A00"
+					  },
+					  {
+						"name":"physicalActivitySkillsCustomColor4",
+						"value":"#CE5200"
+					  }
+					]
+				  },
+				  {
+					"name":"AppointmentReminder",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"DateRangeRecruitment",
+					"featureAttributeList":[
+					  {
+						"name":"priorityList",
+						"value":"breathe,balance,weightSkills,relax,stressSkills,move,physicalActivitySkills,depression,depressionSkills,insomnia,binge,diabetes,diabetesSkills,achieve,control,pain,back,health,chronicConditionSkills,nourish"
+					  },
+					  {
+						"name":"enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"analyticsEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"embedAccessCode",
+						"value":"false"
+					  },
+					  {
+						"name":"criteriaRules",
+						"value":"Default"
+					  }
+					]
+				  },
+				  {
+					"name":"AddRegistrationExternalIds",
+					"featureAttributeList":[
+					  {
+						"name":"umemberid.required",
+						"value":"false"
+					  },
+					  {
+						"name":"employeeid.label",
+						"value":"Employee ID"
+					  },
+					  {
+						"name":"employeeid.required",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"Gina",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"CustomTools",
+					"featureAttributeList":[
+					  {
+						"name":"subHeaderContentId",
+						"value":"51"
+					  }
+					]
+				  },
+				  {
+					"name":"Cookbook",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"TopNavigation",
+					"featureAttributeList":[
+					  {
+						"name":"logoutResourceBundleKey",
+						"value":"logOutLink"
+					  },
+					  {
+						"name":"myProfile.url",
+						"value":"/mhmsite/my-profile"
+					  },
+					  {
+						"name":"tools.url",
+						"value":"/mhmsite/health-tools"
+					  },
+					  {
+						"name":"userCentricToDoListResourceBundleKey",
+						"value":"userCentricToDoList"
+					  },
+					  {
+						"name":"coaching.url",
+						"value":"/mhmsite/program-coaching/digital-health-coaching"
+					  },
+					  {
+						"name":"home.label",
+						"value":"Home"
+					  },
+					  {
+						"name":"todolist.url",
+						"value":"todolist"
+					  },
+					  {
+						"name":"custom3LabelResourceBundleKey",
+						"value":"custom3Link"
+					  },
+					  {
+						"name":"incentivePointsShown",
+						"value":"true"
+					  },
+					  {
+						"name":"todolist.label",
+						"value":"To Do List"
+					  },
+					  {
+						"name":"resourceBundle",
+						"value":"primaryNavigation"
+					  },
+					  {
+						"name":"succeed.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"custom1.enabled",
+						"value":"false"
+					  },
+					  {
+						"name":"resources.url",
+						"value":"/mhmsite/resources"
+					  },
+					  {
+						"name":"coachingLabelResourceBundleKey",
+						"value":"coachingLink"
+					  },
+					  {
+						"name":"myProfileResourceBundleKey",
+						"value":"profileLink"
+					  },
+					  {
+						"name":"home.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"resources.label",
+						"value":"Resources"
+					  },
+					  {
+						"name":"coaching.label",
+						"value":"Coaching"
+					  },
+					  {
+						"name":"assess.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"custom2.enabled",
+						"value":"false"
+					  },
+					  {
+						"name":"custom1LabelResourceBundleKey",
+						"value":"custom1Link"
+					  },
+					  {
+						"name":"resources.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"coaching.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"homeLabelResourceBundleKey",
+						"value":"homeLink"
+					  },
+					  {
+						"name":"home.url",
+						"value":"/mhmsite/home"
+					  },
+					  {
+						"name":"tools.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"custom3.enabled",
+						"value":"false"
+					  },
+					  {
+						"name":"resourcesLabelResourceBundleKey",
+						"value":"resourcesLink"
+					  },
+					  {
+						"name":"toolsLabelResourceBundleKey",
+						"value":"toolsLink"
+					  },
+					  {
+						"name":"custom2LabelResourceBundleKey",
+						"value":"custom2Link"
+					  },
+					  {
+						"name":"snapshot.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"todolist.enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"tools.label",
+						"value":"Tools"
+					  }
+					]
+				  },
+				  {
+					"name":"ForgotUsername",
+					"featureAttributeList":[
+					  {
+						"name":"displayEmployeeId",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"HRA Renaming",
+					"featureAttributeList":[
+					  {
+						"name":"HRA Long Name",
+						"value":"Health Risk Assessment"
+					  },
+					  {
+						"name":"HRA Short Name",
+						"value":"HRA"
+					  }
+					]
+				  },
+				  {
+					"name":"Healthresources",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"TrackYourHealth",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"retryMax",
+						"value":"3"
+					  },
+					  {
+						"name":"baseUrl",
+						"value":"http://wnptest.tactiohealthcloud.com"
+					  },
+					  {
+						"name":"username",
+						"value":"wpAdmin"
+					  },
+					  {
+						"name":"clientId",
+						"value":"75dfab8b42274f6eb7f0684227d1acba"
+					  },
+					  {
+						"name":"clientSecret",
+						"value":"aa68eca654a94dbea68892a22a7361ac"
+					  },
+					  {
+						"name":"password",
+						"value":"eWLxu2yYy8gQgC"
+					  }
+					]
+				  },
+				  {
+					"name":"CustomResources",
+					"featureAttributeList":[
+					  {
+						"name":"subHeaderContentId",
+						"value":"55"
+					  }
+					]
+				  },
+				  {
+					"name":"HPI",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"CustomerPortal",
+					"featureAttributeList":[
+					  {
+						"name":"siteOpenedInNewWindow",
+						"value":"false"
+					  },
+					  {
+						"name":"returnHomeButtonText",
+						"value":"Return Home"
+					  },
+					  {
+						"name":"wrapperLogoutButtonText",
+						"value":"Logout"
+					  }
+					]
+				  },
+				  {
+					"name":"QSets",
+					"featureAttributeList":[
+					  {
+						"name":"snapshotBiometricsEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"bingeEatingEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"weightManagementEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"anxietyEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"cultureOfHealthEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"alcoholUseEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"painEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"breastCancerRiskEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"nutritionEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"tobaccoEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"physicalActivityEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"mentalHealthEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"drugUseEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"sexualBehaviorEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"lungCancerRiskEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"sleeplessnessEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"heartDiseaseRiskEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"injuryPreventionWithFirearmsEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"snapshotPainEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"biometricsEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"snapshotCultureOfHealthEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"snapshotBingeEatingEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"snapshotSleeplessnessEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"skinProtectionEnabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"HomeFooterMessage2",
+					"featureAttributeList":[
+					  {
+						"name":"videoUrl",
+						"value":"120369781"
+					  },
+					  {
+						"name":"videoImageUrl",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/healthmedia/video/video-people-profiles-thumb.jpg"
+					  },
+					  {
+						"name":"subHeaderContentId",
+						"value":"9"
+					  },
+					  {
+						"name":"videoTranscriptContentId",
+						"value":"11"
+					  },
+					  {
+						"name":"textContentId",
+						"value":"10"
+					  }
+					]
+				  },
+				  {
+					"name":"HomeFooterMessage1",
+					"featureAttributeList":[
+					  {
+						"name":"videoImageUrl",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/healthmedia/video/video-what-we-do-thumb.jpg"
+					  },
+					  {
+						"name":"videoTranscriptContentId",
+						"value":"8"
+					  },
+					  {
+						"name":"textContentId",
+						"value":"7"
+					  },
+					  {
+						"name":"videoUrl",
+						"value":"121791632"
+					  },
+					  {
+						"name":"subHeaderContentId",
+						"value":"6"
+					  }
+					]
+				  },
+				  {
+					"name":"CompanyRenaming",
+					"featureAttributeList":[
+					  {
+						"name":"companyName",
+						"value":"J&amp;J Health and Wellness Solutions"
+					  }
+					]
+				  },
+				  {
+					"name":"ProductResources",
+					"featureAttributeList":[
+					  {
+						"name":"aboutEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"furtherReadingEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"SMARTGoalsEnabled",
+						"value":"true"
+					  },
+					  {
+						"name":"productVideoAudioPDFEnabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"StandardEmail",
+					"featureAttributeList":[
+					  {
+						"name":"analyticsEnabled",
+						"value":"false"
+					  },
+					  {
+						"name":"enableWelcomeEmail",
+						"value":"false"
+					  },
+					  {
+						"name":"campaignName",
+						"value":"StandardEmail"
+					  },
+					  {
+						"name":"embedAccessCode",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"Site Renaming",
+					"featureAttributeList":[
+					  {
+						"name":"Site Name",
+						"value":"Skills for Life"
+					  }
+					]
+				  },
+				  {
+					"name":"JiffEventTracking",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"CustomerService",
+					"featureAttributeList":[
+					  {
+						"name":"phoneNumber",
+						"value":"+1-866-433-9284"
+					  }
+					]
+				  },
+				  {
+					"name":"DiabetesSkillsTool",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"QuestionnaireSectionBackgroundImages",
+					"featureAttributeList":[
+					  {
+						"name":"section98425BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_General_Health_Clear.jpg"
+					  },
+					  {
+						"name":"section77985BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section98429BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_Eating_History_Clear.jpg"
+					  },
+					  {
+						"name":"section86066BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_Reactions_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77986BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86065BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_Stress_Causes_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77995BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_Social_Support_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77993BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_Treatment_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77897BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section98580BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_Support_Clear.jpg"
+					  },
+					  {
+						"name":"section77906BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77994BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_Habits_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86058BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77997BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_More_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93382BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Getting_Started_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93377BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Your_Habits_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91764BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_Work_Clear.jpg"
+					  },
+					  {
+						"name":"section98428BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_Motivational_Clear.jpg"
+					  },
+					  {
+						"name":"section85981BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Health_Care_Team_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93381BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Your_Overall_Health_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93376BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Your_Support_Network_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77990BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section98423BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_WPAI_Misc_Clear.jpg"
+					  },
+					  {
+						"name":"section77984BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91762BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_Motivation_Clear.jpg"
+					  },
+					  {
+						"name":"section85979BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Confidence_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section81010BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77902BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93375BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_More_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section85989BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Emotions_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section80905BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93379BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Your_Mindset_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77889BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77991BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91761BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_Quitting_Clear.jpg"
+					  },
+					  {
+						"name":"section85847BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Your_Numbers_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section85980BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Medications_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86067BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_Work_and_Health_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91760BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_Habits_Clear.jpg"
+					  },
+					  {
+						"name":"section77893BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section98424BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_Binge_Eating_Clear.jpg"
+					  },
+					  {
+						"name":"section77903BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section93519BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/thrombosis/Thrombosis_Your_Medications_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86059BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section85785BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_The_Basics_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section85982BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_Lifestyle_Management_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91763BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_Support_Clear.jpg"
+					  },
+					  {
+						"name":"section77988BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77987BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Medication_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86009BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/diabetesSkills/Diabetes_WPAI_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77886BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77895BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77992BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section78082BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77878BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section86064BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/stressSkills/Relax_Perspective_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77904BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77905BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77885BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77996BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/depressionSkills/Depression_Symptoms_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77891BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section77989BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg"
+					  },
+					  {
+						"name":"section91759BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/smokingCessationSkills/Breathe_YouandYourHealth_Clear.jpg"
+					  },
+					  {
+						"name":"section98559BackgroundImage",
+						"value":"https://mi-release-test-media.healthmedia.com/media/images/consultation/background/nutritionSkills/Nourish_BG_Mental_Health_Clear.jpg"
+					  }
+					]
+				  },
+				  {
+					"name":"Language",
+					"featureAttributeList":[
+					  {
+						"name":"esEnabled",
+						"value":"true"
+					  }
+					]
+				  },
+				  {
+					"name":"OverviewLandingPage",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"false"
+					  }
+					]
+				  },
+				  {
+					"name":"NonAuthenticationPage",
+					"featureAttributeList":[
+					  {
+						"name":"sameWindowActionButtonText",
+						"value":"Return Home"
+					  },
+					  {
+						"name":"newWindowActionButtonText",
+						"value":"Return Home"
+					  }
+					]
+				  },
+				  {
+					"name":"CoachingSessionsPage",
+					"featureAttributeList":[
+					  {
+						"name":"enabled",
+						"value":"true"
+					  },
+					  {
+						"name":"widgetBasedCoachingSelection",
+						"value":"true"
+					  },
+					  {
+						"name":"productListOrder",
+						"value":"balance,weightSkills,move,physicalActivitySkills,nourish,relax,breathe,depression,depressionSkills,insomnia,binge,control,achieve,health,chronicConditionSkills,diabetes,back,pain"
+					  }
+					]
+				  },
+				  {
+					"name":"PrivacyPolicy",
+					"featureAttributeList":[
+					  {
+						"name":"PrivacyPolicyContentId",
+						"value":"1"
+					  },
+					  {
+						"name":"PrivacyPolicyLaunchDate",
+						"value":"12/09/2014"
+					  }
+					]
+				  },
+				  {
+					"name":"TermsOfUse",
+					"featureAttributeList":[
+					  {
+						"name":"TermsOfUseContentId",
+						"value":"2"
+					  },
+					  {
+						"name":"TermsOfUseLaunchDate",
+						"value":"12/09/2014"
+					  }
+					]
+				  },
+				  {
+					"name":"ParticipantConsent",
+					"featureAttributeList":[
+					  {
+						"name":"ParticipantConsentContentId",
+						"value":"3"
+					  },
+					  {
+						"name":"ParticipantConsentLaunchDate",
+						"value":"12/09/2014"
+					  }
+					]
+				  }
+				],
+				"responseCode":0
+			  }
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"availableProductResponse": {
+		"product": [
+			{
+				"enrollmentMethod": "WEB",
+				"latestProductEnrollment": true,
+				"name": "physicalActivitySkills",
+				"productEnrollmentId": 6915,
+				"productType": "SKILL",
+				"matchedSurveyProductStatus":"NOT_APPLICABLE",
+				"questionnaire": {
+					"componentType": "BASELINE",
+					"startDate": "2014-08-07T14:06:53.000-0400",
+					"status": {
+						"statusCode": "QUESTIONNAIRE_STARTED",
+						"statusDate": "2014-08-07T14:06:53.000-0400"
+					}
+				},
+				"retakeAvailable": false,
+				"status": {
+					"statusCode": "ENROLLED_IN_PRODUCT",
+					"statusDate": "2014-08-07T14:03:50.000-0400"
+				},
+				"version": "1"
+			}
+		],
+		"productsAvailable": true,
+		"responseCode": 0
+	}
+}

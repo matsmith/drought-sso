@@ -1,0 +1,376 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name":"COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Tailored_Blur.jpg",
+							"id": 77902,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 80,
+							"name": "Goals",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Tailored_Blur.jpg",
+							"id": 77903,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Challenges",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Tailored_Blur.jpg",
+							"id": 77904,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 100,
+							"name": "Motivation",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Tailored_Blur.jpg",
+							"id": 77905,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Tailored_Blur.jpg",
+							"id": 77906,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 120,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Tailored_Blur.jpg",
+							"id": 81010,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Tailored_Blur.jpg",
+							"id": 78082,
+							"status": "COMPLETED"
+						}
+					]
+				}
+			]
+		}, 
+		"finalPage": 140, 
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>So, you\u2019ve decided to focus on cardio activity. You\u2019re already meeting the guidelines for strength training and cardio. We'll use your <strong>Creating Habits</strong> and <strong>Building a Routine</strong> skills to help you set new cardio goals and stick with your routine.</p><p>Now, let's dig into what may be keeping you from leading a more active lifestyle.</p>", 
+					"type": "inline"
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNoTimeUpdate1", 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "I don't have time.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNoPlaceUpdate1", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "I don't have a place to exercise.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyTooStressedUpdate1", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "I'm too stressed.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNoKnowledgeUpdate1", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "I don't know what I'm doing when I exercise.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyUncomfortableUpdate1", 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "I'm uncomfortable exercising in front of others.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyBoringUpdate1", 
+								"helpText": "", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "Exercise is boring.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyGuiltyTimeSelfUpdate1", 
+								"helpText": "", 
+								"ordinal": 7, 
+								"selected": false, 
+								"text": "I feel guilty taking the time for myself to exercise.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNoResultsUpdate1", 
+								"dataInfo": {
+									"collectionDate": "2014-09-08T10:15:00.000-0400", 
+									"dataSourceName": "Move"
+								}, 
+								"helpText": "", 
+								"ordinal": 8, 
+								"selected": true, 
+								"text": "When I exercise I don't see any results.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyTravelALotUpdate1", 
+								"helpText": "", 
+								"ordinal": 9, 
+								"selected": false, 
+								"text": "Traveling a lot keeps me from exercising.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNoOneToGoWith", 
+								"helpText": "", 
+								"ordinal": 10, 
+								"selected": false, 
+								"text": "I don\u2019t like to exercise alone, and I don\u2019t have anyone to go with.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSelfEfficacyNone", 
+								"helpText": "", 
+								"ordinal": 11, 
+								"selected": false, 
+								"text": "None of the above.", 
+								"value": "true"
+							}
+						]
+					}, 
+					"helpText": "Choose all that apply. ", 
+					"id": 77877, 
+					"ordinal": 2, 
+					"text": "Which of the following things make it hard for you to exercise?", 
+					"type": "checkbox", 
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse", 
+								"property": "PhysicalActivityBarriersSelfEfficacyNone"
+							}
+						]
+					}
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentActivityTracker", 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "Activity tracker (a device or app for tracking fitness metrics like distance or number of steps)", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentBicycle", 
+								"helpText": "", 
+								"imageAlt": "bicycle", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0068.png", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "Bicycle", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentElliptical", 
+								"helpText": "", 
+								"imageAlt": "elliptical machine", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0046.png", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "Elliptical machine", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentFlexibilityBall", 
+								"helpText": "", 
+								"imageAlt": "Flexibility ball", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0015.png", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "Stability ball", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentResistanceBands", 
+								"helpText": "", 
+								"imageAlt": "resistance bands", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0064.png", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "Resistance bands", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentTreadmill", 
+								"helpText": "", 
+								"imageAlt": "treadmill", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0048.png", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "Treadmill", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentStationaryBike", 
+								"helpText": "", 
+								"imageAlt": "stationary bicycle", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0053.png", 
+								"ordinal": 7, 
+								"selected": false, 
+								"text": "Stationary bicycle", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentWeights", 
+								"dataInfo": {
+									"collectionDate": "2014-09-08T10:15:08.000-0400", 
+									"dataSourceName": "Move"
+								}, 
+								"helpText": "", 
+								"imageAlt": "weights", 
+								"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/response/0065.png", 
+								"ordinal": 8, 
+								"selected": true, 
+								"text": "Weights", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "OwnPhysicalActivityEquipmentNoneAboveUpdate1", 
+								"helpText": "", 
+								"ordinal": 9, 
+								"selected": false, 
+								"text": "None of the above", 
+								"value": ""
+							}
+						]
+					}, 
+					"helpText": "Choose all that apply.", 
+					"id": 78838, 
+					"ordinal": 3, 
+					"text": "Do you own any of the following (usable) equipment?", 
+					"type": "checkbox", 
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse", 
+								"property": "OwnPhysicalActivityEquipmentNoneAboveUpdate1"
+							}
+						]
+					}
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "TimeAtBest", 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "Morning", 
+								"value": "Morning"
+							}, 
+							{
+								"dataDefinitionName": "TimeAtBest", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "Mid-day", 
+								"value": "MidDay"
+							}, 
+							{
+								"dataDefinitionName": "TimeAtBest", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": true, 
+								"text": "Late afternoon/early evening", 
+								"value": "LateAfternoonOrEvening"
+							}, 
+							{
+								"dataDefinitionName": "TimeAtBest", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "Night", 
+								"value": "Night"
+							}, 
+							{
+								"dataDefinitionName": "TimeAtBest", 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "All times of day", 
+								"value": "AllTimes"
+							}
+						]
+					}, 
+					"dataInfo": {
+						"collectionDate": "2014-09-08T10:15:14.000-0400", 
+						"dataSourceName": "Move"
+					}, 
+					"helpText": "", 
+					"id": 2013, 
+					"ordinal": 4, 
+					"text": "What time of day are you at your best?", 
+					"type": "radio"
+				}
+			], 
+			"isQuitPage": false, 
+			"page": 90, 
+			"prepopulated": true, 
+			"previousPage": 80
+		}, 
+		"responseCode": 0
+	}
+}

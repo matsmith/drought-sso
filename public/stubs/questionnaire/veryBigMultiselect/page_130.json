@@ -1,0 +1,833 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Tailored_Blur.jpg",
+							"id": 77984,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Emotions",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Tailored_Blur.jpg",
+							"id": 77985,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 70,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Tailored_Blur.jpg",
+							"id": 77986,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Tailored_Blur.jpg",
+							"id": 77988,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Symptoms",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Tailored_Blur.jpg",
+							"id": 77989,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Tailored_Blur.jpg",
+							"id": 80905,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Tailored_Blur.jpg",
+							"id": 77990,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 190,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>We want to help you keep your symptoms in check so they don't disrupt your life. These next few questions will help us get a better idea of what you're dealing with.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "None at all",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": true,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "PerceivedEnergyLevel",
+								"helpText": "A great deal",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-24T13:20:58.000-0400",
+						"dataSourceName": "Physical Activity"
+					},
+					"helpText": "",
+					"ordinal": 2,
+					"text": "How much energy do you feel you've had over the past week?",
+					"type": "slider"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "No pain",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "PainRating",
+								"helpText": "Severe pain",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 3,
+					"text": "What has been your pain level during the past 2 weeks?",
+					"type": "slider"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "No shortness of breath",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "ShortBreathFrequency",
+								"helpText": "Severe shortness of breath",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 4,
+					"text": "Tell us about any shortness of breath you may have had over the past 2 weeks.",
+					"type": "slider"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "No fatigue",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "FatigueRating",
+								"helpText": "Severe fatigue",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 5,
+					"text": "What has been your level of fatigue during the past 2 weeks?",
+					"type": "slider"
+				},
+				{
+					"childQuestions": [
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 1,
+										"selected": false,
+										"text": "0",
+										"value": "0"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 7,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 8,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 9,
+										"selected": true,
+										"text": "8",
+										"value": "8"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 10,
+										"selected": false,
+										"text": "9",
+										"value": "9"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 11,
+										"selected": false,
+										"text": "10",
+										"value": "10"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 12,
+										"selected": false,
+										"text": "11",
+										"value": "11"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 13,
+										"selected": false,
+										"text": "12",
+										"value": "12"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountHours",
+										"helpText": "",
+										"ordinal": 14,
+										"selected": false,
+										"text": "13",
+										"value": "13"
+									}
+								]
+							},
+							"dataInfo": {
+								"collectionDate": "2014-07-24T13:21:22.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"ordinal": 1,
+							"text": "hours",
+							"type": "dropdown"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "AverageSleepAmountMinutes",
+										"helpText": "",
+										"ordinal": 1,
+										"selected": true,
+										"text": "00",
+										"value": "00"
+									},
+									{
+										"dataDefinitionName": "AverageSleepAmountMinutes",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "30",
+										"value": "30"
+									}
+								]
+							},
+							"dataInfo": {
+								"collectionDate": "2014-07-24T13:21:22.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"ordinal": 2,
+							"text": "minutes",
+							"type": "dropdown"
+						}
+					],
+					"helpText": "",
+					"ordinal": 6,
+					"text": "Over the past week, how much sleep did you generally get in each 24-hour period?",
+					"type": "multidropdown",
+					"validations": {
+						"validation": [
+							{
+								"name": "responseAllOrNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "Very poor",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": true,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "OverallSleepQualityRating",
+								"helpText": "Excellent",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-24T13:21:24.000-0400",
+						"dataSourceName": "Physical Activity"
+					},
+					"helpText": "Choose a lower number if you haven\u2019t been sleeping well. Choose a higher number if you have been sleeping well.",
+					"ordinal": 7,
+					"text": "How would you rate the overall quality of your sleep?",
+					"type": "slider"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "SleepDescriptionHardToFallAsleep",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I have a hard time falling asleep.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepDescriptionHardToStayAsleep",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I have a hard time staying asleep.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepDescriptionWakeTooEarly",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I wake too early.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepDescriptionStillTired",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I still feel tired even if I get 6 or more hours of sleep.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepDescriptionSleepFine",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I don't have any problems sleeping.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 8,
+					"text": "What problems do you have sleeping?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "SleepDescriptionSleepFine"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 130,
+			"prepopulated": false,
+			"previousPage": 120
+		},
+		"responseCode": 0
+	}
+}

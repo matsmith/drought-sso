@@ -1,0 +1,259 @@
+{
+  "get": {
+	"": {
+	  "/externalservices/user-sleep-tool-data?query=withMinimumDays&minimumDays=35": {
+		"userSleepToolData": {
+		  "user": {
+			"id": "234242"
+		  },
+      "baseline":{
+         "userSleepData":{
+            "id":233,
+            "daytimeEnergyLevel":3,
+            "totalHoursSlept":6
+         }
+     },
+		  "averageSummary": [
+			{
+			  "type": "sleepEfficiency",
+			  "average": 60,
+			  "changeIndicator": "UP",
+			  "baselineDelta": 25
+			},
+			{
+			  "type": "hoursSlept",
+			  "average": 5,
+			  "changeIndicator": "DOWN",
+			  "baselineDelta": 1.5
+			},
+			{
+			  "type": "energyLevel",
+			  "average": 7,
+			  "changeIndicator": "NONE",
+			  "baselineDelta": 0
+			}
+		  ],
+		  "durationAverage": {
+			"durationLabel": "Week",
+			"averages": [
+			  {
+				"id": 1,
+				"startDate": "2015-01-01T00:00:00.000-00:00",
+				"endDate": "2015-01-07T00:00:00.000-00:00",
+				"averageSleep": 5,
+				"averageEnergy": 0
+			  },
+			  {
+				"id": 2,
+				"startDate": "2015-01-08T00:00:00.000-00:00",
+				"endDate": "2015-01-14T00:00:00.000-00:00",
+				"averageSleep": 7,
+				"averageEnergy": 6
+			  },
+			  {
+				"id": 3,
+				"startDate": "2015-01-15T00:00:00.000-00:00",
+				"endDate": "2015-01-21T00:00:00.000-00:00",
+				"averageSleep": 7,
+				"averageEnergy": 6
+			  },
+			  {
+				"id": 4,
+				"startDate": "2015-01-22T00:00:00.000-00:00",
+				"endDate": "2015-01-28T00:00:00.000-00:00",
+				"averageSleep": 8,
+				"averageEnergy": 9
+			  },
+			  {
+  				"id": 5,
+  				"startDate": "2015-01-29T00:00:00.000-00:00",
+  				"endDate": "2015-02-04T00:00:00.000-00:00",
+  				"averageSleep": 9,
+  				"averageEnergy": 10
+        }
+			]
+		  },
+		  "userSleepDates": [
+			{
+			  "date": "2015-01-07T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-07T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-08T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-08T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-08T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-08T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}, {
+			  "date": "2015-01-08T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-08T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-09T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-09T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-09T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-09T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}, {
+			  "date": "2015-01-09T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-09T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-10T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-10T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-10T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-10T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}, {
+			  "date": "2015-01-10T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-10T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-11T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-11T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-11T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-11T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}, {
+			  "date": "2015-01-11T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-11T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-12T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-12T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-12T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-12T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			},
+      {
+			  "date": "2015-01-12T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-12T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-13T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-13T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-13T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-13T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}, {
+			  "date": "2015-01-13T23:00:00.000-00:00",
+			  "userSleepData": {
+				"id": 2342,
+				"timeIntoBed": "2015-01-13T23:00:00.000-00:00",
+				"timeToSleep": 30,
+				"timeWakeUp": "2015-01-14T06:20:00.000-00:00",
+				"timeOutOfBed": "2015-01-14T06:30:00.000-00:00",
+				"noSleep": false,
+				"awakeDuringNightMinutes": 60,
+				"timesUpAtNight": [
+				  {
+					"timeOutOfBed": "2015-01-14T03:00:00.000-00:00",
+					"timeIntoBed": "2015-01-14T04:00:00.000-00:00"
+				  }
+				],
+				"daytimeEnergyLevel": 3,
+				"totalTimeAwakeInBed": 123,
+				"totalHourSlept": 456,
+				"sleepEfficiency": 74
+			  }
+			}
+		  ]
+		},
+		"responseCode": 0
+	  },
+	  "": {}
+	}
+  },
+  "post": {
+	"": {
+	  "/externalservices/user-sleep-data": {
+		"userSleepData": {
+		  "id": 12687,
+		  "timeIntoBed": "2015-01-07T23:00:00.000-00:00",
+		  "timeToSleep": 30,
+		  "timeWakeUp": "2015-01-08T06:20:00.000-00:00",
+		  "timeOutOfBed": "2015-01-08T06:30:00.000-00:00",
+		  "noSleep": false,
+		  "awakeDuringNightMinutes": 60,
+		  "timesUpAtNight": [
+			{
+			  "timeOutOfBed": "2015-01-08T03:00:00.000-00:00",
+			  "timeIntoBed": "2015-01-08T04:00:00.000-00:00"
+			}
+		  ],
+		  "daytimeEnergyLevel": 3,
+		  "totalTimeAwakeInBed": 123,
+		  "totalHourSlept": 456,
+		  "sleepEfficiency": 74
+		},
+		"responseCode": 0
+	  }
+	}
+  }
+}

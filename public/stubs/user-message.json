@@ -1,0 +1,59 @@
+{
+	"get": {
+		"": {
+			"/externalservices/user-message?query=productEnrollment.id-locale&productEnrollment.id=1234&locale=en_US": {
+				"message1__userMessageItem": {
+					"user1__user": {
+						"entity1__id": "12345"
+					},
+					"message1__messageItems": {
+						"message1__messageItem": {
+							"message1__type": "ACTION_STEP",
+							"message1__typeId": "42",
+							"message1__message": "<p>User message stub message for enrollment 1234 in en_US</p>",
+							"message1__productEnrollment": {
+								"entity1__id": "2"
+							}
+						}
+					}
+				}
+			},
+			"": {
+				"message1__userMessageItem": {
+					"user1__user": {
+						"entity1__id": "12345"
+					},
+					"message1__messageItems": {
+						"message1__messageItem": {
+							"message1__type": "MESSAGE",
+							"message1__typeId": "13",
+							"message1__message": "<p>User message stub default message</p>",
+							"message1__productEnrollment": {
+								"entity1__id": "1234"
+							}
+						}
+					}
+				}
+			}
+		},
+		"noActionStepMessage": {
+			"": {
+				"message1__userMessageItem": {
+					"user1__user": {
+						"entity1__id": "12345"
+					},
+					"message1__messageItems": {
+						"message1__messageItem": {
+							"message1__type": "MESSAGE",
+							"message1__message": "<p>User message stub default message</p>",
+							"message1__productEnrollment": {
+								"entity1__id": "1234"
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+}

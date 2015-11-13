@@ -1,0 +1,234 @@
+{
+	"resourceBundleResponse": {
+		"resourceBundle": [
+			{
+				"name" : "questionnaire",
+				"contentValues" : [
+					{
+						"contentKey": "outOf",
+						"content": "out of"
+					},
+					{
+						"contentKey": "imNotSure",
+						"content": "I'm not sure."
+					},
+					{
+						"contentKey": "getStartedButtonText",
+						"content": "Get Started"
+					},
+					{
+						"contentKey": "continueButtonText",
+						"content": "Continue"
+					},
+					{
+						"contentKey": "questionForwardNavButtonText",
+						"content": "Continue"
+					},
+					{
+						"contentKey": "questionBackwardNavButtonText",
+						"content": "Back"
+					},
+					{
+						"contentKey": "requiredButUnansweredQuestionForwardNavButtonText",
+						"content": "Response Required"
+					},
+					{
+						"contentKey": "changeButtonText",
+						"content": "Change"
+					},
+					{
+						"contentKey": "changeAnswerButtonText",
+						"content": "Change Answer"
+					},
+					{
+						"contentKey": "closeProgramButtonText",
+						"content": "Close Program"
+					},
+					{
+						"contentKey": "finishConsultationButtonText",
+						"content": "Finish Consultation"
+					},
+					{
+						"contentKey": "retryButtonText",
+						"content": "Retry"
+					},
+					{
+						"contentKey": "restartProgramButtonText",
+						"content": "Restart this Program"
+					},
+					{
+						"contentKey": "continueProgramButtonText",
+						"content": "Continue Current Program"
+					},
+					{
+						"contentKey": "unansweredText",
+						"content": "Unanswered"
+					},
+					{
+						"contentKey": "savedAnswerText",
+						"content": "Saved"
+					},
+					{
+						"contentKey": "collectedFromAnswerText",
+						"content": "Collected From"
+					},
+					{
+						"contentKey": "collectedOnAnswerText",
+						"content": "on"
+					},
+					{
+						"contentKey": "sliderQuestionInstructionText",
+						"content": "Slide to Answer"
+					},
+					{
+						"contentKey": "questionnaireCompleteThankYouText",
+						"content": "Thanks for the information."
+					},
+					{
+						"contentKey": "questionnaireCompleteDescriptionText",
+						"content": "That’s all we need. Our goal is to help improve how much your health impacts your ability to take care of business every day."
+					},
+					{
+						"contentKey": "questionnaireCompleteSubmitButtonText",
+						"content": "Submit & Build your Coaching Plan"
+					},
+					{
+						"contentKey": "healthMediaText",
+						"content": "Johnson &amp; Johnson Health and Wellness Solutions"
+					},
+					{
+						"contentKey": "programDescriptionText",
+						"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sapien non tortor sollicitudin commodo. Sed eu dictum purus. Nulla bibendum eu nulla ut placerat. Nam et ipsum metus. Ut luctus aliquam sollicitudin. Morbi vel urna in ante scelerisque mattis ac et eros. Sed nec augue vitae est dignissim sollicitudin quis a ante."
+					},
+					{
+						"contentKey": "landingDialogTitleText",
+						"content":"You're Almost Ready!"
+					},
+					{
+						"contentKey": "landingDialogDescriptionText",
+						"content":"We saved your progress to make it easy to finish up your consultation. Let’s pick up where you left off."
+					},
+					{
+						"contentKey": "globalErrorDialogHeaderText",
+						"content":"There was an issue loading the questionnaire."
+					},
+					{
+						"contentKey": "globalErrorDialogDescriptionText",
+						"content":"We apologize for the inconvenience, please try again."
+					},
+					{
+						"contentKey": "saveErrorDialogHeaderText",
+						"content":"There was an issue saving some of your recent progress."
+					},
+					{
+						"contentKey": "saveErrorDialogDescriptionText",
+						"content":"Please continue from your last saved point. We apologize for the inconvenience."
+					},
+					{
+						"contentKey": "saveErrorDialogButtonText",
+						"content":"Go back to my last saved point"
+					},
+					{
+						"contentKey": "landingDialogRetakeTitleText",
+						"content":"Would you like to restart this program for a clean start?"
+					},
+					{
+						"contentKey": "landingDialogRetakeDescriptionText",
+						"content":"We’ll learn where you are at today with a consultation to recommend new skills and action steps."
+					},
+					{
+						"contentKey": "planBuildPageOneHeaderPrefix",
+						"content":"We’re preparing to build your"
+					},
+					{
+						"contentKey": "planBuildPageOneHeaderSuffix",
+						"content":"plan now"
+					},
+					{
+						"contentKey": "planBuildingPageTwoHeader",
+						"content":"Your plan is ready, here's how to get started"
+					},
+					{
+						"contentKey": "planBuildingPageTwoEyeText",
+						"content":"review your goals"
+					},
+					{
+						"contentKey": "planBuildingPageTwoPlusText",
+						"content":"Choose the skills you want to build, then select the action steps you want to take"
+					},
+					{
+						"contentKey": "planBuildingPageTwoCheckText",
+						"content":"Check-in everyday to track your progress"
+					},
+					{
+						"contentKey": "planBuildingPageTwoButtonText",
+						"content":"OK, Lets Go!"
+					},
+					{
+						"contentKey": "progressBarQuestionnaireComplete",
+						"content": "Questionnaire Complete"
+					},
+					{
+						"contentKey": "progressBarCurrentPrefix",
+						"content": "Now"
+					},
+					{
+						"contentKey": "progressBarNextPrefix",
+						"content": "Next"
+					},
+					{
+						"contentKey": "unknownContentErrorText",
+						"content": "Problem With Question"
+					},
+					{
+						"contentKey": "unknownContentErrorMessage",
+						"content": "There was a problem displaying this question. Press the continue button to proceed with the questionnaire."
+					},
+					{
+						"contentKey": "weightGoalTooAggressive",
+						"content": "Your Weight goal is too aggressive for your current BMI"
+					},
+					{
+						"contentKey": "cholesterolIncorrect",
+						"content": "Please enter a number between {{low}} and {{high}}"
+					},
+					{
+						"contentKey": "cholesterolAdditionIncorrect",
+						"content": "HDL plus LDL must equal total cholesterol"
+					}
+				]
+			},
+			{
+				"name" : "upgradePath",
+				"contentValues" : [
+					{
+						"contentKey": "redirectContentNoSupportProgram",
+						"content": "We're sorry, this page is no longer active. If you believe you're seeing this message in error, please contact your program administrator."
+					},
+					{
+						"contentKey": "questionnaireCompleteNoRetake",
+						"content": "We know things look a lot different here. That's because we've updated your program. After you complete an updated consultation, your new program will give you a variety of skills to learn along with concrete action steps to take. And that's just the beginning. We hope you'll come back often to learn, let us know how you're doing, and choose new action steps. Change is just a few clicks away!"
+					},
+					{
+						"contentKey": "questionnaireCompleteRetake",
+						"content": "We know things look a lot different here. That's because we've updated your program. After you complete an updated consultation, your new program will give you a variety of skills to learn along with concrete action steps to take. And that's just the beginning. We hope you'll come back often to learn, let us know how you're doing, and choose new action steps. Change is just a few clicks away!"
+					},
+					{
+						"contentKey": "questionnaireStartedNotSubmitted",
+						"content": "We know things look a lot different here since you started your consultation. You’ll have to answer questions again, but it’ll be worth it. After you complete the updated consultation, your new program will give you a variety of skills to learn along with concrete action steps to take. And that's just the beginning. We hope you'll come back often to learn, let us know how you're doing, and choose new action steps. Change is just a few clicks away!"
+					},
+					{
+						"contentKey": "redirectContentSupportProgram",
+						"content": "Just a moment while we direct you to your Skills for Life program."
+					},
+					{
+						"contentKey": "weightSkillsUpgradeMessage",
+						"content": "Program specific upgrade path message"
+					}
+				]
+			}
+		],
+		"responseCode":0,
+		"responseDesc":"Success"
+	}
+}

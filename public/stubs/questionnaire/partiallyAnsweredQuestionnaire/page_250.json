@@ -1,0 +1,353 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Habits",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "Energy",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 220,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 240,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 250,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>We\u2019re going to ask you to think about how your health problems affect your ability to do your regular daily activities. By regular activities, we mean the usual things you do day-to-day, such as work around the house, shopping, child care, exercising, studying, etc. Think about times you were limited in the amount or kind of activities you could do, and times you accomplished less than you would like because of your health. If health problems affected your activities only a little or not at all, choose a low number. Choose a high number if health problems affected your activities a great deal.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "Health problems had no effect on my daily activities",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+								"helpText": "Health problems completely prevented me from doing my daily activities",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 3,
+					"text": "During the past 4 weeks, how much did your health problems affect your ability to do your regular daily activities (other than work at a job)?",
+					"type": "slider"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "White, Non-Hispanic",
+								"value": "White"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Black or African-American",
+								"value": "Black"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Hispanic",
+								"value": "Hispanic"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Asian",
+								"value": "Asian"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Pacific Islander",
+								"value": "PacificIslander"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "Native American Indian or Native Alaskan",
+								"value": "NativeAmerican"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "Native Hawaiian",
+								"value": "Hawaiian"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "Multiracial",
+								"value": "Multiracial"
+							},
+							{
+								"dataDefinitionName": "Ethnicity",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "Other",
+								"value": "Other"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 4,
+					"text": "What's your ethnicity?",
+					"type": "radio"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Never attended school",
+								"value": "NoSchool"
+							},
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Elementary",
+								"value": "Elementary"
+							},
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Some high school",
+								"value": "SomeHighSchool"
+							},
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "High school grad/GED",
+								"value": "HighSchoolGraduate"
+							},
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Some college or tech school",
+								"value": "SomeCollege"
+							},
+							{
+								"dataDefinitionName": "EducationLevel",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "College grad or higher",
+								"value": "CollegeGraduate"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 5,
+					"text": "What\u2019s the highest grade or year of school you completed?",
+					"type": "radio"
+				},
+				{
+					"text": "<p>That\u2019s all we need. Our goal is to help improve your health so that you can take care of business every day.</p>",
+					"type": "inline"
+				}
+			],
+			"isQuitPage": false,
+			"page": 250,
+			"prepopulated": false,
+			"previousPage": 240
+		},
+		"responseCode": 0
+	}
+}

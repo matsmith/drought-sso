@@ -1,0 +1,157 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 30,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 60,
+		"questionnairePage": {
+			"content": [
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "Not at all motivated",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": true,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "Extremely motivated",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-18T10:15:46.000-0400",
+						"dataSourceName": "Weight"
+					},
+					"helpText": "",
+					"ordinal": 2,
+					"text": "First of all, how motivated are you to manage your weight?",
+					"type": "slider"
+				}
+			],
+			"isQuitPage": false,
+			"page": 60,
+			"prepopulated": false,
+			"previousPage": 50
+		},
+		"responseCode": 0
+	}
+}

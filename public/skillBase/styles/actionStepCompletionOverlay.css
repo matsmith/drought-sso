@@ -1,0 +1,139 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000341}}
+html.lt-ie9 [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .actionButton {
+  font-size: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000347}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background: #fff;
+  padding-top: 33px;
+  height: 100%;
+  width: 100%;
+  z-index: 1001;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000360}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .scrollableModal {
+  height: calc(100% - 50px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000364}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon {
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000368}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal h1 {
+  padding: 29px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000372}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .completionText {
+  font-weight: 300;
+  font-size: 21px;
+  padding-bottom: 44px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000380}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep {
+  padding: 22px 0;
+  border-top: 1px solid #7e8c8d;
+  border-bottom: 1px solid #7e8c8d;
+  margin: 0 auto 44px;
+  max-width: 630px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000388}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs {
+  padding-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000391}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUp, [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUpFill,
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsDown, [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsDownFill {
+  width: 30px;
+  height: 31px;
+  cursor: pointer;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\0000399}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUp, [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUpFill {
+  margin-right: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003103}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUp {
+  background: url('/images/widgets/sharedMedia/icons/Like_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003107}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsDown {
+  background: url('/images/widgets/sharedMedia/icons/Dislike_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003111}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUp:hover,
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsUpFill {
+  background: url('/images/widgets/sharedMedia/icons/Like_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003116}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsDown:hover,
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep .feedbackThumbs .thumbsDownFill {
+  background: url('/images/widgets/sharedMedia/icons/Dislike_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003123}}
+[data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal button {
+  width: 310px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003139}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon, [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon svg, [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon canvas {
+    width: 64px;
+    height: 64px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003145}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon svg {
+    top: auto;
+    left: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003151}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .completionText {
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003157}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal button {
+    width: 100%;
+    font-size: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003161}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal h1 {
+    margin: 0;
+    padding: 20px 0 22px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003167}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .rateActionStep {
+    max-width: none;
+    margin: 0 auto 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003173}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .skillIcon {
+    margin-top: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/actionStepCompletionOverlay\.scss}line{font-family:\00003177}}
+  [data-wnpwidget="actionStepCompletionOverlay"].actionStepCompletedModal .scrollableModal {
+    margin: auto 20px;
+  }
+}

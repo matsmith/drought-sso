@@ -1,0 +1,193 @@
+{
+    "post": {
+        "": {
+            "/externalservices/authorization": {
+                "{\"company1__authorizations\":{\"company1__authorization\":{\"company1__accessCode\":\"TESTAUTHCD\",\"company1__name\":\"Amazing Access Code\",\"company1__company\":{\"entity1__id\":\"5188\"}}}}": {
+                    "company1__authorizations": {
+                        "company1__authorization": [
+                            {
+                                "company1__name": "Amazing Access Code",
+                                "company1__accessCode": "TESTAUTHCD",
+                                "company1__company": [
+                                    {
+                                        "entity1__id": 5188
+                                    }
+                                ],
+                                "company1__testData": false,
+                                "company1__status": {
+                                    "common1__status": "ACTIVE"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "": {
+                    "company1__authorizations": {
+                        "company1__authorization": [
+                            {
+                                "company1__name": "Amazing Access Code",
+                                "company1__accessCode": "TESTAUTHCD5",
+                                "company1__company": [
+                                    {
+                                        "entity1__id": 5188
+                                    }
+                                ],
+                                "company1__testData": false,
+                                "company1__status": {
+                                    "common1__status": "ACTIVE"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "": {
+                "company1__authorizations": ""
+            }
+        }
+    },
+    "get": {
+        "": {
+            "": {
+                "company1__authorizations": ""
+            },
+            "/externalservices/authorization?query=company.id&company.id=5188": {
+                "company1__authorizations": {
+                    "company1__authorization": [
+                        {
+                            "entity1__id": 589,
+                            "company1__name": "testingAgain",
+                            "company1__accessCode": "TESTCODE",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5188
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-03",
+                            "company1__submissionExpireDate": "2018-09-01",
+                            "company1__loginExpireDate": "2019-03-03",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        }
+                    ]
+                }
+            },
+            "/externalservices/authorization?query=company.id&company.id=5189": {
+                "company1__authorizations": {
+                    "company1__authorization": [
+                        {
+                            "entity1__id": 33,
+                            "company1__name": "PHSMEMAUTHCD",
+                            "company1__accessCode": "PHSMEMAUTHCD",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5189
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-01",
+                            "company1__submissionExpireDate": "2018-08-30",
+                            "company1__loginExpireDate": "2019-03-01",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        },
+                        {
+                            "entity1__id": 590,
+                            "company1__name": "Ryans Test Code",
+                            "company1__accessCode": "TESTCODERYAN",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5189
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-03",
+                            "company1__submissionExpireDate": "2018-09-01",
+                            "company1__loginExpireDate": "2019-03-03",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        },
+                        {
+                            "entity1__id": 589,
+                            "company1__name": "testingAgain",
+                            "company1__accessCode": "TESTCODE",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5188
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-03",
+                            "company1__submissionExpireDate": "2018-09-01",
+                            "company1__loginExpireDate": "2019-03-03",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        }
+                    ]
+                }
+            },
+            "/externalservices/authorization?query=company.id&company.id=9264": {
+                "company1__authorizations": {
+                    "company1__authorization": [
+                        {
+                            "entity1__id": 33,
+                            "company1__name": "PHSMEMAUTHCD",
+                            "company1__accessCode": "PHSMEMAUTHCD",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5189
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-01",
+                            "company1__submissionExpireDate": "2018-08-30",
+                            "company1__loginExpireDate": "2019-03-01",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        },
+                        {
+                            "entity1__id": 590,
+                            "company1__name": "Ryans Test Code",
+                            "company1__accessCode": "TESTCODERYAN",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5189
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-03",
+                            "company1__submissionExpireDate": "2018-09-01",
+                            "company1__loginExpireDate": "2019-03-03",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        },
+                        {
+                            "entity1__id": 589,
+                            "company1__name": "testingAgain",
+                            "company1__accessCode": "TESTCODE",
+                            "company1__company": [
+                                {
+                                    "entity1__id": 5188
+                                }
+                            ],
+                            "company1__registrationExpireDate": "2018-03-03",
+                            "company1__submissionExpireDate": "2018-09-01",
+                            "company1__loginExpireDate": "2019-03-03",
+                            "company1__testData": false,
+                            "company1__status": {
+                                "common1__status": "ACTIVE"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

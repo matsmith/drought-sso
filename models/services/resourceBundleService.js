@@ -1,9 +1,10 @@
 /*global define*/
 var Service = require('./baseService'),
-	$ = require('jquery');
+	$ = require('jquery'),
+	window = window || global;
 
 module.exports = function() {
-	"use strict";
+	//"use strict";
 
 	var serviceName = "resourceBundle";
 	function ResourceBundleService(options) {

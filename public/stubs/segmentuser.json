@@ -1,0 +1,162 @@
+{
+	"get": {
+		"": {
+			"": {
+				"segmentUserResponse": {
+					"segmentUserStatus": {
+						"code": {
+							"subCode": {
+								"value": "NotFound"
+							},
+							"value": "Sender"
+						},
+						"reason": {
+							"text": {
+								"language": "en_US",
+								"value": "UserNotFound"
+							}
+						}
+					},
+					"responseCode": 0
+				}
+			}
+		},
+		"communityEnthusiast": {
+			"": {
+				"segmentResponse": {
+					"id":"232",
+					"birthDate":"1974-03-27",
+					"gender":"Male",
+					"emailAddress":"test@gmail.com",
+					"phone":"7346230000",
+					"reportingCode":"APLF",
+					"segmentShort":"communityEnthusiast",
+					"segmentSelf":"",
+					"userData": [{
+						"dataDefinitionName": "SegmentationConfidenceManageHealth",
+						"dataDefinitionValue": "MostlyDisagree"
+					}, {
+						"dataDefinitionName": "SegmentationGroupIsBestSupport",
+						"dataDefinitionValue": "SlightlyDisagree"
+					}, {
+						"dataDefinitionName": "SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+						"dataDefinitionValue": "MostlyAgree"
+					}, {
+						"dataDefinitionName": "SegmentationMotivationMaintainedByTalkingAboutFeelings",
+						"dataDefinitionValue": "MostlyAgree"
+					}, {
+						"dataDefinitionName": "SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+						"dataDefinitionValue": "StronglyAgree"
+					}, {
+						"dataDefinitionName": "SegmentationBarrierPhysicalActivityIsNotEnjoyable",
+						"dataDefinitionValue": "SlightlyDisagree"
+					}],
+					"availableSegments": [
+						"communityEnthusiast",
+						"committedMultitasker",
+						"energizedChampion",
+						"freeAgent",
+						"teamPlayer",
+						"skepticalStarter"
+					],
+					"segmentQuestionSet": [
+						"SegmentationConfidenceManageHealth",
+						"SegmentationBarrierProgramParticipationIsFearOfFailure",
+						"SegmentationGroupIsBestSupport",
+						"SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+						"SegmentationMotivationMaintainedByTalkingAboutFeelings",
+						"SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+						"SegmentationBarrierPhysicalActivityIsNotEnjoyable"
+					],
+					"responseCode": 0
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"/externalservices/segmentuser": {
+				"{\"data\":{\"userData\":[{\"dataDefinitionName\":\"SegmentationConfidenceManageHealth\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationBarrierProgramParticipationIsFearOfFailure\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationGroupIsBestSupport\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationMotivationMaintainedByTalkingAboutFeelings\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth\",\"dataDefinitionValue\":\"StronglyDisagree\"},{\"dataDefinitionName\":\"SegmentationBarrierPhysicalActivityIsNotEnjoyable\",\"dataDefinitionValue\":\"StronglyDisagree\"}]}}": {
+					"segmentResponse": {
+						"segmentUser": {
+							"id": "232",
+							"birthDate": "1974-03-27",
+							"gender": "Male",
+							"emailAddress": "test@domain.com",
+							"phone": "7346230000",
+							"reportingCode": "APLF",
+							"segmentShort": "SkepticalStarter",
+							"segmentSelf": "EnergizedChampion",
+							"userData": [{
+								"dataDefinitionName": "SegmentationConfidenceManageHealth",
+								"dataDefinitionValue": "MostlyDisagree"
+							}, {
+								"dataDefinitionName": "SegmentationGroupIsBestSupport",
+								"dataDefinitionValue": "SlightlyDisagree"
+							}, {
+								"dataDefinitionName": "SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+								"dataDefinitionValue": "MostlyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationMotivationMaintainedByTalkingAboutFeelings",
+								"dataDefinitionValue": "MostlyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+								"dataDefinitionValue": "StronglyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationBarrierPhysicalActivityIsNotEnjoyable",
+								"dataDefinitionValue": "SlightlyDisagree"
+							}]
+						},
+						"responseCode": 0
+					}
+				},
+				"{\"data\":{\"userData\":[{\"dataDefinitionName\":\"SegmentationConfidenceManageHealth\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationBarrierProgramParticipationIsFearOfFailure\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationGroupIsBestSupport\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationMotivationMaintainedByTalkingAboutFeelings\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth\",\"dataDefinitionValue\":\"StronglyAgree\"},{\"dataDefinitionName\":\"SegmentationBarrierPhysicalActivityIsNotEnjoyable\",\"dataDefinitionValue\":\"StronglyAgree\"}]}}": {
+					"segmentResponse": {
+						"segmentUser": {
+							"id": "232",
+							"birthDate": "1974-03-27",
+							"gender": "Male",
+							"emailAddress": "test@domain.com",
+							"phone": "7346230000",
+							"reportingCode": "APLF",
+							"segmentShort": "SkepticalStarter",
+							"segmentSelf": "",
+							"userData": [{
+								"dataDefinitionName": "SegmentationConfidenceManageHealth",
+								"dataDefinitionValue": "MostlyDisagree"
+							}, {
+								"dataDefinitionName": "SegmentationGroupIsBestSupport",
+								"dataDefinitionValue": "SlightlyDisagree"
+							}, {
+								"dataDefinitionName": "SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+								"dataDefinitionValue": "MostlyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationMotivationMaintainedByTalkingAboutFeelings",
+								"dataDefinitionValue": "MostlyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+								"dataDefinitionValue": "StronglyAgree"
+							}, {
+								"dataDefinitionName": "SegmentationBarrierPhysicalActivityIsNotEnjoyable",
+								"dataDefinitionValue": "SlightlyDisagree"
+							}]
+						},
+						"responseCode": 0
+					}
+				},
+				"": {
+					"segmentResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - unmatched POST url"
+					}
+				}
+			},
+			"": {
+				"segmentResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched POST url"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,147 @@
+{
+	"get": {
+		"": {
+			"/externalservices/enrollment": {
+				"enrollmentResponse": {
+					"productsAvailable": true,
+					"productEnrollmentStatus": [
+						{
+							"productName": "weightSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "depressionSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "chronicConditionSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "physicalActivitySkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "diabetesSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "stressSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "smokingCessationSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "breathe",
+							"enrolled": false
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"/externalservices/enrollment?q=findByLatestProductEnrollment&latestProductEnrollment=true": {
+				"enrollmentResponse": {
+					"productsAvailable": true,
+					"productEnrollmentStatus": [
+						{
+							"productName": "weightSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "depressionSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "chronicConditionSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "physicalActivitySkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "diabetesSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "stressSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "smokingCessationSkills",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}, {
+							"productName": "breathe",
+							"enrolled": false
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"/externalservices/enrollment?force=notFound": {
+				"enrollmentResponse": {
+					"productsAvailable": false,
+					"responseCode": 0
+				}
+			},
+			"/externalservices/enrollment?force=error": {
+				"enrollmentResponse": {
+					"productsAvailable": false,
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request"
+				}
+			},
+			"": {}
+		},
+		"assessAuthToken": {
+			"/externalservices/enrollment?q=findByLatestProductEnrollment&latestProductEnrollment=true": {
+				"enrollmentResponse": {
+					"productsAvailable": true,
+					"productEnrollmentStatus": [
+						{
+							"productName": "assess",
+							"productEnrollmentId": "1234",
+							"latestProductEnrollment": true,
+							"enrolled": true
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"": {}
+		}
+	},
+	"post": {
+		"": {
+			"": {
+				"": {
+					"enrollmentResponse": {
+						"productEnrolled": true,
+						"enrollmentStatus": "PRODUCT_ENROLLED",
+						"productEnrollment": {
+							"productEnrollmentId": "213"
+						},
+						"responseCode": 0
+					}
+				}
+			}
+		}
+	}
+}

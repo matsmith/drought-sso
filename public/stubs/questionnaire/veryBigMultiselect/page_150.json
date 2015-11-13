@@ -1,0 +1,423 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Tailored_Blur.jpg",
+							"id": 77984,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Emotions",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Tailored_Blur.jpg",
+							"id": 77985,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 70,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Tailored_Blur.jpg",
+							"id": 77986,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Tailored_Blur.jpg",
+							"id": 77988,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Symptoms",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Tailored_Blur.jpg",
+							"id": 77989,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Tailored_Blur.jpg",
+							"id": 80905,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Tailored_Blur.jpg",
+							"id": 77990,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 190,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>Now, we'd like to learn a bit about how much physical activity you're getting.</p>",
+					"type": "inline"
+				},
+				{
+					"text": "<p>During moderate-intensity activities, you\u2019re able to hold a conversation, but you\u2019re working hard enough to raise your heart rate and break a sweat. Brisk walking, casual swimming and doubles tennis are examples of moderate-intensity activities.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": [
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 1,
+										"selected": false,
+										"text": "0",
+										"value": "0"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 7,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 8,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"dataInfo": {
+								"collectionDate": "2014-07-24T11:12:53.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"ordinal": 1,
+							"text": "day(s)",
+							"type": "dropdown"
+						},
+						{
+							"answer": "33",
+							"childQuestions": null,
+							"dataDefinitionName": "ModeratePhysicalActivityAmountMinutesPerDay",
+							"dataInfo": {
+								"collectionDate": "2014-07-24T11:12:53.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"inputLabel": "minutes",
+							"ordinal": 2,
+							"text": "",
+							"type": "numberinput",
+							"validations": {
+								"validation": [
+									{
+										"name": "minRange",
+										"property": "0"
+									},
+									{
+										"name": "maxRange",
+										"property": "1440"
+									},
+									{
+										"name": "numberType",
+										"property": "INTEGER"
+									}
+								]
+							}
+						}
+					],
+					"helpText": "",
+					"ordinal": 3,
+					"text": "In a typical week, what is the average amount of time you spend doing moderate-intensity physical activity?",
+					"type": "dropdownandnumber",
+					"validations": {
+						"validation": [
+							{
+								"name": "responseAllOrNone"
+							},
+							{
+								"name": "restrictedZeroResponse"
+							}
+						]
+					}
+				},
+				{
+					"text": "<p>During vigorous-intensity activities, you\u2019re breathing hard and fast, and your heart rate has gone up quite a bit. If you\u2019re working at this level, you won\u2019t be able to say more than a few words without pausing for a breath. These types of activities include running, bicycling, swimming laps, and weight circuit training.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": [
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 1,
+										"selected": false,
+										"text": "0",
+										"value": "0"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": true,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 7,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+										"helpText": "",
+										"ordinal": 8,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"dataInfo": {
+								"collectionDate": "2014-07-24T11:12:58.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"ordinal": 1,
+							"text": "day(s)",
+							"type": "dropdown"
+						},
+						{
+							"answer": "33",
+							"childQuestions": null,
+							"dataDefinitionName": "VigorousPhysicalActivityAmountMinutesPerDay",
+							"dataInfo": {
+								"collectionDate": "2014-07-24T11:12:58.000-0400",
+								"dataSourceName": "Physical Activity"
+							},
+							"helpText": "",
+							"inputLabel": "minutes",
+							"ordinal": 2,
+							"text": "",
+							"type": "numberinput",
+							"validations": {
+								"validation": [
+									{
+										"name": "minRange",
+										"property": "0"
+									},
+									{
+										"name": "maxRange",
+										"property": "1440"
+									},
+									{
+										"name": "numberType",
+										"property": "INTEGER"
+									}
+								]
+							}
+						}
+					],
+					"helpText": "",
+					"ordinal": 5,
+					"text": "In a typical week, what is the average amount of time you spend doing vigorous-intensity physical activity?",
+					"type": "dropdownandnumber",
+					"validations": {
+						"validation": [
+							{
+								"name": "responseAllOrNone"
+							},
+							{
+								"name": "restrictedZeroResponse"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Rarely or never",
+								"value": "RarelyOrNever"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": true,
+								"text": "Once a week",
+								"value": "1DayPerWeek"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Twice a week",
+								"value": "2DaysPerWeek"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3 times a week",
+								"value": "3DaysPerWeek"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4-5 times a week",
+								"value": "4To5DaysPerWeek"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "6-7 times a week",
+								"value": "6To7DaysPerWeek"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-24T11:12:59.000-0400",
+						"dataSourceName": "Physical Activity"
+					},
+					"helpText": "",
+					"ordinal": 6,
+					"text": "How about strength-training exercises, such as using free weights, weight machines, or resistance bands? How often do you do those?",
+					"type": "radio"
+				}
+			],
+			"isQuitPage": false,
+			"page": 160,
+			"prepopulated": true,
+			"previousPage": 140
+		},
+		"responseCode": 0
+	}
+}

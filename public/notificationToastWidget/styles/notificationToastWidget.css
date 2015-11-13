@@ -1,0 +1,37 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/notificationToastWidget\/app\/styles\/notificationToastWidget\.scss}line{font-family:\000031}}
+.notificationToast {
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+  bottom: 10px;
+  left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/notificationToastWidget\/app\/styles\/notificationToastWidget\.scss}line{font-family:\000037}}
+.notificationToast .notificationToastMessage {
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+  background: #333 none repeat scroll 0% 0%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 16px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/notificationToastWidget\/app\/styles\/notificationToastWidget\.scss}line{font-family:\0000318}}
+.notificationToast .notificationToastMessage .notificationIconTrophy:before {
+  font-family: "Vector-Icons";
+  content: "\e630";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/notificationToastWidget\/app\/styles\/notificationToastWidget\.scss}line{font-family:\0000323}}
+.notificationToast .notificationToastMessage .notificationIconTrophy {
+  float: left;
+  font-size: 34px;
+  text-align: center;
+  margin: 8px 10px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/notificationToastWidget\/app\/styles\/notificationToastWidget\.scss}line{font-family:\0000331}}
+.notificationToast .notificationToastMessage .certificateText {
+  float: left;
+}

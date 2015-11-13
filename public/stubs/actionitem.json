@@ -1,0 +1,376 @@
+{
+	"get":{
+		"":{
+			"":{
+				"actionItemResponse":{
+					"actionItem":[
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"4",
+							"type":"CHECKIN",
+							"source":"SYSTEM",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"title",
+									"value":"{check-in name}"
+								},
+								{
+									"name":"expiresOnDate",
+									"value":"2013-02-05T00:00:00.000-0500"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3466767"
+								}
+							],
+							"priority":"1"
+						},
+						{
+							"contentBlocks":[
+								{
+									"content": "Old Style: This content block only contains one piece of content with no header."
+								}
+							],
+							"id":"43",
+							"type":"RETAKE",
+							"source":"SYSTEM",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"succeed"
+								},
+								{
+									"name":"title",
+									"value":"{retake name} No Video"
+								}
+							],
+							"priority":"2"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"43",
+							"type":"RETAKE",
+							"source":"SYSTEM",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"succeed"
+								},
+								{
+									"name":"title",
+									"value":"{retake name}"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3466767"
+								}
+							],
+							"priority":"2"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"63",
+							"type":"CHECKIN",
+							"source":"SYSTEM",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"title",
+									"value":"{check-in name}"
+								},
+								{
+									"name":"expiresOnDate",
+									"value":"2013-02-05T00:00:00.000-0500"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3466767"
+								}
+							],
+							"priority":"1"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"id":"42",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Tracking Your Food"
+								},
+								{
+									"name":"actionStepType",
+									"value":"standard"
+								},
+								{
+									"name":"title",
+									"value":"actionStep1"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"13",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Tracking Your Food"
+								},
+								{
+									"name":"actionStepType",
+									"value":"standard"
+								},
+								{
+									"name":"title",
+									"value":"Action Step 2 with a Really Long Title"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"83",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Tracking Your Food"
+								},
+								{
+									"name":"actionStepType",
+									"value":"standard"
+								},
+								{
+									"name":"title",
+									"value":"Action Step 3 gym"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"142",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Building/ Increasing Motivation"
+								},
+								{
+									"name":"actionStepType",
+									"value":"standard"
+								},
+								{
+									"name":"title",
+									"value":"Action Step 4"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"113",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Building/ Increasing Motivation"
+								},
+								{
+									"name":"actionStepType",
+									"value":"standard"
+								},
+								{
+									"name":"title",
+									"value":"Action Step 5"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						},
+						{
+							"contentBlocks":[
+								{
+									"header": "Try this:",
+									"content": "This is some text for the try this: block..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is some text for the why it helps: block..."
+								}
+							],
+							"id":"200",
+							"type":"ACTIONSTEP",
+							"source":"USER",
+							"enrollmentId":"1234",
+							"locale":"en_US",
+							"property":[
+								{
+									"name":"product",
+									"value":"weightSkills"
+								},
+								{
+									"name":"skillDisplayName",
+									"value":"Building/ Increasing Motivation"
+								},
+								{
+									"name":"actionStepType",
+									"value":"linkMobileApp"
+								},
+								{
+									"name":"title",
+									"value":"TYH/linkMobileApp Action Step"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"priority":"3"
+						}
+					],
+					"responseCode":0
+				}
+			}
+		}
+	}
+}

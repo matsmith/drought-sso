@@ -1,0 +1,35 @@
+{
+	"get":{
+		"":{
+			"":{
+				"userStateDataResponse":{
+					"category":[
+						{
+							"name":"CONSULTATION",
+							"properties":[
+								{
+									"name":"nourish.interested",
+									"value":true
+								},
+								{
+									"name":"relax.interested",
+									"value":false
+								},{
+									"productEnrollmentId":4,
+									"name":"percentComplete",
+									"value":45
+								},{
+									"productEnrollmentId":1,
+									"name":"percentComplete",
+									"value":100
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,157 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 1,
+							"name": "Prepopulated",
+							"pageCount": 1,
+							"completeFirst": false,
+							"firstPage": 10,
+							"status": "STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						},
+						{
+							"id": 2,
+							"name": "Partly Prepopulated",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 30,
+							"status": "NOT_STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						}
+					]
+				}
+			]
+		},
+		"questionnairePage": {
+			"page": 10,
+			"previousPage": 0,
+			"prepopulated": true,
+			"content": [
+				{
+					"type": "inline",
+					"text": "Bumper Text"
+				},
+				{
+					"type": "radio",
+					"text": "Answered Radio",
+					"choices": {
+						"choice": [
+							{
+								"text": "Yes",
+								"value": "Yes",
+								"selected": true,
+								"dataDefinitionName": "AnsweredQuestion",
+								"helpText": "",
+								"ordinal": 1
+							},
+							{
+								"text": "No",
+								"value": "No",
+								"selected": false,
+								"dataDefinitionName": "AnsweredQuestion",
+								"helpText": "",
+								"ordinal": 2
+							}
+						]
+					}
+				},
+
+				{
+					"validations":{
+						"validation":[
+							{
+								"property":"LivesWithYouAlone",
+								"name":"exclusiveResponse"
+							}
+						]
+					},
+					"type":"checkbox",
+					"text":"Answered checkbox",
+					"helpText":"Choose all that apply.",
+					"choices":{
+						"choice":[
+							{
+								"text":"Child(ren) under 2 years old",
+								"value":"true",
+								"selected":false,
+								"dataDefinitionName":"LivesWithYouChildUnder2",
+								"helpText":"",
+								"ordinal":1
+							},
+							{
+								"text":"Child(ren) between 2 and 12 years old",
+								"value":"true",
+								"selected":false,
+								"dataDefinitionName":"LivesWithYouChild2to12",
+								"helpText":"",
+								"ordinal":2
+							},
+							{
+								"text":"Teen(s) between 13 and 18 years old",
+								"value":"true",
+								"selected":false,
+								"dataDefinitionName":"LivesWithYouTeen13to18",
+								"helpText":"",
+								"ordinal":3
+							},
+							{
+								"text":"Other adult(s)",
+								"value":"true",
+								"selected":true,
+								"dataDefinitionName":"LivesWithYouAdults",
+								"helpText":"",
+								"ordinal":4
+							},
+							{
+								"text":"I live alone.",
+								"value":"true",
+								"selected":false,
+								"dataDefinitionName":"LivesWithYouAlone",
+								"helpText":"",
+								"ordinal":5
+							}
+						]
+					},
+					"childQuestions":null
+				},
+				{
+					"helpText": "",
+					"choices": {
+						"choice": [
+							{
+								"text": "Yes",
+								"value": "Yes",
+								"selected": false,
+								"dataDefinitionName": "AlsoAnsweredQuestion",
+								"helpText": "",
+								"ordinal": 1
+							},
+							{
+								"text": "No",
+								"value": "No",
+								"selected": true,
+								"dataDefinitionName": "AlsoAnsweredQuestion",
+								"helpText": "",
+								"ordinal": 2
+							}
+						]
+					},
+					"childQuestions": null,
+					"type": "radio",
+					"text": "Also answered radio"
+				}
+			],
+			"isQuitPage": false
+		},
+		"finalPage": 30,
+		"responseCode": 0
+	}
+}

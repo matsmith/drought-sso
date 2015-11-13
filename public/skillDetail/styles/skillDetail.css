@@ -1,0 +1,955 @@
+/**
+ * Sets a background with transparency on all browsers.
+ * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+ * @param  {[type]} $red   [value between 0 and 255]
+ * @param  {[type]} $green [value between 0 and 255]
+ * @param  {[type]} $blue  [value between 0 and 255]
+ * @param  {[type]} $alpha [value between 0 and 1]
+ * @return {[type]}        []
+ */
+/** parameter needs to be a decimal between 0 and 1 */
+/** Returns a one byte hex value */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000315}}
+[data-wnpwidget="skillDetail"] {
+  background-image: url('/images/widgets/sharedMedia/blurred-background.jpg');
+  background-size: cover;
+  overflow: auto;
+  overflow-x: hidden;
+  color: #333;
+  height: 100%;
+  z-index: 2001;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000324}}
+[data-wnpwidget="skillDetail"][data-wnptheme="weightSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Balance_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000327}}
+[data-wnpwidget="skillDetail"][data-wnptheme="depressionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Care_For_Depression_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000330}}
+[data-wnpwidget="skillDetail"][data-wnptheme="chronicConditionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Chronic_Condition_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000333}}
+[data-wnpwidget="skillDetail"][data-wnptheme="physicalActivitySkills"] {
+  background-image: url('/images/widgets/sharedMedia/Move_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000336}}
+[data-wnpwidget="skillDetail"][data-wnptheme="smokingCessationSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Breathe_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000339}}
+[data-wnpwidget="skillDetail"][data-wnptheme="thrombosis"] {
+  background-image: url('/images/widgets/sharedMedia/Thrombosis_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000342}}
+[data-wnpwidget="skillDetail"][data-wnptheme="nutritionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Nutrition_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000345}}
+[data-wnpwidget="skillDetail"][data-wnptheme="heartHealthSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Care_Heart_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000348}}
+[data-wnpwidget="skillDetail"][data-wnptheme="painSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Pain_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000352}}
+[data-wnpwidget="skillDetail"].loading {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+  background-image: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 2001;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"].loading:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000360}}
+[data-wnpwidget="skillDetail"].loading .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000365}}
+[data-wnpwidget="skillDetail"].loading .loader canvas {
+  transform: translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000371}}
+[data-wnpwidget="skillDetail"] [data-viewport="main"] {
+  height: calc(100% - 40px);
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000376}}
+[data-wnpwidget="skillDetail"] .localNav {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.9);
+  height: 48px;
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"] .localNav:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000384}}
+[data-wnpwidget="skillDetail"] .localNav .closeDetail {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000388}}
+[data-wnpwidget="skillDetail"] .localNav ul {
+  list-style: none;
+  padding: 15px 0 0 5px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000393}}
+[data-wnpwidget="skillDetail"] .localNav ul .currentBreadcrumb {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\0000397}}
+[data-wnpwidget="skillDetail"] .localNav ul li {
+  display: inline-block;
+  padding: 0 5px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003101}}
+[data-wnpwidget="skillDetail"] .localNav ul li .rightArrow, [data-wnpwidget="skillDetail"] .localNav ul li .skillDetailRightArrow {
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003105}}
+[data-wnpwidget="skillDetail"] .localNav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003110}}
+[data-wnpwidget="skillDetail"] .localNav ul li a.active {
+  padding-bottom: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003114}}
+[data-wnpwidget="skillDetail"] .localNav ul li a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003121}}
+[data-wnpwidget="skillDetail"] .localNav .programTitleText {
+  float: right;
+  margin: 13px 15px 0 0;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003130}}
+[data-wnpwidget="skillDetail"] .leftTitleSection {
+  height: 100%;
+  max-width: 425px;
+  float: left;
+  width: calc(37% - 2px);
+  padding: 30px 20px 0 125px;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"] .leftTitleSection:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003138}}
+[data-wnpwidget="skillDetail"] .leftTitleSection .skillIconMobile {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003143}}
+[data-wnpwidget="skillDetail"] .mainContentSection {
+  height: calc(100% - 51px);
+  width: 63%;
+  min-width: calc(100% - 427px);
+  float: left;
+  position: relative;
+  overflow: auto;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"] .mainContentSection:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003151}}
+[data-wnpwidget="skillDetail"] .mainContentSection .headerText {
+  font-weight: bolder;
+  color: #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003156}}
+[data-wnpwidget="skillDetail"] .mainContentSection .headerText:first-child {
+  display: inline-block;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003162}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003165}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .actionStepsStatus {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003168}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .actionStepsStatus div {
+  font-size: 21px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003173}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .actionStepsStatus span.actionStepsLabel {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003178}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .backToActionBtn, [data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .skillDetailRightArrow,
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] .skillDetailPage {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003183}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] iframe {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003188}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003191}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .mainContentSection {
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003195}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .learnMoreBtn, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .actionStepsDetailHeader {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003199}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .leftTitleSection p {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003203}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .skillContainer {
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003206}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .skillContainer .learnMoreIntroText strong {
+  font-size: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003211}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .subheader, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .subheader p {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 27px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003216}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .subheader p:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003220}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent {
+  color: #505a5b;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003226}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h1 {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 27px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003231}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 21px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003236}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h3 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  margin: 18px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003241}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h3 + p {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003245}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent .short-list li {
+  margin: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003250}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 21px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003255}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockquoteWrapper {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003258}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockquoteWrapper .blockquoteLeader:before {
+  font-family: Vector-Icons;
+  content: "\e62e";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003262}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockquoteWrapper .blockquoteLeader {
+  height: 32px;
+  width: 32px;
+  font-size: 32px;
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003272}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockquoteWrapper blockquote {
+  margin: 22px 12px 22px 54px;
+  padding-left: 16px;
+  border-left: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003279}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] img {
+  width: 100%;
+  margin: 44px auto;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003284}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] img.imageSmall {
+  max-width: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003288}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] img.imageMedium {
+  max-width: 700px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003293}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] p.skillDetailHeaderText {
+  margin: 27px 0;
+  font-size: 28px;
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003299}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003303}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .tabContent {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003306}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .tabContent.activeTabContent {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003310}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer ul.tabs {
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003316}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer ul.tabs li {
+  display: table-cell;
+  width: 1px;
+  height: 60px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003329}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer section {
+  padding: 0 20px;
+  border: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003335}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .activeTab {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003338}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .inactiveTab {
+  color: #7e8c8d;
+  border: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003343}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003346}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionHeading {
+  padding: 16px 20px;
+  line-height: 28px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-image: url('/images/widgets/sharedMedia/icons/List_Reveal_Stroke_1x.png');
+  margin: 16px 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003359}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionHeading.noTouch:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Reveal_Stroke_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003363}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionHeading:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Reveal_Fill_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003367}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionContent {
+  margin: 0 0 16px 0;
+  padding: 0px 50px 22px 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003370}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionContent img {
+  width: 100%;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003374}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionContent p {
+  margin: 0 0 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003380}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection.accordionOpen .accordionHeading {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Hide_Stroke_1x.png');
+  margin: 16px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003385}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection.accordionOpen .accordionHeading.noTouch:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Hide_Stroke_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003389}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection.accordionOpen .accordionHeading:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Hide_Fill_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003398}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion {
+  margin: 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003401}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection {
+  border: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003404}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection .accordionHeading, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection .accordionHeading {
+  margin: 0;
+  background-image: url('/images/widgets/sharedMedia/icons/List_Reveal_Stroke_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003408}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection .accordionHeading:hover, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection .accordionHeading:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Reveal_Fill_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003412}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection .accordionContent, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection .accordionContent {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003416}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection.accordionOpen .accordionHeading, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection.accordionOpen .accordionHeading {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Hide_Stroke_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003419}}
+[data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .subaccordion .accordionSection.accordionOpen .accordionHeading:hover, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .tabContainer .subaccordion .accordionSection.accordionOpen .accordionHeading:hover {
+  background-image: url('/images/widgets/sharedMedia/icons/List_Hide_Fill_1x.png');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003430}}
+[data-wnpwidget="skillDetail"] .mediaWrapper {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003433}}
+[data-wnpwidget="skillDetail"] .media {
+  width: 100%;
+  position: relative;
+  background: #7e8c8d url('/images/widgets/sharedMedia/icons/Play_Fill_1x.png') no-repeat center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003438}}
+[data-wnpwidget="skillDetail"] .media div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003447}}
+[data-wnpwidget="skillDetail"] .videoWrapper {
+  padding-bottom: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003450}}
+[data-wnpwidget="skillDetail"] .hdvideoWrapper {
+  padding-bottom: 56.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003453}}
+[data-wnpwidget="skillDetail"] .audioWrapper {
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003456}}
+[data-wnpwidget="skillDetail"] .playing {
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003459}}
+[data-wnpwidget="skillDetail"] audio {
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003462}}
+[data-wnpwidget="skillDetail"] video {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003465}}
+[data-wnpwidget="skillDetail"] video, [data-wnpwidget="skillDetail"] audio {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003470}}
+[data-wnpwidget="skillDetail"] .vimeoVideoWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003477}}
+[data-wnpwidget="skillDetail"] .hdVimeoVideoWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  padding-bottom: 400px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003487}}
+[data-wnpwidget="skillDetail"] iframe.vimeoVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: inherit;
+  max-width: inherit;
+}
+
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003502}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailActionSteps"] {
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003506}}
+  [data-wnpwidget="skillDetail"] [data-viewport="main"] {
+    height: calc(100% - 80px);
+    overflow: inherit;
+    margin-top: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003512}}
+  [data-wnpwidget="skillDetail"] .localNav {
+    height: 40px;
+    position: fixed;
+    top: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003517}}
+  [data-wnpwidget="skillDetail"] .localNav .skillDetailPageHeader, [data-wnpwidget="skillDetail"] .localNav .programTitleText {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003521}}
+  [data-wnpwidget="skillDetail"] .localNav ul {
+    padding-top: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003526}}
+  [data-wnpwidget="skillDetail"] .localNav ul li {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003528}}
+  [data-wnpwidget="skillDetail"] .localNav ul li a.active {
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003533}}
+  [data-wnpwidget="skillDetail"] .localNav ul li:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003540}}
+  [data-wnpwidget="skillDetail"] .localNav ul li:last-child a {
+    color: #7e8c8d !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003545}}
+  [data-wnpwidget="skillDetail"] .localNav .rightArrow, [data-wnpwidget="skillDetail"] .localNav .skillDetailRightArrow {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003548}}
+  [data-wnpwidget="skillDetail"] .localNav .leftArrow {
+    display: inline-block;
+    cursor: pointer;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003554}}
+  [data-wnpwidget="skillDetail"] .leftTitleSection {
+    width: 100%;
+    max-width: 100%;
+    min-height: 255px;
+    height: auto;
+    padding: 0 15px;
+    text-align: center;
+    border-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003563}}
+  [data-wnpwidget="skillDetail"] .leftTitleSection h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003568}}
+  [data-wnpwidget="skillDetail"] .leftTitleSection .skillSummary {
+    margin-top: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003571}}
+  [data-wnpwidget="skillDetail"] .leftTitleSection .skillSummary .skillIcon {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003574}}
+  [data-wnpwidget="skillDetail"] .leftTitleSection .skillSummary .skillIconMobile {
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003580}}
+  [data-wnpwidget="skillDetail"] .mainContentSection {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow: inherit;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003586}}
+  [data-wnpwidget="skillDetail"] .mainContentSection .actionStepsStatus {
+    font-size: 14px;
+    padding: 15px 0 10px 0;
+    margin: 0 0 10px 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003591}}
+  [data-wnpwidget="skillDetail"] .mainContentSection .actionStepsStatus span.actionStepsLabel {
+    display: inline;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003595}}
+  [data-wnpwidget="skillDetail"] .mainContentSection .actionStepsStatus div {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003599}}
+  [data-wnpwidget="skillDetail"] .mainContentSection .actionStepsStatus span {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003605}}
+  [data-wnpwidget="skillDetail"] .actionStepsDetailHeader {
+    padding: 10px 0 0 20px;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003610}}
+  [data-wnpwidget="skillDetail"] div.skillContainer {
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003613}}
+  [data-wnpwidget="skillDetail"] div.skillContainer p.skillDetailHeaderText {
+    display: inline-block;
+    margin: 18px 0 0;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003618}}
+  [data-wnpwidget="skillDetail"] div.skillContainer div.subheader p strong:first-child {
+    font-size: 21px;
+    font-weight: 100;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003624}}
+  [data-wnpwidget="skillDetail"] div.skillContainer .tabContainer ul.tabs.non-mobile {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003628}}
+  [data-wnpwidget="skillDetail"] div.skillContainer .tabContainer div.tabContent {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003633}}
+  [data-wnpwidget="skillDetail"] .mediaWrapper {
+    margin-top: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003637}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] {
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003640}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .mainContentSection {
+    padding-bottom: 50px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003644}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .localNav {
+    position: fixed;
+    top: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003648}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .localNav ul {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003652}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .localNav span.closeDetail {
+    float: right;
+    padding: 0 20px 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003661}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .actionStepsDetailHeader {
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003665}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .leftTitleSection, [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .skillDetailPageHeader {
+    visibility: hidden;
+    position: absolute;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003671}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionContent {
+    padding: 0 50px 1px 20px;
+    margin-bottom: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003675}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionHeading {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003679}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .accordionSection .accordionHeading span {
+    margin-right: 22px;
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003687}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 23px 0 11px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003692}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 22px 0 15px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003699}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockContent h3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 22px 0 15px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003705}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003710}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .blockquoteWrapper .subheader {
+    margin: 25px 0 0 45px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003715}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] img {
+    margin: 25px auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003719}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] p {
+    margin: 13px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/skillDetail\.scss}line{font-family:\00003723}}
+  [data-wnpwidget="skillDetail"] [data-view="skillDetailLearnMore"] .subheader {
+    margin: 25px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\000038}}
+.actionStepsContainer {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  margin-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000312}}
+.actionStepsContainer .actionStepsStatus {
+  font-size: 14px;
+  max-width: 88%;
+  border-bottom: 1px solid #dbdcde;
+  margin: 25px;
+  padding-bottom: 10px;
+  color: #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000320}}
+.actionStepsContainer .actionStepsStatus div {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000327}}
+.actionStepsContainer .showMoreContainer {
+  width: 88%;
+  margin: 0 auto 0 auto;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000332}}
+.actionStepsContainer .showMoreContainer .showMore, .actionStepsContainer .showMoreContainer .showLess {
+  text-align: center;
+  cursor: pointer;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000337}}
+.actionStepsContainer .showMoreContainer .showMore span, .actionStepsContainer .showMoreContainer .showLess span {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000340}}
+.actionStepsContainer .showMoreContainer .showMore span.icon-chevronDown, .actionStepsContainer .showMoreContainer .showMore span.icon-chevronUp, .actionStepsContainer .showMoreContainer .showLess span.icon-chevronDown, .actionStepsContainer .showMoreContainer .showLess span.icon-chevronUp {
+  right: -4px;
+  top: 2px;
+  font-size: 23px;
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000350}}
+.actionStepsContainer .actionStepList {
+  margin-bottom: 40px;
+  overflow: hidden;
+  max-width: 88%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000354}}
+.actionStepsContainer .actionStepList .actionStepListItem {
+  border-bottom: 1px dotted #dbdcde;
+  margin: 0 0 14px 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000358}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepListHeading {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000361}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepListHeading h1 {
+  margin: 0 0 14px 0;
+  display: block;
+  font-size: 21px;
+  color: #505a5b;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000369}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepListHeading span {
+  font-style: italic;
+  font-size: 12px;
+  position: absolute;
+  top: -12px;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000376}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepListHeading span.icon-sans-chevron {
+  position: absolute;
+  right: -8px;
+  top: -6px;
+  font-size: 29px;
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000386}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent {
+  position: relative;
+  margin: 0;
+  padding-bottom: 10px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000392}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent .summaryText {
+  margin: 0;
+  color: #505a5b;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\0000398}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent .summaryText .headerText {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003103}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent button.smallBtn {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003107}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent a.smallBtnClear {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  min-width: 80px;
+  color: #505a5b;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px 16px 5px 16px;
+  border: 1px solid #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003119}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepContent a.smallBtnClear:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003126}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepEvent {
+  font-style: italic;
+  font-size: 12px;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003131}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepEvent .eventText {
+  vertical-align: middle;
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003136}}
+.actionStepsContainer .actionStepList .actionStepListItem .actionStepEvent .actionStepRedo {
+  background: url('/images/widgets/sharedMedia/icons/Redo_Stroke_1x.png') no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003148}}
+.actionStepsContainer .actionStepList .actionStepListItem:nth-child(n+4), .actionStepsContainer .actionStepList .showLess {
+  display: none;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003156}}
+  .actionStepsContainer .showMoreContainer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003163}}
+  .actionStepsContainer .actionStepList .actionStepListItem .actionStepContent {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillDetail\/app\/styles\/_actionStepsList\.scss}line{font-family:\00003166}}
+  .icon-sans-chevron {
+    display: none;
+  }
+}

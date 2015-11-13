@@ -1,0 +1,11 @@
+{
+	"consultationSectionStatus":{
+		"enrollmentSectionStatus":[
+			{
+				"productEnrollmentId":"1",
+				"consultationStatus":"STARTED"
+			}
+		],
+		"responseCode":0
+	}
+}

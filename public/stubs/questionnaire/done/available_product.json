@@ -1,0 +1,31 @@
+{
+	"availableProductResponse": {
+		"product": [
+			{
+				"name": "weightSkills",
+				"version": "1",
+				"availableOnDate": "2013-01-15T00: 00: 00.000-0500",
+				"expiresOnDate": "2015-02-05T00: 00: 00.000-0500",
+				"productEnrollmentId": 62486,
+				"enrollmentMethod": "WEB",
+				"latestProductEnrollment": true,
+				"retakeAvailable": false,
+				"matchedSurveyProductStatus":"NOT_APPLICABLE",
+				"status": {
+					"statusCode": "ENROLLED_IN_PRODUCT",
+					"statusDate": "2013-01-15T14: 41: 40.000-0500"
+				},
+				"questionnaire": {
+					"componentType": "BASELINE",
+					"status": {
+						"statusCode": "QUESTIONNAIRE_FINISHED"
+					}
+				},
+				"plan": {
+					"componentType": "PLAN",
+					"planCreatedOnDate": "2014-01-15T14: 42: 47.000-0500"
+				}
+			}
+		]
+	}
+}

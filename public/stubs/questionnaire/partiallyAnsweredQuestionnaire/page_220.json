@@ -1,0 +1,321 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Habits",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "Energy",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 220,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 240,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 250,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>Whether you have one person who is your rock, or a number of people who you turn to for different types of support, a support system is important when you\u2019re making big changes. Let\u2019s learn a little more about yours.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "SupportSystemSpousePartner",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I'll ask my spouse or partner.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportSystemFamilyMember",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I'll ask someone else in my family.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportSystemFriend",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I'll ask a good friend.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportSystemPersonWithSameCondition",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I know someone else who also wants to work on their weight. We might make a good team.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportSystemDontWantSupport",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I'd prefer to work on this on my own.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportSystemNoOneInMind",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I don't have anyone to ask.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 2,
+					"text": "Who are you going to rely on for support while you work on managing your weight?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "SupportSystemDontWantSupport"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "SupportSystemNoOneInMind"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Not at all satisfied",
+								"value": "NotSatisfied"
+							},
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Not very satisfied",
+								"value": "NotVerySatisfied"
+							},
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Somewhat satisfied",
+								"value": "SomewhatSatisfied"
+							},
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Satisfied",
+								"value": "Satisfied"
+							},
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Very satisfied",
+								"value": "VerySatisfied"
+							},
+							{
+								"dataDefinitionName": "SupportSatisfaction",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I don\u2019t get support from these people.",
+								"value": "SupportSatisfactionNone"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 3,
+					"text": "In general, how satisfied are you with the support you get from your family and friends?",
+					"type": "radio"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsSocialActivitiesFood",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "A lot of my social activities are based on food -- group dinners, picnics, eating out, etc.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsUnhealthyFoodOptions",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "There are unhealthy food options where I work or spend my days.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsNotHealthConscious",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "My friends or family aren\u2019t health-conscious.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsNotPartOfCulture",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "The foods I eat that are part of my culture/heritage aren't very healthy.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsEncouragedToEatMore",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "People around me encourage me to eat more than I should, and I feel guilty when I don't.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsSomeoneElseGroceryShops",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "Someone else does the grocery shopping or prepares most of my food.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsMadeFeelGuilty",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "Others make me feel guilty for taking time to exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SupportAffectHealthHabitsNone",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 4,
+					"text": "How do the people around you affect your health habits?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "SupportAffectHealthHabitsNone"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 220,
+			"prepopulated": false,
+			"previousPage": 210
+		},
+		"responseCode": 0
+	}
+}

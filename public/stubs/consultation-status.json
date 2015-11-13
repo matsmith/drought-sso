@@ -1,0 +1,16 @@
+{
+	"post": {
+		"": {
+			"/externalservices/consultation-status": {
+				"":{
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request"
+				}
+			},
+			"":{
+				"responseCode": 2000,
+				"responseDesc": "Invalid Request"
+			}
+		}
+	}
+}

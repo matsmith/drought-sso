@@ -1,0 +1,282 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Movement",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Habits",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 170,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 210,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>Sounds like you have some work to do to meet the current physical activity guidelines, which call for at least 150 minutes of moderate activity plus 2 days of strength training a week. Sound overwhelming? Don\u2019t worry. In your Being Active skill, we\u2019re going to help you find ways to bump up your activity level from what you\u2019re currently doing today.</p><p>We know you\u2019re ready to focus on making some changes to your eating habits. We'd like to know more about what \u2013 and how \u2013 you currently eat.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "FoodTemptationsDessert",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Desserts",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsDeepFriedFood",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Deep-fried anything",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsSweetenedDrinks",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Soda or sweet drinks",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsAlcohol",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Alcohol",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsRedMeat",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Red meat",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsCheese",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "Anything with cheese front and center",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsChipsAndDip",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "Chips and dip",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodTemptationsNone",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose your top three.",
+					"ordinal": 2,
+					"text": "Suppose you\u2019re at a party, surrounded by delicious temptations. Which ones are you going to fall for? We understand, it's hard to admit!",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "maximumResponses",
+								"property": "3"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "FoodTemptationsNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "FoodsEatenWeeklySweetenedBeverage",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Sweetened beverages (regular soft drinks, fruit drinks, coffee drinks, iced tea)",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyAlcohol",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Alcoholic beverages",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyDessert",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Desserts or treats",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyFriedFood",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Deep-fried foods",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyHighFatMeat",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "High-fat meat",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyFastFood",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "High-fat fast food or carryout food",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyHighFatDairy",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "High-fat dairy products",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "FoodsEatenWeeklyNone",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 3,
+					"text": "Which of the following do you eat or drink during an average week?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "maximumResponses",
+								"property": "7"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "FoodsEatenWeeklyNone"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 140,
+			"prepopulated": false,
+			"previousPage": 130
+		},
+		"responseCode": 0
+	}
+}

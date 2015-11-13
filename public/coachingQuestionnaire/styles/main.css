@@ -1,0 +1,2966 @@
+/**
+ * Sets a background with transparency on all browsers.
+ * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+ * @param  {[type]} $red   [value between 0 and 255]
+ * @param  {[type]} $green [value between 0 and 255]
+ * @param  {[type]} $blue  [value between 0 and 255]
+ * @param  {[type]} $alpha [value between 0 and 1]
+ * @return {[type]}        []
+ */
+/** parameter needs to be a decimal between 0 and 1 */
+/** Returns a one byte hex value */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\000038}}
+.questionnaireApplicationView {
+  font-family: "Lato", sans-serif;
+  color: #737373;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+  /**
+   * Sets a background with transparency on all browsers.
+   * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+   * @param  {[type]} $red   [value between 0 and 255]
+   * @param  {[type]} $green [value between 0 and 255]
+   * @param  {[type]} $blue  [value between 0 and 255]
+   * @param  {[type]} $alpha [value between 0 and 1]
+   * @return {[type]}        []
+   */
+  /** parameter needs to be a decimal between 0 and 1 */
+  /** Returns a one byte hex value */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\000039}}
+.questionnaireApplicationView *, .questionnaireApplicationView *:before, .questionnaireApplicationView *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .slimScrollBar {
+  display: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000324}}
+.questionnaireApplicationView .header-bar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 15px;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .header-bar:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000333}}
+.questionnaireApplicationView .header-bar .close-questionnaire {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  height: 15px;
+  width: 15px;
+  background: url('/images/widgets/sharedMedia/icons/Close_1x.png');
+  background-size: contain;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000347}}
+.questionnaireApplicationView h2 p:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000350}}
+.questionnaireApplicationView h2 p:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000355}}
+.questionnaireApplicationView p {
+  margin: 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000359}}
+.questionnaireApplicationView.mobile-layout p {
+  margin: 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView ol, .questionnaireApplicationView ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000368}}
+.questionnaireApplicationView .retina-img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000372}}
+.questionnaireApplicationView .choice-hover-state {
+  width: 100%;
+  height: 10px;
+  background-color: #C5C5C5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000381}}
+.questionnaireApplicationView .button {
+  cursor: pointer;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000386}}
+.questionnaireApplicationView .full-width-wrapper {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000390}}
+.questionnaireApplicationView div.pbanim-step2-corrector {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView div.pbanim-step2-corrector p {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003110}}
+.questionnaireApplicationView .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent !important;
+  border-bottom: 6px solid transparent !important;
+  border-left: 10px solid #f8f8f8;
+  display: inline-block;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003119}}
+.questionnaireApplicationView .arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent !important;
+  border-bottom: 6px solid transparent !important;
+  border-right: 10px solid #f8f8f8;
+  display: inline-block;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003128}}
+.questionnaireApplicationView .ember-view .arrow-up {
+  width: 0;
+  height: 0;
+  border-right: 6px solid transparent !important;
+  border-left: 6px solid transparent !important;
+  border-bottom: 10px solid #f8f8f8;
+  display: inline-block;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003137}}
+.questionnaireApplicationView .arrow-down {
+  width: 0;
+  height: 0;
+  border-right: 6px solid transparent !important;
+  border-left: 6px solid transparent !important;
+  border-top: 10px solid #f8f8f8;
+  display: inline-block;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003149}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .submit-wrapper .submit-button:after {
+  content: '\3009';
+  margin-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003154}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .question-back-button .submit-button:before {
+  content: '\3008';
+  margin-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/main\.scss}line{font-family:\00003161}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .arrow-left,
+.questionnaireApplicationView.mobile-layout .questionNavButtons .arrow-right {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\000031}}
+.questionnaireApplicationView h1, .questionnaireApplicationView h2, .questionnaireApplicationView h3, .questionnaireApplicationView h4, .questionnaireApplicationView h5, .questionnaireApplicationView h6 {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\000037}}
+.questionnaireApplicationView.desktop-layout h1 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000311}}
+.questionnaireApplicationView.desktop-layout h2, .questionnaireApplicationView.desktop-layout .tailored-text-container {
+  font-weight: 300;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000318}}
+.questionnaireApplicationView.tablet-layout h1 {
+  font-weight: 900;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000322}}
+.questionnaireApplicationView.tablet-layout h2, .questionnaireApplicationView.tablet-layout .tailored-text-container {
+  font-weight: 300;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000329}}
+.questionnaireApplicationView.mobile-layout h1 {
+  font-weight: 900;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000333}}
+.questionnaireApplicationView.mobile-layout h2, .questionnaireApplicationView.mobile-layout .tailored-text-container {
+  font-weight: 400;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000339}}
+.questionnaireApplicationView h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000344}}
+.questionnaireApplicationView h4 {
+  font-weight: 900;
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000349}}
+.questionnaireApplicationView p {
+  font-weight: 400;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000354}}
+.questionnaireApplicationView p.p2 {
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView p.p3 {
+  font-size: 12px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView h3 + p {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000367}}
+.questionnaireApplicationView a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000371}}
+.questionnaireApplicationView button {
+  font-weight: 900;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000376}}
+.questionnaireApplicationView input[type=text], .questionnaireApplicationView input[type=tel], .questionnaireApplicationView .dropdown-value {
+  font-weight: 400;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000381}}
+.questionnaireApplicationView .nav-1 {
+  font-weight: normal;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000386}}
+.questionnaireApplicationView .nav-2 {
+  font-weight: bold;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000391}}
+.questionnaireApplicationView .nav-3 {
+  font-weight: 300;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView .program-titles {
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003102}}
+.questionnaireApplicationView .program-description {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003108}}
+.questionnaireApplicationView .product-titles {
+  font-weight: 300;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003111}}
+.questionnaireApplicationView .product-titles sup {
+  font-size: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003116}}
+.questionnaireApplicationView .input-label-text {
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  left: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003123}}
+.questionnaireApplicationView .button-text, .questionnaireApplicationView.questionnaire .submit-wrapper .submit-button, .questionnaireApplicationView.questionnaire .question-back-button .submit-button, .questionnaireApplicationView .modal-dialog a, .questionnaireApplicationView #plan-builder a {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003129}}
+.questionnaireApplicationView .help-text {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_fonts\.scss}line{font-family:\00003135}}
+.questionnaireApplicationView.mobile-layout .help-text {
+  font-weight: 400;
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\000034}}
+.questionnaireApplicationView.questionnaire .questionNavButtons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000310}}
+.questionnaireApplicationView.questionnaire .questionNavButtons .submit-wrapper, .questionnaireApplicationView.questionnaire .questionNavButtons .question-back-button {
+  width: 45%;
+  float: right;
+  margin: 5px 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000316}}
+.questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons {
+  background-color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000319}}
+.questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .beginBumper .submit-wrapper {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000323}}
+.questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .submit-wrapper.questionNavHasSingleButton {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000327}}
+.questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .submit-wrapper, .questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .question-back-button {
+  width: 50%;
+  margin: 0;
+  max-width: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000332}}
+.questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .submit-wrapper .submit-button, .questionnaireApplicationView.questionnaire.mobile-layout .questionNavButtons .question-back-button .submit-button {
+  max-width: none;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000338}}
+.questionnaireApplicationView.questionnaire .submit-wrapper, .questionnaireApplicationView.questionnaire .question-back-button {
+  max-width: 225px;
+  height: 45px;
+  margin: 22px 0 75px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000343}}
+.questionnaireApplicationView.questionnaire .submit-wrapper .submit-button, .questionnaireApplicationView.questionnaire .question-back-button .submit-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  max-width: 225px;
+  height: 45px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000352}}
+.questionnaireApplicationView.questionnaire .submit-wrapper .submit-button.focus, .questionnaireApplicationView.questionnaire .question-back-button .submit-button.focus {
+  -moz-box-shadow: 0px 0px 3pt 2pt blue;
+  -webkit-box-shadow: 0px 0px 3pt 2pt blue;
+  box-shadow: 0px 0px 3pt 2pt blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView.questionnaire .submit-wrapper .submit-button {
+  border: none;
+  color: #f8f8f8;
+  background-color: #4D4D4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView.questionnaire .submit-wrapper .submit-button.disabled {
+  opacity: .3;
+  cursor: default;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\00003102}}
+.questionnaireApplicationView.questionnaire .submit-wrapper .submit-button.disabled:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000371}}
+.questionnaireApplicationView.questionnaire .question-back-button .hidden {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000374}}
+.questionnaireApplicationView.questionnaire .question-back-button .submit-button {
+  border: 1px solid #4D4D4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000378}}
+.questionnaireApplicationView.questionnaire input[type="submit"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000381}}
+.questionnaireApplicationView.questionnaire input[type="text"], .questionnaireApplicationView.questionnaire input[type="tel"] {
+  height: 32px;
+  margin: 0 12px 0 0;
+  border-radius: 3px;
+  border: 1px solid #dadcde;
+  color: #515a5b;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\0000391}}
+.questionnaireApplicationView .question-wrapper {
+  position: relative;
+  float: left;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  border-right: 1px solid #dadcde;
+  background-color: #f8f8f8;
+  background-size: cover;
+  padding: 0px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003103}}
+.questionnaireApplicationView .question-wrapper .viewstate-wrapper {
+  padding: 50px 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003106}}
+.questionnaireApplicationView .question-wrapper .h1-wrapper {
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003109}}
+.questionnaireApplicationView .question-wrapper h1 {
+  padding: 30px 0 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003114}}
+.questionnaireApplicationView .answer-outer-wrapper, .questionnaireApplicationView .no-answer-outer-wrapper, .questionnaireApplicationView .question-component-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003122}}
+.questionnaireApplicationView .scroll-wrapper {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003126}}
+.questionnaireApplicationView .answer-outer-wrapper {
+  z-index: -1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003131}}
+.questionnaireApplicationView .no-answer-outer-wrapper {
+  z-index: -1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003136}}
+.questionnaireApplicationView .question-component-wrapper {
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003140}}
+.questionnaireApplicationView .question-outer-wrapper.viewstate-wrapper {
+  overflow: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003150}}
+.questionnaireApplicationView .question-outer-wrapper {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003153}}
+.questionnaireApplicationView .question-outer-wrapper div.savedOnDateComponent p.savedOnDate {
+  position: static;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003158}}
+.questionnaireApplicationView .question-inner-wrapper, .questionnaireApplicationView .answer-inner-wrapper, .questionnaireApplicationView .no-answer-inner-wrapper {
+  float: left;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003165}}
+.questionnaireApplicationView .answer-inner-wrapper {
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003171}}
+.questionnaireApplicationView .no-answer-inner-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003178}}
+.questionnaireApplicationView .question-content, .questionnaireApplicationView .answer-inner-wrapper > div, .questionnaireApplicationView .no-answer-inner-wrapper > div, .questionnaireApplicationView .quit-page-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003182}}
+.questionnaireApplicationView .question-content .help-text, .questionnaireApplicationView .answer-inner-wrapper > div .help-text, .questionnaireApplicationView .no-answer-inner-wrapper > div .help-text, .questionnaireApplicationView .quit-page-content .help-text {
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003186}}
+.questionnaireApplicationView .question-content h1 ul, .questionnaireApplicationView .answer-inner-wrapper > div h1 ul, .questionnaireApplicationView .no-answer-inner-wrapper > div h1 ul, .questionnaireApplicationView .quit-page-content h1 ul {
+  padding: 0 14px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003192}}
+.questionnaireApplicationView .question-content h1 ul li, .questionnaireApplicationView .answer-inner-wrapper > div h1 ul li, .questionnaireApplicationView .no-answer-inner-wrapper > div h1 ul li, .questionnaireApplicationView .quit-page-content h1 ul li {
+  border-bottom: none;
+  padding-left: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003196}}
+.questionnaireApplicationView .question-content h1 ul li:before, .questionnaireApplicationView .answer-inner-wrapper > div h1 ul li:before, .questionnaireApplicationView .no-answer-inner-wrapper > div h1 ul li:before, .questionnaireApplicationView .quit-page-content h1 ul li:before {
+  /* adding bullets via pseudo element to achieve outside position without using overflow:visible */
+  content: '\2022 ';
+  position: absolute;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003207}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .submit-wrapper,
+.questionnaireApplicationView.mobile-layout .questionNavButtons .question-back-button {
+  height: 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003215}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .submit-wrapper .submit-button,
+.questionnaireApplicationView.mobile-layout .questionNavButtons .question-back-button .submit-button {
+  background-color: #ffffff !important;
+  border-color: #dadcde !important;
+  color: #515a5b !important;
+  height: 55px;
+  line-height: 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003224}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .submit-wrapper .submit-button {
+  border-width: 1px 0 0 0;
+  border-style: solid none none none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003229}}
+.questionnaireApplicationView.mobile-layout .questionNavButtons .question-back-button .submit-button {
+  border-width: 1px 1px 0 0;
+  border-style: solid solid none none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003236}}
+.questionnaireApplicationView.mobile-layout .question-content h1 ul, .questionnaireApplicationView.mobile-layout .answer-inner-wrapper > div h1 ul, .questionnaireApplicationView.mobile-layout .no-answer-inner-wrapper > div h1 ul, .questionnaireApplicationView.mobile-layout .quit-page-content h1 ul {
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003239}}
+.questionnaireApplicationView.mobile-layout .question-content h1 ul li, .questionnaireApplicationView.mobile-layout .answer-inner-wrapper > div h1 ul li, .questionnaireApplicationView.mobile-layout .no-answer-inner-wrapper > div h1 ul li, .questionnaireApplicationView.mobile-layout .quit-page-content h1 ul li {
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003245}}
+.questionnaireApplicationView .quit-page-content {
+  overflow-y: scroll;
+}
+@media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003245}}
+  .questionnaireApplicationView .quit-page-content {
+    overflow-y: hidden;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003252}}
+.questionnaireApplicationView .answer-inner-wrapper > div, .questionnaireApplicationView .no-answer-inner-wrapper > div, .questionnaireApplicationView .quit-page-content {
+  height: 100%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003257}}
+.questionnaireApplicationView .answer-inner-wrapper > div ul, .questionnaireApplicationView .no-answer-inner-wrapper > div ul, .questionnaireApplicationView .quit-page-content ul {
+  list-style: disc outside none;
+  padding: 0px 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003261}}
+.questionnaireApplicationView .answer-inner-wrapper > div p:empty, .questionnaireApplicationView .no-answer-inner-wrapper > div p:empty, .questionnaireApplicationView .quit-page-content p:empty {
+  border-top: none;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003267}}
+.questionnaireApplicationView .quit-page-content ul {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003272}}
+.questionnaireApplicationView #questionnaire-wrapper {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003276}}
+.questionnaireApplicationView .slider-wrapper {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003280}}
+.questionnaireApplicationView .slider-content-wrapper {
+  width: 300%;
+  height: 100%;
+  position: relative;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003286}}
+.questionnaireApplicationView .slider-content-wrapper .question-wrapper > div {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003291}}
+.questionnaireApplicationView .slider-base {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003295}}
+.questionnaireApplicationView .savedOnDateInactive {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_questionnaire\.scss}line{font-family:\00003299}}
+.questionnaireApplicationView .unknownContentErrorCode {
+  font-size: 8px;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\000035}}
+.questionnaireApplicationView .tailoredText .question-inner-wrapper, .questionnaireApplicationView .tailoredText .answer-inner-wrapper, .questionnaireApplicationView .tailoredText .no-answer-inner-wrapper {
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\000038}}
+.questionnaireApplicationView .tailoredText .tailored-text-wrapper {
+  width: 35%;
+  padding: 0 0 0 30px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000313}}
+.questionnaireApplicationView .tailoredText .tailored-text-wrapper .navButtons {
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000316}}
+.questionnaireApplicationView .tailoredText .tailored-text-wrapper .navButtons .question-back-button {
+  display: inline-block;
+  width: 45%;
+  max-width: 195px;
+  margin: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000322}}
+.questionnaireApplicationView .tailoredText .tailored-text-wrapper .navButtons .small-button {
+  width: 45%;
+  max-width: 195px;
+  float: right;
+  border-radius: 3px;
+  color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000331}}
+.questionnaireApplicationView .tailoredText .tailored-text-corner-notch {
+  width: 26px;
+  height: 26px;
+  float: left;
+  border: 13px solid;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000334}}
+.questionnaireApplicationView .tailoredText .tailored-text-notch-header {
+  height: 26px;
+  margin: 0 0 0 26px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .tailoredText .tailored-text-notch-header:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000339}}
+.questionnaireApplicationView .tailoredText .tailored-text {
+  width: 100%;
+  padding: 10px 30px 30px 30px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .tailoredText .tailored-text:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000345}}
+.questionnaireApplicationView .tailoredText .tailored-text .tailored-text-container script:first-child + p {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .tailoredText .tailored-text .tailored-text-container p:last-of-type {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000354}}
+.questionnaireApplicationView .tailoredText .mobileNavButtons {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000360}}
+.questionnaireApplicationView.mobile-layout .tailoredText .tailored-text-wrapper {
+  width: 90%;
+  min-width: 240px;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000368}}
+.questionnaireApplicationView.mobile-layout .tailoredText .question-inner-wrapper .navButtons, .questionnaireApplicationView.mobile-layout .tailoredText .answer-inner-wrapper .navButtons, .questionnaireApplicationView.mobile-layout .tailoredText .no-answer-inner-wrapper .navButtons {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000372}}
+.questionnaireApplicationView.mobile-layout .tailoredText .mobileNavButtons {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000377}}
+.questionnaireApplicationView .bumper-text-wrapper.quit-tailored-text-wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000377}}
+  .questionnaireApplicationView .bumper-text-wrapper.quit-tailored-text-wrapper {
+    overflow-y: hidden;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000386}}
+.questionnaireApplicationView .quitTailoredText .bumper-text-wrapper {
+  width: auto;
+  padding: 0 40px;
+}
+@media screen and (max-width: 350px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000386}}
+  .questionnaireApplicationView .quitTailoredText .bumper-text-wrapper {
+    overflow-y: hidden;
+    padding: 0 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView .quitTailoredText .bumper-text-notch-header {
+  height: 26px;
+  margin: 0 0 0 26px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .quitTailoredText .bumper-text-notch-header:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\00003101}}
+.questionnaireApplicationView .quitTailoredText .bumper-text {
+  width: 100%;
+  padding: 0 33px 28px 43px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .quitTailoredText .bumper-text:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\00003108}}
+.questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper a {
+  display: block;
+  width: 200px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\00003111}}
+.questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper a.button-text, .questionnaireApplicationView.questionnaire .quitTailoredText .quit-tailored-text-wrapper .submit-wrapper a.submit-button, .questionnaireApplicationView.questionnaire .submit-wrapper .quitTailoredText .quit-tailored-text-wrapper a.submit-button, .questionnaireApplicationView.questionnaire .quitTailoredText .quit-tailored-text-wrapper .question-back-button a.submit-button, .questionnaireApplicationView.questionnaire .question-back-button .quitTailoredText .quit-tailored-text-wrapper a.submit-button, .questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper .modal-dialog a, .questionnaireApplicationView .modal-dialog .quitTailoredText .quit-tailored-text-wrapper a, .questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper #plan-builder a, .questionnaireApplicationView #plan-builder .quitTailoredText .quit-tailored-text-wrapper a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\00003115}}
+.questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper a.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_tailored-text\.scss}line{font-family:\00003119}}
+.questionnaireApplicationView .quitTailoredText .quit-tailored-text-wrapper a.right {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .answer-outer-wrapper, .questionnaireApplicationView .no-answer-outer-wrapper {
+  background-color: #C5C5C5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\000034}}
+.questionnaireApplicationView .answer-outer-wrapper h1, .questionnaireApplicationView .no-answer-outer-wrapper h1 {
+  border-bottom: 1px solid #333333;
+  margin: 16px 0 0 0;
+  padding: 0 0 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\000039}}
+.questionnaireApplicationView .answer-outer-wrapper p, .questionnaireApplicationView .no-answer-outer-wrapper p {
+  padding: 0 0 12px 0;
+  margin: 0;
+  border-bottom: 1px solid #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .answer-outer-wrapper p.p3, .questionnaireApplicationView .no-answer-outer-wrapper p.p3 {
+  color: #4D4D4D;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000319}}
+.questionnaireApplicationView .answer-outer-wrapper a, .questionnaireApplicationView .no-answer-outer-wrapper a {
+  max-width: 225px;
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid #333333;
+  text-align: center;
+  margin: 22px 0 22px 0;
+  color: #4D4D4D;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000330}}
+.questionnaireApplicationView .answer-outer-wrapper a span, .questionnaireApplicationView .no-answer-outer-wrapper a span {
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000334}}
+.questionnaireApplicationView .answer-outer-wrapper a .svg-change-icon, .questionnaireApplicationView .no-answer-outer-wrapper a .svg-change-icon {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 17px 0 0 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000345}}
+.questionnaireApplicationView .answer-outer-wrapper h1 {
+  color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .answer-outer-wrapper p, .questionnaireApplicationView .answer-outer-wrapper ul {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000350}}
+.questionnaireApplicationView .answer-outer-wrapper p li, .questionnaireApplicationView .answer-outer-wrapper ul li {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000357}}
+.questionnaireApplicationView .no-answer-outer-wrapper h1 {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000360}}
+.questionnaireApplicationView .no-answer-outer-wrapper p {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_answer-state\.scss}line{font-family:\0000365}}
+.questionnaireApplicationView.mobile-layout .answer-inner-wrapper div p {
+  padding: 22px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-complete\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .questionnaireComplete h2 {
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-complete\.scss}line{font-family:\000037}}
+.questionnaireApplicationView .questionnaireComplete div.questionnaire-complete {
+  text-align: center;
+  float: none;
+  position: relative;
+  top: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-complete\.scss}line{font-family:\0000313}}
+.questionnaireApplicationView .questionnaireComplete .submit-wrapper {
+  margin: 25px auto;
+  max-width: 330px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-complete\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView .questionnaireComplete .submit-wrapper .submit-button {
+  max-width: 330px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\000034}}
+.questionnaireApplicationView .beginBumper, .questionnaireApplicationView .quitTailoredText {
+  overflow: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\000037}}
+.questionnaireApplicationView .beginBumper .bumper-text-wrapper, .questionnaireApplicationView .quitTailoredText .bumper-text-wrapper {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000310}}
+.questionnaireApplicationView .beginBumper .bumper-back-button-dom-id, .questionnaireApplicationView .quitTailoredText .bumper-back-button-dom-id {
+  width: 50%;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .beginBumper .bumper-text-corner-notch, .questionnaireApplicationView .quitTailoredText .bumper-text-corner-notch {
+  width: 26px;
+  height: 26px;
+  float: left;
+  border: 13px solid;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView .beginBumper h1, .questionnaireApplicationView .quitTailoredText h1 {
+  margin: 22px 0;
+  padding: 0;
+  color: #C5C5C5;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000323}}
+.questionnaireApplicationView .beginBumper .tailored-text-container, .questionnaireApplicationView .quitTailoredText .tailored-text-container {
+  margin: 22px 0;
+  line-height: 24px;
+  color: #515a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000328}}
+.questionnaireApplicationView .beginBumper a, .questionnaireApplicationView .quitTailoredText a {
+  width: 225px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #4D4D4D;
+  border: 1px solid #4D4D4D;
+  text-align: center;
+  color: #f8f8f8;
+  text-decoration: none;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000339}}
+.questionnaireApplicationView .beginBumper .program-titles, .questionnaireApplicationView .quitTailoredText .program-titles {
+  color: #4D4D4D;
+  border-bottom: 1px dashed #4D4D4D;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .beginBumper .bumper-text-wrapper {
+  width: 90%;
+  margin: 0 0 0 5%;
+  max-width: 650px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000353}}
+.questionnaireApplicationView .beginBumper .bumper-text-wrapper .question-back-button {
+  display: inline-block;
+  width: 195px;
+  margin: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView .beginBumper .bumper-text-wrapper .small-button {
+  max-width: 195px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView .beginBumper .bumper-text-notch-header {
+  height: 26px;
+  float: left;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .beginBumper .bumper-text-notch-header:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000366}}
+.questionnaireApplicationView .beginBumper .bumper-text {
+  width: 100%;
+  padding: 10px 30px 30px 30px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .beginBumper .bumper-text:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000373}}
+.questionnaireApplicationView .beginBumper .mobileNavButtons {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000379}}
+.questionnaireApplicationView.mobile-layout .beginBumper p {
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000383}}
+.questionnaireApplicationView.mobile-layout .beginBumper .bumper-text-wrapper {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000389}}
+.questionnaireApplicationView.mobile-layout .beginBumper .bumper-back-button-dom-id {
+  position: static;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000393}}
+.questionnaireApplicationView.mobile-layout .beginBumper .question-inner-wrapper .navButtons, .questionnaireApplicationView.mobile-layout .beginBumper .answer-inner-wrapper .navButtons, .questionnaireApplicationView.mobile-layout .beginBumper .no-answer-inner-wrapper .navButtons {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\0000397}}
+.questionnaireApplicationView.mobile-layout .beginBumper .mobileNavButtons {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\00003100}}
+.questionnaireApplicationView.mobile-layout .beginBumper .mobileNavButtons .section-navigation-sections-wrapper {
+  display: block;
+  height: 35px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\00003106}}
+.questionnaireApplicationView.mobile-layout .beginBumper .mobileNavButtons .submit-wrapper .submit-button {
+  border-width: 1px 0 1px 0;
+  border-style: solid none solid none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_bumper-base\.scss}line{font-family:\00003111}}
+.questionnaireApplicationView.mobile-layout .beginBumper .mobileNavButtons .question-back-button .submit-button {
+  border-width: 1px 1px 1px 0;
+  border-style: solid solid solid none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\000033}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper input[type="checkbox"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000312}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li {
+  position: relative;
+  width: 47%;
+  margin: 0 2% 0 0;
+  display: inline-block;
+  border-bottom: 1px solid #dadcde;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000320}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li .checkbox-img .check {
+  margin: 2px 1px;
+  width: 12px;
+  height: 10px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000325}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li .checkbox-img .check svg {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000330}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li .checkbox-img .check img {
+  width: 11px;
+  height: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000338}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li.selected p {
+  color: #737373;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000342}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li.selected .checkbox-img .check {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000347}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li:active {
+  background-color: #C5C5C5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000350}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li:active .checkbox-img .check {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000355}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li .choice-hover-state {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper li.hover .choice-hover-state {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000361}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper label {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000366}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper .checkbox-img {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dadcde;
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  background-color: #ffffff;
+  pointer-events: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000378}}
+.questionnaireApplicationView .checkbox .question-outer-wrapper p {
+  float: left;
+  padding: 12px 0;
+  margin: 0 0 0 30px;
+  color: #7e8c8d;
+  -webkit-text-size-adjust: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000393}}
+.questionnaireApplicationView.mobile-layout .checkbox .question-outer-wrapper li {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView.mobile-layout .checkbox .question-outer-wrapper li .checkbox-img .check {
+  width: 14px;
+  height: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_checkbox-question\.scss}line{font-family:\00003102}}
+.questionnaireApplicationView.mobile-layout .checkbox .question-outer-wrapper .checkbox-img {
+  width: 18px;
+  height: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\000033}}
+.questionnaireApplicationView .dropdown-wrapper {
+  width: 100%;
+  padding: 0 0 22px 0;
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\000039}}
+.questionnaireApplicationView .dropdown-input {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000313}}
+.questionnaireApplicationView .dropdown-input-container {
+  width: 100%;
+  height: 32px;
+  position: relative;
+  border: 1px solid #dadcde;
+  border-radius: 3px;
+  min-width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000322}}
+.questionnaireApplicationView .dropdown-input-with-label-wrapper {
+  width: 100%;
+  height: 32px;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000328}}
+.questionnaireApplicationView .dropdown-input-container-with-label-wrapper {
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000332}}
+.questionnaireApplicationView .dropdown-input-label {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000338}}
+.questionnaireApplicationView .dropdown-input-label span.input-label-text {
+  padding: 0 0 0 12px;
+  color: #7e8c8d;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000344}}
+.questionnaireApplicationView .dropdown-input-container.selected {
+  border: 1px solid #D8D8D8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .dropdown-input-text-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000353}}
+.questionnaireApplicationView .dropdown-input-text-wrapper p {
+  line-height: 32px;
+  color: #515a5b;
+  display: block;
+  padding: 0 0 0 2%;
+  margin: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000362}}
+.questionnaireApplicationView .dropdown-input-button {
+  width: 35px;
+  height: 100%;
+  border-left: 1px solid #dadcde;
+  float: right;
+  text-align: center;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000371}}
+.questionnaireApplicationView .dropdown-input-button p {
+  line-height: 29px;
+  color: #515a5b;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000376}}
+.questionnaireApplicationView .dropdown-input-button p .arrow-down {
+  border-top: 10px solid #515a5b;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000382}}
+.questionnaireApplicationView .dropdown-input-button.selected {
+  color: #D8D8D8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000386}}
+.questionnaireApplicationView .dropdown-input-button.selected span {
+  color: #D8D8D8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000390}}
+.questionnaireApplicationView .dropdown-list-container {
+  width: 100%;
+  top: 40px;
+  position: absolute;
+  background-color: #333333;
+  border-radius: 3px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\0000399}}
+.questionnaireApplicationView .dropdown-list-container.dropdown-scrolling-choices {
+  height: 176px;
+  overflow: scroll;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003104}}
+.questionnaireApplicationView .dropdown-list-container ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003111}}
+.questionnaireApplicationView .dropdown-list-container li {
+  text-align: center;
+  padding: 13px 10px;
+  border-bottom: 1px solid #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003117}}
+.questionnaireApplicationView .dropdown-list-container li p {
+  color: #f8f8f8;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003123}}
+.questionnaireApplicationView .multidropdown input[type="radio"], .questionnaireApplicationView .dropdown input[type="radio"], .questionnaireApplicationView .dropdownandnumber input[type="radio"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003126}}
+.questionnaireApplicationView .multidropdown .question-container, .questionnaireApplicationView .dropdown .question-container, .questionnaireApplicationView .dropdownandnumber .question-container {
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003131}}
+.questionnaireApplicationView .multidropdown .dropdown-display, .questionnaireApplicationView .dropdown .dropdown-display, .questionnaireApplicationView .dropdownandnumber .dropdown-display {
+  position: relative;
+  padding: 22px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003135}}
+.questionnaireApplicationView .multidropdown .dropdown-wrapper, .questionnaireApplicationView .dropdown .dropdown-wrapper, .questionnaireApplicationView .dropdownandnumber .dropdown-wrapper {
+  width: 100%;
+  height: 32px;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003140}}
+.questionnaireApplicationView .multidropdown .dropdown-value-wrapper, .questionnaireApplicationView .dropdown .dropdown-value-wrapper, .questionnaireApplicationView .dropdownandnumber .dropdown-value-wrapper {
+  width: 100%;
+  height: 32px;
+  position: relative;
+  border: 1px solid #dadcde;
+  border-radius: 3px;
+  min-width: 100px;
+  display: table-cell;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003150}}
+.questionnaireApplicationView .multidropdown .dropdown-value-wrapper.answered, .questionnaireApplicationView .dropdown .dropdown-value-wrapper.answered, .questionnaireApplicationView .dropdownandnumber .dropdown-value-wrapper.answered {
+  border: 1px solid #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003153}}
+.questionnaireApplicationView .multidropdown .dropdown-value-wrapper.answered .dropdown-input-button, .questionnaireApplicationView .dropdown .dropdown-value-wrapper.answered .dropdown-input-button, .questionnaireApplicationView .dropdownandnumber .dropdown-value-wrapper.answered .dropdown-input-button {
+  border-left: 1px solid #7e8c8d;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003157}}
+.questionnaireApplicationView .multidropdown .dropdown-value, .questionnaireApplicationView .dropdown .dropdown-value, .questionnaireApplicationView .dropdownandnumber .dropdown-value {
+  height: 30px;
+  overflow: hidden;
+  line-height: 32px;
+  color: #515a5b;
+  display: block;
+  padding: 0 0 0 2%;
+  margin: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003167}}
+.questionnaireApplicationView .multidropdown .dropdown-label, .questionnaireApplicationView .dropdown .dropdown-label, .questionnaireApplicationView .dropdownandnumber .dropdown-label {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 0 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003173}}
+.questionnaireApplicationView .multidropdown .dropdown-popup-wrapper, .questionnaireApplicationView .dropdown .dropdown-popup-wrapper, .questionnaireApplicationView .dropdownandnumber .dropdown-popup-wrapper {
+  width: 100%;
+  top: 46px;
+  position: absolute;
+  opacity: .75;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003181}}
+.questionnaireApplicationView .multidropdown .dropdown-popup-wrapper .dropdown-popup, .questionnaireApplicationView .dropdown .dropdown-popup-wrapper .dropdown-popup, .questionnaireApplicationView .dropdownandnumber .dropdown-popup-wrapper .dropdown-popup {
+  width: 100%;
+  background-color: #000000;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003185}}
+.questionnaireApplicationView .multidropdown .dropdown-popup-wrapper .dropdown-popup li, .questionnaireApplicationView .dropdown .dropdown-popup-wrapper .dropdown-popup li, .questionnaireApplicationView .dropdownandnumber .dropdown-popup-wrapper .dropdown-popup li {
+  text-align: center;
+  padding: 13px 10px;
+  border-bottom: 1px solid #f8f8f8;
+  color: #f8f8f8;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003194}}
+.questionnaireApplicationView .multidropdown .dropdown-popup-wrapper .dropdown-popup-arrow, .questionnaireApplicationView .dropdown .dropdown-popup-wrapper .dropdown-popup-arrow, .questionnaireApplicationView .dropdownandnumber .dropdown-popup-wrapper .dropdown-popup-arrow {
+  position: relative;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003197}}
+.questionnaireApplicationView .multidropdown .dropdown-popup-wrapper .dropdown-popup-arrow img, .questionnaireApplicationView .dropdown .dropdown-popup-wrapper .dropdown-popup-arrow img, .questionnaireApplicationView .dropdownandnumber .dropdown-popup-wrapper .dropdown-popup-arrow img {
+  top: -7px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 14px;
+  max-height: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003208}}
+.questionnaireApplicationView .multidropdown ul.dropdown-popup, .questionnaireApplicationView .dropdown ul.dropdown-popup, .questionnaireApplicationView .dropdownandnumber ul.dropdown-popup {
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003213}}
+.questionnaireApplicationView .multidropdown .scrollable .dropdown-popup, .questionnaireApplicationView .dropdown .scrollable .dropdown-popup, .questionnaireApplicationView .dropdownandnumber .scrollable .dropdown-popup {
+  height: 176px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003221}}
+.questionnaireApplicationView.mobile-layout .multidropdown .dropdown-value, .questionnaireApplicationView.mobile-layout .dropdown .dropdown-value, .questionnaireApplicationView.mobile-layout .dropdownandnumber .dropdown-value {
+  height: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003224}}
+.questionnaireApplicationView.mobile-layout .multidropdown .dropdown-label, .questionnaireApplicationView.mobile-layout .dropdown .dropdown-label, .questionnaireApplicationView.mobile-layout .dropdownandnumber .dropdown-label {
+  padding: 0 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003230}}
+.questionnaireApplicationView.mobile-layout .dropdownandnumber .inputs-wrapper .dropdown-input, .questionnaireApplicationView.mobile-layout .dropdownandnumber .inputs-wrapper .number-input {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-question\.scss}line{font-family:\00003233}}
+.questionnaireApplicationView.mobile-layout .dropdownandnumber .inputs-wrapper .dropdown-input .dropdown-wrapper {
+  padding-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .modal-dialog {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000315}}
+.questionnaireApplicationView .modal-dialog .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000326}}
+.questionnaireApplicationView .modal-dialog .modal {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+  text-align: center;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .modal-dialog .modal:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000337}}
+.questionnaireApplicationView .modal-dialog .error-dialog {
+  vertical-align: middle;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000342}}
+.questionnaireApplicationView .modal-dialog h1 {
+  font-weight: 300;
+  padding: 0 0 22px 0;
+  border-bottom: 1px dashed #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .modal-dialog h2 {
+  margin: 22px 0 29px 0;
+  color: #333333;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000354}}
+.questionnaireApplicationView .modal-dialog .submit-wrapper {
+  width: 100%;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000357}}
+.questionnaireApplicationView .modal-dialog .submit-wrapper .submit-button {
+  width: 100%;
+  background-color: #515a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView .modal-dialog a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 45px;
+  background-color: #4D4D4D;
+  text-align: center;
+  color: #f8f8f8;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000374}}
+.questionnaireApplicationView .modal-dialog a.disabled {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000377}}
+.questionnaireApplicationView .modal-dialog a.focus {
+  -moz-box-shadow: 0px 0px 3pt 2pt blue;
+  -webkit-box-shadow: 0px 0px 3pt 2pt blue;
+  box-shadow: 0px 0px 3pt 2pt blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000382}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper {
+  position: relative;
+  max-width: 768px;
+  z-index: 2;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000388}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper .earmark-modal-corner-notch {
+  width: 26px;
+  height: 26px;
+  float: left;
+  border: 13px solid;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000392}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper .earmark-modal-notch-header {
+  height: 26px;
+  float: left;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper .earmark-modal-notch-header:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper .earmark {
+  padding: 0 30px 30px;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .modal-dialog .earmark-modal-wrapper .earmark:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003105}}
+.questionnaireApplicationView.mobile-layout .modal-dialog {
+  background: black transparent;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003108}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .earmark-modal-wrapper {
+  margin: 60px 20px 20px;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003114}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .earmark-modal-corner-notch {
+  width: 16px;
+  height: 16px;
+  float: left;
+  border: 8px solid;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003118}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .earmark-modal-notch-header {
+  height: 16px;
+  float: left;
+  background: #f8f8f8 transparent;
+  background: rgba(248, 248, 248, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .earmark-modal-notch-header:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003122}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .earmark {
+  padding: 0 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView.mobile-layout .modal-dialog:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003128}}
+.questionnaireApplicationView.mobile-layout .modal-dialog .overlay {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003135}}
+.questionnaireApplicationView.tablet-layout .earmark-modal-wrapper, .questionnaireApplicationView.desktop-layout .earmark-modal-wrapper {
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_modal-dialog\.scss}line{font-family:\00003145}}
+.questionnaireApplicationView .modal-dialog-slim-scroll .slimScrollBar {
+  z-index: 101 !important;
+  background: #dadcde !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-dropdown-question\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .multi-dropdown-question {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-dropdown-question\.scss}line{font-family:\000035}}
+.questionnaireApplicationView .multi-dropdown-question-wrapper {
+  width: 100%;
+  padding: 0 0 22px 0;
+  border-bottom: 1px solid #dadcde;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-dropdown-question\.scss}line{font-family:\0000312}}
+.questionnaireApplicationView .multi-dropdown-childquestion-wrapper {
+  width: 50%;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-dropdown-question\.scss}line{font-family:\0000321}}
+.questionnaireApplicationView .multi-dropdown-input-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-input\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .multidropdown .inputs-wrapper, .questionnaireApplicationView .dropdownandnumber .inputs-wrapper, .questionnaireApplicationView .numbersandradios .inputs-wrapper {
+  float: left;
+  border-bottom: 1px solid #dadcde;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-input\.scss}line{font-family:\000037}}
+.questionnaireApplicationView .multidropdown .dropdown-input, .questionnaireApplicationView .multidropdown .number-input, .questionnaireApplicationView .dropdownandnumber .dropdown-input, .questionnaireApplicationView .dropdownandnumber .number-input, .questionnaireApplicationView .numbersandradios .dropdown-input, .questionnaireApplicationView .numbersandradios .number-input {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-input\.scss}line{font-family:\0000312}}
+.questionnaireApplicationView .multidropdown .number-input input[type=text], .questionnaireApplicationView .multidropdown .number-input input[type=tel], .questionnaireApplicationView .dropdownandnumber .number-input input[type=text], .questionnaireApplicationView .dropdownandnumber .number-input input[type=tel], .questionnaireApplicationView .numbersandradios .number-input input[type=text], .questionnaireApplicationView .numbersandradios .number-input input[type=tel] {
+  width: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_multi-input\.scss}line{font-family:\0000315}}
+.questionnaireApplicationView .multidropdown .dropdown-wrapper, .questionnaireApplicationView .dropdownandnumber .dropdown-wrapper, .questionnaireApplicationView .numbersandradios .dropdown-wrapper {
+  border-bottom: 0px none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .radio-question-choice {
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\000037}}
+.questionnaireApplicationView .radio-question-choice.vert-radio {
+  width: 100%;
+  border-bottom: 1px solid #dadcde;
+  padding: 10px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000313}}
+.questionnaireApplicationView .radio-choices-wrapper.hor-radio {
+  padding: 0;
+  min-height: 60px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  border: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000322}}
+.questionnaireApplicationView .radio-question-choice.hor-radio {
+  min-height: 60px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #dadcde;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000331}}
+.questionnaireApplicationView .radio-question-choice.selected {
+  background-color: #C5C5C5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000335}}
+.questionnaireApplicationView .radio-choice-text {
+  color: #7e8c8d;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000340}}
+.questionnaireApplicationView .radio-choice-text.hor-radio {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000345}}
+.questionnaireApplicationView .vert input[type="radio"], .questionnaireApplicationView .vert input[type="submit"], .questionnaireApplicationView .hor input[type="radio"], .questionnaireApplicationView .hor input[type="submit"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000348}}
+.questionnaireApplicationView .vert li, .questionnaireApplicationView .hor li {
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  padding: 0px;
+  clear: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000356}}
+.questionnaireApplicationView .vert li.selected .choice-hover-state, .questionnaireApplicationView .hor li.selected .choice-hover-state {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000360}}
+.questionnaireApplicationView .vert li .choice-hover-state, .questionnaireApplicationView .hor li .choice-hover-state {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView .vert li.hover .choice-hover-state, .questionnaireApplicationView .hor li.hover .choice-hover-state {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000366}}
+.questionnaireApplicationView .vert label, .questionnaireApplicationView .hor label {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000375}}
+.questionnaireApplicationView .hor .question-container {
+  padding: 0;
+  min-height: 60px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  border-top: 1px solid #dadcde;
+  border-bottom: 1px solid #dadcde;
+  border-left: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000385}}
+.questionnaireApplicationView .hor ul {
+  margin: 22px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000388}}
+.questionnaireApplicationView .hor li {
+  min-height: 60px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #dadcde;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView .hor label {
+  padding: 20px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\00003102}}
+.questionnaireApplicationView .vert li {
+  width: 100%;
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\00003106}}
+.questionnaireApplicationView .vert label {
+  padding: 10px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_radio-question\.scss}line{font-family:\00003112}}
+.questionnaireApplicationView.mobile-layout .vert label {
+  padding: 16px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .number-input-component-wrapper {
+  padding: 0 0 22px 0;
+  border-bottom: 1px solid #dadcde;
+  float: left;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\000038}}
+.questionnaireApplicationView .number-input-content-wrapper {
+  float: left;
+  width: 100%;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .number-input-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000319}}
+.questionnaireApplicationView .number-input-content-wrapper.has-input input {
+  border-color: #D8D8D8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000323}}
+.questionnaireApplicationView .number-input-content-wrapper input {
+  width: 65px;
+  height: 44px;
+  margin: 0 12px 0 0;
+  border-radius: 3px;
+  border: 1px solid #dadcde;
+  color: #515a5b;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000333}}
+.questionnaireApplicationView .number-input-content-wrapper label {
+  color: #7e8c8d;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000343}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper h1 {
+  padding: 0;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000347}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper p.subtext {
+  font-style: italic;
+  color: #515a5b;
+  padding: 0 0 22px 0;
+  border-bottom: 1px solid #dadcde;
+  margin: 10px 0 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000354}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper .title-text {
+  padding: 0;
+  border-bottom: none;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000359}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper .input-wrapper {
+  padding: 22px 0 0 0;
+  border-top: 1px solid #dadcde;
+  float: left;
+  width: 100%;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000366}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper label {
+  color: #7e8c8d;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000373}}
+.questionnaireApplicationView .numberinput .question-outer-wrapper input[type="tel"] {
+  width: 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000378}}
+.questionnaireApplicationView .weight-loss-too-aggressive-message-container {
+  margin-top: 10px;
+  padding-top: 22px;
+  border-bottom: 1px solid #dadcde;
+  width: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000384}}
+.questionnaireApplicationView .weight-loss-too-aggressive-message-container span {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000389}}
+.questionnaireApplicationView .showAggressiveWeightLossMessage {
+  padding: 0;
+  height: auto;
+  padding-bottom: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\0000393}}
+.questionnaireApplicationView .showAggressiveWeightLossMessage span {
+  display: inline-block;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\00003100}}
+.questionnaireApplicationView.mobile-layout .numberinput .input-wrapper {
+  padding: 16px 0 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_number-input-question\.scss}line{font-family:\00003103}}
+.questionnaireApplicationView.mobile-layout .numberinput .title-text {
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_dropdown-and-number-input-question\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .dropdownandnumber .number-input {
+  margin-top: 22px;
+  padding: 0 0 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .numbersandradios .number-inputs-wrapper {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .numbersandradios .number-inputs-wrapper input[type=text],
+.questionnaireApplicationView .numbersandradios .number-inputs-wrapper input[type=tel] {
+  width: 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000311}}
+.questionnaireApplicationView .numbersandradios .number-inputs-wrapper label {
+  margin: 0 12px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView .numbersandradios .toggle-radio-question {
+  color: #737373;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000326}}
+.questionnaireApplicationView .numbersandradios .radio-question.toggle-included {
+  border-top: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000331}}
+.questionnaireApplicationView.mobile-layout .numbersandradios .number-inputs-wrapper {
+  padding: 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000334}}
+.questionnaireApplicationView.mobile-layout .numbersandradios .toggle-radio-question {
+  padding: 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000341}}
+.questionnaireApplicationView .bloodpressure .number-inputs-wrapper {
+  margin-top: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000346}}
+.questionnaireApplicationView .systolicNotHigherErrorContainer {
+  margin-top: 10px;
+  padding-top: 22px;
+  border-bottom: 1px solid #dadcde;
+  width: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000352}}
+.questionnaireApplicationView .systolicNotHigherErrorContainer span {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000357}}
+.questionnaireApplicationView .systolicNotHigherError {
+  padding: 0;
+  height: auto;
+  padding-bottom: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000361}}
+.questionnaireApplicationView .systolicNotHigherError span {
+  display: inline-block;
+  font-style: italic;
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000369}}
+.questionnaireApplicationView .errorMessageContainer {
+  padding-top: 20px;
+  border-bottom: 1px solid #dadcde;
+  width: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000374}}
+.questionnaireApplicationView .errorMessageContainer span {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000380}}
+.questionnaireApplicationView .showErrorText span {
+  display: inline-block;
+  font-style: italic;
+  padding-bottom: 10px;
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000388}}
+.questionnaireApplicationView .showErrorText.cholesterol span:not(.cholesterol) {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_numbers-and-radios-question\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .showErrorText.generic span:not(.generic) {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .slider-input .question-container.slider-question-wrapper {
+  overflow-y: hidden !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\000035}}
+.questionnaireApplicationView .slider-input .slider-question-wrapper {
+  position: relative;
+  height: 58px;
+  margin: 80px 22px 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000310}}
+.questionnaireApplicationView .slider-input .slider-question-wrapper p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .slider-input .slider-question-wrapper .help-text {
+  position: absolute;
+  bottom: -28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView .slider-input .slider-question-wrapper .help-text.min {
+  left: -22px;
+  width: 52%;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000322}}
+.questionnaireApplicationView .slider-input .slider-question-wrapper .help-text.max {
+  right: -22px;
+  width: 52%;
+  text-align: right;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000330}}
+.questionnaireApplicationView .slider-input > p.p1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000333}}
+.questionnaireApplicationView .slider-input input[type="radio"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000337}}
+.questionnaireApplicationView .slider-input .slider-question-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 50%;
+  border: 1px solid #dadcde;
+  background-color: #ffffff;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000350}}
+.questionnaireApplicationView .slider-input .slider-question-handle.has-answer {
+  width: 44px;
+  height: 44px;
+  line-height: 40px;
+  margin: -12px 0 0 -12px;
+  border: 2px solid #C5C5C5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000357}}
+.questionnaireApplicationView .slider-input .slider-question-handle.active {
+  width: 24px;
+  height: 24px;
+  margin: -2px 0 0 -2px;
+  border: 2px solid #C5C5C5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000364}}
+.questionnaireApplicationView .slider-input .slider-question-handle-answer-text {
+  line-height: 40px;
+  color: #4D4D4D;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000370}}
+.questionnaireApplicationView .slider-input .slider-question-handle-content-wrapper {
+  position: relative;
+  left: 10px;
+  width: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000375}}
+.questionnaireApplicationView .slider-input .slider-question-handle-answer-tag-wrapper {
+  position: absolute;
+  width: 50px;
+  bottom: 15px;
+  left: -26px;
+  opacity: .75;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000382}}
+.questionnaireApplicationView .slider-input .slider-question-handle-answer-tag-wrapper .slider-question-handle-answer-tag {
+  padding: 12px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000387}}
+.questionnaireApplicationView .slider-input .slider-question-handle-answer-tag-wrapper .slider-question-handle-answer-tag p {
+  color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000391}}
+.questionnaireApplicationView .slider-input .slider-question-handle-answer-tag-wrapper .slider-question-handle-answer-tag-arrow {
+  height: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\0000395}}
+.questionnaireApplicationView .slider-input .slider-instructions-wrapper {
+  position: absolute;
+  width: 150px;
+  left: -76px;
+  bottom: 15px;
+  opacity: .25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003102}}
+.questionnaireApplicationView .slider-input .slider-instructions-wrapper .slider-instructions-arrow {
+  height: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003105}}
+.questionnaireApplicationView .slider-input .slider-instructions-wrapper .slider-instructions {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003112}}
+.questionnaireApplicationView .slider-input .slider-instructions-wrapper .slider-instructions p {
+  color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003117}}
+.questionnaireApplicationView .slider-input .slider-question-bar {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  margin: 20px 0 21px;
+  background-color: #dadcde;
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003125}}
+.questionnaireApplicationView .slider-input .slider-question-range-indicator {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid #dadcde;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003136}}
+.questionnaireApplicationView .slider-input .slider-question-range-indicator p {
+  line-height: 40px;
+  color: #515a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003141}}
+.questionnaireApplicationView .slider-input .slider-question-range-indicator.min {
+  left: -22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003144}}
+.questionnaireApplicationView .slider-input .slider-question-range-indicator.max {
+  right: -22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003150}}
+.questionnaireApplicationView .mobile-layout .slider-input .slider-question-bar {
+  height: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003154}}
+.questionnaireApplicationView .mobile-layout .slider-input .slider-question-range-indicator p {
+  font-size: 15px;
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_slider-input\.scss}line{font-family:\00003159}}
+.questionnaireApplicationView .mobile-layout .slider-input .slider-question-wrapper {
+  margin-top: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\000033}}
+.questionnaireApplicationView .likert-input input[type="radio"], .questionnaireApplicationView .likert-input input[type="submit"] {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: absolute;
+  line-height: 0;
+  border: 0 none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper {
+  width: 100%;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000312}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper > p.p1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000315}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper li label {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000319}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper .endpoint-text-wrapper .help-text {
+  margin: -20px 0 18px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000321}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper .endpoint-text-wrapper .help-text.min {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000324}}
+.questionnaireApplicationView .likert-input .likert-question-wrapper .endpoint-text-wrapper .help-text.max {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000330}}
+.questionnaireApplicationView .likert-input .answered.likert-question-wrapper {
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000333}}
+.questionnaireApplicationView .likert-input .text-wrapper {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000336}}
+.questionnaireApplicationView .likert-input ul {
+  display: table;
+  padding: 0;
+  margin: 0 0 22px 0;
+  min-height: 60px;
+  width: 100%;
+  table-layout: fixed;
+  border-top: 1px solid #dadcde;
+  border-bottom: 1px solid #dadcde;
+  border-left: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000347}}
+.questionnaireApplicationView .likert-input li {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0;
+  min-height: 60px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000360}}
+.questionnaireApplicationView .likert-input li.selected .choice-hover-state {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000364}}
+.questionnaireApplicationView .likert-input li .choice-hover-state {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000367}}
+.questionnaireApplicationView .likert-input li.hover .choice-hover-state {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000370}}
+.questionnaireApplicationView .likert-input label {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  float: left;
+  position: relative;
+}
+@media (max-width: 1050px) and (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000370}}
+  .questionnaireApplicationView .likert-input label {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000370}}
+  .questionnaireApplicationView .likert-input label {
+    padding: 20px 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000393}}
+.questionnaireApplicationView .mobile-layout .likert-input .likert-question-wrapper > p.p1 {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_likert-input\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView .mobile-layout .likert-input .likert-question-wrapper > .text-wrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\000032}}
+.questionnaireApplicationView .scalegroup h1 {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .scalegroup .likert-question-content-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000310}}
+.questionnaireApplicationView .scalegroup .likert-question-content-block .question-content, .questionnaireApplicationView .scalegroup .likert-question-content-block .answer-inner-wrapper > div, .questionnaireApplicationView .scalegroup .likert-question-content-block .no-answer-inner-wrapper > div, .questionnaireApplicationView .scalegroup .likert-question-content-block .quit-page-content {
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000315}}
+.questionnaireApplicationView .scalegroup .answer-text {
+  display: none;
+  color: #4D4D4D;
+  margin: 0;
+  padding: 0 !important;
+  border: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000325}}
+.questionnaireApplicationView .scalegroup .likert-answer-state h1 {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000328}}
+.questionnaireApplicationView .scalegroup .likert-answer-state .text-wrapper {
+  padding: 0;
+  margin: 16px 140px 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000332}}
+.questionnaireApplicationView .scalegroup .likert-answer-state .likert-question-wrapper {
+  border-bottom: 1px solid #dadcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000335}}
+.questionnaireApplicationView .scalegroup .likert-answer-state .question-text {
+  display: block;
+  width: 100%;
+  font-style: italic;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000341}}
+.questionnaireApplicationView .scalegroup .likert-answer-state .answer-text {
+  display: block;
+  color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000345}}
+.questionnaireApplicationView .scalegroup .likert-answer-state .p3 {
+  float: left;
+  margin: 20px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000351}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-content-wrapper,
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper {
+  width: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000355}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper {
+  left: -75px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper.is-first-choice-selected {
+  left: -25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000361}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper.is-first-choice-selected .slider-question-handle-answer-tag-arrow {
+  text-align: left;
+  margin-left: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000366}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper.is-last-choice-selected {
+  left: -125px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000369}}
+.questionnaireApplicationView .scalegroup .slider-question-handle-answer-tag-wrapper.is-last-choice-selected .slider-question-handle-answer-tag-arrow {
+  text-align: right;
+  margin-right: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000377}}
+.questionnaireApplicationView .scalegroup .slider-input h1, .questionnaireApplicationView .scalegroup .slider-input .likert-question-wrapper {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000386}}
+.questionnaireApplicationView .mobile-layout .scalegroup .slider-input > p.p1 {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000389}}
+.questionnaireApplicationView .mobile-layout .scalegroup .slider-input > h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_scalegroup-question\.scss}line{font-family:\0000394}}
+.questionnaireApplicationView .mobile-layout .scalegroup .likert-input h1, .questionnaireApplicationView .mobile-layout .scalegroup .likert-input .likert-question-wrapper, .questionnaireApplicationView .mobile-layout .scalegroup .slider-input h1, .questionnaireApplicationView .mobile-layout .scalegroup .slider-input .likert-question-wrapper {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\000036}}
+.questionnaireApplicationView #section-progress-bar-wrapper {
+  height: 22px;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000311}}
+.questionnaireApplicationView #section-progress-bar {
+  height: 2px;
+  width: 100%;
+  background-color: #515a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView .section-navigation-sections-wrapper {
+  height: 54px;
+  padding-left: 13px;
+  border-top: 1px solid #dadcde;
+  overflow: visible;
+  opacity: 1;
+  transition: opacity 1s;
+  z-index: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000327}}
+.questionnaireApplicationView .section-navigation-sections-wrapper.retake-dialog-showing {
+  opacity: 0;
+  transition: opacity 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000332}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .nextSection, .questionnaireApplicationView .section-navigation-sections-wrapper .activeSection {
+  line-height: 54px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000335}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .activeSection {
+  float: left;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000339}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .nextSection {
+  float: right;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000343}}
+.questionnaireApplicationView .section-navigation-sections-wrapper img {
+  padding: 0 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000346}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .activeIncomplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .activeIncomplete svg, .questionnaireApplicationView .section-navigation-sections-wrapper .activeComplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .activeComplete svg {
+  height: 20px;
+  width: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000351}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .placeholderIncomplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .placeholderIncomplete svg, .questionnaireApplicationView .section-navigation-sections-wrapper .inactiveComplete img,
+.questionnaireApplicationView .section-navigation-sections-wrapper .inactiveComplete svg, .questionnaireApplicationView .section-navigation-sections-wrapper .inactiveIncomplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .inactiveIncomplete svg {
+  height: 15px;
+  width: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000356}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .activeIncomplete, .questionnaireApplicationView .section-navigation-sections-wrapper .activeComplete, .questionnaireApplicationView .section-navigation-sections-wrapper .inactiveIncomplete,
+.questionnaireApplicationView .section-navigation-sections-wrapper .inactiveComplete, .questionnaireApplicationView .section-navigation-sections-wrapper .placeholderIncomplete {
+  float: left;
+  height: 15px;
+  width: 15px;
+  margin: 19.5px 7px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .activeIncomplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .activeComplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .inactiveIncomplete img,
+.questionnaireApplicationView .section-navigation-sections-wrapper .inactiveComplete img, .questionnaireApplicationView .section-navigation-sections-wrapper .placeholderIncomplete img {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000367}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .activeIncomplete, .questionnaireApplicationView .section-navigation-sections-wrapper .activeComplete {
+  height: 20px;
+  width: 20px;
+  margin: 18px 7px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000373}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .loadingSpinner {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000377}}
+.questionnaireApplicationView .section-navigation-sections-wrapper .loader {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  z-index: 100;
+  transform: translate(50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000388}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .section-navigation-wrapper .section-navigation-sections-wrapper {
+  height: 0;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000393}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .section-progress-bar {
+  border-top: 1px solid #dadcde;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\0000398}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper {
+  border-top: 0;
+  padding-left: 0;
+  height: 35px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\00003104}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .sectionNavItem {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\00003108}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .inactiveIncomplete,
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .inactiveComplete,
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .placeholderIncomplete {
+  margin: 10px 3px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_section-nav\.scss}line{font-family:\00003114}}
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .activeIncomplete,
+.questionnaireApplicationView.mobile-layout #questionnaire-wrapper .beginBumper .section-navigation-sections-wrapper .activeComplete {
+  margin: 7.5px 3px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .question-landing-modal {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\000036}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper {
+  min-width: 708px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-top: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000314}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000319}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper {
+  width: 40%;
+  border-right: 1px solid #ffffff;
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000324}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper h1 {
+  font-weight: normal;
+  font-size: 22px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000329}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper .landing-text {
+  width: 100%;
+  padding: 0 30px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000335}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper .landing-action-wrapper {
+  width: 60%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 0 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000342}}
+.questionnaireApplicationView .question-landing-modal .questionnaire-landing-modal-wrapper .landing-action-wrapper h1 {
+  font-weight: 900;
+  padding-bottom: 16px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000350}}
+.questionnaireApplicationView .question-landing-modal h1 {
+  padding-bottom: 10px;
+  color: #C5C5C5;
+  border-bottom: 2px dotted #4D4D4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000354}}
+.questionnaireApplicationView .question-landing-modal h1 sup {
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView .question-landing-modal h2 {
+  margin: 22px 0;
+  line-height: 30px;
+  color: #515a5b;
+  font-weight: 300;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000364}}
+.questionnaireApplicationView .question-landing-modal a {
+  width: 225px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #4D4D4D;
+  text-align: center;
+  color: #f8f8f8;
+  text-decoration: none;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000374}}
+.questionnaireApplicationView .question-landing-modal a.upgrade-button {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000378}}
+.questionnaireApplicationView .question-landing-modal a.retake {
+  width: 185px;
+  margin: 0 5px 10px 0;
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #4D4D4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000385}}
+.questionnaireApplicationView .question-landing-modal a.retake.continue {
+  background-color: transparent !important;
+  border: 1px solid #4D4D4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000391}}
+.questionnaireApplicationView .question-landing-modal p {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  color: #515a5b;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000396}}
+  .questionnaireApplicationView.mobile-layout .question-landing-modal {
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000396}}
+  .questionnaireApplicationView.mobile-layout .question-landing-modal {
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000396}}
+  .questionnaireApplicationView.mobile-layout .question-landing-modal {
+    height: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: hidden;
+  }
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\0000396}}
+  .questionnaireApplicationView.mobile-layout .question-landing-modal {
+    height: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: hidden;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003127}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal h1 {
+  font-size: 18px;
+  margin: 22px 0 16px;
+  border-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003133}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal h2, .questionnaireApplicationView.mobile-layout .question-landing-modal p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003140}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper {
+  min-width: 0;
+  margin-top: 9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003144}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper {
+  width: 100%;
+  display: block;
+  border-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003149}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  margin: 0;
+  border-width: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003156}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper .landing-text {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003159}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-program-wrapper .landing-text p:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003164}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-action-wrapper {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003169}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-action-wrapper h1 {
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003173}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper .landing-action-wrapper h2 {
+  margin: 16px 0 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_questionnaire-landing-dialog\.scss}line{font-family:\00003177}}
+.questionnaireApplicationView.mobile-layout .question-landing-modal .questionnaire-landing-modal-wrapper a {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_date-input\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .date-input-wrapper {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_date-input\.scss}line{font-family:\000034}}
+.questionnaireApplicationView .date-input-wrapper label.date-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_date-input\.scss}line{font-family:\0000312}}
+.questionnaireApplicationView .date-input-wrapper input {
+  font-size: initial;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_date-input\.scss}line{font-family:\0000316}}
+.questionnaireApplicationView .date-input-wrapper svg {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/components\/_text-input\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .text-input-wrapper {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\000032}}
+.questionnaireApplicationView #plan-builder .content-wrapper {
+  width: 768px;
+  padding: 130px 0 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\000039}}
+.questionnaireApplicationView #plan-builder .plan-eye, .questionnaireApplicationView #plan-builder .plan-plus, .questionnaireApplicationView #plan-builder .plan-check, .questionnaireApplicationView #plan-builder .plan-arrow {
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000313}}
+.questionnaireApplicationView #plan-builder h1 {
+  margin: 0 0 44px 0;
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000317}}
+.questionnaireApplicationView #plan-builder h2 {
+  font-size: 22px;
+  margin: 0 0 25px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000321}}
+.questionnaireApplicationView #plan-builder .plan-build-slide {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000324}}
+.questionnaireApplicationView #plan-builder .plan-build-icon {
+  height: 109px;
+  width: 109px;
+  border: 6px solid #000000;
+  border-radius: 50%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000331}}
+.questionnaireApplicationView #plan-builder .circle {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 20px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000337}}
+.questionnaireApplicationView #plan-builder .circle .circleFill, .questionnaireApplicationView #plan-builder .circle .circleTrack {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000343}}
+.questionnaireApplicationView #plan-builder .circle .circleFill.circleFill, .questionnaireApplicationView #plan-builder .circle .circleTrack.circleFill {
+  z-index: 1;
+  stroke-dasharray: 322;
+  stroke-dashoffset: 322;
+  transition: all 1s;
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000349}}
+.questionnaireApplicationView #plan-builder .circle .circleFill.circleFill.filled, .questionnaireApplicationView #plan-builder .circle .circleTrack.circleFill.filled {
+  stroke-dashoffset: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000353}}
+.questionnaireApplicationView #plan-builder .circle .circleFill.circleTrack, .questionnaireApplicationView #plan-builder .circle .circleTrack.circleTrack {
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000358}}
+.questionnaireApplicationView #plan-builder #plan-slide-1 .svg-plan-check {
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000363}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 {
+  margin: 60px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000365}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 h1 {
+  margin: 0 0 74px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000368}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-steps-wrapper {
+  display: table;
+  table-layout: fixed;
+  margin: 0 auto 44px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000373}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 .plan-build-step {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  display: table-cell;
+  float: left;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000379}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 .arrow-reveal {
+  width: 0px;
+  overflow: hidden;
+  float: left;
+  margin: -26px 0 0 -24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000385}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 .content-center {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000389}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-1 .content-center {
+  width: 135px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000392}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-1 .arrow-reveal {
+  margin: -26px 0 0 -24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000396}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-2 {
+  margin: 0 0 0 -70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\0000398}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-2 .content-center {
+  width: 220px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003101}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-2 .arrow-reveal {
+  margin: -26px 0 0 -72px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003105}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-3 {
+  margin: 0 0 0 -44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003107}}
+.questionnaireApplicationView #plan-builder #plan-slide-2 #plan-build-step-3 .content-center {
+  width: 165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003112}}
+.questionnaireApplicationView #plan-builder #plan-build-submit {
+  margin: 0 0 100px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003115}}
+.questionnaireApplicationView #plan-builder a {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0px;
+  margin: 0 auto 100px auto;
+  display: block;
+  width: 225px;
+  height: 45px;
+  background-color: #4D4D4D;
+  text-align: center;
+  color: #f8f8f8;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003129}}
+.questionnaireApplicationView #plan-builder a.focus {
+  -moz-box-shadow: 0px 0px 3pt 2pt blue;
+  -webkit-box-shadow: 0px 0px 3pt 2pt blue;
+  box-shadow: 0px 0px 3pt 2pt blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003136}}
+.questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-1, .questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-2 {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003139}}
+.questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-1 h1, .questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-2 h1 {
+  font-size: 25px;
+  padding: 0 10px;
+  margin-bottom: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003144}}
+.questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-1 p, .questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-2 p {
+  margin: 0 0 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003150}}
+.questionnaireApplicationView.mobile-layout #plan-builder #plan-slide-1 {
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003154}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper {
+  width: 100%;
+  min-width: 320px;
+  padding-top: 0;
+  text-align: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003159}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper {
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003163}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step {
+  float: none;
+  width: 100%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003167}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-1, .questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-2 {
+  margin: 0 0 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003170}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-1 svg, .questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-2 svg {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003173}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-1 .content-center, .questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-2 .content-center {
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003177}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-3 {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003179}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-3 svg {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003182}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step#plan-build-step-3 .content-center {
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003186}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step .content-center {
+  margin: 0 auto;
+  display: block;
+  float: none;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003192}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step .content-center .pbanim-step2-corrector p {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003195}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step .content-center .svg-plan-check, .questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step .content-center .svg-plan-plus {
+  margin-right: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/templates\/_plan-building\.scss}line{font-family:\00003198}}
+.questionnaireApplicationView.mobile-layout #plan-builder .content-wrapper #plan-build-steps-wrapper .plan-build-step .content-center .svg-plan-eye {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingQuestionnaire\/app\/styles\/_jquery-ui-custom\.scss}line{font-family:\000031}}
+.questionnaireApplicationView .ui-datepicker {
+  z-index: 2000 !important;
+}

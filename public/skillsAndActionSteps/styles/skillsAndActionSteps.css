@@ -1,0 +1,1074 @@
+/**
+ * Sets a background with transparency on all browsers.
+ * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+ * @param  {[type]} $red   [value between 0 and 255]
+ * @param  {[type]} $green [value between 0 and 255]
+ * @param  {[type]} $blue  [value between 0 and 255]
+ * @param  {[type]} $alpha [value between 0 and 1]
+ * @return {[type]}        []
+ */
+/** parameter needs to be a decimal between 0 and 1 */
+/** Returns a one byte hex value */
+/* z-index matching the program modal
+The SNAS itself should not be allowed to set up it's own context.
+The context, things like z-index and position.
+Should be controlled by a parent.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000338}}
+[data-wnpwidget-container="skillsAndActionSteps"] {
+  z-index: 1950;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000342}}
+[data-wnpwidget="skillsAndActionSteps"] {
+  background: #f8f8f8;
+  background-image: url('/images/widgets/sharedMedia/blurred-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000356}}
+[data-wnpwidget="skillsAndActionSteps"].container-fluid {
+  padding-left: 0;
+  margin: 0;
+  /* Fix for rendering issue in IE8 causing constant resizes */
+  overflow: hidden \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000363}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="weightSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Balance_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000366}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="depressionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Care_For_Depression_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000369}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="chronicConditionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Chronic_Condition_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000372}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="physicalActivitySkills"] {
+  background-image: url('/images/widgets/sharedMedia/Move_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000375}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="smokingCessationSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Breathe_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000378}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="thrombosis"] {
+  background-image: url('/images/widgets/sharedMedia/Thrombosis_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000381}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="nutritionSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Nutrition_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000384}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="heartHealthSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Care_Heart_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000387}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="painSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Pain_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000390}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="sleepSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Sleep_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000393}}
+[data-wnpwidget="skillsAndActionSteps"][data-wnptheme="psoriasisSkills"] {
+  background-image: url('/images/widgets/sharedMedia/Psoriasis_BG.jpg');
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\0000397}}
+[data-wnpwidget="skillsAndActionSteps"] button {
+  border: none;
+  border-radius: 4px;
+  text-transform: capitalize;
+  padding: 0 10px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003104}}
+[data-wnpwidget="skillsAndActionSteps"] button.btnSmall {
+  font-size: 13px;
+  font-style: italic;
+  height: 29px;
+  width: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003111}}
+[data-wnpwidget="skillsAndActionSteps"] button.btnMedium {
+  font-size: 14px;
+  font-weight: 900;
+  height: 44px;
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003118}}
+[data-wnpwidget="skillsAndActionSteps"] button.btnLarge {
+  font-size: 15px;
+  font-weight: 900;
+  height: 44px;
+  width: 225px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003126}}
+[data-wnpwidget="skillsAndActionSteps"] [data-wnpwidget="headerNavigationBar"] {
+  z-index: 1951;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003129}}
+[data-wnpwidget="skillsAndActionSteps"] [data-wnpwidget="headerNavigationBar"] button {
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003135}}
+[data-wnpwidget="skillsAndActionSteps"] nav.localNav {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003139}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.9);
+  height: 48px;
+  padding: 0;
+  margin: 0 0 2px 0;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003147}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav ul {
+  list-style: none;
+  padding: 15px 0 0 5px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003153}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003157}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003161}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav li a.active {
+  border-bottom: 3px solid;
+  padding-bottom: 13px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003167}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav li a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003173}}
+[data-wnpwidget="skillsAndActionSteps"] .localNav .programTitleText {
+  float: right;
+  margin: 13px 15px 0 0;
+  font-size: 18px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003182}}
+[data-wnpwidget="skillsAndActionSteps"] .contentContainer {
+  width: 100%;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003187}}
+[data-wnpwidget="skillsAndActionSteps"] section {
+  padding: 0;
+  height: 100%;
+  height: calc(100% - 90px);
+  overflow-y: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003194}}
+[data-wnpwidget="skillsAndActionSteps"] .bigLeftNav {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003200}}
+[data-wnpwidget="skillsAndActionSteps"] .selectedList {
+  font-size: 16px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003205}}
+[data-wnpwidget="skillsAndActionSteps"] .foldedCornerTopLeft::before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  right: 0;
+  height: 23px;
+  width: calc(100% - 23px );
+  margin-left: 23px;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillsAndActionSteps"] .foldedCornerTopLeft::before:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003216}}
+[data-wnpwidget="skillsAndActionSteps"] .foldedCornerTopLeft::after {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 23px solid transparent;
+  border-bottom-width: 23px;
+  border-bottom-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003228}}
+[data-wnpwidget="skillsAndActionSteps"] .noFoldedCornerTopLeft::before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  right: 0;
+  height: 23px;
+  width: 100%;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget="skillsAndActionSteps"] .noFoldedCornerTopLeft::before:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003238}}
+[data-wnpwidget="skillsAndActionSteps"] .shadedCornerTopLeft::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 23px solid transparent;
+  border-left-width: 23px;
+  border-left-style: solid;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\000033}}
+[data-view="goal"] .goalMission {
+  margin-top: 23px;
+  position: relative;
+  /* for corner...*/
+  padding: 13px 20px 0;
+  line-height: 24px;
+  border-bottom: 1px solid transparent;
+  /* contain internal el's margins */
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="goal"] .goalMission:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000312}}
+[data-view="goal"] .goalMission .programTitle {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  border-bottom: 1px dotted;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000320}}
+[data-view="goal"] .goalMission .goalHeading {
+  margin: 22px 0 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000323}}
+[data-view="goal"] .goalMission p {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000330}}
+[data-view="goal"] .goalMission .goalDetail {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  color: #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000338}}
+[data-view="goal"] .goalWidget, [data-view="goal"] .messagingAreaWidget {
+  padding-top: 33px;
+  background: #fff;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000348}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .foldedCornerTopLeft {
+    margin-top: 35px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000350}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .foldedCornerTopLeft::before {
+    top: -15px;
+    height: 15px;
+    width: calc(100% - 15px );
+    margin-left: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000356}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .foldedCornerTopLeft::after {
+    top: -15px;
+    border-left: 15px solid transparent;
+    border-bottom-width: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000363}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000369}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .programTitle {
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000373}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .goalHeading {
+    font-size: 21px;
+    margin: 25px 0 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000377}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .goalMission {
+    padding-top: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000381}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .moreExpando :first-child {
+    margin-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_goal\.scss}line{font-family:\0000384}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-view="goal"] .moreExpando + .moreExpandoToggle {
+    margin: 25px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\000037}}
+[data-view="skills"] .skillsPageHeader {
+  width: 100%;
+  height: 225px;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="skills"] .skillsPageHeader:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000313}}
+[data-view="skills"] .skillsPageHeader h1 {
+  margin: 0 0 5px 0;
+  padding-top: 75px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000319}}
+[data-view="skills"] ul.skillList {
+  margin: 30px 0 75px 0;
+  padding: 0 10px;
+  list-style: none;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000325}}
+[data-view="skills"] ul.skillList li {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 3px;
+  padding: 0;
+  width: 241px;
+  height: 322px;
+  text-align: center;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="skills"] ul.skillList li:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000339}}
+[data-view="skills"] ul.skillList li:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000343}}
+[data-view="skills"] ul.skillList li img {
+  display: block;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000350}}
+[data-view="skills"] .skillContent {
+  transition: top 0.6s;
+  position: relative;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000356}}
+[data-view="skills"] .skillHeaderWrapper {
+  display: table;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000360}}
+[data-view="skills"] .skillHeader {
+  display: table-cell;
+  vertical-align: middle;
+  height: 170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000365}}
+[data-view="skills"] .skillHeader h1 {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000369}}
+[data-view="skills"] .skillNew {
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000374}}
+[data-view="skills"] .skillStatus {
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000378}}
+[data-view="skills"] .skillIcon {
+  transition: margin-top 0.6s;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000383}}
+[data-view="skills"] .skillDescription {
+  transition: margin-top 0.6s;
+  height: 48px;
+  width: 200px;
+  margin: 60px auto 22px;
+  padding: 0;
+  font-size: 14px;
+  font-style: normal;
+  color: #515a5b;
+  line-height: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\0000394}}
+[data-view="skills"] .skillDescription .skillStatusCount {
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003100}}
+[data-view="skills"] .selectedSkill .skillContent {
+  transition: top 0.6s;
+  top: -170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003104}}
+[data-view="skills"] .selectedSkill .skillIcon {
+  transition: margin-top 0.6s;
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003108}}
+[data-view="skills"] .selectedSkill .skillDescription {
+  transition: margin-top 0.6s;
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003114}}
+[data-view="skills"] .nextSkillName {
+  color: #84888c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003119}}
+[data-view="skills"] .viewSkillDetailsBtn button {
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003130}}
+  [data-view="skills"] .skillsPageHeader {
+    height: 175px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003133}}
+  [data-view="skills"] .skillsPageHeader h1 {
+    padding-top: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003137}}
+  [data-view="skills"] .skillsPageHeader div.programTitleText {
+    font-size: 16px;
+    font-style: italic;
+    border-bottom: 1px dotted;
+    display: inline-block;
+    margin-top: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003145}}
+  [data-view="skills"] .skillsPageHeader span.subHeaderText {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003151}}
+  [data-view="skills"] ul.skillList {
+    margin-bottom: 100px;
+    margin-top: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003157}}
+  [data-view="skills"] ul.skillList .shadedCornerTopLeft::after {
+    border-bottom: 15px solid transparent;
+    border-left-width: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003162}}
+  [data-view="skills"] ul.skillList .skill {
+    width: 100%;
+    height: auto;
+    min-height: 108px;
+    text-align: left;
+    border-color: #ccc;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003170}}
+  [data-view="skills"] ul.skillList .skillContent {
+    margin: 22px 20px;
+    height: auto;
+    min-height: 64px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003175}}
+  [data-view="skills"] ul.skillList .selectedSkill .skillContent {
+    top: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003178}}
+  [data-view="skills"] ul.skillList .skillIcon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    transition: none;
+    margin-top: 0;
+    top: 0;
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003187}}
+  [data-view="skills"] ul.skillList .selectedSkill .skillIcon {
+    margin-top: 0;
+    transition: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003191}}
+  [data-view="skills"] ul.skillList .skillIcon svg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003197}}
+  [data-view="skills"] ul.skillList .skillHeaderWrapper {
+    position: relative;
+    width: auto;
+    margin: 0 0 0 84px;
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003203}}
+  [data-view="skills"] ul.skillList .skillHeader {
+    height: 64px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003207}}
+  [data-view="skills"] ul.skillList .skillNew {
+    line-height: 1.125;
+    margin-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003211}}
+  [data-view="skills"] ul.skillList .skillDescription {
+    width: auto;
+    height: auto;
+    clear: both;
+    margin: 22px 0;
+    font-size: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003218}}
+  [data-view="skills"] ul.skillList .skillDescription.noActivity {
+    font-style: italic;
+    font-size: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003223}}
+  [data-view="skills"] ul.skillList .viewSkillDetailsBtn button {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003226}}
+  [data-view="skills"] ul.skillList .viewSkillDetailsBtn button.btnMedium {
+    font-size: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003230}}
+  [data-view="skills"] ul.skillList .skillDescription, [data-view="skills"] ul.skillList .viewSkillDetailsBtn {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_skills\.scss}line{font-family:\00003234}}
+  [data-view="skills"] ul.skillList .selectedSkill .skillDescription, [data-view="skills"] ul.skillList .selectedSkill .viewSkillDetailsBtn {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000322}}
+[data-view="actionSteps"] {
+  display: table;
+  overflow: hidden;
+  height: 600px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000328}}
+[data-view="actionSteps"] h1 {
+  margin: 0;
+  padding: 22px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000332}}
+[data-view="actionSteps"] h1.hasActionStepsHeader {
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="actionSteps"] h1.hasActionStepsHeader:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000337}}
+[data-view="actionSteps"] .actionStepsGetStarted {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="actionSteps"] .actionStepsGetStarted:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000344}}
+[data-view="actionSteps"] .actionStepsGetStarted h1 {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000348}}
+[data-view="actionSteps"] .actionStepsGetStarted .getStartedContent {
+  padding: 29px 0 0;
+  margin-top: 16px;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000354}}
+[data-view="actionSteps"] .actionStepsGetStarted .getStartedContent .actionStepSummaryText {
+  font-size: 16px;
+  padding: 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000361}}
+[data-view="actionSteps"] .skillWrapper {
+  padding: 0 20px;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="actionSteps"] .skillWrapper:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000365}}
+[data-view="actionSteps"] .skillWrapper .skillListItemHeading {
+  padding: 16px 0;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000372}}
+[data-view="actionSteps"] .skillWrapper .skillListItemHeading .displayName {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000376}}
+[data-view="actionSteps"] .skillWrapper .skillListItemHeading .actionStepsStatus {
+  font-style: italic;
+  font-size: 12px;
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000385}}
+[data-view="actionSteps"] .skillWrapper .skillTodo {
+  padding: 22px 0 0;
+  margin-bottom: 10px;
+  min-height: 153px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000390}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .skillIcon {
+  float: left;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\0000395}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList {
+  vertical-align: top;
+  padding-top: 7px;
+  margin-left: 129px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003100}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList button {
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003104}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent:first-of-type {
+  padding-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003108}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent {
+  position: relative;
+  border-bottom: 2px dotted #7e8c8d;
+  padding: 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003113}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent h2 {
+  padding: 0 10px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: text-bottom;
+  font-size: 22px;
+  line-height: 26px;
+  width: auto;
+  max-width: calc(100% - 50px);
+  overflow-y: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003125}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepCompletedTooltip {
+  display: none;
+  position: absolute;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 14px;
+  background: #232323 transparent;
+  background: rgba(35, 35, 35, 0.85);
+  padding: 15px 30px;
+  border-radius: 3px;
+  width: 220px;
+  bottom: 38px;
+  left: -95px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepCompletedTooltip:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003140}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepCompletedTooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 95px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(35, 35, 35, 0.85);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003153}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepListPoint, [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepToggle, [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepRemove {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003159}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepListPoint {
+  background: url('/images/widgets/sharedMedia/icons/List_In-Progress_1x.png') no-repeat;
+  float: left;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003164}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepListPoint:hover {
+  background: url('/images/widgets/sharedMedia/icons/List_Complete_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003167}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepListPoint:hover .actionStepCompletedTooltip {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003170}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepListPoint:hover .actionStepCompletedTooltip.noTouch {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003176}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepToggle {
+  background: url('/images/widgets/sharedMedia/icons/List_Reveal_Stroke_1x.png') no-repeat;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003180}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepToggle:hover {
+  background: url('/images/widgets/sharedMedia/icons/List_Reveal_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003186}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent.actionStepSummaryExpanded .actionStepToggle {
+  background: url('/images/widgets/sharedMedia/icons/List_Hide_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003189}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent.actionStepSummaryExpanded .actionStepToggle:hover {
+  background: url('/images/widgets/sharedMedia/icons/List_Hide_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003194}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent.actionStepSummaryExpanded .actionStepSummary {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003199}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003202}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .summaryText {
+  padding-top: 22px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003207}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .summaryText, [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .actionStepEvent, [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .trackYourHealth > * {
+  margin-left: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003211}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .actionStepEvent {
+  font-style: italic;
+  font-size: 12px;
+  display: table;
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003217}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .actionStepEvent .eventText {
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003223}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .actionStepEvent .actionStepRemove {
+  background: url('/images/widgets/sharedMedia/icons/List_Remove_Stroke_1x.png') no-repeat;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003227}}
+[data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary .actionStepEvent .actionStepRemove:hover {
+  background: url('/images/widgets/sharedMedia/icons/List_Remove_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003236}}
+[data-view="actionSteps"] .skillWrapper .skillTodo button {
+  margin: 16px 0;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003240}}
+[data-view="actionSteps"] .skillWrapper .skillTodo button.noActionSteps {
+  margin-top: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003244}}
+[data-view="actionSteps"] .skillWrapper .skillTodo button.addActionStepBtn {
+  width: auto;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003253}}
+  [data-view="actionSteps"] {
+    display: block;
+    height: 100%;
+    overflow: visible;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003260}}
+  [data-view="actionSteps"] .hasActionStepsHeader {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003264}}
+  [data-view="actionSteps"] .overlay.container-fluid {
+    z-index: 100;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003268}}
+  [data-view="actionSteps"] .skillIcon {
+    width: 64px;
+    height: 64px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003272}}
+  [data-view="actionSteps"] .skillIcon svg {
+    width: 64px;
+    height: 64px;
+    top: auto;
+    left: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003278}}
+  [data-view="actionSteps"] .skillIcon canvas {
+    width: 64px;
+    height: 64px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003284}}
+  [data-view="actionSteps"] .skillWrapper {
+    width: auto;
+    margin: 12px 20px;
+    padding: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003289}}
+  [data-view="actionSteps"] .skillWrapper:first-of-type {
+    margin-top: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003293}}
+  [data-view="actionSteps"] .skillWrapper .skillListItemHeading {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003298}}
+  [data-view="actionSteps"] .skillWrapper .skillListItemHeading .actionStepsStatus {
+    position: static;
+    display: block;
+    padding: 12px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003306}}
+  [data-view="actionSteps"] .skillWrapper .skillIconWrapper .skillIcon {
+    width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003313}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003318}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList {
+    margin: 0;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003322}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent {
+    padding: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003325}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent:first-of-type {
+    padding-top: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003329}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepSummary {
+    padding-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003333}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepCompletedTooltip {
+    left: -10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003338}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent .actionStepCompletedTooltip::after {
+    left: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003343}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .actionStepList .actionStepContent h2 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003352}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo button {
+    margin: 20px 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003355}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo button.noActionSteps {
+    margin: 16px 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003359}}
+  [data-view="actionSteps"] .skillWrapper .skillTodo .buttonContainer.noActionSteps {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003365}}
+  [data-view="actionSteps"] .actionStepsGetStarted {
+    display: block;
+    padding: 56px 20px 20px;
+    height: auto;
+    min-height: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003371}}
+  [data-view="actionSteps"] .actionStepsGetStarted .btnLarge {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/_actionSteps\.scss}line{font-family:\00003375}}
+  [data-view="actionSteps"] .actionStepsGetStarted .getStartedContent .actionStepSummaryText {
+    padding: 16px 0 22px 0;
+    font-size: 15px;
+  }
+}
+@media (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003256}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav li a.active {
+    background-color: transparent !important;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003265}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-wnpwidget="headerNavigationBar"] {
+    position: relative;
+    background: #fff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003269}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-wnpwidget="headerNavigationBar"] .title {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003275}}
+  [data-wnpwidget="skillsAndActionSteps"] [data-wnpwidget="headerNavigationBar"] button {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003284}}
+  [data-wnpwidget="skillsAndActionSteps"] section {
+    height: calc(100% - 40px);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003288}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    background: transparent;
+    margin-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003297}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav .programTitleText {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003300}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav ul {
+    background: white transparent;
+    background: rgba(255, 255, 255, 0.85);
+    height: 55px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+    border-collapse: collapse;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav ul:nth-child(n) {
+    filter: none \9;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003309}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav li {
+    display: table-cell;
+    width: 50%;
+    border: 1px solid #dbdcde;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003318}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav li a {
+    font-size: 17px;
+    font-weight: normal;
+    border: none;
+    display: block;
+    padding: 15px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003325}}
+  [data-wnpwidget="skillsAndActionSteps"] .localNav li a.active {
+    font-weight: bold;
+    border: none;
+    padding-bottom: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003333}}
+  [data-wnpwidget="skillsAndActionSteps"] .contentContainer {
+    margin: 0;
+    padding: 0 0 95px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003337}}
+  [data-wnpwidget="skillsAndActionSteps"] .contentContainer [data-view] {
+    margin: 0;
+    width: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillsAndActionSteps\/app\/styles\/skillsAndActionSteps\.scss}line{font-family:\00003343}}
+  [data-wnpwidget="skillsAndActionSteps"] button.btnSmall {
+    font-size: 12px;
+  }
+}

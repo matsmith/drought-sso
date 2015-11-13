@@ -1,0 +1,3167 @@
+/**
+ * Sets a background with transparency on all browsers.
+ * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+ * @param  {[type]} $red   [value between 0 and 255]
+ * @param  {[type]} $green [value between 0 and 255]
+ * @param  {[type]} $blue  [value between 0 and 255]
+ * @param  {[type]} $alpha [value between 0 and 1]
+ * @return {[type]}        []
+ */
+/** parameter needs to be a decimal between 0 and 1 */
+/** Returns a one byte hex value */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000312}}
+[data-wnpwidget][data-wnpcoachingwidget] {
+  position: relative;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000319}}
+[data-wnpwidget][data-wnpcoachingwidget] a {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: bold;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000327}}
+[data-wnpwidget][data-wnpcoachingwidget] h1:first-child, [data-wnpwidget][data-wnpcoachingwidget] h2:first-child, [data-wnpwidget][data-wnpcoachingwidget] h3:first-child,
+[data-wnpwidget][data-wnpcoachingwidget] h4:first-child, [data-wnpwidget][data-wnpcoachingwidget] h5:first-child, [data-wnpwidget][data-wnpcoachingwidget] h6:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000332}}
+[data-wnpwidget][data-wnpcoachingwidget] h2, [data-wnpwidget][data-wnpcoachingwidget] h3, [data-wnpwidget][data-wnpcoachingwidget] h4 {
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000335}}
+[data-wnpwidget][data-wnpcoachingwidget] h2 {
+  font-size: 28px;
+  padding: 15px 0px;
+  border-bottom: 2px solid #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000340}}
+[data-wnpwidget][data-wnpcoachingwidget] h3 {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000343}}
+[data-wnpwidget][data-wnpcoachingwidget] h4 {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000347}}
+[data-wnpwidget][data-wnpcoachingwidget] button {
+  text-transform: capitalize;
+  border-radius: 4px;
+  padding: 1px 30px;
+  vertical-align: bottom;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000353}}
+[data-wnpwidget][data-wnpcoachingwidget] button:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000357}}
+[data-wnpwidget][data-wnpcoachingwidget] button:active {
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding-top: 2px;
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000363}}
+[data-wnpwidget][data-wnpcoachingwidget] button[disabled] {
+  opacity: .3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000367}}
+[data-wnpwidget][data-wnpcoachingwidget] button.btnXs {
+  font-size: 14px;
+  height: 25px;
+  border: none;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000374}}
+[data-wnpwidget][data-wnpcoachingwidget] button.btnSmall {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000377}}
+[data-wnpwidget][data-wnpcoachingwidget] button.btnSmall.updateStatusButton, [data-wnpwidget][data-wnpcoachingwidget] button.btnSmall.controlButton {
+  font-size: 17px;
+  height: 45px;
+  width: 225px;
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000387}}
+[data-wnpwidget][data-wnpcoachingwidget] button.btnMedium {
+  font-size: 18px;
+  height: 75px;
+  border: none;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\0000394}}
+[data-wnpwidget][data-wnpcoachingwidget] button.btnLarge {
+  font-size: 24px;
+  height: 115px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003103}}
+[data-wnpwidget][data-wnpcoachingwidget] .scoreInputGroup button, [data-wnpwidget][data-wnpcoachingwidget] .questionnaireBtn {
+  border: 2px solid #dbdcde;
+  color: #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003109}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] {
+  padding: 0 30px 30px;
+  margin-bottom: 10px;
+  background: white transparent;
+  background: rgba(255, 255, 255, 0.85);
+  overflow: auto;
+  min-height: 590px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main]:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003118}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback {
+  position: relative;
+  overflow: visible;
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003124}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .loading {
+  height: 300px;
+  background: #0f0f0f transparent;
+  background: rgba(15, 15, 15, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .loading:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003128}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .loading .loader {
+  position: relative;
+  top: 98px;
+  width: 80px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003136}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback h3, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .graph, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .targetedContent, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .loading {
+  margin-left: 260px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003140}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status {
+  width: 260px;
+  position: absolute;
+  overflow: auto;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003146}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info {
+  margin: 25px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003151}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.activeStatusIcon {
+  margin: 0 50px 25px;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003159}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.activeStatusIcon img, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.activeStatusIcon svg {
+  width: 122px;
+  height: 122px;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003169}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics {
+  margin: 0 50px 25px;
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 122px;
+  border-radius: 61px;
+  text-align: center;
+  padding-top: 20px;
+  border-width: 3px;
+  border-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003181}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics .dataTitle {
+  font-style: italic;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003186}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics .dataNumber {
+  font-size: 62px;
+  line-height: 50px;
+  font-weight: 300;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003193}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.metric1Data {
+  color: #ef979e;
+  border-color: #ef979e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003198}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.metric2Data {
+  color: #69c4ef;
+  border-color: #69c4ef;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003203}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.metric3Data {
+  color: #9cce6b;
+  border-color: #9cce6b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003210}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .iconContainer img, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .iconContainer svg {
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003217}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .coachingWidgetGraphTooltip {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003223}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .targetedContent {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003229}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .graph canvas {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003233}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .graph .flot-y-axis > div {
+  width: 40px;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003240}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .updateStatusButton {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003248}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] {
+  padding-bottom: 95px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003251}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .controlButton {
+  position: absolute;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003256}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .nextButton {
+  bottom: 30px;
+  right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003261}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .previousButton {
+  bottom: 30px;
+  left: 30px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003269}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .saveButton {
+  bottom: 30px;
+  right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003274}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .loading {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 100;
+  transform: translate(50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003282}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup {
+  margin: 0 auto;
+  width: 85%;
+  font-size: 18px;
+  font-weight: normal;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003289}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > span {
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003293}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div {
+  padding: 20px 0 50px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003297}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div button {
+  border-radius: 0;
+  background-color: white;
+  margin: 0;
+  box-shadow: none;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003308}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div button + button {
+  border-left-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003313}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label {
+  font-size: 13px;
+  font-weight: normal;
+  width: 60px;
+  display: inline-block;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003321}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label:first-of-type {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003326}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup .selected, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup button:hover, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .scoreInputGroup label:hover {
+  border-bottom-width: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003333}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateForm .newData {
+  font-size: 28px;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003337}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+  border: 1px solid #7e8c8d;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003342}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateForm .newData label {
+  margin: 0 8px 0 0;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003347}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateForm .newData .newDataValue {
+  font-weight: bold;
+  padding-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003352}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateForm .newData span {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003360}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] .updateStatusText {
+  font-size: 15px;
+  color: #505a5b;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003370}}
+[data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=graph] .graph .legendLabel {
+  padding: 0 10px 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003375}}
+[data-wnpwidget][data-wnpcoachingwidget] .cancelLink {
+  float: right;
+  padding: 15px 0px;
+  padding-left: 50px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003384}}
+[data-wnpwidget][data-wnpcoachingwidget] a.cancelLink:hover {
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003388}}
+[data-wnpwidget][data-wnpcoachingwidget] .closeGraph, [data-wnpwidget][data-wnpcoachingwidget] .viewGraph {
+  background: url('/images/widgets/sharedMedia/icons/graph_icon.png') no-repeat left center;
+  color: inherit;
+  padding: 15px 0px;
+  padding-left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003395}}
+[data-wnpwidget][data-wnpcoachingwidget] .viewGraph {
+  margin-left: 260px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003399}}
+[data-wnpwidget][data-wnpcoachingwidget] .coachingWidgetGraphTooltip {
+  display: none;
+  position: absolute;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 14px;
+  border: 1px solid #505a5b;
+  background: #232323 transparent;
+  background: rgba(35, 35, 35, 0.85);
+  padding: 10px 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/sharedStyles\/app\/styles\/_sharedMixins\.scss}line{font-family:\0000394}}
+[data-wnpwidget][data-wnpcoachingwidget] .coachingWidgetGraphTooltip:nth-child(n) {
+  filter: none \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003412}}
+[data-wnpwidget][data-wnpcoachingwidget] .coachingWidgetGraphTooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 60px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(35, 35, 35, 0.85);
+  opacity: 0.85;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003425}}
+[data-wnpwidget][data-wnpcoachingwidget] .coachingWidgetGraphTooltip.rightAlignTooltip::after {
+  left: 110px;
+}
+@media screen and (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003434}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm {
+    margin: 0 0 50px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003437}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .scoreInputGroup {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003442}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .questionnairePage .questionText {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003445}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .questionnairePage .scoreInputGroup {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003448}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .questionnairePage .scoreInputGroup label.likert {
+    font-size: 14px;
+    width: 85px;
+    height: 36px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003456}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .questionPageLeadIn {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003460}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .selectScore .non-mobile {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003463}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .selectScore .non-mobile .scale {
+    position: absolute;
+    margin: 0;
+    top: 40px;
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003469}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=update] form.updateForm .selectScore .non-mobile .scale:last-child {
+    left: 380px;
+    text-align: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003480}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback {
+    padding-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003483}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback h3, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .graph, [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .targetedContent {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003487}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003494}}
+  [data-wnpwidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003510}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] select {
+    width: 240px;
+    padding: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003515}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] {
+    padding: 0 20px 65px;
+    min-height: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003536}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003543}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003547}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003551}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback {
+    position: static;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003555}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status {
+    width: 100%;
+    position: static;
+    padding: 0;
+    overflow: initial;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003561}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info {
+    margin: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003564}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData {
+    position: static;
+    width: auto;
+    height: auto;
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003575}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .primaryData {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003578}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .primaryData .dataTitle, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .primaryData .dataNumber, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .primaryData .dataLabel {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    display: inline;
+    line-height: 1.5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003582}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .secondaryData {
+    position: static;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    border: none;
+    color: inherit;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003593}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .secondaryData .dataTitle, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .secondaryData .dataNumber {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    display: inline;
+    line-height: 1.5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003598}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData .dataTitle:after {
+    content: ":";
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003601}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003608}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics .dataNumber, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics .dataTitle {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    display: inline;
+    line-height: 1.5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003616}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback h3 {
+    margin: 20px 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003620}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .graph {
+    margin: 0 0 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003624}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .feedback .targetedContent {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003630}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=current] .updateStatusButton {
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    position: relative;
+    bottom: -40px;
+    right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003635}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003637}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003643}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] label {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003649}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .saveButton, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .controlButton {
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    position: relative;
+    bottom: -40px;
+    right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003653}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .loading {
+    position: absolute;
+    bottom: 77px;
+    left: calc(50% - 20px);
+    z-index: 100;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003660}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .previousButton, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .nextButton, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .saveButton {
+    margin: 0;
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003664}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .previousButton {
+    margin-bottom: 10px;
+    left: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003669}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .scoreInputGroup {
+    margin: 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003673}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div {
+    width: 100%;
+    padding: 10px 0 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003679}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .questionPageLeadIn {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003683}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] [data-view=update] .updateStatusText {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0;
+    margin: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/coachingWidget\.scss}line{font-family:\00003690}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget] [data-viewport=main] .cancelLink {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\000035}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] {
+  padding: 25px 20px 58px;
+  min-height: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000310}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000315}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .programName {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000319}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] h2 {
+  font-weight: 900;
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000326}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] p {
+  margin: 1em auto;
+  max-width: 600px;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000331}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] p:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000335}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] p:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000340}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .message {
+  margin: 12px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000344}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContainer {
+  background-color: #ffffff;
+  padding: 25px 35px;
+  border: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000350}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] ul {
+  display: inline-block;
+  list-style-position: outside;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000356}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000359}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading h1 {
+  padding: 11px 0 0;
+  margin: 0 0 14px 0;
+  display: block;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000366}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading span {
+  font-style: italic;
+  font-size: 12px;
+  position: absolute;
+  top: -12px;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000374}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted,
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepCompleted,
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  float: left;
+  margin-right: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000384}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted {
+  background: url('/images/widgets/sharedMedia/icons/In-Progress_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000387}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted.noTouch:hover {
+  background: url('/images/widgets/sharedMedia/icons/Completed_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000392}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepCompleted {
+  cursor: auto;
+  background: url('/images/widgets/sharedMedia/icons/Completed_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\0000397}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd {
+  background: url('/images/widgets/sharedMedia/icons/Add_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003100}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd.noTouch:hover {
+  background: url('/images/widgets/sharedMedia/icons/Add_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003106}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003109}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .summaryText {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003113}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent a.smallBtnClear {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  min-width: 80px;
+  color: #505a5b;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px 16px 5px 16px;
+  border: 1px solid #505a5b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003125}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent a.smallBtnClear:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003130}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .skillLink {
+  font-size: 15px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003134}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .skillLink a {
+  font-size: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003140}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent {
+  font-style: italic;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003144}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent .eventText {
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003148}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent .actionStepRedo {
+  background: url('/images/widgets/sharedMedia/icons/Redo_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003152}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent .actionStepRemove {
+  background: url('/images/widgets/sharedMedia/icons/30x30_Remove_Stroke_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003155}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent .actionStepRemove.noTouch:hover {
+  background: url('/images/widgets/sharedMedia/icons/30x30_Remove_Fill_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003161}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepRedo, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepRemove {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003174}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] {
+    padding-bottom: 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003179}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContainer {
+    padding: 20px 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003183}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .programName {
+    font-weight: normal;
+    font-size: 16px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    display: inline-block;
+    margin-top: -2px;
+    padding-bottom: 3px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003193}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] h2 {
+    padding-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003197}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .message {
+    margin-top: 7px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003200}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .message p {
+    font-size: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003207}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading h1 {
+    padding-top: 6px;
+    margin-bottom: 9px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003213}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepCompleted, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003219}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted {
+    background: url('/images/widgets/sharedMedia/icons/In-Progress_1x_mobile.png') no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003222}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepStarted.noTouch:hover {
+    background: url('/images/widgets/sharedMedia/icons/Completed_Stroke_1x_mobile.png') no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003227}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepCompleted {
+    background: url('/images/widgets/sharedMedia/icons/Completed_Fill_1x_mobile.png') no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003231}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd {
+    background: url('/images/widgets/sharedMedia/icons/Add_Stroke_1x_mobile.png') no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003234}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepHeading .actionStepAdd.noTouch:hover {
+    background: url('/images/widgets/sharedMedia/icons/Add_Fill_1x_mobile.png') no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_actionStepMessagingAreaWidget\.scss}line{font-family:\00003241}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=actionStepMessagingAreaWidget] [data-viewport=main] [data-view=main] .actionStepContent .actionStepEvent {
+    padding-top: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\000035}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000314}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label {
+  margin: 0 10px 10px;
+  line-height: 1.25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000318}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 6px 0 0;
+  background-color: white;
+  border: 2px solid #dbdcde;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000335}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert.selected, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert:hover {
+  padding-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000339}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert + label.likert {
+  border-left: none;
+  margin-left: -3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000344}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000348}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert .underlineAnswer {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000360}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] .legendColorBox {
+  padding: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000363}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget] .legendLabel {
+  padding: 0 10px 0 0;
+}
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_chronicConditionWidget\.scss}line{font-family:\0000372}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingChronicConditionWidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\000035}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000313}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=current] .feedback .graph {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000316}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=current] .feedback .graph .flot-text .flot-y-axis > div {
+  width: 80px;
+  margin-left: -40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000326}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm {
+  display: table;
+  margin: 0 auto;
+  border-spacing: 10px;
+  border-collapse: separate;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000333}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .questionPageLeadIn {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000339}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div {
+  display: table-row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\000031}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div fieldset {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\000037}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div fieldset label {
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid #dbdcde;
+  background-color: white;
+  padding: 6px 0 0 0;
+  text-align: center;
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000321}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div fieldset label + label {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000325}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div fieldset label input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000329}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div fieldset label .underlineAnswer {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000344}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div span {
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000350}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000366}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000369}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div {
+    display: block;
+    margin-top: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000373}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div > * {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000377}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div label {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000381}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .cesdQuestionnairePage > div span {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000387}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=update] .updateForm .questionPageLeadIn {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\0000396}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=current] .iconContainer {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\00003100}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=current] figure {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_depressionWidget\.scss}line{font-family:\00003114}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDepressionWidget] [data-viewport=main] [data-view=current] .feedback .status .info .activeStatusIcon {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\000035}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000314}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label {
+  margin: 0px 10px 10px;
+  line-height: 1.25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000318}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 6px 0 0;
+  background-color: white;
+  border: 2px solid #dbdcde;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000335}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert.selected, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert:hover {
+  padding-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000339}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert + label.likert {
+  border-left: none;
+  margin-left: -3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000344}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000348}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > div label.likert .underlineAnswer {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000358}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > .examples {
+  font-weight: normal;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000366}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] .legendColorBox {
+  padding: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000369}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] .legendLabel {
+  padding: 0 10px 0 0;
+}
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000378}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget][data-wnpcoachingwidget] [data-viewport=main] [data-view=current] .feedback .status .info .currentData.multiMetrics {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_diabetesWidget\.scss}line{font-family:\0000392}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingDiabetesWidget] [data-viewport=main] [data-view=update] .scoreInputGroup > .examples {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\000038}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000315}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=current] .feedback .graph .flot-text .flot-y-axis > div {
+  white-space: normal;
+  padding-right: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000323}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm {
+  color: #7e8c8d;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000327}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData {
+  width: 600px;
+  margin: 0 auto 30px;
+  height: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000332}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData label, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData input, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData select {
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  margin-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000343}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData label, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000347}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+  padding: 0;
+  width: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000352}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .exerciseTypeLabel {
+  font-size: 22px;
+  font-weight: normal;
+  min-width: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000358}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue {
+  border: 1px solid #7e8c8d;
+  border-radius: 4px;
+  width: 210px;
+  background: #ffffff;
+  display: inline-block;
+  height: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000366}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .downArrow {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  border-top: 10px solid #7e8c8d;
+  width: 0;
+  height: 0;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000376}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .downArrow::after {
+  content: "";
+  height: 36px;
+  width: 1px;
+  position: absolute;
+  top: -23px;
+  right: 14px;
+  border-left: 1px solid #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000387}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .dropdownListWrapper {
+  display: none;
+  position: absolute;
+  top: 30px;
+  width: 210px;
+  height: 176px;
+  background-color: #505a5b;
+  border-radius: 3px;
+  margin-top: 15px;
+  z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\0000398}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .dropdownListWrapper::before {
+  content: "";
+  border-bottom: 10px solid #505a5b;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -10px;
+  left: 95px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003110}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .dropdownListWrapper div label {
+  color: #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  float: none;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003120}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .dropdownValue .dropdownListWrapper div label input {
+  height: 0;
+  border: 0;
+  visibility: hidden;
+}
+@media (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003140}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003145}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .exerciseTypeLabel {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    min-width: 0;
+    clear: left;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 150px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003154}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .minutesWrapper {
+    width: 145px;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003158}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .minutesWrapper input, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .minutesWrapper label {
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003168}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=current] .iconContainer {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003172}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=current] figure {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003189}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData select, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData label, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003193}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData label {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    width: 10%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003199}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData input[type="text"] {
+    clear: both;
+    display: bock;
+    margin: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003206}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .mobile-only.answers {
+    width: 100%;
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003211}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .mobile-only select {
+    width: 190px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003216}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=update] .updateForm .newData .minutesWrapper {
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_physicalActivityWidget\.scss}line{font-family:\00003226}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingPhysicalActivityWidget] [data-viewport=main] [data-view=current] .feedback .status .info .activeStatusIcon {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\000031}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] {
+  min-height: 0;
+  max-width: 800px;
+  margin: 10px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\000036}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] {
+  padding: 0 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000310}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] h1 {
+  border-bottom: 1px dotted black;
+  padding-bottom: 6px;
+  margin-bottom: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000316}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingMessage {
+  margin: 25px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000319}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion {
+  font-size: 22px;
+  margin: 30px 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\000031}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\000037}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset label {
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid #dbdcde;
+  background-color: white;
+  padding: 6px 0 0 0;
+  text-align: center;
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000321}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset label + label {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000325}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset label input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_pushbuttonRadios\.scss}line{font-family:\0000329}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset label .underlineAnswer {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000326}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion.submitting fieldset {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000330}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset {
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000334}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion .loader {
+  position: absolute;
+  margin: 4px 0 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000339}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel {
+  border: 1px solid #dbdcde;
+  position: relative;
+  padding: 0 0 60px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000346}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel {
+  width: 100%;
+  min-height: 240px;
+  display: none;
+  padding: 30px 60px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000355}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.activePanel, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.previousPanel, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.nextPanel {
+  display: block;
+  transition: left .8s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000362}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.activePanel {
+  position: relative;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000366}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.previousPanel, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.nextPanel {
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000370}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.previousPanel {
+  left: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000373}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel.nextPanel {
+  left: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000379}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .icon svg, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .icon img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000384}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail {
+  margin-left: 220px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000388}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent h3 {
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000391}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementSeenQuestion {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\0000394}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementSeenQuestion svg, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementSeenQuestion img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: -10px -10px -10px -20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003102}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementSeenQuestion img {
+  width: 35px;
+  height: 35px;
+  margin: 13px 0px 0 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003109}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementSeenQuestion label {
+  display: inline-block;
+  margin: 20px 0 0 50px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003118}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer {
+  margin: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003121}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner {
+  display: table;
+  padding: 8px 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-style: italic;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003129}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner .icon {
+  width: 42px;
+  height: 42px;
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003134}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner .icon svg, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner .icon img {
+  width: 42px;
+  height: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003140}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner .message {
+  display: table-cell;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003145}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementsNoticedBanner .message strong {
+  font-weight: bold;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003152}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  border-top: 1px solid #dbdcde;
+  text-align: center;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003162}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .navLink {
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003170}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .pageIndicators {
+  margin: 0 12px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003174}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .pageIndicators span {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003181}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .pageIndicators span.active, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .pageIndicators span.active img {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003187}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel nav .pageIndicators span img {
+  height: 20px;
+  width: 20px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003203}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingMessage {
+    margin: 10px 0 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003207}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion {
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003210}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion .slipTrackingQuestionText {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003216}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .slipTrackingQuestion fieldset {
+    margin: 20px 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003222}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel {
+    padding: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003227}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .icon {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003232}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .icon svg, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .icon img {
+    position: relative;
+    width: 90px;
+    height: 90px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003238}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail {
+    margin: 0;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003242}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 10px 0;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003248}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail .improvementDescription {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003253}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail .improvementSeenQuestion {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003256}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail .improvementSeenQuestion .icon {
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: -15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003263}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .smokingCessationCarouselPanel .smokingCessationCarouselPanelContent .improvementDetail .improvementSeenQuestion .icon img {
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003274}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer {
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003277}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer .improvementsNoticedBanner {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003281}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer .improvementsNoticedBanner .icon {
+    width: 30px;
+    height: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003286}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer .improvementsNoticedBanner .message {
+    padding-left: 8px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003289}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] .smokingCessationCarousel .improvementBannerContainer .improvementsNoticedBanner .message strong {
+    font-size: 18px;
+    font-weight: bold;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003297}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] nav {
+    height: 65px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003300}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] nav .navLink {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    position: absolute;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003304}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] nav .navLink:first-child {
+    top: 35px;
+    left: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003308}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] nav .navLink:last-child {
+    top: 35px;
+    right: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_smokingCessationWidget\.scss}line{font-family:\00003313}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=smokingCessationWidget] [data-viewport=main] [data-view=main] nav .pageIndicators {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\000033}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000311}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=current] .feedback .graph {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000314}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=current] .feedback .graph .flot-text .flot-y-axis > div {
+  width: 80px;
+  margin-left: -40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000323}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm {
+  margin: 0 20px 50px;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000327}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionPageLeadIn {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000335}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage .scoreInputGroup > div {
+  padding: 20px 0 10px;
+  margin: 0;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000341}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage .scoreInputGroup:first-of-type > div {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000345}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage label {
+  margin: 0 10px 10px;
+  line-height: 1.25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000349}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage label.likert {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  margin: 0;
+  padding: 6px 0 0;
+  background-color: white;
+  border: 2px solid #dbdcde;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000366}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage label.likert + label.likert {
+  border-left: none;
+  margin-left: -3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000371}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage label.likert input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000375}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage label.likert .underlineAnswer {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\0000386}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003100}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=current] .iconContainer {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003104}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=current] figure {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003116}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=current] .feedback .status .info .activeStatusIcon {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003123}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm {
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003126}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionPageLeadIn {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003131}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionText {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003137}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage .scoreInputGroup > div {
+    margin: 15px 0px 0px;
+    padding: 10px 0px 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003142}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .updateForm .questionnairePage .scoreInputGroup:first-of-type > div {
+    margin-top: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003149}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .previousButton, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .nextButton, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .saveButton {
+    margin: 0;
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_stressWidget\.scss}line{font-family:\00003153}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingStressWidget] [data-viewport=main] [data-view=update] .previousButton {
+    margin-bottom: 10px;
+    left: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\000035}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000316}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  border-radius: 105px;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000325}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .dataLabel {
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000329}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .dataTitle {
+  font-size: 13px;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000334}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .primaryData {
+  padding-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000337}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .primaryData .dataNumber {
+  font-size: 63px;
+  line-height: 65px;
+  font-weight: 300;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000344}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .secondaryData {
+  position: absolute;
+  bottom: -7px;
+  right: -7px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 13px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000356}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .status .info .currentData .secondaryData .dataNumber {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000364}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=current] .x-axis-label {
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000373}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData {
+  margin: 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000376}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+  padding: 2px 10px;
+  width: 90px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000382}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData input, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData .newDataValue {
+  color: #515b5b;
+  display: inline-block;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000388}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData label {
+  width: 55%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\0000393}}
+[data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData span, [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData .newDataValue {
+  width: 40%;
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\00003103}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData {
+    margin: 20px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\00003106}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData label {
+    width: 100%;
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\00003111}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData span {
+    margin: 0;
+    width: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\00003115}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData input {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    width: 240px;
+    padding: 8px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_weightWidget\.scss}line{font-family:\00003118}}
+  [data-wnpwidget][data-wnpcoachingwidget][data-wnpwidget=coachingWeightWidget] [data-viewport=main] [data-view=update] .updateForm .newData .newDataValue {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    display: inline;
+  }
+}
+
+/* mixins */
+/* colors */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000356}}
+[data-wnpwidget-container="sleepTrackerWidget"] {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000360}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000365}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .section__sleepTracker {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000368}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container {
+  /*hide the outline behind the border*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000369}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questions-container__title {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000374}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .form-container {
+  margin: 8rem auto 0 auto;
+  max-width: 66rem;
+  padding: 2rem;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000374}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .form-container {
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000382}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .icon-sans-List_Reveal_Stroke_1x {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  font-size: 58px;
+  right: 8px;
+  color: #777;
+  display: inline-block;
+  font-weight: 600;
+  z-index: 2;
+  position: absolute;
+  margin-top: 1.9rem;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000382}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .icon-sans-List_Reveal_Stroke_1x {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000396}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .icon-sans-List_Hide_Stroke_1x {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-size: 58px;
+  color: #777;
+  font-weight: 600;
+  left: 8px;
+  z-index: 2;
+  position: absolute;
+  margin-top: 1.9rem;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\0000396}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .icon-sans-List_Hide_Stroke_1x {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003109}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questions {
+  border: none;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003109}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questions {
+    max-width: 24rem;
+    margin: 0 auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003117}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questions__heading {
+  font-size: 24px;
+  margin-left: 3rem;
+  font-weight: 900;
+  float: left;
+  margin-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003125}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question {
+  padding: 1.5rem 0;
+  width: auto;
+  clear: both;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003125}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question {
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003133}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator--form {
+  position: relative;
+  float: left;
+  padding: 0 11.11%;
+  box-sizing: border-box;
+  background: #e0e0e0;
+  width: 100%;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003133}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator--form {
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003144}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__log-date {
+  text-align: center;
+  border-top: 1px solid #d5d6d9;
+  font-size: 19px;
+  border-bottom: 1px solid #d5d6d9;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003151}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questionnaire-validity {
+  position: relative;
+  float: left;
+  clear: left;
+  font-size: 20px;
+  color: #ec283c;
+  margin: 0 0 2rem;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003159}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .questionnaire-validity.not-valid {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003163}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .sleep-legend-icon {
+  position: relative;
+  font-size: 60px;
+  float: left;
+  clear: left;
+  top: -1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003169}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .sleep-legend-icon span {
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003173}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__input {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003176}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__input:checked ~ .day-navigator__number {
+  color: #fff;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003180}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__input:checked ~ .day-navigator__circle {
+  background-color: #464e51;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003184}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__input:checked ~ .day-navigator__day-overlay {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003187}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__day {
+  position: relative;
+  float: left;
+  text-align: center;
+  width: 14.2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003193}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__day-overlay {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003199}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__circle {
+  position: relative;
+  padding: 30px;
+  top: -25px;
+  width: 58px;
+  display: inline-block;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003207}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__circle.data-not-entered {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003211}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__circle.data-entered {
+  background-color: #6cd6e1;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003199}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__circle {
+    width: 0;
+    padding: 21px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003221}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__name {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  font-size: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003231}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__number {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  top: 14px;
+  z-index: 1;
+  font-weight: bold;
+  color: #7e8c8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003240}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__number.data-entered {
+  color: #fff;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003231}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .day-navigator__number {
+    top: 5px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003248}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .interruptions {
+  border: none;
+  margin: 0;
+  left: 2rem;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003248}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .interruptions {
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003257}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .interruption {
+  width: 100%;
+  display: inline-block;
+  margin: 1rem 0;
+  background-color: #e0e0e0;
+  padding: 0 1rem 0 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003265}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container {
+  width: 100%;
+  max-width: 505px;
+  float: right;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003265}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container {
+    display: inherit;
+    float: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003274}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__checkbox {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003277}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__inputCheckBox {
+  position: relative;
+  float: left;
+  width: auto;
+  margin-left: 1.5rem;
+  display: inline-block;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003277}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__inputCheckBox {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003288}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .inputCheckBox__style-label {
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 4px;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003298}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .inputCheckBox__style-label:after {
+  content: '';
+  opacity: 0.2;
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: transparent;
+  top: 8px;
+  left: 7px;
+  border: 3px solid #333;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003312}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__checkbox:checked + .inputCheckBox__style-label:after {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003315}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__label--lengthOfTime {
+  position: relative;
+  top: 7px;
+  display: inline-block;
+  right: -1rem;
+  float: left;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003315}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__label--lengthOfTime {
+    padding-bottom: 1rem;
+    top: -4px;
+    right: -2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003327}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__hours,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__mins {
+  position: relative;
+  border: 1px solid silver;
+  cursor: pointer;
+  outline: none;
+  width: 10rem;
+  background-color: #fff;
+  border-radius: 3px;
+  height: 2rem;
+  float: left;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003327}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__hours,
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__mins {
+    width: 8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003341}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__hours:disabled,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__mins:disabled {
+  opacity: 0.65;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003346}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__mins {
+  margin-left: 10px;
+}
+@media screen and (max-width: 347px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003346}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__mins {
+    margin-left: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003352}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar {
+  width: auto;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003357}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar > :disabled + label {
+  opacity: 0.65;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003352}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar {
+    position: relative;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003367}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar > input {
+  visibility: hidden;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003372}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar > label {
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  padding: 6px 28px;
+  border-bottom-width: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003382}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-container__radio-toolbar input[type="radio"]:checked + label {
+  background-color: #fff;
+  border-bottom: 4px solid #008392;
+  color: #195b63;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003388}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-like-link,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button--add,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button--delete {
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  color: #069;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem;
+  float: left;
+  text-transform: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003402}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button--save {
+  height: 3rem;
+  color: #fff;
+  width: 260px;
+  position: relative;
+  text-decoration: none;
+  background-color: #195b63;
+  text-align: center;
+  margin: 35px auto;
+  display: inherit;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003402}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button--save {
+    width: 200px;
+    margin-top: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003418}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button--delete {
+  margin: 0 1rem 1rem 0;
+  right: 1rem;
+  float: right;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003424}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .button-like-link {
+  margin: 0;
+  float: none;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003430}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__text,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__slider-input {
+  font-size: 20px;
+  float: left;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003430}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__text,
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__slider-input {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003440}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__slider-input {
+  padding-top: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003443}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__text {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003445}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__text.not-valid {
+  color: #ec283c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003447}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question__text.not-valid:after {
+  content: "*";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003452}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .not-valid .question__text {
+  color: #ec283c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003455}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .numeric-input {
+  position: relative;
+  display: inline-block;
+  top: 45px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003461}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question-slider {
+  float: right;
+  width: 100%;
+  display: inherit;
+  position: relative;
+  padding-top: 2rem;
+  padding-right: 40px;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003461}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .question-slider {
+    float: none;
+    display: inline;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003473}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__range-slider--range-value {
+  position: absolute;
+  background-image: linear-gradient(#444444, #999999);
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+  border-radius: 10px;
+  display: inline-block;
+  bottom: 50%;
+  left: 0;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003473}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__range-slider--range-value {
+    bottom: 50%;
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003490}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__range-slider--range-value:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #888e8e;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003503}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container {
+  float: right;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  position: relative;
+  padding: 3rem 3rem 0 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003511}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__min {
+  float: left;
+  margin: 0;
+  left: -22px;
+  top: 1px;
+  position: relative;
+  line-height: 0.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003519}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__min:after {
+  content: '';
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  z-index: 99;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: -25px;
+  margin-top: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003530}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__min-text {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003530}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__min-text {
+    font-size: 12px;
+    left: -1.5rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003539}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .error {
+  color: #A71500;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  top: 2rem;
+  left: 14rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003547}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__max {
+  float: right;
+  margin: 0;
+  position: relative;
+  display: inherit;
+  line-height: 0.5;
+  left: 27px;
+  top: 1px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003557}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__max:after {
+  content: '';
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  z-index: 99;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: -29px;
+  margin-top: -16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003569}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__max-text {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003569}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__max-text {
+    right: -1.5rem;
+    font-size: 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003578}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper {
+  -webkit-appearance: none;
+  border: 1px solid #fff;
+  width: 100%;
+  position: relative;
+  top: -0.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003585}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003592}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #e1e1e1;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: -7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003601}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003604}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003607}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-moz-range-track {
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003613}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-moz-range-thumb {
+  border: 1px solid #e1e1e1;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003622}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003627}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-ms-track {
+  width: 300px;
+  height: 5px;
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+  /*remove default tick marks*/
+  color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003641}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-ms-fill-lower {
+  background: #777;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003645}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003649}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper::-ms-thumb {
+  border: 1px solid #e1e1e1;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003656}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper:focus::-ms-fill-lower {
+  background: #888;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003659}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .questions-container .slider-container__slider-wrapper:focus::-ms-fill-upper {
+  background: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003663}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container {
+  width: 83%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003668}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003675}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container h2 {
+  padding: 0;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003679}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .second-title {
+  margin: 2rem auto;
+  color: #888e8e;
+  max-width: 917px;
+  font-size: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003684}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .second-title a {
+  text-decoration: underline;
+  color: #3862aa;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003679}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .second-title {
+    padding: 0 10px 0 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003692}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .third-title {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003698}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .new-entry {
+  float: right;
+  height: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: #195b63;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003708}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .new-entry {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    color: #069;
+    cursor: pointer;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003718}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .columns {
+  margin: 0 auto;
+  max-width: 938px;
+  text-align: center;
+}
+@media screen and (min-width: 700px) and (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003718}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .columns {
+    max-width: 625px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003726}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .column-width {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003726}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .column-width {
+    max-width: 300px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003735}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .weekly-graph-container {
+  height: auto;
+  position: relative;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  background-color: #e6e8e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003746}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .weekly-graph-container > h3 {
+  margin-top: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003750}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .weekly-graph-container > figure {
+  padding: 0 40px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003754}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-heading {
+  color: #008392;
+  padding-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003758}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .changeIndicatorDOWN {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #fd1c2a;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003763}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .changeIndicatorUP {
+  color: #51b253;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003767}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .changeIndicatorNONE {
+  display: inline-block;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003771}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .icon-sans-up_arrow {
+  position: relative;
+  top: 2rem;
+  left: -6rem;
+  font-size: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003777}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result, [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result, [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result {
+  max-width: 60rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003780}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result {
+  position: relative;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003784}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result {
+  position: relative;
+  display: inline-block;
+  top: -3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003789}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__head-two {
+  font-size: 6.2%;
+  fill: #008392;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003794}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__head-one {
+  font-size: 7%;
+  fill: #008392;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003799}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__graduated-y-scale,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__graduated-y-scale {
+  stroke: #c1c6c4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003803}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__graduated-y-scale {
+  stroke-width: 0.8;
+  stroke-dasharray: 0.1 2.5;
+  stroke-dashoffset: 0.3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003808}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__graduated-y-scale {
+  stroke-dasharray: 0.1 2.5;
+  stroke-width: 0.6;
+  stroke-dashoffset: 1;
+}
+@media screen and (min-width: 938px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003814}}
+  [data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .week-graph-box__graph {
+    height: 500px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003820}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box__graph.background-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+  padding-top: 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003826}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box__graph.background-container > svg {
+  position: absolute;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003832}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box {
+  float: left;
+  width: 290px;
+  height: auto;
+  margin: 0.5rem;
+  text-align: center;
+  background: #e1e3e2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003839}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box .graph-box__graph {
+  padding: 0;
+  height: 300px;
+  margin: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003846}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box .graph-box__trend-description,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box .graph-box__trend-text {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003851}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box .graph-box__trend-description {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003854}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .graph-box .graph-box__trend-text {
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003858}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .text-result__content,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result__text {
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 10rem;
+  padding: 0;
+  border-bottom: none;
+  color: #195b63;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003869}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result {
+  height: 100%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003873}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result .progress-circle-result__gage,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result .progress-circle-result__gage-fill {
+  stroke-width: 10px;
+  fill-opacity: 0;
+  transition: stroke-dashoffset 1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003879}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result .progress-circle-result__gage {
+  stroke: #a0a09e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003882}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result .progress-circle-result__gage-fill {
+  stroke: #b5eaf0;
+  stroke-dashoffset: 360;
+  stroke-dasharray: 360;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003889}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .progress-circle-result .progress-circle-result__text {
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 2rem;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003897}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .battery-container {
+  position: relative;
+  left: -70px;
+  margin: 0 auto;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003906}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep-interrupted,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__background,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__in-bed {
+  stroke-width: 1.2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003912}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__in-bed,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__in-bed--legend {
+  stroke: #73cdcb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003916}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__text {
+  font-size: 3.4%;
+  fill: #646464;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003920}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__graph-box,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__graduated-scale {
+  stroke: #c1c6c4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003924}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__graph-box {
+  stroke-width: 0.05;
+  fill: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003928}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep-interrupted,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep--legend,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep-interrupted--legend {
+  stroke: #225a67;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003934}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__graduated-scale {
+  stroke-width: 0.5;
+  stroke-dasharray: 0.1 0.941;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003938}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep-interrupted {
+  stroke-dasharray: 0.3 0.05;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003941}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep--legend,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__asleep-interrupted--legend,
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-day-result__in-bed--legend {
+  stroke-width: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003946}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__text {
+  font-size: 5.4%;
+  fill: #646464;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003950}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__graph-box {
+  stroke: #c1c6c4;
+  stroke-width: 0.05;
+  fill: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003955}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__asleep {
+  stroke: #225a67;
+  stroke-width: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003959}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-hours-week-result__legend .sleep-hours-week-result__asleep {
+  stroke-width: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003962}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__text {
+  font-size: 4.2%;
+  fill: #646464;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003966}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__graph-box {
+  stroke: #c1c6c4;
+  stroke-width: 0.05;
+  fill: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003971}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__level {
+  fill: #225a67;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003974}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__legend .sleep-energy-week-result__level {
+  stroke: #225a67;
+  stroke-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003978}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .sleep-energy-week-result__path {
+  stroke: #73cdcb;
+  stroke-width: 0.1;
+  fill: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003983}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .outer_rect {
+  fill: #e1e3e2;
+  stroke: #a0a09e;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: null;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003990}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .inner_rect {
+  fill: #4bb956;
+  stroke: none;
+  stroke-linecap: round;
+  stroke-linejoin: null;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\00003996}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .cap-outer {
+  fill: #a0a09e;
+  stroke: none;
+  stroke-linecap: round;
+  stroke-linejoin: null;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\000031002}}
+[data-wnpcoachingwidget][data-wnpwidget="sleepTrackerWidget"] .results-container .cap-inner {
+  fill: #a0a09e;
+  stroke: none;
+  stroke-linecap: round;
+  stroke-linejoin: null;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/coachingTools\/app\/styles\/_sleepTrackerWidget\.scss}line{font-family:\000031012}}
+button:focus {
+  background: #000;
+}

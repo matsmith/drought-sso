@@ -1,0 +1,168 @@
+{
+	"get":{
+		"":{
+			"":{
+				"userstateProductPropertiesResponse":{
+					"userStateProductProperties":[
+						{
+							"productName": "balance",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "move",
+							"properties": [
+								{
+									"name":"interested",
+									"value":false
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "nourish",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "relax",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "breathe",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "depression",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "insomnia",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "binge",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "control",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "achieve",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "health",
+							"properties": [
+								{
+									"name":"interested",
+									"value":false
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "diabetes",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "back",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						},{
+							"productName": "carepain",
+							"properties": [
+								{
+									"name":"interested",
+									"value":true
+								}, {
+									"name":"progress",
+									"value":10
+								}
+							]
+						}
+					],
+					"responseCode":0
+				}
+			}
+		}
+	}
+}

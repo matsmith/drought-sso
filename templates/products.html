@@ -1,75 +1,106 @@
+<div id="container">
+  <img id='ie-background' style='display: none;' src='https://media.healthmedia.com/media/images/backgrounds/victory.jpg' />
+  <div id="container-inner" class="pngIE">
+      <div id="wrap">
+          <div id="content-inner" class="clearfix">
 <style>
   [data-wnpwidget-container="programListingContainer"] {
     background-image: url('https://dpqacr01-media.healthmedia.com/media/images/backgrounds/wheat.jpg');
     background-attachment: fixed;
     background-size: cover;
   }
+  [data-wnpwidget="programListingWidget"] .below a.button {
+    width: 42%;
+    margin: 0 3% 3% 3%;
+    padding: 8px;
+    position: relative;
+    float: left;
+  }
+  [data-wnpwidget="programListingWidget"] .front a.button {
+    border-width: 1px;
+    border-style: solid;
+    background: transparent;
+  }
+  [data-wnpwidget="programListingWidget"] .front a.button.start {
+    background-color: #104c7c;
+  }
+  [data-wnpwidget="programListingWidget"] a.button {
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    text-decoration: none;
+  }
+  [data-wnpwidget] a.button {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+  }
 </style>
+<div class="wrapper-target widgets-wrapper" data-wnpwidget-container="widgetWrapper">
+<div data-wnpwidget-container="programListingContainer">
 <div class="program-listing-container container" data-wnptheme="default" data-wnpwidget="programListingContainer">
 
 	<div class="interested-programs row">
 
-        <section data-widget-name="weightSkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget">
+        {{#products}}
+        <section data-widget-name="{{nameKey}}" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget">
             <div class="flip-container body" data-wnptheme="default" data-wnpwidget="programListingWidget">
-            	<div class="flipper programSide" data-bind="css: flipSide">
+            	<div class="flipper programSide">
             		<div class="content-height">
             			<header>
                             <nav class="above">
-                                <button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
-                                <span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+                                <button class="not-interested c3-color-hover">{{notInterestedText}}</button>
+                                <span class="icon-interested interested"></span>
     	                    </nav>
                         </header>
-                        <p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With HealthMedia® BALANCE®, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+                        <p class="program-description">{{details}}</p>
                         <nav class="below">
-                        	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
-                        	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
-                        		Get Started<span class="fa fa-caret-right"></span>
-                        	</button>
+                        	<a href="#" class="button details c5-color-hover" aria-label="Close program details">{{backText}}</a>
+                        	<a href="#" class="button start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+                        		{{startText}}<span class="fa fa-caret-right"></span>
+                        	</a>
                         </nav>
                     </div>
             	    <div class="back c5-background-color">
             			<header>
                         <nav class="above">
-                            <button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
-                            <span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+                            <button class="not-interested c3-color-hover">{{notInterestedText}}</button>
+                            <span class="icon-interested interested"></span>
                         </nav>
                         </header>
-                            <p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With HealthMedia® BALANCE®, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+                            <p class="program-description">{{details}}</p>
                             <nav class="below">
-                                <button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
-                                <button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
-                                    Get Started<span class="fa fa-caret-right"></span>
-                                </button>
+                                <a href="#" class="button details c5-color-hover" aria-label="Close program details">{{backText}}</a>
+                                <a href="#" class="button start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+                                    {{startText}}<span class="fa fa-caret-right"></span>
+                                </a>
                             </nav>
             		</div>
     		        <div class="front">
                         <header>
-                            <h4 class="program-name c4-color c4-border-bottom-color">HealthMedia® BALANCE®</h4>
-                            <h3 class="program-title c4-color">Manage Your Weight</h3>
+                            <h4 class="program-name c4-color c4-border-bottom-color">{{longName}}</h4>
+                            <h3 class="program-title c4-color">{{title}}</h3>
                         </header>
-    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 38px;">Your mind, body, and food habits are all key to managing your weight. HealthMedia® BALANCE® addresses all three, to help you reach your goals and maximize your energy.</p>
+    					<p class="program-description">{{description}}</p>
                         <nav class="below">
-                    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-dom-id="details-weightSkills">Details</button>
-                            <button class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-weightSkills">
-                                Get Started<span class="fa fa-caret-right"></span>
-                            </button>
+                    		<a href="#" class="button details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-dom-id="details-{{nameKey}}">{{detailsText}}</a>
+                            <a href="/product/{{productLink}}" class="button start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-{{nameKey}}">
+                                {{startText}}<span class="fa fa-caret-right"></span>
+                            </a>
                         </nav>
 
                     </div>
                 </div>
             </div>
         </section>
+        {{/products}}
 
     </div>
+</div>
+</div>
+</div>
 
-    <div class="uninterested-programs-wrap row hide-visibility ui-accordion ui-widget ui-helper-reset" data-bind="css: { 'hide-visibility': titleInt() < 1 }" role="tablist" style="margin-left: -165px; width: 1278px;">
-		<h3 class="c3-color uninterested-programs-bar ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" data-bind="event: {click: updateChevronIcon}" role="tab" id="ui-accordion-1-header-0" aria-controls="ui-accordion-1-panel-0" aria-selected="false" aria-expanded="false" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-			<span data-bind="text: titleOpen">You have&nbsp;</span>
-			<span class="program-number" data-bind="text: titleInt">0</span>
-			<span data-bind="text: titlePlural">programs</span>
-			<span data-bind="text: titleClose">you're not interested in.</span>
-			<span class="icon-chevron open-closed-indicator" data-bind="text: chevronIcon"></span>
-		</h3>
-		<div class="uninterested-programs row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-0" aria-labelledby="ui-accordion-1-header-0" role="tabpanel" aria-hidden="true" style="display: none;"></div>
-    </div>
+</div>
+</div>
+</div>
 </div>

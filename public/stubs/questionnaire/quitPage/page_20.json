@@ -1,0 +1,38 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 1,
+							"name": "About You",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 10,
+							"status": "STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						}
+					]
+				}
+			]
+		},
+		"questionnairePage": {
+			"page": 20,
+			"previousPage": 0,
+			"prepopulated": false,
+			"content": [
+				{
+					"type": "inline",
+					"text": "Quit Page"
+				}
+			],
+			"isQuitPage": true
+		},
+		"finalPage": 290,
+		"responseCode": 0
+	}
+}

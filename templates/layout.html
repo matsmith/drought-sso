@@ -65,23 +65,33 @@ jQuery.extend(Drupal.settings, { "basePath": "http://coaching.healthmedia.com/mh
 var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-33621953-2"]);_gaq.push(['_setCustomVar', 1, "wnpid-aes", "b6a186d4a5299bcf3a73fae5fdbe0258", 3]);_gaq.push(['_setCustomVar', 2, "rrid", "0", 3]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
 //--><!]]>
 </script>
+<script>
+    window.options = {
+        config: {
+            debug: false,
+            stubs: false,
+            locale: "en_US",
+            wnpSessionId: "12345",
+            authToken: "{{authToken}}", // This controls stub questionnaire selection
+            authTokenType: "Bearer",
+            clientId: 'coachingQuestionnaire',
+            refreshToken: "66666",
+            correlationId: "",
+            refreshAuthHeader: "Basic dGVzdF9zaG9ydDpzZWNyZXQ="
+        },
+        programName: "{{programName}}"
+    };
+</script>
 <style>{{style}}</style>
 </head>
 
-<body class="front not-logged-in page-home no-sidebars fluid-width locale-en_us home-page-not-logged-in">
+<body class="{{htmlClass}}">
 
 {{> navigation}}
 
-<div id="container">
-  <img id='ie-background' style='display: none;' src='https://media.healthmedia.com/media/images/backgrounds/victory.jpg' />
-  <div id="container-inner" class="pngIE">
-      <div id="wrap">
-          <div id="content-inner" class="clearfix">
-              {{{ yield }}}
-          </div>
-      </div>
-  </div>
-</div>
+
+{{{ yield }}}
+
 
 <div id="footer">
     <div id="inner-footer">

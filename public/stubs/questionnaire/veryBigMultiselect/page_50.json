@@ -1,0 +1,392 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Tailored_Blur.jpg",
+							"id": 77984,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Emotions",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Tailored_Blur.jpg",
+							"id": 77985,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 70,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Tailored_Blur.jpg",
+							"id": 77986,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Tailored_Blur.jpg",
+							"id": 77988,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Symptoms",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Tailored_Blur.jpg",
+							"id": 77989,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Tailored_Blur.jpg",
+							"id": 80905,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Tailored_Blur.jpg",
+							"id": 77990,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 190,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p></p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceAfraidOfConditionUpdate1",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I\u2019m afraid of my health issues.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceHardToAcceptUpdate1",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I find it really hard to accept that I have health issues.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceFeelFortunateUpdate1",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I\u2019m pretty fortunate, all things considered.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceUnhappyBecauseOfConditionUpdate1",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I feel unhappy and depressed because of my health issues.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceMissOldMeUpdate1",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I miss the person I used to be.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceMadeMeStrongerUpdate1",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "Living with my health issues has made me a stronger person.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceWorryAboutFuture",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "I worry about my future health.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceCapableOfAnythingUpdate1",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "I can do just about anything I set out to do.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceCanManageConditionUpdate1",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "Even if I can't be cured, I can manage my health issues.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceUnfairUpdate1",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "It isn\u2019t fair that I have my health issues.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceGetStressedThinkingAboutHealth",
+								"helpText": "",
+								"ordinal": 11,
+								"selected": false,
+								"text": "I get stressed thinking about everything I have to do to care for my health.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceFeelsEmpoweredUpdate1",
+								"helpText": "",
+								"ordinal": 12,
+								"selected": false,
+								"text": "My health can be improved if I take control of it. Ultimately, it\u2019s up to me.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HealthConditionAcceptanceNone",
+								"helpText": "",
+								"ordinal": 13,
+								"selected": false,
+								"text": "None of the above.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 2,
+					"text": "It\u2019s normal to experience a lot of different emotions when you are dealing with health issues. Which of the following describe how you may be feeling?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "HealthConditionAcceptanceNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PerceivedStressNervousStressed",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Never",
+								"value": "Never"
+							},
+							{
+								"dataDefinitionName": "PerceivedStressNervousStressed",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Rarely",
+								"value": "Rarely"
+							},
+							{
+								"dataDefinitionName": "PerceivedStressNervousStressed",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Sometimes",
+								"value": "Sometimes"
+							},
+							{
+								"dataDefinitionName": "PerceivedStressNervousStressed",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Fairly often",
+								"value": "FairlyOften"
+							},
+							{
+								"dataDefinitionName": "PerceivedStressNervousStressed",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Always",
+								"value": "Always"
+							}
+						]
+					},
+					"helpText": "",
+					"imageAlt": "",
+					"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/question/0014.png",
+					"ordinal": 3,
+					"text": "In the past month, how often have you felt nervous and stressed?",
+					"type": "radio"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "StressPreventionSkillsMaintainBalance",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I feel that I maintain a balance between work and leisure.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsRecognizeStress",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I'm good at recognizing and dealing with stressful situations.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsPlannedRelaxation",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I include planned periods of relaxation in my day.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsRelaxationTechniques",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I practice stress management techniques (e.g. deep breathing, meditation, muscle relaxation).",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsTimeManagement",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I'm good at managing my time.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsDoThingsIEnjoy",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I often do things that I really enjoy.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "StressPreventionSkillsNone",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 4,
+					"text": "Are any of these statements true of you?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "StressPreventionSkillsNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "DepressionFrequency",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Rarely or none of the time (less than 1 day)",
+								"value": "Rarely"
+							},
+							{
+								"dataDefinitionName": "DepressionFrequency",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Some or a little of the time (1-2 days)",
+								"value": "Sometimes"
+							},
+							{
+								"dataDefinitionName": "DepressionFrequency",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Occasionally or a moderate amount of the time (3-4 days)",
+								"value": "Occasionally"
+							},
+							{
+								"dataDefinitionName": "DepressionFrequency",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Most or all of the time (5-7 days)",
+								"value": "MostTime"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 5,
+					"text": "How often did you feel depressed during the past week?",
+					"type": "radio"
+				}
+			],
+			"isQuitPage": false,
+			"page": 50,
+			"prepopulated": false,
+			"previousPage": 40
+		},
+		"responseCode": 0
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"enrollmentResponse": {
+		"productEnrolled": true,
+		"enrollmentStatus": "PRODUCT_ENROLLED",
+		"productEnrollment": {
+			"productEnrollmentId": "213"
+		},
+		"responseCode": 0
+	}
+}

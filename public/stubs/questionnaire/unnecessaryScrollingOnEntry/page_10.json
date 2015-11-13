@@ -1,0 +1,142 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Movement",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Habits",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 170,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 210,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>We think that dealing better with painful feelings may help you feel more peaceful, more fulfilled, and will prepare you to spend time with your loved ones.</p><p>Fortunately, you're confident you can make the changes needed to help get any symptoms of depression under control. We'll tap into your motivation and reasons for being here to help you live the life you want. In your <strong>Reshaping Your Thoughts</strong> skill, we'll help you challenge and replace the negative thoughts that are holding you back.</p><p>There are many different depression-specific treatments. The key is finding the type that is right for you. The next few questions will explore these options and how you feel about them.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Yes",
+								"value": "Yes"
+							},
+							{
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "No",
+								"value": "No"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 2,
+					"text": "<span class=\"wl_skip\">Balance</span> is NOT intended for\u00a0<ul><li>pregnant women,</li><li>anyone who has or suspects they have an eating disorder,</li><li>anyone who is physically or medically unable to exercise, or&nbsp;</li><li>anyone who is unable to walk for exercise.&nbsp;</li></ul><p>If you fall into any of these four categories, you should not participate in this program. Please contact your health care provider to discuss weight management.&nbsp;</p>Do any of the four listed categories apply to you?",
+					"type": "radio",
+					"validations": {
+						"validation": [
+							{
+								"name": "required"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 10,
+			"prepopulated": false,
+			"previousPage": 0
+		},
+		"responseCode": 0
+	}
+}

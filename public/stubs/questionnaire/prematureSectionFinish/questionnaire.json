@@ -1,0 +1,786 @@
+{
+	"consultationResponse": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 77878,
+							"name": "Getting Started",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_About_You_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_About_You_Tailored_Blur.jpg",
+							"status": "STARTED",
+							"pageCount": 4,
+							"completeFirst": true,
+							"firstPage": 10
+						},
+						{
+							"id": 77885,
+							"name": "Motivation",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Motivation_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Motivation_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 4,
+							"completeFirst": false,
+							"firstPage": 90
+						},
+						{
+							"id": 77886,
+							"name": "Movement",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Physical_Activity_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 140
+						},
+						{
+							"id": 77889,
+							"name": "Habits",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Eating_Habits_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Eating_Habits_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 3,
+							"completeFirst": false,
+							"firstPage": 160
+						},
+						{
+							"id": 77891,
+							"name": "Perspective",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Mental_Health_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Mental_Health_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 1,
+							"completeFirst": false,
+							"firstPage": 190
+						},
+						{
+							"id": 77893,
+							"name": "Energy",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Stress_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Stress_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 200
+						},
+						{
+							"id": 77895,
+							"name": "Support",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Support_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_Support_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 220
+						},
+						{
+							"id": 77897,
+							"name": "More About You",
+							"backgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_More_About_You_Section_Intro_Clear.jpg",
+							"secondaryBackgroundImage": "https:\/\/dpdevcr03-media.healthmedia.com\/media\/images\/consultation\/background\/weightSkills\/Balance_More_About_You_Tailored_Blur.jpg",
+							"status": "NOT_STARTED",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 240
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 250,
+		"questionnairePage": [
+			{
+				"content": [
+					{
+						"text": "We can help you manage your weight without sacrificing the things you love. Making simple changes in how you approach nutrition and physical activity can help you improve your overall health. By mastering skills using achievable action steps, you can work towards meeting your goals. First, we need to see if this program is a good fit for you.\u00a0",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 2,
+						"text": "<span class=\"wl_skip\">Balance</span> is NOT intended for\u00a0<ul><li>pregnant women,</li><li>anyone who has or suspects they have an eating disorder,</li><li>anyone who is physically or medically unable to exercise, or&nbsp;</li><li>anyone who is unable to walk for exercise.&nbsp;</li></ul><p>If you fall into any of these four categories, you should not participate in this program. Please contact your health care provider to discuss weight management.&nbsp;</p>Do any of the four listed categories apply to you?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 10,
+				"prepopulated": false,
+				"previousPage": 0
+			},
+			{
+				"content": [
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "PhysicalActivityRestrictionsPARQ",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityRestrictionsPARQ",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "<b>Are any of the following statements true for you?</b><ul><li>Your doctor has said that you have a heart condition, and you should only do physical activity recommended by a doctor.</li><li>You feel pain in your chest when you do physical activity.</li><li>In the past month, you had chest pain when you weren't doing physical activity.</li><li>You get dizzy and lose your balance, or lose consciousness.</li><li>You have a bone or joint problem (back, knee, or hip, for example) that could be made worse by a change in your physical activity.</li><li>Your doctor is currently prescribing drugs (for example, water pills) for your blood pressure or heart condition.</li><li>There is any other reason why you should not do physical activity.</li></ul>",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 30,
+				"prepopulated": false,
+				"previousPage": 10
+			},
+			{
+				"content": [
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I want to be healthier.",
+									"value": "WeightManagementGoalExpectationHealthierUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I want to have more energy.",
+									"value": "WeightManagementGoalExpectationEnergyUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I want to feel better about myself.",
+									"value": "WeightManagementGoalExpectationFeelGoodUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I want to set a good example for my family.",
+									"value": "WeightManagementGoalExpectationGoodExampleUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I want to take control.",
+									"value": "WeightManagementGoalExpectationTakeControlUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I want to be able to live life to the fullest.",
+									"value": "WeightManagementGoalExpectationFullLifetUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "I want to take more pride in my appearance.",
+									"value": "WeightManagementGoalExpectationAppearanceUpdate1"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoalExpectationUpdate1",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Other",
+									"value": "WeightManagementGoalExpectationNoneUpdate1"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 1,
+						"text": "There are many reasons why you may want to manage your weight. We know it can be hard to choose just one, but which of the following is most important to you?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"text": "<p>Great. We'll help you achieve your goal. After all, your goals are our goals. Now, let's move from the \u201cwhy\u201d to the \u201cwhat.\u201d</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "WeightManagementGoal",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I want to maintain my current weight.",
+									"value": "MaintainWeight"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoal",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I want to lose 5-10 pounds.",
+									"value": "Lose5To10Pounds"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoal",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I want to lose 11-20 pounds.",
+									"value": "Lose11To20Pounds"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoal",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I want to lose 21-30 pounds.",
+									"value": "Lose21To30Pounds"
+								},
+								{
+									"dataDefinitionName": "WeightManagementGoal",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I want to lose more than 30 pounds.",
+									"value": "Lose30OrMorePounds"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 3,
+						"text": "What's your specific weight management goal?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"dataDefinitionName": "WeightPounds",
+						"helpText": "",
+						"inputLabel": "pounds",
+						"ordinal": 4,
+						"text": "Okay, how much do you weigh (to the nearest pound) now?",
+						"type": "numberinput",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								},
+								{
+									"name": "minRange",
+									"property": "10"
+								},
+								{
+									"name": "maxRange",
+									"property": "800"
+								},
+								{
+									"name": "numberType",
+									"property": "INTEGER"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HeightFeet",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "HeightFeet",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "HeightFeet",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "HeightFeet",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "HeightFeet",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "feet",
+								"type": "dropdown"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 9,
+											"selected": false,
+											"text": "8",
+											"value": "8"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 10,
+											"selected": false,
+											"text": "9",
+											"value": "9"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 11,
+											"selected": false,
+											"text": "10",
+											"value": "10"
+										},
+										{
+											"dataDefinitionName": "HeightInches",
+											"helpText": "",
+											"ordinal": 12,
+											"selected": false,
+											"text": "11",
+											"value": "11"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "inches",
+								"type": "dropdown"
+							}
+						],
+						"helpText": "",
+						"ordinal": 5,
+						"text": "And how tall are you (to the nearest inch)?",
+						"type": "multidropdown",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								},
+								{
+									"name": "responseAllOrNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Poor",
+									"value": "Poor"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Fair",
+									"value": "Fair"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Good",
+									"value": "Good"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Very good",
+									"value": "VeryGood"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Excellent",
+									"value": "Excellent"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 6,
+						"text": "And would you say that in general your quality of life is:",
+						"type": "scale"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "Gender",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": true,
+									"text": "Male",
+									"value": "Male"
+								},
+								{
+									"dataDefinitionName": "Gender",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Female",
+									"value": "Female"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-16T15:06:58.015-0400",
+							"dataSourceName": "My Profile"
+						},
+						"helpText": "",
+						"imageAlt": "",
+						"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/question/0001.png",
+						"ordinal": 7,
+						"text": "Are you:",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MedicalHistoryBackPain",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Back pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicPain",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Chronic pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDepression",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Depression",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDiabetes",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Diabetes",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryCoronaryHeartDisease",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Heart disease",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighBloodPressure",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "High blood pressure",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighCholesterol",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "High cholesterol",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryJointPain",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Joint pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryRespiratoryOrBreathingProblems",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Respiratory or breathing problems",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryNoneBalance",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 8,
+						"text": "Are you currently living with or being treated for any of the following?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "MedicalHistoryNoneBalance"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 60,
+				"prepopulated": false,
+				"previousPage": 30
+			},
+			{
+				"content": [
+					{
+						"text": "<p>You\u2019re looking to lose weight because you\u2019d like to live life to the fullest. Your quality of life isn't great and your current weight may lead to some health problems. We're here to support you in improving your health and quality of life.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "WeightManagementFocusArea",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I'd like to start with eating a healthy diet.",
+									"value": "HealthyDiet"
+								},
+								{
+									"dataDefinitionName": "WeightManagementFocusArea",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I'd like to start with being active.",
+									"value": "Active"
+								},
+								{
+									"dataDefinitionName": "WeightManagementFocusArea",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I'd like to start with doing both.",
+									"value": "Both"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 2,
+						"text": "You may already know that successful weight management is a combination of healthy eating and being active (the old \"calories in, calories out\" equation). We'd like to know what you want to focus on first to help you reach your goals.",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 70,
+				"prepopulated": false,
+				"previousPage": 60
+			}
+		],
+		"responseCode": 0
+	}
+}

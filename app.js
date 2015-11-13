@@ -19,7 +19,6 @@ app.engine('html', require('hogan-express'));
 app.use(cookieParser());
 app.use(require('less-middleware')( __dirname + '/public' ));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'models/stubs')));
 
 routes(app);
 

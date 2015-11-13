@@ -1,0 +1,125 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\000036}}
+.trackYourHealth {
+  margin-top: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\000039}}
+.trackYourHealth .tyhHeader {
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000313}}
+.trackYourHealth .step {
+  margin: 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000316}}
+.trackYourHealth .step:first-of-type {
+  margin-top: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000319}}
+.trackYourHealth .step:last-of-type {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000324}}
+.trackYourHealth .step .number {
+  float: left;
+  width: 22px;
+  height: 22px;
+  padding: 1px 0;
+  background: #505a5b;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000336}}
+.trackYourHealth .step .stepDetail {
+  margin: 18px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000340}}
+.trackYourHealth .step .keycode {
+  margin: 30px 0;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000344}}
+.trackYourHealth .step .keycode label {
+  font-style: italic;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000351}}
+.trackYourHealth .stepTitle {
+  margin: 0 0 0 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000355}}
+.trackYourHealth .stepDetail {
+  clear: left;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000359}}
+.trackYourHealth .stepDetail button.smallBtn {
+  height: 29px;
+  margin: 0;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000367}}
+.trackYourHealth .stepDetail a.storeLink:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000371}}
+.trackYourHealth .stepDetail a img {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin: 0 16px 0 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000378}}
+.trackYourHealth .stepDetail a img.googleButton {
+  height: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000385}}
+.trackYourHealth .tyhLine {
+  margin: 0;
+  border-bottom: 1px solid #dbdcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000389}}
+.trackYourHealth .lineTop {
+  border-top: 1px solid #dbdcde;
+  border-bottom: none;
+}
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000396}}
+  .trackYourHealth .step:first-of-type {
+    margin: 18px 0 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\0000399}}
+  .trackYourHealth .step:last-of-type {
+    margin: 16px 0 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\00003103}}
+  .trackYourHealth .step .keycode {
+    padding: 4px 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\00003108}}
+  .trackYourHealth .step .keycode label {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+/* List of action steps to choose from inside skill detail */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\00003120}}
+.tyhSkillDetailList .trackYourHealth .tyhLine:last-of-type {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/skillBase\/app\/styles\/trackYourHealthActionSteps\.scss}line{font-family:\00003125}}
+  .tyhSkillDetailList .trackYourHealth .tyhHeader {
+    font-size: 22px;
+    font-weight: 300;
+  }
+}
+
+/* Program-centric todo list of active action steps */
+/* User-centric todo list of all programs and action steps */

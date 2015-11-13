@@ -1,0 +1,60 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\000036}}
+.errorModal {
+  z-index: 2000;
+  height: 33%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000310}}
+.errorModal .errorModalContent {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000315}}
+.errorModal .errorModalContent .warningIcon {
+  display: block;
+  margin: 0 auto;
+  width: 43px;
+  height: 38px;
+  background: url('/images/widgets/sharedMedia/icons/Exclamation_Triangle_1x.png') no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000322}}
+.errorModal .errorModalContent h1 {
+  font-weight: 300;
+  padding: 22px 0;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000329}}
+.errorModal .errorModalContent h2 {
+  margin: 22px 0 29px 0;
+  color: #7e8c8d;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000335}}
+.errorModal .errorModalContent button {
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 45px;
+  border-radius: 3px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  height: 45px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: #7e8c8d;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/errorModal\.scss}line{font-family:\0000351}}
+.errorModal .errorModalContent button::before {
+  content: "";
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  border-right-color: #fff;
+  display: inline-block;
+  margin-right: 6px;
+}

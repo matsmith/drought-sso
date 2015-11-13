@@ -1,0 +1,1345 @@
+{
+	"get": {
+		"": {
+			"/externalservices/actionstep?q=findByEnrollmentId&enrollmentId=1234": {
+				"actionStepResponse": {
+					"actionStep": [
+						{
+							"id": 42,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "1",
+							"priority": 1,
+							"rating": "",
+							"name": "actionStep1",
+							"title": "Action <em><sup>Step</sup></em> 1 (New Style)",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3466767"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "1 This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "<ul><li>Let's try a list...</li><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>"
+								}
+							],
+							"completionText": "Action Step 1 completion text",
+							"completionTextHeader": "Action Step 1 Completion Header"
+						}, {
+							"id": 13,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "actionStep2",
+							"title": "Action Step 2 with a Really Long Title (Old Style) NO VIDEO!",
+							"property": [],
+							"contentBlocks": [
+								{
+									"content": "2 This is an example of the old style action step..."
+								}
+							],
+							"completionText": "Action Step 2 completion text",
+							"completionTextHeader": "Action Step 2 Completion Header"
+						}, {
+							"id": 83,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 23,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "",
+							"name": "actionStep3",
+							"title": "Action Step 3 gym",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo vel ligula eleifend pharetra at in eros. Etiam semper mi felis, et ullamcorper metus suscipit id. Aenean sit amet dolor lectus. Vivamus malesuada elit euismod lectus rutrum, vitae molestie est lacinia. Etiam rutrum mi urna, dictum tempus sapien aliquam et. Sed iaculis non erat nec auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;"
+								}
+							],
+							"completionText": "Action Step 3 completion text",
+							"completionTextHeader": "Action Step 3 Completion Header"
+						}, {
+							"id": 142,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "1",
+							"priority": 1,
+							"rating": "",
+							"name": "actionStep4",
+							"title": "Action Step 4",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/18112934"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Action Step 4 completion text",
+							"completionTextHeader": "Action Step 4 Completion Header"
+						}, {
+							"id": 113,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "actionStep5",
+							"title": "Action Step 5",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Action Step 5 completion text",
+							"completionTextHeader": "Action Step 5 Completion Header"
+						}, {
+							"id": 183,
+							"type": "standard",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"defaultPriority": "3",
+							"priority": 2,
+							"rating": "",
+							"name": "actionStep6",
+							"title": "Action Step 6",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Action Step 6 completion text",
+							"completionTextHeader": "Action Step 6 Completion Header"
+						}, {
+							"id": 200,
+							"type": "linkMobileApp",
+							"enrollmentId": 1234,
+							"skillId": 14,
+							"event": "NOT_STARTED",
+							"priority": 2,
+							"rating": "THUMBS_UP",
+							"name": "linkTrackYourHealth",
+							"title": "TYH/linkMobileApp Action Step",
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "TYH/linkMobileApp Action Step completion text",
+							"completionTextHeader": "TYH/linkMobileApp Action Step completion text header",
+							"property": [
+								{
+									"name": "appleStoreUrl",
+									"value": "appleStoreUrlValue"
+								}, {
+									"name": "googleStoreUrl",
+									"value": "googleStoreUrlValue"
+								},
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							]
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched GET url"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"/externalservices/actionstep?q=findByEnrollmentId&enrollmentId=1234": {
+				"actionStepResponse": {
+					"actionStep": [
+						{
+							"id": 91935,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_youreTheFriend",
+							"title": "You're the friend",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "1 This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "<ul><li>Let's try a list...</li><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>"
+								}
+							],
+							"completionText": "Learning to talk back to our negative thoughts can be hard. Keep treating yourself with kindness and respect.",
+							"completionTextHeader": "Be kind to yourself",
+							"type": "standard"
+						}, {
+							"id": 91936,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_talkBack",
+							"title": "Talk back",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"content": "2 This is an example of the old style action step..."
+								}
+							],
+							"completionText": "Negative thoughts can creep up at any time. Being prepared can give you the upper hand in reshaping those thoughts.",
+							"completionTextHeader": "You deserve kindness",
+							"type": "standard"
+						}, {
+							"id": 91957,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_writeYourselfALetter",
+							"title": "Write yourself a letter",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo vel ligula eleifend pharetra at in eros. Etiam semper mi felis, et ullamcorper metus suscipit id. Aenean sit amet dolor lectus. Vivamus malesuada elit euismod lectus rutrum, vitae molestie est lacinia. Etiam rutrum mi urna, dictum tempus sapien aliquam et. Sed iaculis non erat nec auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;"
+								}
+							],
+							"completionText": "Knowing your reasons for eating better can help you to stick to your plan.",
+							"completionTextHeader": "You're so good to you",
+							"type": "standard"
+						}, {
+							"id": 91937,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_practiceThePositive",
+							"title": "Practice the positive",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "The more you practice positive thoughts, the easier it will be.",
+							"completionTextHeader": "Practice makes perfect!",
+							"type": "standard"
+						}, {
+							"id": 91958,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_prepareForYourVisit",
+							"title": "Prepare for your visit",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"content": "This is an old style action step with only one piece of content. Only one block. No header!"
+								}
+							],
+							"completionText": "Taking time to prepare for your doctor visits can help keep things running smoothly.",
+							"completionTextHeader": "It's all in the prep!",
+							"type": "standard"
+						}, {
+							"id": 91938,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_createARitual",
+							"title": "Create a ritual",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Continue to review your list and give those negative thoughts the boot!",
+							"completionTextHeader": "Change it up!",
+							"type": "standard"
+						}, {
+							"id": 91960,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_talkItOut",
+							"title": "Talk it out",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "It's so important to be able to talk things out to clear your head.",
+							"completionTextHeader": "Feel better?",
+							"type": "standard"
+						}, {
+							"id": 91939,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_getBackToNature",
+							"title": "Get back to nature",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Even a small connection with nature can boost your mood.",
+							"completionTextHeader": "Way to shine!",
+							"type": "standard"
+						}, {
+							"id": 92093,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_checkYourBloodPressure",
+							"title": "Check your blood pressure",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Good job taking care and finding out more about your blood pressure numbers.",
+							"completionTextHeader": "You know it!",
+							"type": "standard"
+						}, {
+							"id": 92231,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_papOnCervicalCancer",
+							"title": "Pap on!",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "It's very important for you to stay on top of your Pap tests.",
+							"completionTextHeader": "You've got the advice",
+							"type": "standard"
+						}, {
+							"id": 92111,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_theGreaterGoodLowHDL",
+							"title": "The greater \"good\"",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Taking steps to raise your HDL puts you on the path to better health.",
+							"completionTextHeader": "Doing good!",
+							"type": "standard"
+						}, {
+							"id": 91923,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_exploreYourHabit",
+							"title": "Explore your habit",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You have the info you need to make a change.",
+							"completionTextHeader": "Great job exploring!",
+							"type": "standard"
+						}, {
+							"id": 91835,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_cutBackOnJunk",
+							"title": "Cut back on junk",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Change is hard. But even these small changes can do good things for your health.",
+							"completionTextHeader": "You're doing great!",
+							"type": "standard"
+						}, {
+							"id": 91971,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_getYourFluShotDontKNow",
+							"title": "Protect yourself",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're taking the right steps for flu protection.",
+							"completionTextHeader": "You're making it happen",
+							"type": "standard"
+						}, {
+							"id": 91836,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_vegOut",
+							"title": "Veg out",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Adding a few extra veggies to your meals and snacks is a great way to improve your diet.",
+							"completionTextHeader": "Now you're munching!",
+							"type": "standard"
+						}, {
+							"id": 91838,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_planYourCourse",
+							"title": "Plan your course",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Planning your shopping trips and meals will keep you ahead of the game.",
+							"completionTextHeader": "Plan away!",
+							"type": "standard"
+						}, {
+							"id": 92126,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_pickOneLowTriglycerides",
+							"title": "Pick one",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're doing the right thing for your heart by working to decrease your triglyceride levels.",
+							"completionTextHeader": "You're on the right track!",
+							"type": "standard"
+						}, {
+							"id": 91952,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_whatYouLike",
+							"title": "Do what you like",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Finding a hobby that you enjoy can help lift your spirits.",
+							"completionTextHeader": "Look at you go!",
+							"type": "standard"
+						}, {
+							"id": 91953,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_payAttentionToTriggers",
+							"title": "Pay attention to triggers",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Knowing triggers can keep you ahead of the game.",
+							"completionTextHeader": "You're two steps ahead!",
+							"type": "standard"
+						}, {
+							"id": 92091,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_fuelWithFiber",
+							"title": "Fuel with fiber",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Eating more fruits and veggies may do wonders for your cholesterol and overall health.",
+							"completionTextHeader": "All fueled up!",
+							"type": "standard"
+						}, {
+							"id": 91954,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_reachOutOnline",
+							"title": "Reach out online",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Just making that small effort to reach out can help you feel more supported.",
+							"completionTextHeader": "You're not alone",
+							"type": "standard"
+						}, {
+							"id": 92103,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_doWhatYouCan",
+							"title": "Do what you can",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're taking more control of your health, one healthy change at a time.",
+							"completionTextHeader": "You're in control!",
+							"type": "standard"
+						}, {
+							"id": 91955,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_useYourImagination",
+							"title": "Use your imagination",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Use deep breathing when you need to relax and heal.",
+							"completionTextHeader": " Relax and heal!",
+							"type": "standard"
+						}, {
+							"id": 91950,
+							"enrollmentId": 1234,
+							"skillId": 91614,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_postiveIntentions",
+							"title": "Positive intentions",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Being mindful of how you spend your time may help keep you in good spirits.",
+							"completionTextHeader": "You're uplifted!",
+							"type": "standard"
+						}, {
+							"id": 91978,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_lowerYourBMI",
+							"title": "Lower your BMI",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Getting started is the first step of your weight loss journey.",
+							"completionTextHeader": "You're taking steps",
+							"type": "standard"
+						}, {
+							"id": 92129,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_cholesterolCheck",
+							"title": "Cholesterol check",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're on the right path!",
+							"completionTextHeader": "Done!",
+							"type": "standard"
+						}, {
+							"id": 91983,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_askTheRightQuestions",
+							"title": "Ask the right questions",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're not letting worries get the best of you.",
+							"completionTextHeader": "Problem solver!",
+							"type": "standard"
+						}, {
+							"id": 91979,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_checkOutLifestyle",
+							"title": "Check out Lifestyle",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "We hope you found the Lifestyle section's action steps useful.",
+							"completionTextHeader": "You checked it out",
+							"type": "standard"
+						}, {
+							"id": 91985,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_discussWithYourDocUnder40",
+							"title": "Discuss with your doc",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Now you've got the scoop on mammogram screening.",
+							"completionTextHeader": "You have the info",
+							"type": "standard"
+						}, {
+							"id": 91988,
+							"enrollmentId": 1234,
+							"skillId": 91561,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_haveAPapChat",
+							"title": "Have a Pap chat",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You've got the low-down on when you should have your next Pap test.",
+							"completionTextHeader": "You had the chat",
+							"type": "standard"
+						}, {
+							"id": 91877,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_do_mixItUp",
+							"title": "Mix it up",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Mixing up your routine may get you the results you're looking for.",
+							"completionTextHeader": "Change is a good thing",
+							"type": "standard"
+						}, {
+							"id": 92150,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_goodToKnowNumberKnown",
+							"title": "\"Good\" to know",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "You're on the road to meeting your target HDL number.",
+							"completionTextHeader": "Getting more of the good!",
+							"type": "standard"
+						}, {
+							"id": 92130,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_setAGoal",
+							"title": "Set a goal",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Knowing what your numbers are and what they should be is a smart way to care for your health.",
+							"completionTextHeader": "Goal set!",
+							"type": "standard"
+						}, {
+							"id": 92138,
+							"enrollmentId": 1234,
+							"skillId": 91552,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_readTheLabel",
+							"title": "Read the Label",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Reading the labels can help you make the right food choices.",
+							"completionTextHeader": "You've learned the facts!",
+							"type": "standard"
+						}, {
+							"id": 91916,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_beAPlannerDiet",
+							"title": "Know your habits",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"contentBlocks": [
+								{
+									"header": "Try this:",
+									"content": "This is text to go along with try this:..."
+								},
+								{
+									"header": "Why it helps:",
+									"content": "This is text to go along with why it helps:..."
+								}
+							],
+							"completionText": "Knowing your triggers can keep you ahead of the game.",
+							"completionTextHeader": "You're two steps ahead!",
+							"type": "standard"
+						}, {
+							"id": 91919,
+							"enrollmentId": 1234,
+							"skillId": 91669,
+							"event": "NOT_STARTED",
+							"priority": 0,
+							"rating": "NOT_RATED",
+							"name": "assess_learn_getStrongTogether",
+							"title": "Get strong together",
+							"property": [
+								{
+									"name": "videoUrl",
+									"value": "https://player.vimeo.com/video/3437045"
+								}
+							],
+							"description": "There are lots of group strength training classes, and they can be a fun way to get fit. Take time today to think about your interests, goals, and the type of class that might work for you. Do you crave a high-intensity workout, like boot-camp? Are you looking for the core focus of a Pilates class? Or do you want to learn how to use free weights?",
+							"completionText": "Getting strong can be fun—and social too!",
+							"completionTextHeader": "Explore your options!",
+							"type": "standard"
+						}
+					],
+					"responseCode": 0
+				}
+			}
+			,
+			"": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched GET url"
+				}
+			}
+		}
+	},
+	"post": {
+		"": {
+			"/externalservices/actionstep/42": {
+				"{\"rating\":\"THUMBS_UP\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_UP"
+						}
+					}
+				},
+				"{\"rating\":\"THUMBS_DOWN\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_DOWN"
+						}
+					}
+				},
+				"{\"event\":\"STARTED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "STARTED"
+						}
+					}
+				},
+				"{\"event\":\"COMPLETED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"{\"event\":\"REMOVED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"": {
+					"actionStepResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 42"
+					}
+				}
+			},
+			"/externalservices/actionstep/badId": {
+				"actionStepResponse": {
+					"responseCode": 2000,
+					"responseDesc": "Invalid Request - unmatched POST url"
+				}
+			},
+			"": {
+				"{\"rating\":\"THUMBS_UP\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_UP"
+						}
+					}
+				},
+				"{\"rating\":\"THUMBS_DOWN\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"rating": "THUMBS_DOWN"
+						}
+					}
+				},
+				"{\"event\":\"STARTED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "STARTED"
+						}
+					}
+				},
+				"{\"event\":\"COMPLETED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "COMPLETED"
+						}
+					}
+				},
+				"{\"event\":\"REMOVED\"}": {
+					"actionStepResponse": {
+						"responseCode": 0,
+						"responseDesc": "Success",
+						"actionStep": {
+							"id": "42",
+							"event": "NOT_STARTED"
+						}
+					}
+				},
+
+				"": {
+					"actionStepResponse": {
+						"responseCode": 2000,
+						"responseDesc": "Invalid Request - bad data POST 1234"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+<style type="text/css">
+	body{
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+	#launcher {
+		margin: 0 auto;
+		width: 100%;
+		min-width: 320px;
+		padding: 0 20px;
+	}
+
+	#launcher > div {
+		margin: 10px 0;
+	}
+	#launcher label {
+		width: 123px;
+		display: inline-block;
+		text-align: right;
+		margin-right: 10px;
+	}
+	#launcher > div label + * {
+		width: 150px;
+	}
+	#launcher select,
+	#launcher input,
+	#launcher button {
+		padding: 2px 4px;
+	}
+</style>
+<div id="ember-app">
+	<script src="/environment.js"></script>
+	<script src="/vendor/require/require.min.js"></script>
+	<script src="/require_config.js"></script>
+	<script>
+    	$(document).ready(function() {
+    		require(['questionnaire'], function(AppLoader) {
+    			AppLoader(window.options, function(App) {
+    				window.coachingQuestionnaire = App;
+    			});
+    		});
+    	});
+	</script>
+</div>
+<div id="widgetTarget"></div>

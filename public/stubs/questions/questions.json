@@ -1,0 +1,834 @@
+[
+  {
+    "id": "1",
+    "type": "inline",
+    "supertitle": "balance<sup>&#174;</sup>",
+    "title": "Motivation",
+    "text": "----- Bumper -----  When it comes to sticking to changes in your eating habits and getting yourself off the couch, you've pinpointed motivation as an issue for you. Let's dive deeper into that so we can choose the right skills for you."
+  },
+  {
+    "id": "2",
+    "type": "scale",
+    "text": "----- Scale -----  What is your ethnicity?",
+    "choices": {
+      "choice": [
+        {
+          "text": "White, Non-Hispanic",
+          "value": "White, Non-Hispanic",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+      	{
+          "text": "Black or African-American",
+          "value": "Black or African-American",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Hispanic",
+          "value": "Hispanic",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Asian",
+          "value": "Asian",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Pacific Islander",
+          "value": "Pacific Islander",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Native American Indian or Native Alaskan",
+          "value": "Native American Indian or Native Alaskan",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Native Hawaiian",
+          "value": "Native Hawaiian",
+      	  "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Multiracial",
+          "value": "Multiracial",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "type": "radio",
+    "text": "----- Radio -----  What is your ethnicity?",
+    "choices": {
+      "choice": [
+        {
+          "text": "White, Non-Hispanic",
+          "value": "White, Non-Hispanic",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Black or African-American",
+          "value": "Black or African-American",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Hispanic",
+          "value": "Hispanic",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Asian",
+          "value": "Asian",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Pacific Islander",
+          "value": "Pacific Islander",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Native American Indian or Native Alaskan",
+          "value": "Native American Indian or Native Alaskan",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Native Hawaiian",
+          "value": "Native Hawaiian",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        },
+        {
+          "text": "Multiracial",
+          "value": "Multiracial",
+          "selected": false,
+          "dataDefinitionName": "Ethnicity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "validations": {
+       "validation": [
+           {
+               "name": "exclusiveResponse",
+               "property": "NoneOfTheAbove"
+           },
+           {
+               "name": "maximumResponses",
+               "property": 3
+           }
+       ]
+    },
+    "type": "checkbox",
+    "text": "----- Checkbox -----  Are you currently living with or being treated for any of the following? Choose all that apply:",
+    "choices": {
+      "choice": [
+        {
+          "text": "Asthma",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "Asthma"
+        },
+        {
+          "text": "High blood pressure",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "HighBloodPressure"
+        },
+        {
+          "text": "Back pain",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "BackPain"
+        },
+        {
+          "text": "High cholesterol",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "HighCholesterol"
+        },
+        {
+          "text": "Despression",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "Despression"
+        },
+        {
+          "text": "Joint pain",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "JointPain"
+        },
+        {
+          "text": "Diabetes",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "Diabetes"
+        },
+        {
+          "text": "None of the above",
+          "value": true,
+          "selected": false,
+          "dataDefinitionName": "NoneOfTheAbove"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "type": "numberinput",
+    "text": "----- Number Input -----  How much do you weigh now?",
+    "dataDefinitionName": "WeightPounds",
+    "inputLabel": "Your weight in lbs."
+  },
+  {
+    "id": "6",
+    "type": "dropdown",
+    "text":"----- Dropdown -----  How tall are you (to the nearest inch)?",
+    "choices": {
+      "choice": [
+         {
+            "text":"0",
+            "value":"0",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":1
+         },
+         {
+            "text":"1",
+            "value":"1",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":2
+         },
+         {
+            "text":"2",
+            "value":"2",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":3
+         },
+         {
+            "text":"3",
+            "value":"3",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":4
+         },
+         {
+            "text":"4",
+            "value":"4",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":5
+         },
+         {
+            "text":"5",
+            "value":"5",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":6
+         },
+         {
+            "text":"6",
+            "value":"6",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":7
+         },
+         {
+            "text":"7",
+            "value":"7",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":8
+         },
+         {
+            "text":"8",
+            "value":"8",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":9
+         },
+         {
+            "text":"9",
+            "value":"9",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":10
+         },
+         {
+            "text":"10",
+            "value":"10",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":11
+         },
+         {
+            "text":"11",
+            "value":"11",
+            "selected":false,
+            "dataDefinitionName":"HeightInches",
+            "helpText":"",
+            "ordinal":12
+         }
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "type": "multidropdown",
+    "text":"----- Multi Dropdown -----How tall are you (to the nearest inch)?",
+    "validations":{
+      "validation":[
+         {
+            "name":"responseAllOrNone"
+         }
+      ]
+    },
+    "childQuestions":[
+      {
+         "type":"dropdown",
+         "text":"feet",
+         "helpText":"",
+         "choices": {
+          "choice": [
+             {
+                "text":"3",
+                "value":"3",
+                "selected":false,
+                "dataDefinitionName":"HeightFeet",
+                "helpText":"",
+                "ordinal":1
+             },
+             {
+                "text":"4",
+                "value":"4",
+                "selected":false,
+                "dataDefinitionName":"HeightFeet",
+                "helpText":"",
+                "ordinal":2
+             },
+             {
+                "text":"5",
+                "value":"5",
+                "selected":false,
+                "dataDefinitionName":"HeightFeet",
+                "helpText":"",
+                "ordinal":3
+             },
+             {
+                "text":"6",
+                "value":"6",
+                "selected":false,
+                "dataDefinitionName":"HeightFeet",
+                "helpText":"",
+                "ordinal":4
+             },
+             {
+                "text":"7",
+                "value":"7",
+                "selected":false,
+                "dataDefinitionName":"HeightFeet",
+                "helpText":"",
+                "ordinal":5
+             }
+          ]
+        }
+      },
+      {
+         "type":"dropdown",
+         "text":"inches",
+         "helpText":"",
+         "choices": {
+          "choice": [
+             {
+                "text":"0",
+                "value":"0",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":1
+             },
+             {
+                "text":"1",
+                "value":"1",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":2
+             },
+             {
+                "text":"2",
+                "value":"2",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":3
+             },
+             {
+                "text":"3",
+                "value":"3",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":4
+             },
+             {
+                "text":"4",
+                "value":"4",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":5
+             },
+             {
+                "text":"5",
+                "value":"5",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":6
+             },
+             {
+                "text":"6",
+                "value":"6",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":7
+             },
+             {
+                "text":"7",
+                "value":"7",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":8
+             },
+             {
+                "text":"8",
+                "value":"8",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":9
+             },
+             {
+                "text":"9",
+                "value":"9",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":10
+             },
+             {
+                "text":"10",
+                "value":"10",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":11
+             },
+             {
+                "text":"11",
+                "value":"11",
+                "selected":false,
+                "dataDefinitionName":"HeightInches",
+                "helpText":"",
+                "ordinal":12
+             }
+          ]
+        }
+      }
+    ]
+  },
+  {
+   "id": "8",
+   "type":"scalegroup",
+   "text":"----- Likert -----  How much do you agree with these statements?",
+   "helpText":"",
+   "ordinal":1,
+   "childQuestions":[
+      {
+         "helpText":"",
+         "choices":{
+            "choice":[
+               {
+                  "text":"1",
+                  "value":"StronglyDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemFailure",
+                  "helpText":"Strongly disagree",
+                  "ordinal":1
+               },
+               {
+                  "text":"2",
+                  "value":"Disagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemFailure",
+                  "helpText":"Disagree",
+                  "ordinal":2
+               },
+               {
+                  "text":"3",
+                  "value":"NeitherAgreeNorDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemFailure",
+                  "helpText":"Neither agree nor disagree",
+                  "ordinal":3
+               },
+               {
+                  "text":"4",
+                  "value":"Agree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemFailure",
+                  "helpText":"Agree",
+                  "ordinal":4
+               },
+               {
+                  "text":"5",
+                  "value":"StronglyAgree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemFailure",
+                  "helpText":"Strongly agree",
+                  "ordinal":5
+               }
+            ]
+         },
+         "childQuestions":null,
+         "type":"hor-radio",
+         "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed nisi quis magna pretium dignissim. Sed vel consequat velit. Cras pretium augue facilisis mi feugiat varius.",
+         "ordinal":1
+      },
+      {
+         "helpText":"",
+         "choices":{
+            "choice":[
+               {
+                  "text":"1",
+                  "value":"StronglyDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemDontLikeSelf",
+                  "helpText":"Strongly disagree",
+                  "ordinal":1
+               },
+               {
+                  "text":"2",
+                  "value":"Disagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemDontLikeSelf",
+                  "helpText":"Disagree",
+                  "ordinal":2
+               },
+               {
+                  "text":"3",
+                  "value":"NeitherAgreeNorDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemDontLikeSelf",
+                  "helpText":"Neither agree nor disagree",
+                  "ordinal":3
+               },
+               {
+                  "text":"4",
+                  "value":"Agree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemDontLikeSelf",
+                  "helpText":"Agree",
+                  "ordinal":4
+               },
+               {
+                  "text":"5",
+                  "value":"StronglyAgree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemDontLikeSelf",
+                  "helpText":"Strongly agree",
+                  "ordinal":5
+               }
+            ]
+         },
+         "childQuestions":null,
+         "type":"hor-radio",
+         "text":"I don't like myself very much.",
+         "ordinal":2
+      },
+      {
+         "helpText":"",
+         "choices":{
+            "choice":[
+               {
+                  "text":"1",
+                  "value":"StronglyDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemNotAsGood",
+                  "helpText":"Strongly disagree",
+                  "ordinal":1
+               },
+               {
+                  "text":"2",
+                  "value":"Disagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemNotAsGood",
+                  "helpText":"Disagree",
+                  "ordinal":2
+               },
+               {
+                  "text":"3",
+                  "value":"NeitherAgreeNorDisagree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemNotAsGood",
+                  "helpText":"Neither agree nor disagree",
+                  "ordinal":3
+               },
+               {
+                  "text":"4",
+                  "value":"Agree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemNotAsGood",
+                  "helpText":"Agree",
+                  "ordinal":4
+               },
+               {
+                  "text":"5",
+                  "value":"StronglyAgree",
+                  "selected":false,
+                  "dataDefinitionName":"SelfEsteemNotAsGood",
+                  "helpText":"Strongly agree",
+                  "ordinal":5
+               }
+            ]
+         },
+         "childQuestions":null,
+         "type":"hor-radio",
+         "text":"I'm not as good as other people.",
+         "ordinal":3
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "type":"dropdownandnumber",
+    "text":"----- Dropdown and Number -----  In a typical week, what is the average amount of time you spend doing moderate-intensity physical activity?",
+    "ordinal":4,
+    "helpText":"",
+    "validations":{
+      "validation":[
+         {
+            "name":"responseAllOrNone"
+         }
+      ]
+    },
+    "childQuestions":[
+      {
+         "type":"dropdown",
+         "text":"day(s)",
+         "ordinal":1,
+         "helpText":"",
+         "choices":{
+            "choice":[
+               {
+                  "text":"0",
+                  "value":"0",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":1
+               },
+               {
+                  "text":"1",
+                  "value":"1",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":2
+               },
+               {
+                  "text":"2",
+                  "value":"2",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":3
+               },
+               {
+                  "text":"3",
+                  "value":"3",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":4
+               },
+               {
+                  "text":"4",
+                  "value":"4",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":5
+               },
+               {
+                  "text":"5",
+                  "value":"5",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":6
+               },
+               {
+                  "text":"6",
+                  "value":"6",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":7
+               },
+               {
+                  "text":"7",
+                  "value":"7",
+                  "selected":false,
+                  "dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+                  "helpText":"",
+                  "ordinal":8
+               }
+            ]
+         },
+         "childQuestions":null
+      },
+      {
+        "type":"numberinput",
+        "inputLabel":"minutes",
+        "helpText":"",
+        "ordinal":2,
+        "dataDefinitionName":"ModeratePhysicalActivityAmountMinutesPerDay",
+        "text":"",
+        "childQuestions":null
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "type":"slider",
+    "text":"----- Slider -----  First of all, how motivated are you to manage your weight?",
+    "helpText":"",
+    "choices":{
+      "choice":[
+         {
+            "text":"0",
+            "value":"0",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"Not at all motivated",
+            "ordinal":1
+         },
+         {
+            "text":"1",
+            "value":"1",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":2
+         },
+         {
+            "text":"2",
+            "value":"2",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":3
+         },
+         {
+            "text":"3",
+            "value":"3",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":4
+         },
+         {
+            "text":"4",
+            "value":"4",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":5
+         },
+         {
+            "text":"5",
+            "value":"5",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":6
+         },
+         {
+            "text":"6",
+            "value":"6",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":7
+         },
+         {
+            "text":"7",
+            "value":"7",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":8
+         },
+         {
+            "text":"8",
+            "value":"8",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":9
+         },
+         {
+            "text":"9",
+            "value":"9",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"",
+            "ordinal":10
+         },
+         {
+            "text":"10",
+            "value":"10",
+            "selected":false,
+            "dataDefinitionName":"MotivationSeriesWeightManagement",
+            "helpText":"Extremely motivated",
+            "ordinal":11
+         }
+      ]
+   },
+   "childQuestions":null,
+   "ordinal":1
+  }
+]

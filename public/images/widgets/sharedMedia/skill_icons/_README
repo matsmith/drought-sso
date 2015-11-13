@@ -1,0 +1,5 @@
+Skill icons can be left here for testing, but this is not
+where they will be served from. If you add/modify an icon
+include it in this folder as well as in the coaching
+repository in the following directory:
+/development/coaching/sites/all/themes/healthmedia/images/skill_icons/

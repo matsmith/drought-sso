@@ -1,0 +1,342 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Motivation_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Movement",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Physical_Activity_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Habits",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Eating_Habits_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 170,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Mental_Health_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Stress_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_Support_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/weightSkills/Balance_More_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 210,
+		"questionnairePage": {
+			"content": [
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "HelpEatBetterGettingMotivated",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "<strong>Getting motivated:</strong> I\u2019m just not that excited about eating healthy.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterStayingMotivated",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "<strong>Staying motivated:</strong> I start out doing well, but I seem to lose interest over time.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterRightTypesOfFood",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "<strong>Eating the right types of foods:</strong> I\u2019m not sure what I should eat.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterRightAmountOfFood",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "<strong>Eating the right amount of foods:</strong> I tend to eat portions that are too big, or don\u2019t know how much to eat.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterResistTemptations",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "<strong>Resisting temptations:</strong> There are a lot of things around me that make it easy to eat unhealthy.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterBetterFoodMindset",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "<strong>Having a better mindset about food:</strong> I turn to food for comfort, use it as a reward, or feel guilty about eating.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterNone",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "None of the above.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "HelpEatBetterNoTrouble",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "I don't have any trouble eating healthy.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply. ",
+					"ordinal": 1,
+					"text": "What would help you eat better?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "HelpEatBetterNone"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "HelpEatBetterNoTrouble"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersLackOfMotivation",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I just don't seem to have the motivation to do it.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersSchedule",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I don't have time.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersNoPlace",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I don't have a place to exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersStress",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I'm too stressed.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersDontKnowHow",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I don't know what I'm doing when I exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersUncomfortableOthers",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I'm uncomfortable exercising in front of others.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersBoring",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "Exercise is boring.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersTooTired",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "I'm often too tired to exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersGuiltyTakingTime",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "I feel guilty taking the time for myself to exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersNoResults",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "When I exercise I don't see any results.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersTravel",
+								"helpText": "",
+								"ordinal": 11,
+								"selected": false,
+								"text": "Traveling a lot keeps me from exercising.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersCantAffordGym",
+								"helpText": "",
+								"ordinal": 12,
+								"selected": false,
+								"text": "I can't afford to join a gym.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersNoOneToGoWith",
+								"helpText": "",
+								"ordinal": 13,
+								"selected": false,
+								"text": "I don\u2019t like to exercise alone, and I don\u2019t have anyone to go with.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersExerciseIsHard",
+								"helpText": "",
+								"ordinal": 14,
+								"selected": false,
+								"text": "Exercise is too hard.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersNoTrouble",
+								"helpText": "",
+								"ordinal": 15,
+								"selected": false,
+								"text": "I don\u2019t have any trouble exercising.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivityBarriersNone",
+								"helpText": "",
+								"ordinal": 16,
+								"selected": false,
+								"text": "None of the above.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 2,
+					"text": "Which of the following are true for you when it comes to exercising?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "PhysicalActivityBarriersNoTrouble"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "PhysicalActivityBarriersNone"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 80,
+			"prepopulated": false,
+			"previousPage": 70
+		},
+		"responseCode": 0
+	}
+}

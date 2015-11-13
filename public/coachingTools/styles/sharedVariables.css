@@ -1,0 +1,11 @@
+/**
+ * Sets a background with transparency on all browsers.
+ * [red, green, and blue all must be integer values. alpha is a decimal between 0 and 1.]
+ * @param  {[type]} $red   [value between 0 and 255]
+ * @param  {[type]} $green [value between 0 and 255]
+ * @param  {[type]} $blue  [value between 0 and 255]
+ * @param  {[type]} $alpha [value between 0 and 1]
+ * @return {[type]}        []
+ */
+/** parameter needs to be a decimal between 0 and 1 */
+/** Returns a one byte hex value */

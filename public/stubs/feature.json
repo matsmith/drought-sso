@@ -1,0 +1,870 @@
+{
+	"get": {
+		"": {
+			"/externalservices/feature?query=featureCategory.id&featureCategory.id=9": {
+				"feature1__features": {
+					"feature1__feature": [
+						{
+							"entity1__id": 6,
+							"feature1__name": "Data Source Renaming",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": ""
+						},
+						{
+							"entity1__id": 10,
+							"feature1__name": "Retake",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 1,
+										"feature1__configurationName": "RetakeScreenEnabled",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 2,
+										"feature1__configurationName": "RetakeByDuration",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 3,
+										"feature1__configurationName": "RetakeByDate",
+										"feature1__type": "DATE"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 18,
+							"feature1__name": "HPI",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 18,
+									"feature1__configurationName": "enabled",
+									"feature1__description": "Enables HPI.",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 28,
+							"feature1__name": "Sitedomain",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 43,
+										"feature1__configurationName": "siteUrl",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 190,
+										"feature1__configurationName": "legacySiteUrl",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 29,
+							"feature1__name": "Single Sign On",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 88,
+										"feature1__configurationName": "customerProvidesUniqueIDs",
+										"feature1__description": "True\\/False if the customer does not provide Unique IDs, we will hyphenate them together.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 552,
+										"feature1__configurationName": "homeButtonText",
+										"feature1__description": "Used to replace text on Go to Home button"
+									},
+									{
+										"entity1__id": 553,
+										"feature1__configurationName": "homeButtonLinkRelPath",
+										"feature1__description": "Path relative to home where Go to Home button will send users"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 44,
+							"feature1__name": "PoweredByLogo",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 116,
+										"feature1__configurationName": "enabled",
+										"feature1__description": "Enables the JJHWS logo to be displayed.",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 232,
+										"feature1__configurationName": "dhcPagesOnly",
+										"feature1__description": "Enables the JJHWS logo to be displayed on Digital Health Coaching pages only.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 233,
+										"feature1__configurationName": "customizedLogoUrl",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 47,
+							"feature1__name": "RefillReminder",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 126,
+									"feature1__configurationName": "enabled",
+									"feature1__description": "Enables Refill Reminder messages.",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 48,
+							"feature1__name": "CustomerSessionKeepAlive",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 127,
+									"feature1__configurationName": "url",
+									"feature1__description": "URL to customer's keep alive.",
+									"feature1__type": "STRING"
+								}
+							}
+						},
+						{
+							"entity1__id": 49,
+							"feature1__name": "SSOLogOutPage",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 128,
+										"feature1__configurationName": "closeWindowOnLogOut",
+										"feature1__description": "Closes window automatically when user logs out of SSO.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 129,
+										"feature1__configurationName": "contentId",
+										"feature1__description": "Custom content for the logout page.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 193,
+										"feature1__configurationName": "sameWindowContentId",
+										"feature1__description": "Logout text when in the same window.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 194,
+										"feature1__configurationName": "newWindowContentId",
+										"feature1__description": "Logout text when in a different window.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 195,
+										"feature1__configurationName": "sameWindowActionButtonText",
+										"feature1__description": "Logout action button text when in the same window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 196,
+										"feature1__configurationName": "newWindowActionButtonText",
+										"feature1__description": "Logout action button text when in a different window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 197,
+										"feature1__configurationName": "sameWindowActionButtonURL",
+										"feature1__description": "Where you go when you click the button.",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 50,
+							"feature1__name": "SessionTimeOutPage",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 130,
+										"feature1__configurationName": "contentId",
+										"feature1__description": "Content for session timeout page.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 198,
+										"feature1__configurationName": "logoutButtonText",
+										"feature1__description": "Logout button text for session timeout page.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 210,
+										"feature1__configurationName": "newWindowActionButtonText",
+										"feature1__description": "Logout action button text when in a different window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 211,
+										"feature1__configurationName": "sameWindowActionButtonText",
+										"feature1__description": "Logout action button text when in the same window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 212,
+										"feature1__configurationName": "newWindowContentId",
+										"feature1__description": "Logout text when in a different window.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 213,
+										"feature1__configurationName": "sameWindowContentId",
+										"feature1__description": "Logout text when in the same window.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 67,
+							"feature1__name": "AppointmentReminder",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 217,
+									"feature1__configurationName": "enabled",
+									"feature1__description": "Enables Appointment Reminders.",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 68,
+							"feature1__name": "CustomerService",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 218,
+									"feature1__configurationName": "phoneNumber",
+									"feature1__type": "STRING"
+								}
+							}
+						},
+						{
+							"entity1__id": 69,
+							"feature1__name": "HelpSearch",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 219,
+									"feature1__configurationName": "enabled",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 70,
+							"feature1__name": "ProductResources",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 220,
+										"feature1__configurationName": "furtherReadingEnabled",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 221,
+										"feature1__configurationName": "aboutEnabled",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 270,
+										"feature1__configurationName": "productVideoAudioPDFEnabled",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 271,
+										"feature1__configurationName": "SMARTGoalsEnabled",
+										"feature1__type": "BOOLEAN"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 71,
+							"feature1__name": "CustomerType",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 222,
+									"feature1__configurationName": "typeCode",
+									"feature1__description": "Differentiates between EIS or HP.",
+									"feature1__type": "ENUM"
+								}
+							}
+						},
+						{
+							"entity1__id": 60,
+							"feature1__name": "MyDotMigration",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 164,
+										"feature1__configurationName": "userFinishedMigrationMessage",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 165,
+										"feature1__configurationName": "userAlreadyMigratedMessage",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 203,
+										"feature1__configurationName": "ssoUserFinishedMigrationMessage",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 209,
+										"feature1__configurationName": "userNotFoundMigrationMessage",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 358,
+										"feature1__configurationName": "companyMigrated",
+										"feature1__description": "If company is migrated from classic to fusion",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 359,
+										"feature1__configurationName": "contentID",
+										"feature1__description": "Migration Wizard Welcome message",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 373,
+										"feature1__configurationName": "displayWelcomeImage"
+									},
+									{
+										"entity1__id": 371,
+										"feature1__configurationName": "faqcontentID",
+										"feature1__description": "Migration Wizard Direct login FAQ",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 372,
+										"feature1__configurationName": "ssofaqcontentID",
+										"feature1__description": "Migration Wizard SSO FAQ",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 63,
+							"feature1__name": "UserDataRealtime",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 185,
+										"feature1__configurationName": "enabled",
+										"feature1__description": "If user data realtime notification is turned on.",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 186,
+										"feature1__configurationName": "applicationName",
+										"feature1__description": "Username given to us by recipient used for application authentication.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 187,
+										"feature1__configurationName": "applicationPassword",
+										"feature1__description": "Password given to us by recipient used for application authentication.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 188,
+										"feature1__configurationName": "retryMax",
+										"feature1__description": "The maximum number of times a resend will be tried if a failure occurs.",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 189,
+										"feature1__configurationName": "endpointUrl",
+										"feature1__description": "The service location where the notification data will be sent.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 336,
+										"feature1__configurationName": "sendToVendorsOnly",
+										"feature1__description": "Property to indicate if only vendors should receive the notification.  When true the customer will not receive the notification and only vendors will receive the notification.  When false both customer and any vendors will receive the notification.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 520,
+										"feature1__configurationName": "errorReportEmailAddress",
+										"feature1__description": "List of emails that RTN Error Email will be sent to"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 64,
+							"feature1__name": "NonAuthenticationPage",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 199,
+										"feature1__configurationName": "sameWindowActionButtonText",
+										"feature1__description": "Action button text when viewing in the same window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 200,
+										"feature1__configurationName": "newWindowActionButtonText",
+										"feature1__description": "Action button text when viewing in a different window.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 201,
+										"feature1__configurationName": "sameWindowActionButtonURL",
+										"feature1__description": "URL for action button when viewing in the same window.",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 65,
+							"feature1__name": "ProgramCompletionRealtime",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 204,
+										"feature1__configurationName": "enabled",
+										"feature1__description": "If program completion realtime notification is turned on.",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 205,
+										"feature1__configurationName": "applicationName",
+										"feature1__description": "Username given to us by recipient used for application authentication.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 206,
+										"feature1__configurationName": "applicationPassword",
+										"feature1__description": "Password given to us by recipient used for application authentication.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 207,
+										"feature1__configurationName": "retryMax",
+										"feature1__description": "The maximum number of times a resend will be tried if a failure occurs.",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 208,
+										"feature1__configurationName": "endpointUrl",
+										"feature1__description": "The service location where the notification data will be sent.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 337,
+										"feature1__configurationName": "sendToVendorsOnly",
+										"feature1__description": "Property to indicate if only vendors should receive the notification.  When true the customer will not receive the notification and only vendors will receive the notification.  When false both customer and any vendors will receive the notification.",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 54,
+							"feature1__name": "LegalNotice",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 152,
+									"feature1__configurationName": "enabled",
+									"feature1__description": "Enables legal notice.",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 55,
+							"feature1__name": "ActionPlan",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 154,
+									"feature1__configurationName": "type",
+									"feature1__type": "ENUM"
+								}
+							}
+						},
+						{
+							"entity1__id": 73,
+							"feature1__name": "AccountManagementPortal",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 235,
+										"feature1__configurationName": "ampEnabled",
+										"feature1__description": "Indicates that AMP is enabled for this customer.",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 236,
+										"feature1__configurationName": "disclaimerCompany",
+										"feature1__description": "Actual company name that appears in disclaimer.",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 237,
+										"feature1__configurationName": "contentId",
+										"feature1__description": "Content for the AMP disclaimer. Has a variable for company name.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 77,
+							"feature1__name": "UpdateProfile",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 275,
+									"feature1__configurationName": "emailUpdateInstructionsContentId",
+									"feature1__description": "If above (274) is false, Points to a content ID providing instructions for a user to update their email address through their sponsor portal.  The value is the id of the generic content item stored in Drupal.  Only 1 content item can be specified.",
+									"feature1__type": "STRING"
+								}
+							}
+						},
+						{
+							"entity1__id": 83,
+							"feature1__name": "ForgotUsername",
+							"feature1__description": "Controls Configuration of the Forgot Username Page",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": {
+									"entity1__id": 309,
+									"feature1__configurationName": "displayEmployeeId",
+									"feature1__description": "Toggles Whether or Not to Display Employee Id on the Forgot Username Page",
+									"feature1__type": "BOOLEAN"
+								}
+							}
+						},
+						{
+							"entity1__id": 84,
+							"feature1__name": "Twilio",
+							"feature1__description": "Controls Configuration of the Twilio",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 316,
+										"feature1__configurationName": "phoneNumber",
+										"feature1__description": "Twilio Phone Number for Sending SMS Messages",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 317,
+										"feature1__configurationName": "callbackEnabled",
+										"feature1__description": "Configures Whether Twilio Should Be Required to Send a Callback on this Environemnt",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 318,
+										"feature1__configurationName": "accountSid",
+										"feature1__description": "Twilio Account SID",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 319,
+										"feature1__configurationName": "accessToken",
+										"feature1__description": "Twilio Account Access Token",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						},
+						{
+							"entity1__id": 100,
+							"feature1__name": "PublicHomePage",
+							"feature1__description": "Feature for the public home page",
+							"feature1__featureCategory": [
+								{
+									"entity1__id": 9,
+									"feature1__name": "Miscellaneous"
+								}
+							],
+							"feature1__featureConfigurationCollection": {
+								"feature1__featureConfiguration": [
+									{
+										"entity1__id": 555,
+										"feature1__configurationName": "video1TextContent",
+										"feature1__description": "Determines the description text to display under title for video 1."
+									},
+									{
+										"entity1__id": 556,
+										"feature1__configurationName": "video2TextContent",
+										"feature1__description": "Determines the description text to display under title for video 2."
+									},
+									{
+										"entity1__id": 557,
+										"feature1__configurationName": "video3TextContent",
+										"feature1__description": "Determines the description text to display under title for video 3."
+									},
+									{
+										"entity1__id": 505,
+										"feature1__configurationName": "video1Disabled",
+										"feature1__description": "Determines if video 1 is disabled on the public home page",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 506,
+										"feature1__configurationName": "video1Url",
+										"feature1__description": "URL for video 1 displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 507,
+										"feature1__configurationName": "video1ImageUrl",
+										"feature1__description": "URL for video 1 image displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 508,
+										"feature1__configurationName": "video1TranscriptContentId",
+										"feature1__description": "Video 1 transcript for video 1 displayed on public home page. The value is the id of the generic content item stored in Drupal. Only 1 content item can be specified",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 509,
+										"feature1__configurationName": "video1Title",
+										"feature1__description": "Video 1 title on the public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 510,
+										"feature1__configurationName": "video2Disabled",
+										"feature1__description": "Determines if video 2 is disabled on the public home page",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 511,
+										"feature1__configurationName": "video2Url",
+										"feature1__description": "URL for video 2 displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 512,
+										"feature1__configurationName": "video2ImageUrl",
+										"feature1__description": "URL for video 2 image displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 513,
+										"feature1__configurationName": "video2TranscriptContentId",
+										"feature1__description": "Video 2 transcript for video 2 displayed on public home page. The value is the id of the generic content item stored in Drupal. Only 1 content item can be specified",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 514,
+										"feature1__configurationName": "video2Title",
+										"feature1__description": "Video 2 title on the public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 515,
+										"feature1__configurationName": "video3Disabled",
+										"feature1__description": "Determines if video 3 is disabled on the public home page",
+										"feature1__type": "BOOLEAN"
+									},
+									{
+										"entity1__id": 516,
+										"feature1__configurationName": "video3Url",
+										"feature1__description": "URL for video 3 displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 517,
+										"feature1__configurationName": "video3ImageUrl",
+										"feature1__description": "URL for video 3 image displayed on public home page",
+										"feature1__type": "STRING"
+									},
+									{
+										"entity1__id": 518,
+										"feature1__configurationName": "video3TranscriptContentId",
+										"feature1__description": "Video 3 transcript for video 3 displayed on public home page. The value is the id of the generic content item stored in Drupal. Only 1 content item can be specified",
+										"feature1__type": "NUMBER"
+									},
+									{
+										"entity1__id": 519,
+										"feature1__configurationName": "video3Title",
+										"feature1__description": "Video 3 title on the public home page",
+										"feature1__type": "STRING"
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"": {
+				"feature1__features": {
+					"feature1__feature": [
+						""
+					]
+				}
+			}
+		}
+	}
+}

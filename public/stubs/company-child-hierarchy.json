@@ -1,0 +1,2271 @@
+{
+	"get": {
+		"": {
+			"": {
+				"company1__companies": ""
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=5188&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 5188,
+							"entity1__createDate": "2014-03-28T13:25:13.000-04:00",
+							"company1__externalCompanyId": "PHS",
+							"company1__name": "PHS",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5188
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 5189,
+								"entity1__createDate": "2014-03-28T13:25:13.000-04:00",
+								"company1__externalCompanyId": "phsmember",
+								"company1__name": "PHS Member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 5188
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5189
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8995,
+								"entity1__createDate": "2014-03-28T13:29:01.000-04:00",
+								"company1__externalCompanyId": "phsnonmember",
+								"company1__name": "PHS Non Member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 5188
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=5189&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 5189,
+							"entity1__createDate": "2014-03-28T13:25:13.000-04:00",
+							"company1__externalCompanyId": "phsmember",
+							"company1__name": "PHS Member",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5189
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 8999,
+								"entity1__createDate": "2014-03-28T13:31:03.000-04:00",
+								"company1__externalCompanyId": "phsmember-0273",
+								"company1__name": "Farrar Corporation",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 5189
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5189
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9264,
+								"entity1__createDate": "2014-03-28T13:33:31.000-04:00",
+								"company1__externalCompanyId": "phsmember-1661",
+								"company1__name": "Michael S. Rogers Agency",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 5189
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5189
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9269,
+								"entity1__createDate": "2014-03-28T13:35:06.000-04:00",
+								"company1__externalCompanyId": "phsmember-1685",
+								"company1__name": "Don Klausmeyer Construction",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 5189
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5189
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9324,
+								"entity1__createDate": "2014-03-28T13:35:37.000-04:00",
+								"company1__externalCompanyId": "phsmember-1700",
+								"company1__name": "Leisure Homestead Association",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 5189
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5189
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=6&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 6,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "Coventry",
+							"company1__name": "Coventry",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 6
+							},
+							"company1__rootCompany": {
+								"entity1__id": 6
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 6
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 9144,
+								"entity1__createDate": "2014-03-28T13:31:40.000-04:00",
+								"company1__externalCompanyId": "coventryemployeeraffletemplate",
+								"company1__name": "Template Company for Coventry ILI Configuration - Employee Raffle",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 7,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember",
+								"company1__name": "Coventry Member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5176,
+								"entity1__createDate": "2014-03-28T13:25:11.000-04:00",
+								"company1__externalCompanyId": "coventrymemberiliflordiatemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - Flordia",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5190,
+								"entity1__createDate": "2014-03-28T13:25:18.000-04:00",
+								"company1__externalCompanyId": "coventrymemberiligeorgiatemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - Georgia",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8776,
+								"entity1__createDate": "2014-03-28T13:27:37.000-04:00",
+								"company1__externalCompanyId": "coventrymemberilihealthamericatemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - HealthAmerica",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8782,
+								"entity1__createDate": "2014-03-28T13:27:41.000-04:00",
+								"company1__externalCompanyId": "coventrymemberilihomebeveragetemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - HomeBeverage",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8751,
+								"entity1__createDate": "2014-03-28T13:26:55.000-04:00",
+								"company1__externalCompanyId": "coventrymemberilikansastemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - Kansas",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8787,
+								"entity1__createDate": "2014-03-28T13:27:45.000-04:00",
+								"company1__externalCompanyId": "coventrymemberilirockhursthstemplate",
+								"company1__name": "Template Company for Coventry Incentive Logic Configuration - Rockhurst HS",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8818,
+								"entity1__createDate": "2014-03-28T13:28:30.000-04:00",
+								"company1__externalCompanyId": "coventrymembertrestletreehomepagetemplate",
+								"company1__name": "Template Company for Coventry Trestletree Home Page Text",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 8,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrynonmember",
+								"company1__name": "Coventry Non-Member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 13313,
+								"entity1__createDate": "2014-12-09T15:08:27.000-05:00",
+								"company1__externalCompanyId": "coventrywarwickilitemplate",
+								"company1__name": "Template Company for Warwick ILI",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 6
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=7&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 7,
+							"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+							"company1__externalCompanyId": "coventrymember",
+							"company1__name": "Coventry Member",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 6
+							},
+							"company1__rootCompany": {
+								"entity1__id": 6
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 6
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 37,
+								"entity1__createDate": "2014-03-28T13:24:40.000-04:00",
+								"company1__externalCompanyId": "coventrymember-102",
+								"company1__name": "HealthAmerica / HealthAssurance of Pennsylvania - BBI",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 25,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-103",
+								"company1__name": "MODOT",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10401,
+								"entity1__createDate": "2014-06-10T20:38:32.000-04:00",
+								"company1__externalCompanyId": "coventrymember-103",
+								"company1__name": "MoDot and MSHP Coventry PPO plan",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 26,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-111",
+								"company1__name": "Carpenters",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10013,
+								"entity1__createDate": "2014-05-05T23:34:18.000-04:00",
+								"company1__externalCompanyId": "coventrymember-111xchng",
+								"company1__name": "Carpenters Benefit Plans Health & Retirement Services Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 22,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-112",
+								"company1__name": "Foreign Services",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 12701,
+								"entity1__createDate": "2014-11-13T15:15:25.000-05:00",
+								"company1__externalCompanyId": "coventrymember-112",
+								"company1__name": 112,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 23,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-113",
+								"company1__name": "Rural Carriers",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1010,
+								"entity1__createDate": "2014-03-28T13:24:48.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117",
+								"company1__name": 117,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10014,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117xchng",
+								"company1__name": "VISTA (CHC Florida) Commercial Select Accounts  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1008,
+								"entity1__createDate": "2014-03-28T13:24:47.000-04:00",
+								"company1__externalCompanyId": "coventrymember-118",
+								"company1__name": 118,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9706,
+								"entity1__createDate": "2014-03-31T13:40:05.000-04:00",
+								"company1__externalCompanyId": "coventrymember-118",
+								"company1__name": 118,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10015,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-118xchng",
+								"company1__name": "VISTA (CHC Florida) Commercial Select Accounts 2 Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5177,
+								"entity1__createDate": "2014-03-28T13:25:11.000-04:00",
+								"company1__externalCompanyId": "coventrymember-119",
+								"company1__name": "VISTA (CHC Florida) Commercial  Accounts Other",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10016,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-119xchng",
+								"company1__name": "VISTA (CHC Florida) Commercial  Accounts Other  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10017,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-121xchng",
+								"company1__name": "VISTA (CHC Florida) Individual Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 114,
+								"entity1__createDate": "2014-03-28T13:24:45.000-04:00",
+								"company1__externalCompanyId": "coventrymember-123",
+								"company1__name": 123,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10018,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-123xchng",
+								"company1__name": "Coventry Health and Life of IL  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 13001,
+								"entity1__createDate": "2014-11-25T18:03:39.000-05:00",
+								"company1__externalCompanyId": "coventrymember-125",
+								"company1__name": "Group Health Plan - CMR",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10019,
+								"entity1__createDate": "2014-05-05T23:34:19.000-04:00",
+								"company1__externalCompanyId": "coventrymember-125xchng",
+								"company1__name": "Group Health Plan - HPN PPO Care  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10020,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-129xchng",
+								"company1__name": "Coventry Health Care of Texas, Inc  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10021,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-130xchng",
+								"company1__name": "Carelink from Coventry  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10022,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-132xchng",
+								"company1__name": "The Nebraska Medical Center  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10007,
+								"entity1__createDate": "2014-05-05T23:34:17.000-04:00",
+								"company1__externalCompanyId": "coventrymember-135",
+								"company1__name": "Mercy Coworkers ASO",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10023,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-135xchng",
+								"company1__name": "Mercy Coworkers ASO  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5175,
+								"entity1__createDate": "2014-03-28T13:24:55.000-04:00",
+								"company1__externalCompanyId": "coventrymember-15",
+								"company1__name": "Coventry Health Care of Kansas",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10801,
+								"entity1__createDate": "2014-07-23T10:56:02.000-04:00",
+								"company1__externalCompanyId": "coventrymember-15",
+								"company1__name": "Coventry Health Care of Kansas",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10030,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-15xchng",
+								"company1__name": "Coventry Health Care of Kansas Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1017,
+								"entity1__createDate": "2014-03-28T13:25:00.000-04:00",
+								"company1__externalCompanyId": "coventrymember-16",
+								"company1__name": 16,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10601,
+								"entity1__createDate": "2014-07-15T13:39:12.000-04:00",
+								"company1__externalCompanyId": "coventrymember-16",
+								"company1__name": "yx61",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10031,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-16xchng",
+								"company1__name": "Coventry Health Care of Iowa Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 33,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-18",
+								"company1__name": "Group Health Plan - CMR",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10032,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-18xchng",
+								"company1__name": "Coventry Health Care of Missouri Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9145,
+								"entity1__createDate": "2014-03-28T13:31:40.000-04:00",
+								"company1__externalCompanyId": "coventrymember-19",
+								"company1__name": "Nebraska",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10033,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-19xchng",
+								"company1__name": "Coventry Health Care of Nebraska Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 50,
+								"entity1__createDate": "2014-03-28T13:24:40.000-04:00",
+								"company1__externalCompanyId": "coventrymember-2",
+								"company1__name": "HealthAmerica / HealthAssurance of Pennsylvania",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9701,
+								"entity1__createDate": "2014-03-31T12:44:41.000-04:00",
+								"company1__externalCompanyId": "coventrymember-2",
+								"company1__name": "HealthAmerica / HealthAssurance of Pennsylvania",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 34,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-20",
+								"company1__name": "PersonalCare",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10034,
+								"entity1__createDate": "2014-05-05T23:34:22.000-04:00",
+								"company1__externalCompanyId": "coventrymember-20xchng",
+								"company1__name": "Coventry Health Care of Illinois, Inc. Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1045,
+								"entity1__createDate": "2014-03-28T13:24:55.000-04:00",
+								"company1__externalCompanyId": "coventrymember-21",
+								"company1__name": "Coventry Health Care of Kansas",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10035,
+								"entity1__createDate": "2014-05-05T23:34:22.000-04:00",
+								"company1__externalCompanyId": "coventrymember-21xchng",
+								"company1__name": "Altius Health Plan Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 172,
+								"entity1__createDate": "2014-03-28T13:24:56.000-04:00",
+								"company1__externalCompanyId": "coventrymember-26",
+								"company1__name": "Coventry Health and Life (Oklahoma)",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10010,
+								"entity1__createDate": "2014-05-05T23:34:18.000-04:00",
+								"company1__externalCompanyId": "coventrymember-26xchng",
+								"company1__name": "Coventry Health and Life (Oklahoma) Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 36,
+								"entity1__createDate": "2014-03-28T13:24:40.000-04:00",
+								"company1__externalCompanyId": "coventrymember-29",
+								"company1__name": "Coventry Health and Life (Tennessee)",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10011,
+								"entity1__createDate": "2014-05-05T23:34:18.000-04:00",
+								"company1__externalCompanyId": "coventrymember-29xchng",
+								"company1__name": "Coventry Health and Life (Tennessee) Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10009,
+								"entity1__createDate": "2014-05-05T23:34:17.000-04:00",
+								"company1__externalCompanyId": "coventrymember-2xchng",
+								"company1__name": "HealthAmerica / HealthAssurance of Pennsylvania Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10603,
+								"entity1__createDate": "2014-07-17T15:01:51.000-04:00",
+								"company1__externalCompanyId": "coventrymember-2xchng",
+								"company1__name": "HealthAmerica / HealthAssurance of Pennsylvania Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 24,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-32",
+								"company1__name": "U OF MO",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 27,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-4",
+								"company1__name": "Virginia",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10024,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-4xchng",
+								"company1__name": "Coventry Health Care of Virginia, Inc. Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 32,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-5",
+								"company1__name": "Carelink",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10025,
+								"entity1__createDate": "2014-05-05T23:34:20.000-04:00",
+								"company1__externalCompanyId": "coventrymember-5xchng",
+								"company1__name": "Coventry Health Care of West Virginia, Inc. Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5191,
+								"entity1__createDate": "2014-03-28T13:25:18.000-04:00",
+								"company1__externalCompanyId": "coventrymember-6",
+								"company1__name": "Coventry Health Care of Georgia",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10701,
+								"entity1__createDate": "2014-07-18T15:20:11.000-04:00",
+								"company1__externalCompanyId": "coventrymember-6",
+								"company1__name": "Coventry Health Care of Georgia",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 35,
+								"entity1__createDate": "2014-03-28T13:24:40.000-04:00",
+								"company1__externalCompanyId": "coventrymember-62",
+								"company1__name": "Group Health Plan - CMR",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10026,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-6xchng",
+								"company1__name": "Coventry Health Care of Georgia Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9146,
+								"entity1__createDate": "2014-03-28T13:31:41.000-04:00",
+								"company1__externalCompanyId": "coventrymember-7",
+								"company1__name": "WellPath",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10027,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-7xchng",
+								"company1__name": "Coventry Health Care of the Carolinas, Inc. Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1013,
+								"entity1__createDate": "2014-03-28T13:24:58.000-04:00",
+								"company1__externalCompanyId": "coventrymember-8",
+								"company1__name": 8,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10028,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-8xchng",
+								"company1__name": "Coventry Health Care of Louisiana Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1015,
+								"entity1__createDate": "2014-03-28T13:24:59.000-04:00",
+								"company1__externalCompanyId": "coventrymember-9",
+								"company1__name": 9,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 21,
+								"entity1__createDate": "2014-03-28T13:24:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-96",
+								"company1__name": "MHBP",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10012,
+								"entity1__createDate": "2014-05-05T23:34:18.000-04:00",
+								"company1__externalCompanyId": "coventrymember-98xchng",
+								"company1__name": "Coventry Health Care - Nevada  Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 10029,
+								"entity1__createDate": "2014-05-05T23:34:21.000-04:00",
+								"company1__externalCompanyId": "coventrymember-9xchng",
+								"company1__name": "Coventry Health Care of Delaware Exchange",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 14001,
+								"entity1__createDate": "2015-02-05T11:27:25.000-05:00",
+								"company1__externalCompanyId": "coventrymember-confid1",
+								"company1__name": "confname1",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 14003,
+								"entity1__createDate": "2015-02-05T11:27:26.000-05:00",
+								"company1__externalCompanyId": "coventrymember-confid1",
+								"company1__name": "confname1",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 13101,
+								"entity1__createDate": "2014-12-02T15:38:14.000-05:00",
+								"company1__externalCompanyId": "coventrymember-coventrymember",
+								"company1__name": "coventry member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 13102,
+								"entity1__createDate": "2014-12-02T15:38:15.000-05:00",
+								"company1__externalCompanyId": "coventrymember-coventrymember",
+								"company1__name": "coventry member",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9209,
+								"entity1__createDate": "2014-03-28T13:31:55.000-04:00",
+								"company1__externalCompanyId": "coventrymember-print",
+								"company1__name": "Coventry Member Print",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 7
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=1010&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 1010,
+							"entity1__createDate": "2014-03-28T13:24:48.000-04:00",
+							"company1__externalCompanyId": "coventrymember-117",
+							"company1__name": 117,
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION",
+							"company1__parentCompany": {
+								"entity1__id": 7
+							},
+							"company1__rootCompany": {
+								"entity1__id": 6
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 6
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 9329,
+								"entity1__createDate": "2014-03-28T13:35:48.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-6042070000",
+								"company1__name": "TELEPERFORMANCE USA-ALL CORE",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 11103,
+								"entity1__createDate": "2014-08-28T15:48:45.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-6042660000",
+								"company1__name": "School Board of Broward",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 11104,
+								"entity1__createDate": "2014-08-28T15:48:45.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-6042670000",
+								"company1__name": "School Board of Broward",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 11105,
+								"entity1__createDate": "2014-08-28T15:48:45.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-6043610000",
+								"company1__name": "HOLLYWOOD WOODWORK INC",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5178,
+								"entity1__createDate": "2014-03-28T13:25:11.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-9809410000",
+								"company1__name": "Navarros",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1012,
+								"entity1__createDate": "2014-03-28T13:24:48.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-9840160000",
+								"company1__name": 9840160000,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 1011,
+								"entity1__createDate": "2014-03-28T13:24:48.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-9874520000",
+								"company1__name": 9874520000,
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5179,
+								"entity1__createDate": "2014-03-28T13:25:11.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-9892390000",
+								"company1__name": "City of Hallandale Beach",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 5180,
+								"entity1__createDate": "2014-03-28T13:25:11.000-04:00",
+								"company1__externalCompanyId": "coventrymember-117-9892560000",
+								"company1__name": "City of Oakland Park",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION",
+								"company1__parentCompany": {
+									"entity1__id": 1010
+								},
+								"company1__rootCompany": {
+									"entity1__id": 6
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 6
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=8995&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 8995,
+							"entity1__createDate": "2014-03-28T13:29:01.000-04:00",
+							"company1__externalCompanyId": "phsnonmember",
+							"company1__name": "PHS Non Member",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 5188
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5188
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": {
+						"company1__company": [
+							{
+								"entity1__id": 9341,
+								"entity1__createDate": "2014-03-28T13:36:15.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-0122",
+								"company1__name": "Pleasantview Home",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9432,
+								"entity1__createDate": "2014-03-28T13:39:35.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-0280",
+								"company1__name": "Goodwill Industries",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9265,
+								"entity1__createDate": "2014-03-28T13:33:33.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-1285",
+								"company1__name": "Sumner Regional Medical Center",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9627,
+								"entity1__createDate": "2014-03-28T13:45:05.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-3600330000",
+								"company1__name": "BG Products, Inc.",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9655,
+								"entity1__createDate": "2014-03-28T13:47:45.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-3702470000",
+								"company1__name": "ESB Financial",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							},
+							{
+								"entity1__id": 9656,
+								"entity1__createDate": "2014-03-28T13:47:48.000-04:00",
+								"company1__externalCompanyId": "phsnonmember-3703510000",
+								"company1__name": "Sedgwick County",
+								"company1__status": {
+									"common1__status": "ACTIVE"
+								},
+								"company1__usedBy": "APPLICATION_AND_REPORTING",
+								"company1__parentCompany": {
+									"entity1__id": 8995
+								},
+								"company1__rootCompany": {
+									"entity1__id": 5188
+								},
+								"company1__uniqueUserCompany": {
+									"entity1__id": 5188
+								},
+								"company1__companyType": "STANDARD"
+							}
+						]
+					}
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=9265&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 9265,
+							"entity1__createDate": "2014-03-28T13:33:33.000-04:00",
+							"company1__externalCompanyId": "phsnonmember-1285",
+							"company1__name": "Sumner Regional Medical Center",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION_AND_REPORTING",
+							"company1__parentCompany": {
+								"entity1__id": 8995
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5188
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": ""
+				}
+			},
+			"/externalservices/company-child-hierarchy?query=company.id-hierarchy.type-immediateDescendants-maxCount&company.id=9264&hierarchy.type=ALL&maxCount=100": {
+				"company1__companyHierarchy": {
+					"company1__type": "ALL",
+					"company1__company": [
+						{
+							"entity1__id": 9264,
+							"entity1__createDate": "2014-03-28T13:33:31.000-04:00",
+							"company1__externalCompanyId": "phsmember-1661",
+							"company1__name": "Michael S. Rogers Agency",
+							"company1__status": {
+								"common1__status": "ACTIVE"
+							},
+							"company1__usedBy": "APPLICATION",
+							"company1__parentCompany": {
+								"entity1__id": 5189
+							},
+							"company1__rootCompany": {
+								"entity1__id": 5188
+							},
+							"company1__uniqueUserCompany": {
+								"entity1__id": 5189
+							},
+							"company1__companyType": "STANDARD"
+						}
+					],
+					"company1__companies": ""
+				}
+			}
+		}
+	}
+}

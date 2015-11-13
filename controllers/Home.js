@@ -7,6 +7,7 @@ module.exports = BaseController.extend({
 	name: "Home",
 	run: function(req, res, next) {
 		var self = this;
+		this.content.htmlClass = 'front not-logged-in page-home no-sidebars fluid-width locale-en_us home-page-not-logged-in';
 		// Transform jQuery not-real promise into real promise
 		Promise.all([
 			self.service.presentation.getBy({ page: 'portal', type: 'navigation' }),

@@ -6,7 +6,7 @@ var serviceCache = require('./serviceCache'),
 	$WNP = $;
 
 module.exports = function() {
-	"use strict";
+	//"use strict";
 
 	// set singleton
 	if (!window.WNP) {
@@ -332,33 +332,31 @@ module.exports = function() {
 		var data = config.data;
 		var deferred = config.deferred || new $.Deferred();
 
-		var stubTarget = __dirname + '/../stubs/' + this.serviceName.toLowerCase() + ".json";
+		var stubTarget = 'http://localhost:3000/stubs/' + this.serviceName.toLowerCase() + ".json";
 		this._log("GET: " + stubTarget);
-		// $.ajax({
-		// 	url: stubTarget,
-		// 	beforeSend: this._buildApplyHeadersFunction()
-		// }).done(function(response) {
-		var response = JSON.parse(fs.readFileSync(stubTarget, 'utf8'));
+		$.ajax({
+			url: stubTarget,
+			beforeSend: this._buildApplyHeadersFunction()
+		}).done(function(response) {
 			response = filterResponseFragment(response, verb);
-		 	response = filterResponseFragment(response, this.options.authToken);
-		 	response = filterResponseFragment(response, url);
+			response = filterResponseFragment(response, self.options.authToken);
+			response = filterResponseFragment(response, url);
 
 			if (verb === "post" || verb === "put") {
 				response = filterResponseFragment(response, JSON.stringify(data));
 			}
 
-		 	self._log(self.serviceName + " stub response:");
-		 	self._log(response);
+			self._log(self.serviceName + " stub response:");
+			self._log(response);
 
-		 	response.url = url;
-		// 	deferred.resolve(response);
-		// }).fail(function(response){
-		// 	self._log(self.serviceName + " stub call failed", [response]);
-		// });
+			response.url = url;
+			deferred.resolve(response);
+		}).fail(function(response){
+			self._log(self.serviceName + " stub call failed", [response]);
+		});
 
 		this._log("stubbing response...");
-		//return deferred.promise(stub);
-		return deferred.resolve(response);
+		return deferred.promise();
 	};
 
 	function filterResponseFragment(responseFragment, key) {

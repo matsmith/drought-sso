@@ -1,0 +1,58 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 30,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 60,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>Motivation and confidence are both important when it comes to managing your weight. With each small success you gain, your motivation and confidence are likely to grow, and you'll get closer to your overall goal.</p>",
+					"type": "inline"
+				}
+			],
+			"isQuitPage": false,
+			"page": 40,
+			"prepopulated": true,
+			"previousPage": 30
+		},
+		"responseCode": 0
+	}
+}

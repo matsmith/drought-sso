@@ -1,0 +1,260 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 30,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 60,
+		"questionnairePage": {
+			"content": [
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersDidntWork",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I've tried to get active before, and it didn't work.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersLoseSightOfGoals",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I lose sight of my goals as time goes on.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersNotImportant",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Exercise just doesn't seem that important.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersHealthOutOfHands",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "It feels like my health is out of my hands.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersLiveForToday",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I live for today and don't worry about tomorrow.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersDontLike",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I just don't like to exercise.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersNone",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 1,
+					"text": "Now, which of the following keep you from getting regular physical activity?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "PhysicalActivitySustainedMotivationBarriersNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ValueOrTraitAccomplishment",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "ACCOMPLISHMENT - mastery of knowledge, skills, abilities",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitAdventure",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "ADVENTURE - seeking big rewards from big risks",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitBalance",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "BALANCE - inner peace, centered, moderate, perspective",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitCommunityMember",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "COMMUNITY - participating in groups that share your neighborhood, type of work, or beliefs",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitCourage",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "COURAGE - testing limits, facing difficulties with resilience",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitCreativity",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "CREATIVITY - imagination, new ways of doing and seeing",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitFun",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "FUN - enjoyment, playfulness, sense of play",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitGenerosity",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "GENEROSITY - sharing time, money, and energy with others",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitGrowth",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "GROWTH - forward motion in personal development",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitIntegrity",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "INTEGRITY - honesty, strength of character, and justice in dealings with others",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitRelationships",
+								"helpText": "",
+								"ordinal": 11,
+								"selected": false,
+								"text": "RELATIONSHIPS - strong, active bonds with family and friends",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitRespect",
+								"helpText": "",
+								"ordinal": 12,
+								"selected": false,
+								"text": "RESPECT - fair treatment, valuing individuals for uniqueness",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitSpirituality",
+								"helpText": "",
+								"ordinal": 13,
+								"selected": false,
+								"text": "SPIRITUALITY - connection with something larger than the \"here and now\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ValueOrTraitService",
+								"helpText": "",
+								"ordinal": 14,
+								"selected": false,
+								"text": "SERVICE - to be of assistance and support to a person or cause",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose up to three.",
+					"ordinal": 2,
+					"text": "We'd like to ask you about something that might surprise you \u2013 what drives you? It's important to tie changes in your life to the things that are most important to you. So what do you consider to be your \"core values?\" Please choose the three that mean the most to you and that define you as a person.",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "maximumResponses",
+								"property": "3"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 50,
+			"prepopulated": false,
+			"previousPage": 40
+		},
+		"responseCode": 0
+	}
+}

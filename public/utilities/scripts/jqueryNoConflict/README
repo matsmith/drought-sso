@@ -1,0 +1,5 @@
+Because jQuery still modifies the global $ even when loaded as
+an AMD module we must modify the jQuery JS file to include
+`$.noConflict()` at the end of the file. If you need to update
+jQuery you should make sure to include the no conflict statement
+at the end of the file.

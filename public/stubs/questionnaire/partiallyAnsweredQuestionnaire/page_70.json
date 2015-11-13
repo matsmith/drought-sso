@@ -1,0 +1,154 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Habits",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "Energy",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 220,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 240,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 250,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>You\u2019re looking to lose weight because you\u2019d like to live life to the fullest. Your quality of life isn't great and your current weight may lead to some health problems. We're here to support you in improving your health and quality of life.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "WeightManagementFocusArea",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I'd like to start with eating a healthy diet.",
+								"value": "HealthyDiet"
+							},
+							{
+								"dataDefinitionName": "WeightManagementFocusArea",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I'd like to start with being active.",
+								"value": "Active"
+							},
+							{
+								"dataDefinitionName": "WeightManagementFocusArea",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": true,
+								"text": "I'd like to start with doing both.",
+								"value": "Both"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-18T10:10:59.000-0400",
+						"dataSourceName": "Weight"
+					},
+					"helpText": "",
+					"ordinal": 2,
+					"text": "You may already know that successful weight management is a combination of healthy eating and being active (the old \"calories in, calories out\" equation). We'd like to know what you want to focus on first to help you reach your goals.",
+					"type": "radio",
+					"validations": {
+						"validation": [
+							{
+								"name": "required"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 70,
+			"prepopulated": true,
+			"previousPage": 60
+		},
+		"responseCode": 0
+	}
+}

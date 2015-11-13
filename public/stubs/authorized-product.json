@@ -1,0 +1,1032 @@
+{
+	"get": {
+		"": {
+			"/externalservices/authorized-product?query=company.id&company.id=6": {
+				"company1__authorizedProducts": [
+					{
+						"company1__authorizedProduct": [
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 53584,
+									"product1__name": "insomnia",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankInsomnia"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24353,
+									"product1__name": "relax",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankRelax"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26559,
+									"product1__name": "depression",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankDepression"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 70024,
+									"product1__name": "checkin",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankCheckin"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26530,
+									"product1__name": "nourish",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankNourish"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24348,
+									"product1__name": "move",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankMove"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26534,
+									"product1__name": "succeed",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankSucceed"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26563,
+									"product1__name": "achieve",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankAchieve"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 14217,
+									"product1__name": "balance",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankBalance"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24356,
+									"product1__name": "breathe",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankBreathe"
+								}
+							},
+							{
+								"company1__company": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+										"company1__externalCompanyId": "Coventry",
+										"company1__name": "Coventry",
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										},
+										"company1__usedBy": "APPLICATION_AND_REPORTING",
+										"company1__parentCompany": {
+											"entity1__id": 6
+										},
+										"company1__rootCompany": {
+											"entity1__id": 6
+										},
+										"company1__uniqueUserCompany": {
+											"entity1__id": 6
+										},
+										"company1__companyType": "STANDARD"
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26565,
+									"product1__name": "control",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankControl"
+								}
+							}
+						]
+					}
+				]
+			},
+			"/externalservices/authorized-product?query=authorization.accessCode&authorization.accessCode=COVENTRYMEMTESTCD": {
+				"company1__authorizedProducts": [
+					{
+						"company1__authorizedProduct": [
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26557,
+									"product1__name": "diabetes",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankDiabetes"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26559,
+									"product1__name": "depression",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankDepression"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26561,
+									"product1__name": "health",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankHealth"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26563,
+									"product1__name": "achieve",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankAchieve"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26565,
+									"product1__name": "control",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankControl"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26567,
+									"product1__name": "back",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankBack"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 53584,
+									"product1__name": "insomnia",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankInsomnia"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 70024,
+									"product1__name": "checkin",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankCheckin"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 14217,
+									"product1__name": "balance",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankBalance"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24348,
+									"product1__name": "move",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankMove"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24353,
+									"product1__name": "relax",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankRelax"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 24356,
+									"product1__name": "breathe",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankBreathe"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26528,
+									"product1__name": "pain",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankPain"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26530,
+									"product1__name": "nourish",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankNourish"
+								}
+							},
+							{
+								"company1__authorization": [
+									{
+										"entity1__id": 6,
+										"entity1__createDate": "2011-10-27T17:22:40.000-04:00",
+										"company1__name": "COVENTRYMEMTESTCD",
+										"company1__accessCode": "COVENTRYMEMTESTCD",
+										"company1__company": [
+											{
+												"entity1__id": 7,
+												"entity1__createDate": "2011-10-27T17:22:39.000-04:00",
+												"company1__externalCompanyId": "coventrymember",
+												"company1__name": "Coventry Member",
+												"company1__status": {
+													"common1__status": "ACTIVE"
+												},
+												"company1__usedBy": "APPLICATION_AND_REPORTING",
+												"company1__parentCompany": {
+													"entity1__id": 6
+												},
+												"company1__rootCompany": {
+													"entity1__id": 6
+												},
+												"company1__uniqueUserCompany": {
+													"entity1__id": 7
+												},
+												"company1__companyType": "STANDARD"
+											}
+										],
+										"company1__registrationExpireDate": "2014-10-26",
+										"company1__submissionExpireDate": "2015-04-26",
+										"company1__loginExpireDate": "2015-10-26",
+										"company1__testData": false,
+										"company1__status": {
+											"common1__status": "ACTIVE"
+										}
+									}
+								],
+								"company1__product": {
+									"entity1__id": 26534,
+									"product1__name": "succeed",
+									"product1__productType": "SURVEY",
+									"product1__productDisplayRankName": "ProductDisplayRankSucceed"
+								}
+							}
+						]
+					}
+				]
+			},
+			"": {
+				"company1__authorizedProducts": [
+					""
+				]
+			}
+		}
+	}
+}

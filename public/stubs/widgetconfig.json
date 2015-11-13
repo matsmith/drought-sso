@@ -1,0 +1,63 @@
+{
+	"get": {
+		"": {
+			"": {
+				"WidgetConfigResponse": {
+					"company":"1",
+					"wrapper":[
+						{
+							"name":"CoachingPageWrapper",
+							"widget":[
+								{
+									"name":"segmentationWidget",
+									"configuration":[
+										{
+											"name":"order",
+											"value":1,
+											"widgetTitle": "segmentationWidget",
+											"close": true
+										}
+									]
+								},
+								{
+									"name":"programListingContainer",
+									"configuration":[
+										{
+											"name":"order",
+											"value":1
+										}
+									]
+								}
+							]
+						},
+						{
+							"name":"closeBarWrapper",
+							"widget":[
+								{
+									"name":"segmentationWidget",
+									"configuration":[
+										{
+											"name":"order",
+											"value":1
+										}
+									]
+								},
+								{
+									"name":"programListingContainer",
+									"configuration":[
+										{
+											"name":"order",
+											"value":1
+										}
+									]
+								}
+							]
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		}
+	}
+}

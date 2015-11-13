@@ -1,0 +1,141 @@
+{
+	"companyConfigResponse":{
+		"company":"1",
+		"featureList":[
+			{
+				"name": "ProductRenaming",
+				"featureAttributeList":[
+					{
+						"name": "weightSkillsLongName",
+						"value": "WeightSkills"
+					}, {
+						"name": "weightSkillsShortName",
+						"value": "WeightSkills"
+					}, {
+						"name": "depressionSkillsLongName",
+						"value": "DepressionSkills"
+					}, {
+						"name": "depressionSkillsShortName",
+						"value": "DepressionSkills"
+					}, {
+						"name": "chronicConditionSkillsLongName",
+						"value": "CronicConditionSkills"
+					}, {
+						"name": "chronicConditionSkillsShortName",
+						"value": "CronicConditionSkills"
+					}, {
+						"name": "physicalActivitySkillsLongName",
+						"value": "PhysicalActivitySkills"
+					}, {
+						"name": "physicalActivitySkillsShortName",
+						"value": "PhysicalActivitySkills"
+					}
+				]
+			}, {
+				"name": "PrivateLabelCss",
+				"featureAttributeList":[
+					{
+						"name": "PrivateLabelCss",
+						"value": "privateLabel.css"
+					}
+				]
+			}, {
+				"name": "PrivateLabelCustomColor",
+				"featureAttributeList":[
+					{
+						"name": "weightSkillsCustomColor1",
+						"value": "#FCDCFF"
+					}, {
+						"name": "weightSkillsCustomColor2",
+						"value": "#F9B9FF"
+					}, {
+						"name": "weightSkillsCustomColor3",
+						"value": "#F46DFF"
+					}, {
+						"name": "weightSkillsCustomColor4",
+						"value": "#BE56C8"
+					}, {
+						"name": "weightSkillsCustomColor5",
+						"value": "#56265A"
+					}, {
+						"name": "depressionSkillsCustomColor1",
+						"value": "#D3F0FE"
+					}, {
+						"name": "depressionSkillsCustomColor2",
+						"value": "#A7E0FE"
+					}, {
+						"name": "depressionSkillsCustomColor3",
+						"value": "#3395E2"
+					}, {
+						"name": "depressionSkillsCustomColor4",
+						"value": "#2270AE"
+					}, {
+						"name": "depressionSkillsCustomColor5",
+						"value": "#104C7C"
+					}, {
+						"name": "chronicConditionSkillsCustomColor1",
+						"value": "#E4F4D7"
+					}, {
+						"name": "chronicConditionSkillsCustomColor2",
+						"value": "#C3E7AA"
+					}, {
+						"name": "chronicConditionSkillsCustomColor3",
+						"value": "#96E264"
+					}, {
+						"name": "chronicConditionSkillsCustomColor4",
+						"value": "#5D852F"
+					}, {
+						"name": "chronicConditionSkillsCustomColor5",
+						"value": "#3C5A28"
+					}, {
+						"name": "physicalActivitySkillsCustomColor1",
+						"value": "#f8f8f8"
+					}, {
+						"name": "physicalActivitySkillsCustomColor2",
+						"value": "#dbdcde"
+					}, {
+						"name": "physicalActivitySkillsCustomColor3",
+						"value": "#7e8c8d"
+					}, {
+						"name": "physicalActivitySkillsCustomColor4",
+						"value": "#505a5b"
+					}, {
+						"name": "physicalActivitySkillsCustomColor5",
+						"value": "#333333"
+					}, {
+						"name": "segmentationWidgetCustomColor1",
+						"value": "#D3F0FE"
+					}, {
+						"name": "segmentationWidgetCustomColor2",
+						"value": "#A7E0FE"
+					}, {
+						"name": "segmentationWidgetCustomColor3",
+						"value": "#3395E2"
+					}, {
+						"name": "segmentationWidgetCustomColor4",
+						"value": "#2270AE"
+					}, {
+						"name": "segmentationWidgetCustomColor5",
+						"value": "#104C7C"
+					}, {
+						"name": "programListingWidgetCustomColor1",
+						"value": "#D3F0FE"
+					}, {
+						"name": "programListingWidgetCustomColor2",
+						"value": "#A7E0FE"
+					}, {
+						"name": "programListingWidgetCustomColor3",
+						"value": "#3395E2"
+					}, {
+						"name": "programListingWidgetCustomColor4",
+						"value": "#2270AE"
+					}, {
+						"name": "programListingWidgetCustomColor5",
+						"value": "#104C7C"
+					}
+				]
+			}
+		],
+		"responseCode":0
+	}
+}

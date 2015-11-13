@@ -1,0 +1,670 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 30,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 60,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>You want to work on getting active and sticking with changes to your eating habits, but there are some things standing in your way. Let\u2019s take a deeper look into that so we can choose the right skills for you.</p>",
+					"type": "inline"
+				},
+				{
+					"type": "slider",
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "Not at all motivated",
+								"ordinal": 1,
+								"selected": false,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": true,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "MotivationSeriesWeightManagement",
+								"helpText": "Extremely motivated",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"dataInfo": {
+						"collectionDate": "2014-07-18T10:15:46.000-0400",
+						"dataSourceName": "Weight"
+					},
+					"helpText": "",
+					"ordinal": 2,
+					"text": "First of all, how motivated are you to manage your weight?"
+				},
+				{
+					"type": "scalegroup",
+					"childQuestions": [
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": false,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 1,
+							"text": "I enjoy living a healthy lifestyle.",
+							"type": "scale"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityIncentive",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 2,
+							"text": "I'm here because I was offered an incentive.",
+							"type": "scale"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 3,
+							"text": "Others in my life (family, friends, and/or health care provider) have been pressuring me to take care of my health.",
+							"type": "scale"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityShould",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 4,
+							"text": "I know I should do something to be healthier (and would feel guilty if I didn't).",
+							"type": "scale"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityReady",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 5,
+							"text": "I want to take care of myself because I know it will benefit my quality of life.",
+							"type": "scale"
+						},
+						{
+							"childQuestions": null,
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "This is not like me at all",
+										"ordinal": 1,
+										"selected": true,
+										"text": "1",
+										"value": "1"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "",
+										"ordinal": 2,
+										"selected": false,
+										"text": "2",
+										"value": "2"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "",
+										"ordinal": 3,
+										"selected": false,
+										"text": "3",
+										"value": "3"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "",
+										"ordinal": 4,
+										"selected": false,
+										"text": "4",
+										"value": "4"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "",
+										"ordinal": 5,
+										"selected": false,
+										"text": "5",
+										"value": "5"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "",
+										"ordinal": 6,
+										"selected": false,
+										"text": "6",
+										"value": "6"
+									},
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo",
+										"helpText": "This is totally like me",
+										"ordinal": 7,
+										"selected": false,
+										"text": "7",
+										"value": "7"
+									}
+								]
+							},
+							"helpText": "",
+							"ordinal": 6,
+							"text": "My employer or health plan told me I need to do this.",
+							"type": "scale"
+						}
+					],
+					"helpText": "",
+					"ordinal": 3,
+					"text": "We\u2019d like to know a little more about what\u2019s behind your motivation. Think about the following statements and let us know how much they sound like you."
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "Not at all confident",
+								"ordinal": 1,
+								"selected": true,
+								"text": "0",
+								"value": "0"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "1",
+								"value": "1"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "2",
+								"value": "2"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "3",
+								"value": "3"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "4",
+								"value": "4"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "5",
+								"value": "5"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "6",
+								"value": "6"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "7",
+								"value": "7"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "8",
+								"value": "8"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "",
+								"ordinal": 10,
+								"selected": false,
+								"text": "9",
+								"value": "9"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSeriesWeightManagement",
+								"helpText": "Extremely confident",
+								"ordinal": 11,
+								"selected": false,
+								"text": "10",
+								"value": "10"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 4,
+					"text": "How confident are you that you can manage your weight?",
+					"type": "slider"
+				}
+			],
+			"isQuitPage": false,
+			"page": 30,
+			"prepopulated": true,
+			"previousPage": 20
+		},
+		"responseCode": 0
+	}
+}

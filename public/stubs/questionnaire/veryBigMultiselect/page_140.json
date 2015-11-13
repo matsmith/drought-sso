@@ -1,0 +1,319 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Tailored_Blur.jpg",
+							"id": 77984,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Emotions",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Tailored_Blur.jpg",
+							"id": 77985,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 70,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Tailored_Blur.jpg",
+							"id": 77986,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Tailored_Blur.jpg",
+							"id": 77988,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Symptoms",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Tailored_Blur.jpg",
+							"id": 77989,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Tailored_Blur.jpg",
+							"id": 80905,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Tailored_Blur.jpg",
+							"id": 77990,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 190,
+		"questionnairePage": {
+			"content": [
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "SleepBarriersPain",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I have a lot of pain at night.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersBreathing",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I have a hard time breathing.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersMedication",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "My medication makes it hard to sleep.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersDaySleep",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I sleep a lot during the day.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersWorry",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I worry about things.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersUncomfortable",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I can't get comfortable.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersUseBathroom",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "I have to get up at night to go to the bathroom. ",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersOther",
+								"helpText": "",
+								"ordinal": 8,
+								"selected": false,
+								"text": "Other",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "SleepBarriersNotSure",
+								"helpText": "",
+								"ordinal": 9,
+								"selected": false,
+								"text": "Not sure",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 1,
+					"text": "Which of the following make it hard for you to sleep?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "SleepBarriersNotSure"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ConditionSymptomManagementPhysicalSymptomsInterfere",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "My physical symptoms get in the way of the things I want to do.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ConditionSymptomManagementEmotionalDistressInterferes",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "The emotional distress caused by my health issues or conditions interferes with the things I want to do.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ConditionSymptomManagementTroubleManaging",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I have trouble managing my symptoms.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ConditionSymptomManagementSymptomsDontInterfere",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I have symptoms, but I\u2019m able to keep them from bothering me and interfering with my life.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "ConditionSymptomManagementNone",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply. ",
+					"ordinal": 2,
+					"text": "Which of the following are true for you regarding your health?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "ConditionSymptomManagementNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "Not confident",
+								"value": "NotConfident"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "Somewhat confident",
+								"value": "SomewhatConfident"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "Confident",
+								"value": "Confident"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "Very confident",
+								"value": "VeryConfident"
+							},
+							{
+								"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "Extremely confident",
+								"value": "ExtremelyConfident"
+							}
+						]
+					},
+					"helpText": "",
+					"ordinal": 3,
+					"text": "How confident are you that you can manage the various self-care activities related to your health issues?",
+					"type": "radio",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "NotConfident"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "SomewhatConfident"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "Confident"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "VeryConfident"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "ExtremelyConfident"
+							}
+						]
+					}
+				}
+			],
+			"isQuitPage": false,
+			"page": 140,
+			"prepopulated": false,
+			"previousPage": 130
+		},
+		"responseCode": 0
+	}
+}

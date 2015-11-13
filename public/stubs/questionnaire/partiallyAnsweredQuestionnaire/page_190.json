@@ -1,0 +1,317 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Getting Started",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77878,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Motivation",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77885,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 140,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77886,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Habits",
+							"pageCount": 3,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77889,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 190,
+							"name": "Perspective",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77891,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 200,
+							"name": "Energy",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77893,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 220,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77895,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "/images/consultation/background/weightSkills/Balance_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 240,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "/images/consultation/background/weightSkills/Balance_About_You_Tailored_Blur.jpg",
+							"id": 77897,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 250,
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>Our minds can be our own worst enemy. We have a couple of questions to help us understand how you think, so that we can help you get past any thoughts that might be getting in the way of your goals.</p>",
+					"type": "inline"
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "NegativeThoughtsOverwhelmed",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "\"I'm so overwhelmed. I can't do anything right.\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsOtherPeopleBetter",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "\"Other people are better than me.\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsNoOneLikes",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "\"No one likes me.\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsFailure",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "\"I'm a failure.\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsDontDeserve",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "\"I don't deserve to be happy.\"",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsDifferent",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "I have negative thoughts that are different than the ones listed above.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "NegativeThoughtsNone",
+								"helpText": "",
+								"ordinal": 7,
+								"selected": false,
+								"text": "I don't have negative thoughts.",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 2,
+					"text": "Have you ever said any of the following to yourself?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "NegativeThoughtsDifferent"
+							},
+							{
+								"name": "exclusiveResponse",
+								"property": "NegativeThoughtsNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "BodyImageFeelingsWorryObsess",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I worry or obsess about my body not being good enough.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "BodyImageFeelingsAvoidClothes",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I'd like to wear certain clothes, but I look heavy in them.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "BodyImageFeelingsDislikeSelf",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I dislike myself because of my body.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "BodyImageFeelingsCompareBody",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I compare my body with others and feel like I don't measure up.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "BodyImageFeelingsDontDislike",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "I don't dislike my body, but I want to look and feel better.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "BodyImageFeelingsNone",
+								"helpText": "",
+								"ordinal": 6,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 3,
+					"text": "How do you feel about your body?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "BodyImageFeelingsNone"
+							}
+						]
+					}
+				},
+				{
+					"childQuestions": null,
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "MindfulnessNotPayingAttention",
+								"helpText": "",
+								"ordinal": 1,
+								"selected": false,
+								"text": "I've broken or spilled things because of carelessness, not paying attention, or thinking of something else.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "MindfulnessNotAware",
+								"helpText": "",
+								"ordinal": 2,
+								"selected": false,
+								"text": "I've tended to walk quickly to get where I was going without paying attention to what I was experiencing along the way.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "MindfulnessLackOfDetail",
+								"helpText": "",
+								"ordinal": 3,
+								"selected": false,
+								"text": "I forgot a person's name almost as soon as I had been told it for the first time.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "MindfulnessAutomaticPilot",
+								"helpText": "",
+								"ordinal": 4,
+								"selected": false,
+								"text": "I've ended up eating more than I wanted to because I was distracted.",
+								"value": "true"
+							},
+							{
+								"dataDefinitionName": "MindfulnessNone",
+								"helpText": "",
+								"ordinal": 5,
+								"selected": false,
+								"text": "None of the above",
+								"value": "true"
+							}
+						]
+					},
+					"helpText": "Choose all that apply.",
+					"ordinal": 4,
+					"text": "This next question may seem like it\u2019s coming from left field, but it will help us understand how focused you are. Which of the following statements describe your experiences over the past week?",
+					"type": "checkbox",
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse",
+								"property": "MindfulnessNone"
+							}
+						]
+					}
+				},
+				{
+					"text": "<p>Great. Your answers will help us refine your skills on Being Mindful, Accepting Your Body, and Reshaping Your Thoughts. These can help you get your mind in a good place to get to work on your goals.</p>",
+					"type": "inline"
+				}
+			],
+			"isQuitPage": false,
+			"page": 190,
+			"prepopulated": false,
+			"previousPage": 180
+		},
+		"responseCode": 0
+	}
+}

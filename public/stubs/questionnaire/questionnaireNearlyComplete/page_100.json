@@ -1,0 +1,965 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name":"COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Tailored_Blur.jpg",
+							"id": 77902,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 80,
+							"name": "Goals",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Tailored_Blur.jpg",
+							"id": 77903,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Challenges",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Tailored_Blur.jpg",
+							"id": 77904,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 100,
+							"name": "Motivation",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Tailored_Blur.jpg",
+							"id": 77905,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Tailored_Blur.jpg",
+							"id": 77906,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 120,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Tailored_Blur.jpg",
+							"id": 81010,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Tailored_Blur.jpg",
+							"id": 78082,
+							"status": "COMPLETED"
+						}
+					]
+				}
+			]
+		}, 
+		"finalPage": 140, 
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>It can be discouraging when you don't see results. Your <strong>Navigating Obstacles</strong> skill will suggest ways to turn those thoughts around.</p><p>You've identified a good reason for becoming more active.\u00a0 Now, it'll be helpful for us to learn a bit more about your motivation and confidence.</p>", 
+					"type": "inline"
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "Not at all motivated", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "0", 
+								"value": "0"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "1", 
+								"value": "1"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "2", 
+								"value": "2"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "3", 
+								"value": "3"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "4", 
+								"value": "4"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "5", 
+								"value": "5"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 7, 
+								"selected": false, 
+								"text": "6", 
+								"value": "6"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 8, 
+								"selected": true, 
+								"text": "7", 
+								"value": "7"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 9, 
+								"selected": false, 
+								"text": "8", 
+								"value": "8"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 10, 
+								"selected": false, 
+								"text": "9", 
+								"value": "9"
+							}, 
+							{
+								"dataDefinitionName": "MotivationSeriesPhysicalActivity", 
+								"helpText": "Extremely motivated", 
+								"ordinal": 11, 
+								"selected": false, 
+								"text": "10", 
+								"value": "10"
+							}
+						]
+					}, 
+					"dataInfo": {
+						"collectionDate": "2014-09-11T13:51:00.000-0400", 
+						"dataSourceName": "Move"
+					}, 
+					"helpText": "", 
+					"id": 77857, 
+					"ordinal": 2, 
+					"text": "First of all, how <em>motivated</em> are you to get regular physical activity?", 
+					"type": "slider"
+				}, 
+				{
+					"childQuestions": [
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityEnjoy", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 1, 
+							"text": "I enjoy living a healthy lifestyle.", 
+							"type": "scale"
+						}, 
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityIncentive", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 2, 
+							"text": "I'm here because I was offered an incentive.", 
+							"type": "scale"
+						}, 
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityPressureFromOthers", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 3, 
+							"text": "Others in my life (family, friends, and/or health care provider) have been pressuring me to take care of my health.", 
+							"type": "scale"
+						}, 
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityShould", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 4, 
+							"text": "I know I should do something to be healthier (and I would feel guilty if I didn't).", 
+							"type": "scale"
+						}, 
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityReady", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 5, 
+							"text": "I want to take care of myself because I know it will benefit my quality of life.", 
+							"type": "scale"
+						}, 
+						{
+							"childQuestions": null, 
+							"choices": {
+								"choice": [
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "This is not like me at all", 
+										"ordinal": 1, 
+										"selected": false, 
+										"text": "1", 
+										"value": "1"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "", 
+										"ordinal": 2, 
+										"selected": false, 
+										"text": "2", 
+										"value": "2"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "", 
+										"ordinal": 3, 
+										"selected": false, 
+										"text": "3", 
+										"value": "3"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "", 
+										"ordinal": 4, 
+										"selected": true, 
+										"text": "4", 
+										"value": "4"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "", 
+										"ordinal": 5, 
+										"selected": false, 
+										"text": "5", 
+										"value": "5"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "", 
+										"ordinal": 6, 
+										"selected": false, 
+										"text": "6", 
+										"value": "6"
+									}, 
+									{
+										"dataDefinitionName": "MotivationQualityToldToDo", 
+										"helpText": "This is totally like me", 
+										"ordinal": 7, 
+										"selected": false, 
+										"text": "7", 
+										"value": "7"
+									}
+								]
+							}, 
+							"dataInfo": {
+								"collectionDate": "2014-09-11T13:51:08.000-0400", 
+								"dataSourceName": "Move"
+							}, 
+							"helpText": "", 
+							"ordinal": 6, 
+							"text": "My employer or health plan told me I need to do this.", 
+							"type": "scale"
+						}
+					], 
+					"helpText": "", 
+					"id": 81639, 
+					"ordinal": 3, 
+					"text": "We\u2019d like to know a little more about what\u2019s behind your motivation. Think about the following statements and let us know how much they sound like you.", 
+					"type": "scalegroup"
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "Not at all confident", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "0", 
+								"value": "0"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "1", 
+								"value": "1"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "2", 
+								"value": "2"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "3", 
+								"value": "3"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "4", 
+								"value": "4"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "5", 
+								"value": "5"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 7, 
+								"selected": false, 
+								"text": "6", 
+								"value": "6"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 8, 
+								"selected": true, 
+								"text": "7", 
+								"value": "7"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 9, 
+								"selected": false, 
+								"text": "8", 
+								"value": "8"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "", 
+								"ordinal": 10, 
+								"selected": false, 
+								"text": "9", 
+								"value": "9"
+							}, 
+							{
+								"dataDefinitionName": "ConfidenceSeriesPhysicalActivity", 
+								"helpText": "Extremely confident", 
+								"ordinal": 11, 
+								"selected": false, 
+								"text": "10", 
+								"value": "10"
+							}
+						]
+					}, 
+					"dataInfo": {
+						"collectionDate": "2014-09-11T13:51:11.000-0400", 
+						"dataSourceName": "Move"
+					}, 
+					"helpText": "", 
+					"id": 77858, 
+					"ordinal": 4, 
+					"text": "How <em>confident</em> are you that you can do it?", 
+					"type": "slider"
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersDidntWork", 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": false, 
+								"text": "I've tried to get active before, and it didn't work.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersLoseSightOfGoals", 
+								"dataInfo": {
+									"collectionDate": "2014-09-11T13:51:33.000-0400", 
+									"dataSourceName": "Move"
+								}, 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": true, 
+								"text": "I lose sight of my goals as time goes on.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersNotImportant", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "Exercise just doesn't seem that important.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersHealthOutOfHands", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "It feels like my health is out of my hands.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersLiveForToday", 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": false, 
+								"text": "I live for today and don't worry about tomorrow.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersDontLike", 
+								"helpText": "", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "I just don't like to exercise.", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivitySustainedMotivationBarriersNone", 
+								"helpText": "", 
+								"ordinal": 7, 
+								"selected": false, 
+								"text": "None of the above", 
+								"value": "true"
+							}
+						]
+					}, 
+					"helpText": "Choose all that apply.", 
+					"id": 77829, 
+					"ordinal": 5, 
+					"text": "Now, which of the following keep you from getting regular physical activity?", 
+					"type": "checkbox", 
+					"validations": {
+						"validation": [
+							{
+								"name": "exclusiveResponse", 
+								"property": "PhysicalActivitySustainedMotivationBarriersNone"
+							}
+						]
+					}
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "ValueOrTraitAccomplishment", 
+								"dataInfo": {
+									"collectionDate": "2014-07-25T15:53:55.000-0400", 
+									"dataSourceName": "Balance"
+								}, 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": true, 
+								"text": "ACCOMPLISHMENT - mastery of knowledge, skills, abilities", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitAdventure", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "ADVENTURE - seeking big rewards from big risks", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitBalance", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "BALANCE - inner peace, centered, moderate, perspective", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitCommunityMember", 
+								"helpText": "", 
+								"ordinal": 4, 
+								"selected": false, 
+								"text": "COMMUNITY - participating in groups that share your neighborhood, type of work, or beliefs", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitCourage", 
+								"dataInfo": {
+									"collectionDate": "2014-07-25T15:53:55.000-0400", 
+									"dataSourceName": "Balance"
+								}, 
+								"helpText": "", 
+								"ordinal": 5, 
+								"selected": true, 
+								"text": "COURAGE - testing limits, facing difficulties with resilience", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitCreativity", 
+								"helpText": "", 
+								"ordinal": 6, 
+								"selected": false, 
+								"text": "CREATIVITY - imagination, new ways of doing and seeing", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitFun", 
+								"dataInfo": {
+									"collectionDate": "2014-07-25T15:53:55.000-0400", 
+									"dataSourceName": "Balance"
+								}, 
+								"helpText": "", 
+								"ordinal": 7, 
+								"selected": true, 
+								"text": "FUN - enjoyment, playfulness, sense of play", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitGenerosity", 
+								"helpText": "", 
+								"ordinal": 8, 
+								"selected": false, 
+								"text": "GENEROSITY - sharing time, money, and energy with others", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitGrowth", 
+								"helpText": "", 
+								"ordinal": 9, 
+								"selected": false, 
+								"text": "GROWTH - forward motion in personal development", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitIntegrity", 
+								"helpText": "", 
+								"ordinal": 10, 
+								"selected": false, 
+								"text": "INTEGRITY - honesty, strength of character, and justice in dealings with others", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitRelationships", 
+								"helpText": "", 
+								"ordinal": 11, 
+								"selected": false, 
+								"text": "RELATIONSHIPS - strong, active bonds with family and friends", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitRespect", 
+								"helpText": "", 
+								"ordinal": 12, 
+								"selected": false, 
+								"text": "RESPECT - fair treatment, valuing individuals for uniqueness", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitSpirituality", 
+								"helpText": "", 
+								"ordinal": 13, 
+								"selected": false, 
+								"text": "SPIRITUALITY - connection with something larger than the \"here and now\"", 
+								"value": "true"
+							}, 
+							{
+								"dataDefinitionName": "ValueOrTraitService", 
+								"helpText": "", 
+								"ordinal": 14, 
+								"selected": false, 
+								"text": "SERVICE - to be of assistance and support to a person or cause", 
+								"value": "true"
+							}
+						]
+					}, 
+					"helpText": "Choose up to three.", 
+					"id": 77815, 
+					"ordinal": 6, 
+					"text": "We'd like to ask you about something that might surprise you \u2013 what drives you? It's important to tie changes in your life to the things that are most important to you. So what do you consider to be your core values? Please choose the ones that mean the most to you and that define you as a person.", 
+					"type": "checkbox", 
+					"validations": {
+						"validation": [
+							{
+								"name": "maximumResponses", 
+								"property": "3"
+							}
+						]
+					}
+				}
+			], 
+			"isQuitPage": false, 
+			"page": 100, 
+			"prepopulated": true, 
+			"previousPage": 90
+		}, 
+		"responseCode": 0
+	}
+}

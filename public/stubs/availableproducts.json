@@ -1,0 +1,777 @@
+{
+	"get": {
+		"limited": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name":"checkin",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name":"succeed",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name":"balance",
+							"version": "1",
+							"retakeAvailable":true,
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"retake": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name":"balance",
+							"version": "1",
+							"retakeAvailable":true,
+							"status": {
+								"statusCode": "ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"retakeAvailable":false,
+							"status": {
+								"statusCode": "ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"full": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name": "balance",
+							"version": "1",
+							"productEnrollmentId": 3,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": true,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:32:55.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_AVAILABLE_BUT_NOT_STARTED"
+									}
+							},
+							"tools": [{
+									"id": "StepByStep"
+							}, {
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "Cookbook"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "CalculatingFat"
+									}, {
+											"id": "FoodFight"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "nourish",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "relax",
+							"version": "1",
+							"productEnrollmentId": 4,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": false,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:34:23.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:37:16.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_STARTED",
+											"statusDate": "2014-07-09T10:37:16.000-0400"
+									}
+							},
+							"tools": [{
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "MonitoringYourSymptoms"
+									}, {
+											"id": "TimeManagement"
+									}, {
+											"id": "FoodFight"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}, {
+									"id": "Cookbook"
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "breathe",
+							"productEnrollmentId": 5,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": false,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:39:14.000-0400"
+							},
+							"retakeDate": "2015-07-09T00:00:00.000-0400",
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:39:23.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_FINISHED",
+											"statusDate": "2014-07-09T10:48:20.000-0400"
+									}
+							},
+							"plan": {
+									"componentType": "PLAN",
+									"planCreatedOnDate": "2014-07-09T10:48:21.000-0400"
+							},
+							"newsletter": [{
+									"componentType": "NEWSLETTER1",
+									"availableOnDate": "2014-07-10T00:00:00.000-0400",
+									"ordinal": 1,
+									"created": false
+							}, {
+									"componentType": "NEWSLETTER2",
+									"availableOnDate": "2014-07-18T00:00:00.000-0400",
+									"ordinal": 2,
+									"created": false
+							}, {
+									"componentType": "NEWSLETTER3",
+									"availableOnDate": "2014-07-29T00:00:00.000-0400",
+									"ordinal": 3,
+									"created": false
+							}],
+							"tools": [{
+									"id": "StepByStep"
+							}, {
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "Cookbook"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "SmokeULator"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "depression",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "insomnia",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "binge",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "control",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "achieve",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "diabetes",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "back",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "carepain",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "chronicConditionSkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name": "weightSkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name": "depressionSkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name": "physicalActivitySkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name": "balance",
+							"version": "1",
+							"productEnrollmentId": 1234,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": true,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:32:55.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_AVAILABLE_BUT_NOT_STARTED"
+									}
+							},
+							"tools": [{
+									"id": "StepByStep"
+							}, {
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "Cookbook"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "CalculatingFat"
+									}, {
+											"id": "FoodFight"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "nourish",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "relax",
+							"version": "1",
+							"productEnrollmentId": 4,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": false,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:34:23.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:37:16.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_STARTED",
+											"statusDate": "2014-07-09T10:37:16.000-0400"
+									}
+							},
+							"tools": [{
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "MonitoringYourSymptoms"
+									}, {
+											"id": "TimeManagement"
+									}, {
+											"id": "FoodFight"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}, {
+									"id": "Cookbook"
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "weightSkills",
+							"productEnrollmentId": 1234,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": true,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:39:14.000-0400"
+							},
+							"retakeDate": "2015-07-09T00:00:00.000-0400",
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:39:23.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_FINISHED",
+											"statusDate": "2014-07-09T10:48:20.000-0400"
+									}
+							},
+							"plan": {
+									"componentType": "PLAN",
+									"planCreatedOnDate": "2014-07-09T10:48:21.000-0400"
+							},
+							"newsletter": [{
+									"componentType": "NEWSLETTER1",
+									"availableOnDate": "2014-07-10T00:00:00.000-0400",
+									"ordinal": 1,
+									"created": false
+							}, {
+									"componentType": "NEWSLETTER2",
+									"availableOnDate": "2014-07-18T00:00:00.000-0400",
+									"ordinal": 2,
+									"created": false
+							}, {
+									"componentType": "NEWSLETTER3",
+									"availableOnDate": "2014-07-29T00:00:00.000-0400",
+									"ordinal": 3,
+									"created": false
+							}],
+							"tools": [{
+									"id": "StepByStep"
+							}, {
+									"id": "MedicalLibrary"
+							}, {
+									"id": "StretchingLibrary"
+							}, {
+									"id": "ExerciseLibrary"
+							}, {
+									"id": "RelaxationLibrary"
+							}, {
+									"id": "Cookbook"
+							}, {
+									"id": "CalculatorsActivities",
+									"children": [{
+											"id": "SmokeULator"
+									}, {
+											"id": "Portionsizetool"
+									}, {
+											"id": "Tradeoffs"
+									}]
+							}],
+							"productType": "classic"
+						},
+						{
+							"name": "depression",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "insomnia",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "binge",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "control",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "achieve",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "diabetes",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "back",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "carepain",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						},
+						{
+							"name": "chronicConditionSkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name": "weightSkills",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name": "depressionSkills",
+							"version": "1",
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:39:14.000-0400"
+							},
+							"productEnrollmentId": "1234",
+							"productType": "SKILL",
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:39:23.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_FINISHED",
+											"statusDate": "2014-07-09T10:48:20.000-0400"
+									}
+							}
+						},
+						{
+							"name": "physicalActivitySkills",
+							"version": "1",
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:39:14.000-0400"
+							},
+							"productType": "SKILL",
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:39:23.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_FINISHED",
+											"statusDate": "2014-07-09T10:48:20.000-0400"
+									}
+							}
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"assessAuthToken": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name":"assess",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"assessAuthTokenEnrolledAvailable": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name": "assess",
+							"version": "1",
+							"productEnrollmentId": 3,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": false,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:32:55.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_AVAILABLE_BUT_NOT_STARTED"
+									}
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"assessAuthTokenEnrolledStarted": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name": "assess",
+							"version": "1",
+							"productEnrollmentId": 4,
+							"enrollmentMethod": "WEB",
+							"retakeAvailable": false,
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:34:23.000-0400"
+							},
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:37:16.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_STARTED",
+											"statusDate": "2014-07-09T10:37:16.000-0400"
+									}
+							},
+							"productType": "SKILL"
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		},
+		"assessAuthTokenEnrolledFinished": {
+			"": {
+				"availableProductResponse": {
+					"productsAvailable": true,
+					"product": [
+						{
+							"name": "assess",
+							"version": "1",
+							"status": {
+									"statusCode": "ENROLLED_IN_PRODUCT",
+									"statusDate": "2014-07-09T10:39:14.000-0400"
+							},
+							"productType": "SKILL",
+							"questionnaire": {
+									"componentType": "BASELINE",
+									"startDate": "2014-07-09T10:39:23.000-0400",
+									"status": {
+											"statusCode": "QUESTIONNAIRE_FINISHED",
+											"statusDate": "2014-07-09T10:48:20.000-0400"
+									}
+							}
+						},
+						{
+							"name":"move",
+							"version": "1",
+							"status": {
+								"statusCode": "NOT_ENROLLED_IN_PRODUCT"
+							},
+							"productType": "classic"
+						}
+					],
+					"responseCode":0,
+					"responseDesc":"Success"
+				}
+			}
+		}
+	}
+}

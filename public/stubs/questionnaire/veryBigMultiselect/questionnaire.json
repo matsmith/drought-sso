@@ -1,0 +1,5028 @@
+{
+	"consultationResponse": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 4,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_About_Me_Tailored_Blur.jpg",
+							"id": 77984,
+							"status": "STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 50,
+							"name": "Emotions",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Emotional_Issues_Tailored_Blur.jpg",
+							"id": 77985,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 70,
+							"name": "Support",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Healthcare_Team_Tailored_Blur.jpg",
+							"id": 77986,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Motivation",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Motivation_Tailored_Blur.jpg",
+							"id": 77988,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "Symptoms",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Symptoms_Tailored_Blur.jpg",
+							"id": 77989,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 160,
+							"name": "Movement",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_Physical_Activity_Tailored_Blur.jpg",
+							"id": 80905,
+							"status": "NOT_STARTED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 180,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/chronicConditionsSkills/Chronic_Condition_More_About_You_Tailored_Blur.jpg",
+							"id": 77990,
+							"status": "NOT_STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 190,
+		"questionnairePage": [
+			{
+				"content": [
+					{
+						"text": "<p>When it comes to taking care of your health, small changes may lead to big improvements. We'll help you learn how to better manage your health using skills that you can master through achievable action steps. You can take control of your health to help you live the life you want.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MedicalHistoryAllergies",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Allergies",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryAngina",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Angina",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryAsthma",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Asthma",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryBackPain",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Back pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryBipolarDisorder",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Bipolar disorder",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicFatigueSyndrome",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "Chronic fatigue syndrome",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicKidneyDisease",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "Chronic kidney disease",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryCOPD",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Chronic obstructive pulmonary disease (COPD, including chronic bronchitis and emphysema)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicPain",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Chronic pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryCoronaryHeartDisease",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "Coronary heart disease",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDepression",
+									"helpText": "",
+									"ordinal": 11,
+									"selected": false,
+									"text": "Depression",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDiabetes",
+									"helpText": "",
+									"ordinal": 12,
+									"selected": false,
+									"text": "Diabetes",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryFibromyalgia",
+									"helpText": "",
+									"ordinal": 13,
+									"selected": false,
+									"text": "Fibromyalgia",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryGERD",
+									"helpText": "",
+									"ordinal": 14,
+									"selected": false,
+									"text": "Gastroesophageal reflux disease (GERD)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHIVAIDS",
+									"helpText": "",
+									"ordinal": 15,
+									"selected": false,
+									"text": "HIV/AIDS",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHeartAttack",
+									"helpText": "",
+									"ordinal": 16,
+									"selected": false,
+									"text": "Heart attack",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHeartFailure",
+									"helpText": "",
+									"ordinal": 17,
+									"selected": false,
+									"text": "Heart failure",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighBloodPressure",
+									"helpText": "",
+									"ordinal": 18,
+									"selected": false,
+									"text": "High blood pressure",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighCholesterol",
+									"helpText": "",
+									"ordinal": 19,
+									"selected": false,
+									"text": "High cholesterol",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryIrritableBowelSyndrome",
+									"helpText": "",
+									"ordinal": 20,
+									"selected": false,
+									"text": "Irritable bowel syndrome",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryMigraine",
+									"helpText": "",
+									"ordinal": 21,
+									"selected": false,
+									"text": "Migraine",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryObesity",
+									"helpText": "",
+									"ordinal": 22,
+									"selected": false,
+									"text": "Obesity",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOsteoarthritis",
+									"helpText": "",
+									"ordinal": 23,
+									"selected": false,
+									"text": "Osteoarthritis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOsteoporosis",
+									"helpText": "",
+									"ordinal": 24,
+									"selected": false,
+									"text": "Osteoporosis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryPeripheralVascularDisease",
+									"helpText": "",
+									"ordinal": 25,
+									"selected": false,
+									"text": "Peripheral vascular disease (PVD)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryRheumatoidArthritis",
+									"helpText": "",
+									"ordinal": 26,
+									"selected": false,
+									"text": "Rheumatoid arthritis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryStrokeOrTIA",
+									"helpText": "",
+									"ordinal": 27,
+									"selected": false,
+									"text": "Stroke or transient ischemic attack (TIA)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOther",
+									"helpText": "",
+									"ordinal": 28,
+									"selected": false,
+									"text": "Another chronic condition",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryNoChronicCondition",
+									"dataInfo": {
+										"collectionDate": "2014-07-25T10:13:18.000-0400",
+										"dataSourceName": "Chronic Conditions"
+									},
+									"helpText": "",
+									"ordinal": 29,
+									"selected": true,
+									"text": "I don\u2019t have a chronic condition",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 2,
+						"text": "Have you ever been diagnosed with any of the following?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								},
+								{
+									"name": "exclusiveResponse",
+									"property": "MedicalHistoryNoChronicCondition"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 10,
+				"prepopulated": true,
+				"previousPage": 0
+			},
+			{
+				"content": [
+					{
+						"text": "It sounds like this program is not right for you.\u00a0 If you answered \"No\" by mistake, please click \"Back\" to change your response. Otherwise, please click \"Quit\" to end your enrollment in this program.",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": true,
+				"page": 20,
+				"prepopulated": true,
+				"previousPage": 10
+			},
+			{
+				"content": [
+					{
+						"text": "<p></p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyConcernsMeMost",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "It concerns me the most.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyRecentlyDiagnosed",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I was recently diagnosed with it.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyKnowSufferer",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I know someone who suffered a lot from it.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyDontKnowManage",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I don't know how to manage it.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyRiskFactor",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I know it's a risk factor for other conditions.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyMostImpact",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "It has the greatest impact on my life.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionFocusWhyNone",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 2,
+						"text": "Why do you feel you need the most help with that in particular?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "HealthConditionFocusWhyNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesHowHealthyYouFeel",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "Feeling well",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesWork",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "Work",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesSchoolwork",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 3,
+								"text": "Schoolwork",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesDailyResponsibilities",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 4,
+								"text": "Daily responsibilities outside of work (like housework or errands)",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesPersonalRelationships",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 5,
+								"text": "Personal relationships",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Not at all",
+											"value": "NotAtAll"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "A little",
+											"value": "ALittle"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Some",
+											"value": "Some"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "A fair amount",
+											"value": "AFairAmount"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "A lot",
+											"value": "ALot"
+										},
+										{
+											"dataDefinitionName": "HealthInterferesRecreationAndSocialLife",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "Not applicable",
+											"value": "NotApplicable"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 6,
+								"text": "Recreation and social life",
+								"type": "scale"
+							}
+						],
+						"helpText": "",
+						"ordinal": 3,
+						"text": "Please rate how much your health interferes with the following:",
+						"type": "scalegroup"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "Extremely difficult",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 9,
+											"selected": false,
+											"text": "8",
+											"value": "8"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "",
+											"ordinal": 10,
+											"selected": false,
+											"text": "9",
+											"value": "9"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsMedical",
+											"helpText": "Extremely easy",
+											"ordinal": 11,
+											"selected": false,
+											"text": "10",
+											"value": "10"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "Taking care of my medical needs (such as taking medicine, going to the doctor, describing symptoms, etc.)",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "Extremely difficult",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 9,
+											"selected": false,
+											"text": "8",
+											"value": "8"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "",
+											"ordinal": 10,
+											"selected": false,
+											"text": "9",
+											"value": "9"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsLifestyle",
+											"helpText": "Extremely easy",
+											"ordinal": 11,
+											"selected": false,
+											"text": "10",
+											"value": "10"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "Living a healthy lifestyle (such as carrying out daily activities, exercising, eating well, keeping an active social life, etc.)",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "Extremely difficult",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 9,
+											"selected": false,
+											"text": "8",
+											"value": "8"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "",
+											"ordinal": 10,
+											"selected": false,
+											"text": "9",
+											"value": "9"
+										},
+										{
+											"dataDefinitionName": "SelfManagementSkillsEmotional",
+											"helpText": "Extremely easy",
+											"ordinal": 11,
+											"selected": false,
+											"text": "10",
+											"value": "10"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 3,
+								"text": "Managing emotional issues (such as fear, anger, uncertainty about the future, relationships with friends and family, stress, depression, etc.)",
+								"type": "scale"
+							}
+						],
+						"helpText": "",
+						"ordinal": 4,
+						"text": "One key to living well with a health condition is having good self-management skills. There are three main skills needed for effective self-management. Using the scale below as a guide, how do you feel you\u2019ve done with the following:",
+						"type": "scalegroup",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I've consistently done a great job.",
+									"value": "ConsistentGreat"
+								},
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I've consistently done a pretty good job.",
+									"value": "ConsistentGood"
+								},
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I've consistently had a hard time.",
+									"value": "ConsistentPoor"
+								},
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I had a hard time at first, but it continues to get easier.",
+									"value": "TrendEasier"
+								},
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I started out doing well, but it's been getting harder. ",
+									"value": "TrendHarder"
+								},
+								{
+									"dataDefinitionName": "HealthConditionManagementHistory",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I haven't been able to manage my condition(s) consistently.",
+									"value": "Inconsistent"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "In general, how do you feel you've been doing with managing your health condition(s)?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MedicationHowMany",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "None",
+									"value": "None"
+								},
+								{
+									"dataDefinitionName": "MedicationHowMany",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1-3",
+									"value": "1To3"
+								},
+								{
+									"dataDefinitionName": "MedicationHowMany",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "4-6",
+									"value": "4To6"
+								},
+								{
+									"dataDefinitionName": "MedicationHowMany",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "7 or more",
+									"value": "7OrMore"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 6,
+						"text": "How many different medications are you supposed to take each day?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "Gender",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": true,
+									"text": "Male",
+									"value": "Male"
+								},
+								{
+									"dataDefinitionName": "Gender",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Female",
+									"value": "Female"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-25T10:47:01.808-0400",
+							"dataSourceName": "My Profile"
+						},
+						"helpText": "",
+						"imageAlt": "",
+						"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/question/0001.png",
+						"ordinal": 7,
+						"text": "Are you:",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "required"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Poor",
+									"value": "Poor"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": true,
+									"text": "Fair",
+									"value": "Fair"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Good",
+									"value": "Good"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Very good",
+									"value": "VeryGood"
+								},
+								{
+									"dataDefinitionName": "QualityOfLife",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Excellent",
+									"value": "Excellent"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-16T15:14:49.000-0400",
+							"dataSourceName": "Weight"
+						},
+						"helpText": "",
+						"ordinal": 8,
+						"text": "And would you say that in general your quality of life is:",
+						"type": "scale"
+					}
+				],
+				"isQuitPage": false,
+				"page": 30,
+				"prepopulated": false,
+				"previousPage": 20
+			},
+			{
+				"content": [
+					{
+						"text": "<p>With any health condition, there are a lot of things to remember and do. It can seem like a lot of work to make things better. Research shows that good self management of chronic conditions can help improve one's overall health. What skills can you use to improve your health?</p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 40,
+				"prepopulated": true,
+				"previousPage": 30
+			},
+			{
+				"content": [
+					{
+						"text": "<p></p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceAfraidOfConditionUpdate1",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I\u2019m afraid of my health issues.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceHardToAcceptUpdate1",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I find it really hard to accept that I have health issues.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceFeelFortunateUpdate1",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I\u2019m pretty fortunate, all things considered.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceUnhappyBecauseOfConditionUpdate1",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I feel unhappy and depressed because of my health issues.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceMissOldMeUpdate1",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I miss the person I used to be.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceMadeMeStrongerUpdate1",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "Living with my health issues has made me a stronger person.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceWorryAboutFuture",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "I worry about my future health.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceCapableOfAnythingUpdate1",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "I can do just about anything I set out to do.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceCanManageConditionUpdate1",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Even if I can't be cured, I can manage my health issues.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceUnfairUpdate1",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "It isn\u2019t fair that I have my health issues.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceGetStressedThinkingAboutHealth",
+									"helpText": "",
+									"ordinal": 11,
+									"selected": false,
+									"text": "I get stressed thinking about everything I have to do to care for my health.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceFeelsEmpoweredUpdate1",
+									"helpText": "",
+									"ordinal": 12,
+									"selected": false,
+									"text": "My health can be improved if I take control of it. Ultimately, it\u2019s up to me.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HealthConditionAcceptanceNone",
+									"helpText": "",
+									"ordinal": 13,
+									"selected": false,
+									"text": "None of the above.",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 2,
+						"text": "It\u2019s normal to experience a lot of different emotions when you are dealing with health issues. Which of the following describe how you may be feeling?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "HealthConditionAcceptanceNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "PerceivedStressNervousStressed",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Never",
+									"value": "Never"
+								},
+								{
+									"dataDefinitionName": "PerceivedStressNervousStressed",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Rarely",
+									"value": "Rarely"
+								},
+								{
+									"dataDefinitionName": "PerceivedStressNervousStressed",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Sometimes",
+									"value": "Sometimes"
+								},
+								{
+									"dataDefinitionName": "PerceivedStressNervousStressed",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Fairly often",
+									"value": "FairlyOften"
+								},
+								{
+									"dataDefinitionName": "PerceivedStressNervousStressed",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Always",
+									"value": "Always"
+								}
+							]
+						},
+						"helpText": "",
+						"imageAlt": "",
+						"imageURL": "https://dpdevcr03-media.healthmedia.com//media/images/consultation/question/0014.png",
+						"ordinal": 3,
+						"text": "In the past month, how often have you felt nervous and stressed?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "StressPreventionSkillsMaintainBalance",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I feel that I maintain a balance between work and leisure.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsRecognizeStress",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I'm good at recognizing and dealing with stressful situations.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsPlannedRelaxation",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I include planned periods of relaxation in my day.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsRelaxationTechniques",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I practice stress management techniques (e.g. deep breathing, meditation, muscle relaxation).",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsTimeManagement",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I'm good at managing my time.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsDoThingsIEnjoy",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I often do things that I really enjoy.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "StressPreventionSkillsNone",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 4,
+						"text": "Are any of these statements true of you?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "StressPreventionSkillsNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "DepressionFrequency",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Rarely or none of the time (less than 1 day)",
+									"value": "Rarely"
+								},
+								{
+									"dataDefinitionName": "DepressionFrequency",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Some or a little of the time (1-2 days)",
+									"value": "Sometimes"
+								},
+								{
+									"dataDefinitionName": "DepressionFrequency",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Occasionally or a moderate amount of the time (3-4 days)",
+									"value": "Occasionally"
+								},
+								{
+									"dataDefinitionName": "DepressionFrequency",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Most or all of the time (5-7 days)",
+									"value": "MostTime"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "How often did you feel depressed during the past week?",
+						"type": "radio"
+					}
+				],
+				"isQuitPage": false,
+				"page": 50,
+				"prepopulated": false,
+				"previousPage": 40
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Stress is a normal part of life, but knowing how to relax can help you deal with it. Your Learning to Relax skill will teach you some techniques that you can use when you start to feel your stress building. </p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 60,
+				"prepopulated": true,
+				"previousPage": 50
+			},
+			{
+				"content": [
+					{
+						"text": "<p>You aren't alone when it comes to taking care of your health. There's a team of people including your health care providers and important people in your life who are there to support you.</p>",
+						"type": "inline"
+					},
+					{
+						"text": "<p>Most doctor visits last only 15 minutes. That's not a lot of time to cover everything, especially important information and questions. Having a good relationship and being comfortable talking with your doctor can help you take control of your health.\u00a0<br />\u00a0</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipAskQuestions",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Strongly disagree",
+											"value": "StronglyDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipAskQuestions",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "Disagree",
+											"value": "Disagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipAskQuestions",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Neither agree nor disagree",
+											"value": "NeitherAgreeNorDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipAskQuestions",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "Agree",
+											"value": "Agree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipAskQuestions",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "Strongly agree",
+											"value": "StronglyAgree"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "I feel comfortable asking my health care team questions.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandAdvice",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Strongly disagree",
+											"value": "StronglyDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandAdvice",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "Disagree",
+											"value": "Disagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandAdvice",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Neither agree nor disagree",
+											"value": "NeitherAgreeNorDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandAdvice",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "Agree",
+											"value": "Agree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandAdvice",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "Strongly agree",
+											"value": "StronglyAgree"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "I can understand my health care team's advice.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipRememberAdvice",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Strongly disagree",
+											"value": "StronglyDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipRememberAdvice",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "Disagree",
+											"value": "Disagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipRememberAdvice",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Neither agree nor disagree",
+											"value": "NeitherAgreeNorDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipRememberAdvice",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "Agree",
+											"value": "Agree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipRememberAdvice",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "Strongly agree",
+											"value": "StronglyAgree"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 3,
+								"text": "I can remember my health care team's advice.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipTrust",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Strongly disagree",
+											"value": "StronglyDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipTrust",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "Disagree",
+											"value": "Disagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipTrust",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Neither agree nor disagree",
+											"value": "NeitherAgreeNorDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipTrust",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "Agree",
+											"value": "Agree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipTrust",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "Strongly agree",
+											"value": "StronglyAgree"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 4,
+								"text": "I trust my health care team.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandsConcerns",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "Strongly disagree",
+											"value": "StronglyDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandsConcerns",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "Disagree",
+											"value": "Disagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandsConcerns",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "Neither agree nor disagree",
+											"value": "NeitherAgreeNorDisagree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandsConcerns",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "Agree",
+											"value": "Agree"
+										},
+										{
+											"dataDefinitionName": "DoctorPatientRelationshipUnderstandsConcerns",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "Strongly agree",
+											"value": "StronglyAgree"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 5,
+								"text": "I feel my health care team understands my concerns.",
+								"type": "scale"
+							}
+						],
+						"helpText": "",
+						"ordinal": 3,
+						"text": "Using the scale below, how much do you agree with the following statements?",
+						"type": "scalegroup"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HCPVisitAskQuestionsUpdate1",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Ask questions about the things you want to know and the things you don't understand about your treatment.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HCPVisitPrepareQuestionsUpdate1",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Prepare a list of questions.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HCPVisitTellPersonalProblemsUpdate1",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Discuss any personal problems that may be related to your health condition(s).",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "HCPVisitNoneOfTheAbove",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 4,
+						"text": "When you visit your doctor, do you do any of the following?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "HCPVisitNoneOfTheAbove"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HealthCareCurrentDecisionMaking",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "My health care provider makes the majority of decisions about my care. ",
+									"value": "MainlyHCP"
+								},
+								{
+									"dataDefinitionName": "HealthCareCurrentDecisionMaking",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "My health care provider and I work together to make decisions about my care. ",
+									"value": "WithHCP"
+								},
+								{
+									"dataDefinitionName": "HealthCareCurrentDecisionMaking",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I make the majority of the decisions about my care. ",
+									"value": "MainlyMe"
+								},
+								{
+									"dataDefinitionName": "HealthCareCurrentDecisionMaking",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "None of the above.",
+									"value": "NoneAbove"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "Which of the following best describes how decisions are currently made about your health care?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "HealthCarePreferredDecisionMaking",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I\u2019d like my health care provider to make the majority of decisions about my care.",
+									"value": "MainlyHCP"
+								},
+								{
+									"dataDefinitionName": "HealthCarePreferredDecisionMaking",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I\u2019d like to work together with my health care provider to make decisions about my care.",
+									"value": "WithHCP"
+								},
+								{
+									"dataDefinitionName": "HealthCarePreferredDecisionMaking",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I\u2019d like to make the majority of decisions about my care myself.",
+									"value": "MainlyMe"
+								},
+								{
+									"dataDefinitionName": "HealthCarePreferredDecisionMaking",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I don't care how decisions are made about my care. ",
+									"value": "NoneAbove"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 6,
+						"text": "Now, how would you prefer decisions be made about your health care?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "SupportOthersReactionListenToMe",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "They listen to me.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionNagMe",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "They nag me.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionEncourageMe",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "They encourage me to do what I can to be healthier.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionIgnoreMe",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "They ignore my concerns and complaints.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionHelpMe",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "They help me with everyday activities.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionDontUnderstand",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "They don't understand what I'm going through.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionSayHandleWell",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "They tell me I'm handling things well.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionSayComplain",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "They feel I should stop complaining.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SupportOthersReactionNoneAbove",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "None of the above.",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 7,
+						"text": "Think for a moment about the people in your life whose opinion means a lot to you (family members, friends, co-workers). How do they react when you talk to them about your health?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "SupportOthersReactionNoneAbove"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Not at all satisfied",
+									"value": "NotSatisfied"
+								},
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": true,
+									"text": "Not very satisfied",
+									"value": "NotVerySatisfied"
+								},
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Somewhat satisfied",
+									"value": "SomewhatSatisfied"
+								},
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Satisfied",
+									"value": "Satisfied"
+								},
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Very satisfied",
+									"value": "VerySatisfied"
+								},
+								{
+									"dataDefinitionName": "SupportSatisfaction",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I don\u2019t get support from these people.",
+									"value": "SupportSatisfactionNone"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T11:14:05.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 8,
+						"text": "In general, how satisfied are you with the support you get from your family and friends?",
+						"type": "radio"
+					}
+				],
+				"isQuitPage": false,
+				"page": 70,
+				"prepopulated": false,
+				"previousPage": 60
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Having people in your corner can make managing your health a little easier. Another source of support is your health care team. Their job is to help you; your job is to use your limited time with them as well as possible to ask questions and discuss problems. We\u2019ll talk about some helpful strategies in your Coordinating Care skill.</p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 80,
+				"prepopulated": true,
+				"previousPage": 70
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Ready to turn to what\u2019s really driving you?</p>",
+						"type": "inline"
+					},
+					{
+						"text": "<p>We know that you want to take care of your condition because of its impact on your life. We want to help you build the motivation you\u2019ll need for the long run. Let\u2019s dive a little deeper to better understand a bit more about what\u2019s important to you.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "Not at all motivated",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesHealthManage",
+									"helpText": "Extremely motivated",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 3,
+						"text": "First of all, how <em>motivated</em> are you to manage your health?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityEnjoy",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "I enjoy living a healthy lifestyle.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityIncentive",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "I'm here because I was offered an incentive.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityPressureFromOthers",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 3,
+								"text": "Others in my life (family, friends, and/or health care provider) have been pressuring me to take care of my health.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityShould",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 4,
+								"text": "I know I should do something to be healthier (and would feel guilty if I didn't).",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityReady",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 5,
+								"text": "I want to take care of myself because I know it will benefit my quality of life.",
+								"type": "scale"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "This is not like me at all",
+											"ordinal": 1,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "MotivationQualityToldToDo",
+											"helpText": "This is totally like me",
+											"ordinal": 7,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"helpText": "",
+								"ordinal": 6,
+								"text": "My employer or health plan told me I need to do this.",
+								"type": "scale"
+							}
+						],
+						"helpText": "",
+						"ordinal": 4,
+						"text": "We\u2019d like to know a little more about what\u2019s behind your motivation. Think about the following statements and let us know how much they sound like you.",
+						"type": "scalegroup"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "Not at all confident",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSeriesHealthManage",
+									"helpText": "Extremely confident",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "How <em>confident</em> are you that you can do it?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "To live a full and active life.",
+									"value": "FullActiveLife"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "To live without having to depend on someone else.",
+									"value": "NotDependOthers"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "To take care of my family.",
+									"value": "CareForFamily"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "To spend time with my family and friends.",
+									"value": "SpendTimeWithFamily"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "To be able to work and earn a living.",
+									"value": "EarnLiving"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "To feel healthier.",
+									"value": "FeelHealthier"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "To have more energy.",
+									"value": "HaveMoreEnergy"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "To take control.",
+									"value": "TakeControl"
+								},
+								{
+									"dataDefinitionName": "ReasonStayHealthy",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Other",
+									"value": "NoneAbove"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 6,
+						"text": "There are many reasons why you may want to stay as healthy as possible. We know it can be hard to choose just one, but which of the following is most important to you?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ValueOrTraitAccomplishment",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "ACCOMPLISHMENT - mastery of knowledge, skills, abilities",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitAdventure",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "ADVENTURE - seeking big rewards from big risks",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitBalance",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "BALANCE - inner peace, centered, moderate, perspective",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitCommunityMember",
+									"dataInfo": {
+										"collectionDate": "2014-07-24T13:20:50.000-0400",
+										"dataSourceName": "Physical Activity"
+									},
+									"helpText": "",
+									"ordinal": 4,
+									"selected": true,
+									"text": "COMMUNITY - participating in groups that share your neighborhood, type of work, or beliefs",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitCourage",
+									"dataInfo": {
+										"collectionDate": "2014-07-24T13:20:50.000-0400",
+										"dataSourceName": "Physical Activity"
+									},
+									"helpText": "",
+									"ordinal": 5,
+									"selected": true,
+									"text": "COURAGE - testing limits, facing difficulties with resilience",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitCreativity",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "CREATIVITY - imagination, new ways of doing and seeing",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitFun",
+									"dataInfo": {
+										"collectionDate": "2014-07-24T13:20:50.000-0400",
+										"dataSourceName": "Physical Activity"
+									},
+									"helpText": "",
+									"ordinal": 7,
+									"selected": true,
+									"text": "FUN - enjoyment, playfulness, sense of play",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitGenerosity",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "GENEROSITY - sharing time, money, and energy with others",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitGrowth",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "GROWTH - forward motion in personal development",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitIntegrity",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "INTEGRITY - honesty, strength of character, and justice in dealings with others",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitRelationships",
+									"helpText": "",
+									"ordinal": 11,
+									"selected": false,
+									"text": "RELATIONSHIPS - strong, active bonds with family and friends",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitRespect",
+									"helpText": "",
+									"ordinal": 12,
+									"selected": false,
+									"text": "RESPECT - fair treatment, valuing individuals for uniqueness",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitSpirituality",
+									"helpText": "",
+									"ordinal": 13,
+									"selected": false,
+									"text": "SPIRITUALITY - connection with something larger than the \"here and now\"",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ValueOrTraitService",
+									"helpText": "",
+									"ordinal": 14,
+									"selected": false,
+									"text": "SERVICE - to be of assistance and support to a person or cause",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose up to three.",
+						"ordinal": 7,
+						"text": "We'd like to ask you about something that might surprise you \u2013 what drives you? It's important to tie changes in your life to the things that are most important to you. So what do you consider to be your \"core values?\" Please choose the three that mean the most to you and that define you as a person.",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "maximumResponses",
+									"property": "3"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "GoalSettingKeepCommitments",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I do my best to keep the commitments I make.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingHardWorkBringsSuccess",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I believe that hard work can bring success.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingCanDoAnything",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "When I put my mind to it, I can do just about anything.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingStickWithIt",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "When I start something, I almost always stick with it.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingFizzleOut",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I\u2019m really good at starting things, but I often fizzle out.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingNotPlannerDoWhatWorks",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I\u2019m not a big planner; I just try to do what works.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "GoalSettingNone",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 8,
+						"text": "\u00a0Which of the following statements are true for you?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "GoalSettingNone"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 110,
+				"prepopulated": false,
+				"previousPage": 80
+			},
+			{
+				"content": [
+					{
+						"text": "<p>When it comes to managing your health, your values play an important role. In your Building Motivation skill, you\u2019ll see how focusing on what is important in your life can be just what you need to keep you on track with caring for your health.</p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 120,
+				"prepopulated": true,
+				"previousPage": 110
+			},
+			{
+				"content": [
+					{
+						"text": "<p>We want to help you keep your symptoms in check so they don't disrupt your life. These next few questions will help us get a better idea of what you're dealing with.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "None at all",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": true,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "PerceivedEnergyLevel",
+									"helpText": "A great deal",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T13:20:58.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 2,
+						"text": "How much energy do you feel you've had over the past week?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "No pain",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "PainRating",
+									"helpText": "Severe pain",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 3,
+						"text": "What has been your pain level during the past 2 weeks?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "No shortness of breath",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "ShortBreathFrequency",
+									"helpText": "Severe shortness of breath",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 4,
+						"text": "Tell us about any shortness of breath you may have had over the past 2 weeks.",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "No fatigue",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "FatigueRating",
+									"helpText": "Severe fatigue",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "What has been your level of fatigue during the past 2 weeks?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 9,
+											"selected": true,
+											"text": "8",
+											"value": "8"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 10,
+											"selected": false,
+											"text": "9",
+											"value": "9"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 11,
+											"selected": false,
+											"text": "10",
+											"value": "10"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 12,
+											"selected": false,
+											"text": "11",
+											"value": "11"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 13,
+											"selected": false,
+											"text": "12",
+											"value": "12"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountHours",
+											"helpText": "",
+											"ordinal": 14,
+											"selected": false,
+											"text": "13",
+											"value": "13"
+										}
+									]
+								},
+								"dataInfo": {
+									"collectionDate": "2014-07-24T13:21:22.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "hours",
+								"type": "dropdown"
+							},
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "AverageSleepAmountMinutes",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": true,
+											"text": "00",
+											"value": "00"
+										},
+										{
+											"dataDefinitionName": "AverageSleepAmountMinutes",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "30",
+											"value": "30"
+										}
+									]
+								},
+								"dataInfo": {
+									"collectionDate": "2014-07-24T13:21:22.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"ordinal": 2,
+								"text": "minutes",
+								"type": "dropdown"
+							}
+						],
+						"helpText": "",
+						"ordinal": 6,
+						"text": "Over the past week, how much sleep did you generally get in each 24-hour period?",
+						"type": "multidropdown",
+						"validations": {
+							"validation": [
+								{
+									"name": "responseAllOrNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "Very poor",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": true,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "OverallSleepQualityRating",
+									"helpText": "Excellent",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T13:21:24.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "Choose a lower number if you haven\u2019t been sleeping well. Choose a higher number if you have been sleeping well.",
+						"ordinal": 7,
+						"text": "How would you rate the overall quality of your sleep?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "SleepDescriptionHardToFallAsleep",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I have a hard time falling asleep.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepDescriptionHardToStayAsleep",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I have a hard time staying asleep.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepDescriptionWakeTooEarly",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I wake too early.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepDescriptionStillTired",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I still feel tired even if I get 6 or more hours of sleep.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepDescriptionSleepFine",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I don't have any problems sleeping.",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 8,
+						"text": "What problems do you have sleeping?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "SleepDescriptionSleepFine"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 130,
+				"prepopulated": false,
+				"previousPage": 120
+			},
+			{
+				"content": [
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "SleepBarriersPain",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "I have a lot of pain at night.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersBreathing",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "I have a hard time breathing.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersMedication",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "My medication makes it hard to sleep.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersDaySleep",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I sleep a lot during the day.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersWorry",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "I worry about things.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersUncomfortable",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "I can't get comfortable.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersUseBathroom",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "I have to get up at night to go to the bathroom. ",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersOther",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Other",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "SleepBarriersNotSure",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Not sure",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 1,
+						"text": "Which of the following make it hard for you to sleep?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "SleepBarriersNotSure"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ConditionSymptomManagementPhysicalSymptomsInterfere",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "My physical symptoms get in the way of the things I want to do.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ConditionSymptomManagementEmotionalDistressInterferes",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "The emotional distress caused by my health issues or conditions interferes with the things I want to do.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ConditionSymptomManagementTroubleManaging",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "I have trouble managing my symptoms.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ConditionSymptomManagementSymptomsDontInterfere",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "I have symptoms, but I\u2019m able to keep them from bothering me and interfering with my life.",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "ConditionSymptomManagementNone",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "None of the above",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply. ",
+						"ordinal": 2,
+						"text": "Which of the following are true for you regarding your health?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "ConditionSymptomManagementNone"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Not confident",
+									"value": "NotConfident"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Somewhat confident",
+									"value": "SomewhatConfident"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Confident",
+									"value": "Confident"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Very confident",
+									"value": "VeryConfident"
+								},
+								{
+									"dataDefinitionName": "ConfidenceSymptomManagementActivitiesToManage",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Extremely confident",
+									"value": "ExtremelyConfident"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 3,
+						"text": "How confident are you that you can manage the various self-care activities related to your health issues?",
+						"type": "radio",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "NotConfident"
+								},
+								{
+									"name": "exclusiveResponse",
+									"property": "SomewhatConfident"
+								},
+								{
+									"name": "exclusiveResponse",
+									"property": "Confident"
+								},
+								{
+									"name": "exclusiveResponse",
+									"property": "VeryConfident"
+								},
+								{
+									"name": "exclusiveResponse",
+									"property": "ExtremelyConfident"
+								}
+							]
+						}
+					}
+				],
+				"isQuitPage": false,
+				"page": 140,
+				"prepopulated": false,
+				"previousPage": 130
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Now, we'd like to learn a bit about how much physical activity you're getting.</p>",
+						"type": "inline"
+					},
+					{
+						"text": "<p>During moderate-intensity activities, you\u2019re able to hold a conversation, but you\u2019re working hard enough to raise your heart rate and break a sweat. Brisk walking, casual swimming and doubles tennis are examples of moderate-intensity activities.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": true,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": false,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"dataInfo": {
+									"collectionDate": "2014-07-24T11:12:53.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "day(s)",
+								"type": "dropdown"
+							},
+							{
+								"answer": "33",
+								"childQuestions": null,
+								"dataDefinitionName": "ModeratePhysicalActivityAmountMinutesPerDay",
+								"dataInfo": {
+									"collectionDate": "2014-07-24T11:12:53.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"inputLabel": "minutes",
+								"ordinal": 2,
+								"text": "",
+								"type": "numberinput",
+								"validations": {
+									"validation": [
+										{
+											"name": "minRange",
+											"property": "0"
+										},
+										{
+											"name": "maxRange",
+											"property": "1440"
+										},
+										{
+											"name": "numberType",
+											"property": "INTEGER"
+										}
+									]
+								}
+							}
+						],
+						"helpText": "",
+						"ordinal": 3,
+						"text": "In a typical week, what is the average amount of time you spend doing moderate-intensity physical activity?",
+						"type": "dropdownandnumber",
+						"validations": {
+							"validation": [
+								{
+									"name": "responseAllOrNone"
+								},
+								{
+									"name": "restrictedZeroResponse"
+								}
+							]
+						}
+					},
+					{
+						"text": "<p>During vigorous-intensity activities, you\u2019re breathing hard and fast, and your heart rate has gone up quite a bit. If you\u2019re working at this level, you won\u2019t be able to say more than a few words without pausing for a breath. These types of activities include running, bicycling, swimming laps, and weight circuit training.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": [
+							{
+								"childQuestions": null,
+								"choices": {
+									"choice": [
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 1,
+											"selected": false,
+											"text": "0",
+											"value": "0"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 2,
+											"selected": false,
+											"text": "1",
+											"value": "1"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 3,
+											"selected": true,
+											"text": "2",
+											"value": "2"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 4,
+											"selected": false,
+											"text": "3",
+											"value": "3"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 5,
+											"selected": false,
+											"text": "4",
+											"value": "4"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 6,
+											"selected": false,
+											"text": "5",
+											"value": "5"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 7,
+											"selected": false,
+											"text": "6",
+											"value": "6"
+										},
+										{
+											"dataDefinitionName": "VigorousPhysicalActivityAmountDaysPerWeek",
+											"helpText": "",
+											"ordinal": 8,
+											"selected": false,
+											"text": "7",
+											"value": "7"
+										}
+									]
+								},
+								"dataInfo": {
+									"collectionDate": "2014-07-24T11:12:58.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"ordinal": 1,
+								"text": "day(s)",
+								"type": "dropdown"
+							},
+							{
+								"answer": "33",
+								"childQuestions": null,
+								"dataDefinitionName": "VigorousPhysicalActivityAmountMinutesPerDay",
+								"dataInfo": {
+									"collectionDate": "2014-07-24T11:12:58.000-0400",
+									"dataSourceName": "Physical Activity"
+								},
+								"helpText": "",
+								"inputLabel": "minutes",
+								"ordinal": 2,
+								"text": "",
+								"type": "numberinput",
+								"validations": {
+									"validation": [
+										{
+											"name": "minRange",
+											"property": "0"
+										},
+										{
+											"name": "maxRange",
+											"property": "1440"
+										},
+										{
+											"name": "numberType",
+											"property": "INTEGER"
+										}
+									]
+								}
+							}
+						],
+						"helpText": "",
+						"ordinal": 5,
+						"text": "In a typical week, what is the average amount of time you spend doing vigorous-intensity physical activity?",
+						"type": "dropdownandnumber",
+						"validations": {
+							"validation": [
+								{
+									"name": "responseAllOrNone"
+								},
+								{
+									"name": "restrictedZeroResponse"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Rarely or never",
+									"value": "RarelyOrNever"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": true,
+									"text": "Once a week",
+									"value": "1DayPerWeek"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Twice a week",
+									"value": "2DaysPerWeek"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3 times a week",
+									"value": "3DaysPerWeek"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4-5 times a week",
+									"value": "4To5DaysPerWeek"
+								},
+								{
+									"dataDefinitionName": "PhysicalActivityStrengthFrequency",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "6-7 times a week",
+									"value": "6To7DaysPerWeek"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T11:12:59.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 6,
+						"text": "How about strength-training exercises, such as using free weights, weight machines, or resistance bands? How often do you do those?",
+						"type": "radio"
+					}
+				],
+				"isQuitPage": false,
+				"page": 160,
+				"prepopulated": true,
+				"previousPage": 140
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Being active is an important part of caring for your health. We'll develop your Being Active skill based on what you've shared.</p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 170,
+				"prepopulated": true,
+				"previousPage": 160
+			},
+			{
+				"content": [
+					{
+						"text": "<p>Alright, we have a few more questions that will help us determine how much your health is impacting your day.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "CurrentlyEmployed",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": true,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "CurrentlyEmployed",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T13:21:29.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 2,
+						"text": "Are you currently employed (working for pay)?",
+						"type": "radio"
+					}
+				],
+				"isQuitPage": false,
+				"page": 180,
+				"prepopulated": true,
+				"previousPage": 170
+			},
+			{
+				"content": [
+					{
+						"childQuestions": null,
+						"dataDefinitionName": "ProductivityWPAIHoursWorkMissedHealth",
+						"helpText": "Include hours you missed on sick days, times you went in late, left early, etc., because of your health problems. Do not include time you missed to participate in this program.",
+						"inputLabel": "hours",
+						"ordinal": 1,
+						"text": "During the past 4 weeks, how many hours did you miss from work because of your health problems?",
+						"type": "numberinput",
+						"validations": {
+							"validation": [
+								{
+									"name": "minRange",
+									"property": "0"
+								},
+								{
+									"name": "maxRange",
+									"property": "672"
+								},
+								{
+									"name": "numberType",
+									"property": "FLOATING_POINT"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"dataDefinitionName": "ProductivityWPAIHoursWorkMissedGeneral",
+						"helpText": "",
+						"inputLabel": "hours",
+						"ordinal": 2,
+						"text": "During the past 4 weeks, how many hours did you miss from work because of any other reason, such as vacation or holidays?",
+						"type": "numberinput",
+						"validations": {
+							"validation": [
+								{
+									"name": "minRange",
+									"property": "0"
+								},
+								{
+									"name": "maxRange",
+									"property": "672"
+								},
+								{
+									"name": "numberType",
+									"property": "FLOATING_POINT"
+								}
+							]
+						}
+					},
+					{
+						"childQuestions": null,
+						"dataDefinitionName": "ProductivityWPAIHoursWorked",
+						"helpText": "",
+						"inputLabel": "hours",
+						"ordinal": 3,
+						"text": "During the past 4 weeks, how many hours did you actually work?",
+						"type": "numberinput",
+						"validations": {
+							"validation": [
+								{
+									"name": "minRange",
+									"property": "0"
+								},
+								{
+									"name": "maxRange",
+									"property": "672"
+								},
+								{
+									"name": "numberType",
+									"property": "INTEGER"
+								}
+							]
+						}
+					},
+					{
+						"text": "<p>Think about the days you were limited in the amount or kind of work you could do. For example, days you accomplished less than you would have liked, or days you couldn't do your work as carefully as usual. If health problems affected your work only a little, choose a low number. Choose a high number if your health problems affected your activities a lot.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "Health problems had no effect on my work",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectWork",
+									"helpText": "Health problems completely prevented me from working",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 5,
+						"text": "During the past 4 weeks, how much did your health problems affect your productivity while you were working?",
+						"type": "slider"
+					},
+					{
+						"text": "<p>We\u2019re going to ask you to think about how your health problems affect your ability to do your regular daily activities. By regular activities, we mean activities like work around the house, shopping, child care, exercising, studying, etc. Think about times you were limited in the amount or kind of activities you could do and times you accomplished less than you would like. If health problems affected your activities only a little, choose a low number. Choose a high number if health problems affected your activities a lot.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "Health problems had no effect on my daily activities",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "ProductivityWPAIHealthAffectActivities",
+									"helpText": "Health problems completely prevented me from doing my daily activities",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"helpText": "",
+						"ordinal": 7,
+						"text": "During the past 4 weeks, how much did your health problems affect your ability to do your regular daily activities (other than work at a job)?",
+						"type": "slider"
+					},
+					{
+						"childQuestions": null,
+						"dataDefinitionName": "ProductivityWPAIDaysWorkMissedHealth",
+						"helpText": "",
+						"inputLabel": "days",
+						"ordinal": 8,
+						"text": "In the past 12 months, how many days of work have you missed due to illness?",
+						"type": "numberinput",
+						"validations": {
+							"validation": [
+								{
+									"name": "minRange",
+									"property": "0"
+								},
+								{
+									"name": "maxRange",
+									"property": "365"
+								},
+								{
+									"name": "numberType",
+									"property": "INTEGER"
+								}
+							]
+						}
+					},
+					{
+						"text": "<p>Okay, we just have a couple more questions.</p>",
+						"type": "inline"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": true,
+									"text": "White, Non-Hispanic",
+									"value": "White"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Black or African-American",
+									"value": "Black"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Hispanic",
+									"value": "Hispanic"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Asian",
+									"value": "Asian"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Pacific Islander",
+									"value": "PacificIslander"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "Native American Indian or Native Alaskan",
+									"value": "NativeAmerican"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "Native Hawaiian",
+									"value": "Hawaiian"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Multiracial",
+									"value": "Multiracial"
+								},
+								{
+									"dataDefinitionName": "Ethnicity",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Other",
+									"value": "Other"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T13:22:41.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 10,
+						"text": "What's your ethnicity?",
+						"type": "radio"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Never attended school",
+									"value": "NoSchool"
+								},
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Elementary",
+									"value": "Elementary"
+								},
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Some high school",
+									"value": "SomeHighSchool"
+								},
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "High school grad/GED",
+									"value": "HighSchoolGraduate"
+								},
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": true,
+									"text": "Some college or tech school",
+									"value": "SomeCollege"
+								},
+								{
+									"dataDefinitionName": "EducationLevel",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "College grad or higher",
+									"value": "CollegeGraduate"
+								}
+							]
+						},
+						"dataInfo": {
+							"collectionDate": "2014-07-24T13:22:45.000-0400",
+							"dataSourceName": "Physical Activity"
+						},
+						"helpText": "",
+						"ordinal": 11,
+						"text": "What\u2019s the highest grade or year of school you completed?",
+						"type": "radio"
+					},
+					{
+						"text": "<p>That\u2019s all we need. Our goal is to help make it easier for you to manage your health condition and live the life you want.</p>",
+						"type": "inline"
+					}
+				],
+				"isQuitPage": false,
+				"page": 190,
+				"prepopulated": false,
+				"previousPage": 180
+			}
+		],
+		"responseCode": 0
+	}
+}

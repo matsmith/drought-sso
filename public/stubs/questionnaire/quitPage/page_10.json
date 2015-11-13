@@ -1,0 +1,72 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"id": 1,
+							"name": "About You",
+							"pageCount": 2,
+							"completeFirst": false,
+							"firstPage": 10,
+							"status": "STARTED",
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg"
+						}
+					]
+				}
+			]
+		},
+		"questionnairePage": {
+			"page": 10,
+			"previousPage": 0,
+			"prepopulated": false,
+			"content": [
+				{
+					"type": "inline",
+					"text": "Bumper Text"
+				},
+				{
+					"validations": {
+						"validation": [
+							{
+								"name": "required"
+							}
+						]
+					},
+					"helpText": "",
+					"choices": {
+						"choice": [
+							{
+								"text": "Yes",
+								"value": "Yes",
+								"selected": false,
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 1
+							},
+							{
+								"text": "No",
+								"value": "No",
+								"selected": false,
+								"dataDefinitionName": "BalanceGating",
+								"helpText": "",
+								"ordinal": 2
+							}
+						]
+					},
+					"childQuestions": null,
+					"type": "radio",
+					"text": "Question 1 Text?",
+					"ordinal": 1
+				}
+			],
+			"isQuitPage": false
+		},
+		"finalPage": 290,
+		"responseCode": 0
+	}
+}

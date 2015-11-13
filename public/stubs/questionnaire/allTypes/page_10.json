@@ -1,0 +1,1499 @@
+{
+	"consultationResponse": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name": "COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "/images/widgets/coachingQuestionnaire/bumper-first-image.jpg",
+							"completeFirst": false,
+							"firstPage": 10,
+							"name": "About You",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "/images/widgets/coachingQuestionnaire/Balance_About_You_Tailored_Blur.jpg",
+							"id": 1,
+							"status": "STARTED"
+						}
+					]
+				}
+			]
+		},
+		"finalPage": 10,
+		"questionnairePage": [
+			{
+				"content": [
+					{
+						"text": "<p>When it comes to taking care of your health, small changes may lead to big improvements. We'll help you learn how to better manage your health using skills that you can master through achievable action steps. You can take control of your health to help you live the life you want.</p>",
+						"type": "inline"
+					},
+					{  
+						"helpText":"Reminder: The top number (systolic) is always higher than the bottom number (diastolic).",
+						"childQuestions":[  
+							{  
+								"validations":{  
+									"validation":[  
+										{  
+											"property":"50",
+											"name":"minRange"
+										},
+										{  
+											"property":"300",
+											"name":"maxRange"
+										},
+										{  
+											"property":"INTEGER",
+											"name":"numberType"
+										}
+									]
+								},
+								"helpText":"",
+								"dataDefinitionName":"BPNumberKnownSystolicmmHg",
+								"childQuestions":null,
+								"inputLabel":"/",
+								"type":"numberinput",
+								"text":"",
+								"ordinal":1
+							},
+							{  
+								"validations":{  
+									"validation":[  
+										{  
+											"property":"30",
+											"name":"minRange"
+										},
+										{  
+											"property":"180",
+											"name":"maxRange"
+										},
+										{  
+											"property":"INTEGER",
+											"name":"numberType"
+										}
+									]
+								},
+								"helpText":"",
+								"dataDefinitionName":"BPNumberKnownDiastolicmmHg",
+								"childQuestions":null,
+								"inputLabel":"mmHg",
+								"type":"numberinput",
+								"text":"",
+								"ordinal":2
+							},
+							{  
+								"helpText":"",
+								"choices":{  
+									"choice":[  
+										{  
+											"text":"Not the exact numbers, but I've been told it's normal.",
+											"value":"UnknownButNormal",
+											"selected":false,
+											"dataDefinitionName":"BPNumberGeneral",
+											"helpText":"",
+											"ordinal":1
+										},
+										{  
+											"text":"Not the exact numbers, but I've been told it's high.",
+											"value":"UnknownButHigh",
+											"selected":false,
+											"dataDefinitionName":"BPNumberGeneral",
+											"helpText":"",
+											"ordinal":2
+										},
+										{  
+											"text":"I don't know.",
+											"value":"DontKnow",
+											"selected":false,
+											"dataDefinitionName":"BPNumberGeneral",
+											"helpText":"",
+											"ordinal":3
+										}
+									]
+								},
+								"childQuestions":null,
+								"type":"radio",
+								"text":"",
+								"ordinal":3
+							}
+						],
+						"id":85848,
+						"type":"bloodpressure",
+						"text":"Do you know your blood pressure?",
+						"ordinal":5
+					},
+					{
+						"type":"dateinput",
+						"validations":{
+							"validation":[
+								{
+									"property":"2",
+									"name":"maxOffset"
+								}
+							]
+						},
+						"helpText":"No min range, max range of 2 days",
+						"dataDefinitionName":"QuitDate",
+						"childQuestions":null,
+						"inputLabel":"Click For Date Input",
+						"text":"Pick your date (month, day, year).",
+						"ordinal":1
+					},
+					{
+						"type":"dateinput",
+						"validations":{
+							"validation":[
+								{
+									"property":"-15",
+									"name":"minOffset"
+								},
+								{
+									"property":"30",
+									"name":"maxOffset"
+								}
+							]
+						},
+						"helpText":"Your quit date must be sometime within the last 15 days or 30 days in the future.",
+						"dataDefinitionName":"QuitDate",
+						"childQuestions":null,
+						"inputLabel":"Click For Date Input",
+						"text":"Pick your date (month, day, year).",
+						"ordinal":1
+					},
+					{
+						"type":"scalegroup",
+						"text":"Likert Scale Question (scalegroup)",
+						"helpText":"",
+						"childQuestions":[
+							{
+								"helpText":"",
+								"choices":{
+								"choice":[
+									{
+										"text":"Yes",
+										"value":"Yes",
+										"selected":false,
+										"dataDefinitionName":"ScaleYesNoQuestion",
+										"helpText":"",
+										"ordinal":1
+									},
+									{
+										"text":"No",
+										"value":"No",
+										"selected":false,
+										"dataDefinitionName":"ScaleYesNoQuestion",
+										"helpText":"",
+										"ordinal":2
+									}
+								]
+								},
+								"childQuestions":null,
+								"type":"scale",
+								"text":"Yes/No question.",
+								"ordinal":1
+							},
+							{
+								"helpText":"",
+								"choices":{
+								"choice":[
+									{
+										"text":"Strongly disagree",
+										"value":"StronglyDisagree",
+										"selected":false,
+										"dataDefinitionName":"ScaleAgreeQuestion",
+										"helpText":"",
+										"ordinal":1
+									},
+									{
+										"text":"Disagree",
+										"value":"Disagree",
+										"selected":false,
+										"dataDefinitionName":"ScaleAgreeQuestion",
+										"helpText":"",
+										"ordinal":2
+									},
+									{
+										"text":"Neither agree nor disagree",
+										"value":"NeitherAgreeNorDisagree",
+										"selected":false,
+										"dataDefinitionName":"ScaleAgreeQuestion",
+										"helpText":"",
+										"ordinal":3
+									},
+									{
+										"text":"Agree",
+										"value":"Agree",
+										"selected":false,
+										"dataDefinitionName":"ScaleAgreeQuestion",
+										"helpText":"",
+										"ordinal":4
+									},
+									{
+										"text":"Strongly agree",
+										"value":"StronglyAgree",
+										"selected":false,
+										"dataDefinitionName":"ScaleAgreeQuestion",
+										"helpText":"",
+										"ordinal":5
+									}
+								]
+								},
+								"childQuestions":null,
+								"type":"scale",
+								"text":"Agree scale question.",
+								"ordinal":2
+							},
+							{
+								"helpText":"",
+								"choices":{
+									"choice":[
+										{
+											"text":"Not at all",
+											"value":"NotAtAll",
+											"selected":false,
+											"dataDefinitionName":"ScaleSomeQuestion",
+											"helpText":"",
+											"ordinal":1
+										},
+										{
+											"text":"A little",
+											"value":"ALittle",
+											"selected":false,
+											"dataDefinitionName":"ScaleSomeQuestion",
+											"helpText":"",
+											"ordinal":2
+										},
+										{
+											"text":"Some",
+											"value":"Some",
+											"selected":false,
+											"dataDefinitionName":"ScaleSomeQuestion",
+											"helpText":"",
+											"ordinal":3
+										},
+										{
+											"text":"A fair amount",
+											"value":"AFairAmount",
+											"selected":false,
+											"dataDefinitionName":"ScaleSomeQuestion",
+											"helpText":"",
+											"ordinal":4
+										},
+										{
+											"text":"A lot",
+											"value":"ALot",
+											"selected":false,
+											"dataDefinitionName":"ScaleSomeQuestion",
+											"helpText":"",
+											"ordinal":5
+										}
+									]
+								},
+								"childQuestions":null,
+								"type":"scale",
+								"text":"Amount scale question.",
+								"ordinal":3
+							},
+							{
+								"helpText":"",
+								"choices":{
+									"choice":[
+										{
+											"text":"0",
+											"value":"0",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"Not at all important",
+											"ordinal":1
+										},
+										{
+											"text":"1",
+											"value":"1",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":2
+										},
+										{
+											"text":"2",
+											"value":"2",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":3
+										},
+										{
+											"text":"3",
+											"value":"3",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":4
+										},
+										{
+											"text":"4",
+											"value":"4",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":5
+										},
+										{
+											"text":"5",
+											"value":"5",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":6
+										},
+										{
+											"text":"6",
+											"value":"6",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":7
+										},
+										{
+											"text":"7",
+											"value":"7",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":8
+										},
+										{
+											"text":"8",
+											"value":"8",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":9
+										},
+										{
+											"text":"9",
+											"value":"9",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"",
+											"ordinal":10
+										},
+										{
+											"text":"10",
+											"value":"10",
+											"selected":false,
+											"dataDefinitionName":"ScaleImportantQuestion",
+											"helpText":"Very important",
+											"ordinal":11
+										}
+									]
+								},
+								"childQuestions":null,
+								"type":"scale",
+								"text":"Important scale question.",
+								"ordinal":4
+							}
+						],
+						"ordinal":4
+
+					},
+					{
+						"type": "numbersandradios",
+						"id": 20152,
+						"validations": {
+							"validation": [
+							]
+						},
+						"helpText": "",
+						"childQuestions": [
+							{
+								"validations": {
+									"validation": [
+										{
+											"property": "30",
+											"name": "minRange"
+										},
+										{
+											"property": "999",
+											"name": "maxRange"},
+										{
+											"property": "INTEGER",
+											"name": "numberType"
+										}
+									]
+								},
+								"helpText": "",
+								"dataDefinitionName": "BloodSugarNumberFastingActualmgdL",
+								"childQuestions": null,
+								"inputLabel": "Fasting",
+								"type": "numberinput",
+								"text": "",
+								"ordinal": 1
+							},
+							{
+								"validations": {
+									"validation": [
+										{
+											"property": "20",
+											"name": "minRange"
+										},
+										{
+											"property": "200",
+											"name": "maxRange"},
+										{
+											"property": "FLOATING_POINT",
+											"name": "numberType"
+										}
+									]
+								},
+								"helpText": "",
+								"dataDefinitionName": "BloodSugarNumberNonfastingActualmgdL",
+								"childQuestions": null,
+								"inputLabel": "Nonfasting",
+								"type": "numberinput",
+								"text": "",
+								"ordinal": 2
+							},
+							{
+								"helpText": "",
+								"choices": {
+									"choice": [
+										{
+											"text": "Don't know my blood sugar level",
+											"value": "DontKnow",
+											"selected": false,
+											"dataDefinitionName": "BloodSugarNumberGeneral",
+											"helpText": "",
+											"ordinal": 1
+										},
+										{
+											"text": "Second answer",
+											"value": "SecondAnswer",
+											"selected": false,
+											"dataDefinitionName": "BloodSugarNumberGeneral",
+											"helpText": "",
+											"ordinal": 2
+										}
+									]
+								},
+								"childQuestions": null,
+								"type": "radio",
+								"text": "",
+								"ordinal": 3
+							}
+						],
+						"text": "What was your blood sugar level? (30-999 int, 20-200 float)"
+					},
+					{
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MedicalHistoryAllergies",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Allergies",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryAngina",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "Angina",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryAsthma",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "Asthma",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryBackPain",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "Back pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryBipolarDisorder",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "Bipolar disorder",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicFatigueSyndrome",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "Chronic fatigue syndrome",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicKidneyDisease",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "Chronic kidney disease",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryCOPD",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "Chronic obstructive pulmonary disease (COPD, including chronic bronchitis and emphysema)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryChronicPain",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "Chronic pain",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryCoronaryHeartDisease",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "Coronary heart disease",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDepression",
+									"helpText": "",
+									"ordinal": 11,
+									"selected": false,
+									"text": "Depression",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryDiabetes",
+									"helpText": "",
+									"ordinal": 12,
+									"selected": false,
+									"text": "Diabetes",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryFibromyalgia",
+									"helpText": "",
+									"ordinal": 13,
+									"selected": false,
+									"text": "Fibromyalgia",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryGERD",
+									"helpText": "",
+									"ordinal": 14,
+									"selected": false,
+									"text": "Gastroesophageal reflux disease (GERD)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHIVAIDS",
+									"helpText": "",
+									"ordinal": 15,
+									"selected": false,
+									"text": "HIV/AIDS",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHeartAttack",
+									"helpText": "",
+									"ordinal": 16,
+									"selected": false,
+									"text": "Heart attack",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHeartFailure",
+									"helpText": "",
+									"ordinal": 17,
+									"selected": false,
+									"text": "Heart failure",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighBloodPressure",
+									"helpText": "",
+									"ordinal": 18,
+									"selected": false,
+									"text": "High blood pressure",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryHighCholesterol",
+									"helpText": "",
+									"ordinal": 19,
+									"selected": false,
+									"text": "High cholesterol",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryIrritableBowelSyndrome",
+									"helpText": "",
+									"ordinal": 20,
+									"selected": false,
+									"text": "Irritable bowel syndrome",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryMigraine",
+									"helpText": "",
+									"ordinal": 21,
+									"selected": false,
+									"text": "Migraine",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryObesity",
+									"helpText": "",
+									"ordinal": 22,
+									"selected": false,
+									"text": "Obesity",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOsteoarthritis",
+									"helpText": "",
+									"ordinal": 23,
+									"selected": false,
+									"text": "Osteoarthritis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOsteoporosis",
+									"helpText": "",
+									"ordinal": 24,
+									"selected": false,
+									"text": "Osteoporosis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryPeripheralVascularDisease",
+									"helpText": "",
+									"ordinal": 25,
+									"selected": false,
+									"text": "Peripheral vascular disease (PVD)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryRheumatoidArthritis",
+									"helpText": "",
+									"ordinal": 26,
+									"selected": false,
+									"text": "Rheumatoid arthritis",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryStrokeOrTIA",
+									"helpText": "",
+									"ordinal": 27,
+									"selected": false,
+									"text": "Stroke or transient ischemic attack (TIA)",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryOther",
+									"helpText": "",
+									"ordinal": 28,
+									"selected": false,
+									"text": "Another chronic condition",
+									"value": "true"
+								},
+								{
+									"dataDefinitionName": "MedicalHistoryNoChronicCondition",
+									"dataInfo": {
+										"collectionDate": "2014-07-25T10:13:18.000-0400",
+										"dataSourceName": "Chronic Conditions"
+									},
+									"helpText": "",
+									"ordinal": 29,
+									"selected": false,
+									"text": "I don\u2019t have a chronic condition",
+									"value": "true"
+								}
+							]
+						},
+						"helpText": "Choose all that apply.",
+						"ordinal": 2,
+						"text": "Have you ever been diagnosed with any of the following?",
+						"type": "checkbox",
+						"validations": {
+							"validation": [
+								{
+									"name": "exclusiveResponse",
+									"property": "MedicalHistoryNoChronicCondition"
+								}
+							]
+						}
+					},
+					{
+						"type": "inline",
+						"text": "Bumper Text"
+					},
+					{
+						"type": "radio",
+						"text": "Radio Question",
+						"helpText": "",
+						"childQuestions": null,
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 1,
+									"selected": false,
+									"text": "Yes",
+									"value": "Yes"
+								},
+								{
+									"dataDefinitionName": "BalanceGating",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "No",
+									"value": "No"
+								}
+							]
+						},
+						"ordinal": 1
+					},
+					{
+						"type": "slider",
+						"text": "Slider Question",
+						"helpText": "",
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "Not at all motivated, I am very serious about my sloth",
+									"ordinal": 1,
+									"selected": false,
+									"text": "0",
+									"value": "0"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 2,
+									"selected": false,
+									"text": "1",
+									"value": "1"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 3,
+									"selected": false,
+									"text": "2",
+									"value": "2"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 4,
+									"selected": false,
+									"text": "3",
+									"value": "3"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 5,
+									"selected": false,
+									"text": "4",
+									"value": "4"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 6,
+									"selected": false,
+									"text": "5",
+									"value": "5"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 7,
+									"selected": false,
+									"text": "6",
+									"value": "6"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 8,
+									"selected": false,
+									"text": "7",
+									"value": "7"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 9,
+									"selected": false,
+									"text": "8",
+									"value": "8"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "",
+									"ordinal": 10,
+									"selected": false,
+									"text": "9",
+									"value": "9"
+								},
+								{
+									"dataDefinitionName": "MotivationSeriesWeightManagement",
+									"helpText": "Extremely motivated, the sloth is not my totem animal.",
+									"ordinal": 11,
+									"selected": false,
+									"text": "10",
+									"value": "10"
+								}
+							]
+						},
+						"childQuestions": null,
+						"ordinal": 9
+					},
+					{
+						"type": "inline",
+						"text": "This is some tailored text that we are showing before a question."
+					},
+					{
+						"type": "scale",
+						"text": "Scale Question",
+						"choices": {
+							"choice": [
+								{
+									"dataDefinitionName": "",
+									"selected": false,
+									"text": "Red",
+									"value": "ValueRed"
+								},
+								{
+									"dataDefinitionName": "",
+									"selected": false,
+									"text": "Yellow",
+									"value": "ValueYellow"
+								},
+								{
+									"dataDefinitionName": "",
+									"selected": false,
+									"text": "Gray",
+									"value": "ValueGray"
+								},
+								{
+									"dataDefinitionName": "",
+									"selected": false,
+									"text": "Blue",
+									"value": "ValueBlue"
+								}
+							]
+						}
+					},
+					{
+						"type":"checkbox",
+						"text":"Checkbox Question, One exclusive response and 3 max responses.",
+						"helpText":"Choose all that apply.",
+						"validations":{
+							"validation":[
+								{
+									"property":"LivesWithYouAlone",
+									"name":"exclusiveResponse"
+								},
+								{
+									"property":3,
+									"name":"maximumResponses"
+								}
+							]
+						},
+						"choices":{
+							"choice":[
+								{
+									"text":"Child(ren) under 2 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouChildUnder2",
+									"helpText":"",
+									"ordinal":1
+								},
+								{
+									"text":"Child(ren) between 2 and 12 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouChild2to12",
+									"helpText":"",
+									"ordinal":2
+								},
+								{
+									"text":"Teen(s) between 13 and 18 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouTeen13to18",
+									"helpText":"",
+									"ordinal":3
+								},
+								{
+									"text":"Other adult(s)",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouAdults",
+									"helpText":"",
+									"ordinal":4
+								},
+								{
+									"text":"I live alone.",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouAlone",
+									"helpText":"",
+									"ordinal":5
+								}
+							]
+						},
+						"childQuestions":null,
+						"ordinal":2
+					},
+					{
+						"type":"checkbox",
+						"text":"Checkbox Question, Two exclusive responses.",
+						"helpText":"Choose all that apply.",
+						"validations":{
+							"validation":[
+								{
+									"property":"FirstExclusive",
+									"name":"exclusiveResponse"
+								},
+								{
+									"property":"SecondExclusive",
+									"name":"exclusiveResponse"
+								}
+							]
+						},
+						"choices":{
+							"choice":[
+								{
+									"text":"Child(ren) under 2 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouChildUnder2",
+									"helpText":"",
+									"ordinal":1
+								},
+								{
+									"text":"Child(ren) between 2 and 12 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouChild2to12",
+									"helpText":"",
+									"ordinal":2
+								},
+								{
+									"text":"Teen(s) between 13 and 18 years old",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouTeen13to18",
+									"helpText":"",
+									"ordinal":3
+								},
+								{
+									"text":"Other adult(s)",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"LivesWithYouAdults",
+									"helpText":"",
+									"ordinal":4
+								},
+								{
+									"text":"First exclusive response.",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"FirstExclusive",
+									"helpText":"",
+									"ordinal":5
+								},
+								{
+									"text":"Second exclusive response.",
+									"value":"true",
+									"selected":false,
+									"dataDefinitionName":"SecondExclusive",
+									"helpText":"",
+									"ordinal":6
+								}
+							]
+						},
+						"childQuestions":null,
+						"ordinal":3
+					},
+					{
+						"type": "dropdown",
+						"text":"Dropdown Question",
+						"choices": {
+							"choice": [
+								{
+									"text":"Text0",
+									"value":"Value0",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":1
+								},
+								{
+									"text":"Text1",
+									"value":"Value1",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":2
+								},
+								{
+									"text":"Text2",
+									"value":"Value2",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":3
+								},
+								{
+									"text":"Text3",
+									"value":"Value3",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":4
+								},
+								{
+									"text":"Text4",
+									"value":"Value4",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":5
+								},
+								{
+									"text":"Text5",
+									"value":"Value5",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":6
+								},
+								{
+									"text":"Text6",
+									"value":"Value6",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":7
+								},
+								{
+									"text":"Text7",
+									"value":"Value7",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":8
+								},
+								{
+									"text":"Text8",
+									"value":"Value8",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":9
+								},
+								{
+									"text":"Text9",
+									"value":"Value9",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":10
+								},
+								{
+									"text":"Text10",
+									"value":"Value10",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":11
+								},
+								{
+									"text":"Text11",
+									"value":"Value11",
+									"selected":false,
+									"dataDefinitionName":"HeightInches",
+									"helpText":"",
+									"ordinal":12
+								}
+							]
+						},
+						"ordinal":5
+					},
+					{
+						"type":"multidropdown",
+						"text":"Multidropdown Question, all-or-none",
+						"helpText":"",
+						"validations":{
+							"validation":[
+								{
+									"name":"responseAllOrNone"
+								}
+							]
+						},
+						"imageURL":"https://dpdevcr03-media.healthmedia.com//media/images/consultation/question/0003.png",
+						"imageAlt":"",
+						"childQuestions":[
+							{
+								"type":"dropdown",
+								"text":"feet",
+								"helpText":"",
+								"choices":{
+									"choice":[
+										{
+											"text":"3",
+											"value":"3",
+											"selected":false,
+											"dataDefinitionName":"HeightFeet",
+											"helpText":"",
+											"ordinal":1
+										},
+										{
+											"text":"4",
+											"value":"4",
+											"selected":false,
+											"dataDefinitionName":"HeightFeet",
+											"helpText":"",
+											"ordinal":2
+										},
+										{
+											"text":"5",
+											"value":"5",
+											"selected":false,
+											"dataDefinitionName":"HeightFeet",
+											"helpText":"",
+											"ordinal":3
+										},
+										{
+											"text":"6",
+											"value":"6",
+											"selected":false,
+											"dataDefinitionName":"HeightFeet",
+											"helpText":"",
+											"ordinal":4
+										},
+										{
+											"text":"7",
+											"value":"7",
+											"selected":false,
+											"dataDefinitionName":"HeightFeet",
+											"helpText":"",
+											"ordinal":5
+										}
+									]
+								},
+								"childQuestions":null,
+								"ordinal":1
+							},
+							{
+								"type":"dropdown",
+								"text":"inches",
+								"helpText":"",
+								"choices":{
+									"choice":[
+										{
+											"text":"0",
+											"value":"0",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":1
+										},
+										{
+											"text":"1",
+											"value":"1",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":2
+										},
+										{
+											"text":"2",
+											"value":"2",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":3
+										},
+										{
+											"text":"3",
+											"value":"3",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":4
+										},
+										{
+											"text":"4",
+											"value":"4",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":5
+										},
+										{
+											"text":"5",
+											"value":"5",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":6
+										},
+										{
+											"text":"6",
+											"value":"6",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":7
+										},
+										{
+											"text":"7",
+											"value":"7",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":8
+										},
+										{
+											"text":"8",
+											"value":"8",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":9
+										},
+										{
+											"text":"9",
+											"value":"9",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":10
+										},
+										{
+											"text":"10",
+											"value":"10",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":11
+										},
+										{
+											"text":"11",
+											"value":"11",
+											"selected":false,
+											"dataDefinitionName":"HeightInches",
+											"helpText":"",
+											"ordinal":12
+										}
+									]
+								},
+								"childQuestions":null,
+								"ordinal":2
+							}
+						],
+						"ordinal":6
+					},
+					{
+						"type":"numberinput",
+						"text":"Numberinput Question, min = 10, max = 800, integer",
+						"validations":{
+							"validation":[
+								{
+									"property":"10",
+									"name":"minRange"
+								},
+								{
+									"property":"800",
+									"name":"maxRange"
+								},
+								{
+									"property":"INTEGER",
+									"name":"numberType"
+								}
+							]
+						},
+						"helpText":"",
+						"dataDefinitionName":"WeightPounds",
+						"childQuestions":null,
+						"inputLabel":"pounds",
+						"ordinal":7
+					},
+					{
+						"type":"numberinput",
+						"text":"Numberinput Question, float",
+						"validations":{
+							"validation":[
+								{
+									"property":"FLOATING_POINT",
+									"name":"numberType"
+								}
+							]
+						},
+						"helpText":"",
+						"dataDefinitionName":"WeightPounds",
+						"childQuestions":null,
+						"inputLabel":"pounds",
+						"ordinal":7
+					},
+					{
+						"type":"dropdownandnumber",
+						"text":"Dropdown & Number Question, non-zero, all-or-none; input: min 0, max 1440, integer",
+						"ordinal":4,
+						"helpText":"",
+						"validations": {
+							"validation": [
+								{
+									"name": "restrictedZeroResponse"
+								},
+								{
+									"name":"responseAllOrNone"
+								}
+							]
+						},
+						"childQuestions":[
+							{
+								"type":"dropdown",
+								"text":"day(s)",
+								"ordinal":1,
+								"helpText":"",
+								"choices":{
+									"choice":[
+										{
+											"text":"0",
+											"value":"0",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":1
+										},
+										{
+											"text":"1",
+											"value":"1",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":2
+										},
+										{
+											"text":"2",
+											"value":"2",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":3
+										},
+										{
+											"text":"3",
+											"value":"3",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":4
+										},
+										{
+											"text":"4",
+											"value":"4",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":5
+										},
+										{
+											"text":"5",
+											"value":"5",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":6
+										},
+										{
+											"text":"6",
+											"value":"6",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":7
+										},
+										{
+											"text":"7",
+											"value":"7",
+											"selected":false,
+											"dataDefinitionName":"ModeratePhysicalActivityAmountDaysPerWeek",
+											"helpText":"",
+											"ordinal":8
+										}
+									]
+								},
+								"childQuestions":null
+							},
+							{
+								"type":"numberinput",
+								"inputLabel":"minutes",
+								"helpText":"",
+								"ordinal":2,
+								"dataDefinitionName":"ModeratePhysicalActivityAmountMinutesPerDay",
+								"text":"",
+								"validations": {
+									"validation": [
+										{
+											"property": "INTEGER",
+											"name":"numberType"
+										},
+										{
+											"property":"0",
+											"name":"minRange"
+										},
+										{
+											"property":"1440",
+											"name":"maxRange"
+										}
+									]
+								},
+								"childQuestions":null
+							}
+						]
+					},
+					{
+						"type": "this_type_should_never_exist",
+						"text": "Unknown Question Type",
+						"helpText": "",
+						"childQuestions": null,
+						"choices": null,
+						"id": 123456
+					}
+				],
+				"isQuitPage": false,
+				"page": 10,
+				"prepopulated": false,
+				"previousPage": 0
+			}
+		],
+		"responseCode": 0
+	}
+}

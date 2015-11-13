@@ -1,0 +1,2482 @@
+{
+	"get": {
+		"": {
+			"": {
+				"resourceBundleResponse": {
+					"resourceBundle": [
+						{
+							"name":"certificateOfAchievementContent",
+							"contentValues":[{
+								"contentKey": "summaryClosingText",
+								"content": "Now keep that momentum going!"
+							}, {
+								"contentKey": "noAchievementContent",
+								"content": "Explore our programs and start earning achievements today."
+							}, {
+								"contentKey": "defaultView",
+								"content": "<p>Looks like you haven't started earning achievements yet.</p><p>Go to the menu to explore our programs and start earning achievements.</p>"
+							}, {
+								"contentKey": "subHeaderText",
+								"content": "We knew you could do it. You completed"
+							}, {
+								"contentKey": "headerText", "content": "Congratulations!"}, {
+								"contentKey": "summaryWhen", "content": "on"
+							}, {
+								"contentKey": "summaryLinkText",
+								"content": "View Certificate"
+							}, {
+								"contentKey": "summaryTitle",
+								"content": "My Achievements"
+							}]
+						}, {
+							"name": "primaryCTA",
+							"contentValues": [
+								{
+									"contentkey": "coachingCtaLink",
+									"content": "Go to Coaching"
+								}
+							]
+						}, {
+							"name": "toastNotificationContent",
+							"contentValues": [
+								{
+									"contentKey": "newCertificateEarned",
+									"content": "Check Out The Cert"
+								}
+							]
+						},{
+							"name": "toDoList",
+							"contentValues": [
+								{
+									"contentKey": "headerTextOpen",
+									"content": "You have new"
+								}, {
+									"contentKey": "headerTextMid",
+									"content": "To-Do"
+								}, {
+									"contentKey": "headerTextClose",
+									"content": "items"
+								}, {
+									"contentKey": "active",
+									"content": "Active"
+								}, {
+									"contentKey": "remove",
+									"content": "Remove"
+								}, {
+									"contentKey": "inQueue",
+									"content": "In-Queue"
+								}, {
+									"contentKey": "buttonText",
+									"content": "click here to see your checkins"
+								}, {
+									"contentKey": "imgUrl",
+									"content": "images/tempArrow.png"
+								}, {
+									"contentKey": "coachingTitle",
+									"content": "Get started with our coaching programs"
+								}, {
+									"contentKey": "coachingText",
+									"content": "It's simple. Start a coaching program and select your skills and action steps to do. You'll find all of your selected actions steps right here in your to-do-list for easy access and tracking."
+								}, {
+									"contentKey": "coachingButtonText",
+									"content": "Go to Coaching"
+								}, {
+									"contentKey": "actionStepsTitle",
+									"content": "Add Action Steps from your coaching programs"
+								}, {
+									"contentKey": "actionStepsText",
+									"content": "Select Skills and Action Steps from the coaching programs you have selected."
+								}, {
+									"contentKey": "actionStepsProgramButtonText",
+									"content": "Add Action Steps"
+								}, {
+									"contentKey": "asCompletionOverlayCloseAndSelectNewActionStepsBtn",
+									"content": "PLACEHOLDER TEXT (close and add)"
+								}, {
+									"contentKey": "asCompletionOverlayCloseBtn",
+									"content": "PLACEHOLDER TEXT (close)"
+								}
+							]
+						}, {
+							"name": "common",
+							"contentValues": [
+								{
+									"contentKey": "active",
+									"content": "active"
+								}, {
+									"contentKey": "back",
+									"content": "back"
+								}, {
+									"contentKey": "cancel",
+									"content": "cancel"
+								}, {
+									"contentKey": "complete",
+									"content": "complete"
+								}, {
+									"contentKey": "completed",
+									"content": "completed"
+								}, {
+									"contentKey": "less",
+									"content": "less"
+								}, {
+									"contentKey": "more",
+									"content": "more"
+								}, {
+									"contentKey": "new",
+									"content": "new"
+								}, {
+									"contentKey": "okay",
+									"content": "okay"
+								}, {
+									"contentKey": "skill",
+									"content": "skill"
+								}, {
+									"contentKey": "submit",
+									"content": "submit"
+								}, {
+									"contentKey": "next",
+									"content": "next"
+								}, {
+									"contentKey": "previous",
+									"content": "previous"
+								}, {
+									"contentKey": "yes",
+									"content": "yes"
+								}, {
+									"contentKey": "no",
+									"content": "no"
+								}, {
+									"contentKey": "hours",
+									"content": "hours"
+								}, {
+									"contentKey": "days",
+									"content": "day(s)"
+								}, {
+									"contentKey": "minutes",
+									"content": "minutes"
+								}, {
+									"contentKey": "serviceFailureHeader",
+									"content": "There was an issue communicating with a service."
+								}, {
+									"contentKey": "serviceFailureContent",
+									"content": "Please reload the page. We apologize for the inconvenience."
+								}, {
+									"contentKey": "serviceFailureButtonText",
+									"content": "Reload the application"
+								}
+							]
+						}, {
+							"name": "planSkillPage",
+							"contentValues": [
+								{
+									"contentKey": "skillCardSelectedButtonText",
+									"content": "Select Your Action Steps"
+								}, {
+									"contentKey": "skillCardSelectedButtonTextSomeActive",
+									"content": "View Details"
+								}, {
+									"contentKey": "skillCardSelectedButtonTextAllComplete",
+									"content": "Select More Action Steps"
+								}, {
+									"contentKey": "skillCardSelectedDescriptionSomeActive",
+									"content": "Action Steps you're doing now"
+								}, {
+									"contentKey": "skillCardSelectedDescriptionSingletonComplete",
+									"content": "You completed your Action Step, good job!"
+								}, {
+									"contentKey": "skillCardSelectedDescriptionAllCompletePrefix",
+									"content": "You completed all"
+								}, {
+									"contentKey": "skillCardSelectedDescriptionAllCompleteSuffix",
+									"content": "of your Action Steps, good job!"
+								}, {
+									"contentKey": "nextSkillCardDateMessagePrefix",
+									"content": "New skill will be added on"
+								}, {
+									"contentKey": "nextSkillCardDateMessageSuffix",
+									"content": ""
+								}, {
+									"contentKey": "nextSkillCardSelectedDateMessagePrefix",
+									"content": "Based on your progress, we'll recommend a new skill for you on"
+								}, {
+									"contentKey": "nextSkillCardSelectedDateMessageSuffix",
+									"content": ""
+								}
+							]
+						}, {
+							"name": "skillDetail",
+							"contentValues": [
+								{
+									"contentKey": "skillDetailSectionHeader",
+									"content": "About this Skill"
+								}, {
+									"contentKey": "skillDetailNavLabel",
+									"content": "About this Skill"
+								}, {
+									"contentKey": "actionStepsNavLabel",
+									"content": "Action Steps"
+								}, {
+									"contentKey": "actionStepsSectionLabel",
+									"content": "Action Steps"
+								}, {
+									"contentKey": "actionStepsSummaryText",
+									"content": "Select the Action Steps you would like to do"
+								}, {
+									"contentKey": "redoActionStep",
+									"content": "Re-do action step"
+								}, {
+									"contentKey": "completionRatingLabel",
+									"content": "Was this action step helpful?"
+								}, {
+									"contentKey": "removeFromList",
+									"content": "Remove from my To-Do list"
+								}, {
+									"contentKey": "asCompletionOverlayCloseBtn",
+									"content": "PLACEHOLDER TEXT (close)"
+								}, {
+									"contentKey": "skillDetailPageHeader",
+									"content": "Skill Details"
+								}, {
+									"contentKey": "closeDetail",
+									"content": "X"
+								}, {
+									"contentKey": "skillTeaserText",
+									"content": "This is where the Skill Teaser Content text will be. This is just a placeholder to see what it will look like"
+								}, {
+									"contentKey": "learnMoreBtn",
+									"content": "Learn More"
+								}, {
+									"contentKey": "backToActionBtn",
+									"content": "Back"
+								}, {
+									"contentKey": "copyToDoList",
+									"content": "Copy to My To Do List"
+								}, {
+									"contentKey": "viewActionStep",
+									"content": "View this action step in My To Do List"
+								}, {
+									"contentKey": "actionStepsLabel",
+									"content": "Action Steps:"
+								}, {
+									"contentKey": "chronicConditionSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "chronicConditionSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "depressionSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "depressionSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "physicalActivitySkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "physicalActivitySkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "weightSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "weightSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "thrombosisMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "thrombosisMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "nutritionSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "nutritionSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "heartHealthSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "heartHealthSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "diabetesSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "diabetesSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "stressSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "stressSkillsMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "assessMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "assessMenuStatusLabel",
+									"content": "Status"
+								}, {
+									"contentKey": "smokingCessationSkillsMenuSkillsLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "smokingCessationSkillsMenuStatusLabel",
+									"content": "Status"
+								}
+							]
+						}, {
+							"name": "planGlobal",
+							"contentValues": [
+								{
+									"contentKey": "goalNavLabel",
+									"content": "Goal"
+								}, {
+									"contentKey": "skillsNavLabel",
+									"content": "Skills"
+								}, {
+									"contentKey": "actionStepsNavLabel",
+									"content": "Action Steps"
+								}
+							]
+						}, {
+							"name": "planGoalPage",
+							"contentValues": [
+								{
+									"contentKey": "overviewPageHeader",
+									"content": "What Drives You"
+								}
+							]
+						}, {
+							"name": "planActionStepsPage",
+							"contentValues": [
+								{
+									"contentKey": "headingPrefix",
+									"content": "Your"
+								}, {
+									"contentKey": "headingSuffix",
+									"content": "Action Steps"
+								}, {
+									"contentKey": "noActionStepsHeader",
+									"content": "Let's get started and add Action Steps"
+								}, {
+									"contentKey": "noActionStepsContent",
+									"content": "Choose the skills you want to build, then select the action steps you want to take."
+								}, {
+									"contentKey": "noActionStepsGoToSkillsBtn",
+									"content": "Select Skills to build now"
+								}, {
+									"contentKey": "completeActionStepHoverText",
+									"content": "Check off if you have competed this action step"
+								}, {
+									"contentKey": "removeFromList",
+									"content": "Remove from my To-Do list"
+								}, {
+									"contentKey": "addActionStepBtn",
+									"content": "Add Action Step"
+								}, {
+									"contentKey": "completionRatingLabel",
+									"content": "Was this action step helpful?"
+								}, {
+									"contentKey": "completionBackToActionStepsBtn",
+									"content": "Go back to Action Steps"
+								}, {
+									"contentKey": "completionSelectNewActionStepsBtn",
+									"content": "Select New Action Steps for This Skill"
+								}
+							]
+						}, {
+							"name": "coachingTools",
+							"contentValues": [
+								{
+									"contentKey": "currentStatus",
+									"content": "Current Status"
+								}, {
+									"contentKey": "updateStatus",
+									"content": "Update Status"
+								}, {
+									"contentKey": "yourProgressGraph",
+									"content": "Your Progress"
+								}, {
+									"contentKey": "updateButtonLabel",
+									"content": "Update Status"
+								}, {
+									"contentKey": "closeGraph",
+									"content": "Close Graph"
+								}, {
+									"contentKey": "viewGraph",
+									"content": "View Graph"
+								}, {
+									"contentKey": "extremelyDifficult",
+									"content": "Extremely Difficult"
+								}, {
+									"contentKey": "extremelyEasy",
+									"content": "Extremely Easy"
+								}, {
+									"contentKey": "messageAreaHeading",
+									"content": "Message Area Heading"
+								}, {
+									"contentKey": "messageAreaSkillLinkLeadIn",
+									"content": "Want more?"
+								}, {
+									"contentKey": "messageAreaSkillLinkPrefix",
+									"content": "Check out the"
+								}, {
+									"contentKey": "messageAreaSkillLinkPostfix",
+									"content": "skill."
+								}, {
+									"contentKey": "messageAreaMessageMissingMessage",
+									"content": "No message found. This is the fallback message."
+								}, {
+									"contentKey": "messageAreaActionStepMissingMessage",
+									"content": "No message or Action Step found. This is the fallback message"
+								}, {
+									"contentKey": "messageAreaAsCompletionOverlayCloseBtn",
+									"content": "Go back to Overview"
+								}, {
+									"contentKey": "messageAreaAsCompletionOverlayCloseAndSelectNewActionStepsBtn",
+									"content": "Select New Action Steps for This Skill"
+								}
+							]
+						},
+						{
+							"name": "sleepCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "sleepLogTimeToFallAsleepQuestion",
+									"content": "How long did it take you to fall asleep?"
+								}, {
+									"contentKey": "weeklyAveragesHoursOfSleepGraphProgramLabel",
+									"content": "Program"
+								}, {
+									"contentKey": "weeklyAveragesHoursOfSleepGraphWeekLabel",
+									"content": "Week"
+								}, {
+									"contentKey": "hoursSleptLabel",
+									"content": "Hours Slept"
+								}, {
+									"contentKey": "whereAreYouNowTitle",
+									"content": "Where you are now"
+								}, {
+									"contentKey": "sleepLogTimeInBedQuestion",
+									"content": "What time did you go to bed?"
+								}, {
+									"contentKey": "sleepEfficiencyLabel",
+									"content": "Sleep Efficiency"
+								}, {
+									"contentKey": "sleepMinutesLabel",
+									"content": "Minutes"
+								}, {
+									"contentKey": "sleepHoursLabel",
+									"content": "Hours"
+								}, {
+									"contentKey": "weeklyAveragesEnergyLevelGraphHighLabel",
+									"content": "High"
+								}, {
+									"contentKey": "mySleepLogTitle",
+									"content": "My Sleep Log"
+								}, {
+									"contentKey": "sleepAMLabel",
+									"content": "AM"
+								}, {
+									"contentKey": "weeklyAveragesHoursOfSleepGraphHoursLabel",
+									"content": "hours"
+								}, {
+									"contentKey": "sleepTimesTitle",
+									"content": "Sleep Times (Past 7 Days)"
+								}, {
+									"contentKey": "yourNumbersPast7DaysTitle",
+									"content": "Your Numbers (Past 7 Days)"
+								}, {
+									"contentKey": "sleepTimesGraphHoursOfSleepLabel",
+									"content": "Hours of Sleep"
+								}, {
+									"contentKey": "mySleepTrackerTitle",
+									"content": "My Sleep Tracker"
+								}, {
+									"contentKey": "sleepLogIndicateTime",
+									"content": "I want to indicate the times I woke up during the night"
+								}, {
+									"contentKey": "energyLevelTitle",
+									"content": "Energy Level"
+								}, {
+									"contentKey": "pleaseCorrectAllHighlightedQuestionsText",
+									"content": "Please correct all highlighted questions."
+								}, {
+									"contentKey": "sleepLogSleepTitle",
+									"content": "Sleep"
+								}, {
+									"contentKey": "weeklyAveragesTitle",
+									"content": "Weekly Averages"
+								}, {
+									"contentKey": "sleepQuestionsDeleteText",
+									"content": "Delete"
+								}, {
+									"contentKey": "weeklyAveragesHoursOfSleepGraphProgramStartLabel",
+									"content": "Program Start"
+								}, {
+									"contentKey": "energyLevelLabel",
+									"content": "Energy Level"
+								}, {
+									"contentKey": "howCanTrackingSleepHelpTitle",
+									"content": "How can tracking my sleep help?"
+								}, {
+									"contentKey": "sleepTimesGraphInterruptedSleepLabel",
+									"content": "Interrupted Sleep"
+								}, {
+									"contentKey": "sleepLogIndicateTimeWhatTimeWakeUp",
+									"content": "What time did you wake up during the night?"
+								}, {
+									"contentKey": "sleepQuestionsAddAnotherTimeText",
+									"content": "Add another time"
+								}, {
+									"contentKey": "weeklyAveragesEnergyLevelGraphLowLabel",
+									"content": "Low"
+								}, {
+									"contentKey": "addNewEntryButtonTitle",
+									"content": "Add New Entry"
+								}, {
+									"contentKey": "weeklyAveragesHoursOfSleepGraphStartLabel",
+									"content": "Start"
+								}, {
+									"contentKey": "sleepPMLabel",
+									"content": "PM"
+								}, {
+									"contentKey": "sleepLogIndicateTimeWhatTimeBackInBed",
+									"content": "What time did you go back to sleep?"
+								}, {
+									"contentKey": "sleepLogTimeGetOutOfBed",
+									"content": "What time did you get out of bed?"
+								}, {
+									"contentKey": "hoursOfSleepTitle",
+									"content": "Hours of Sleep"
+								}, {
+									"contentKey": "sleepLogHowLongAwakeQuestion",
+									"content": "How long were you awake during the night?"
+								}, {
+									"contentKey": "sleepWakingUpSlideToAnswerLabel",
+									"content": "Slide to Answer"
+								}, {
+									"contentKey": "sleepLogRateEnergyLevelQuestion",
+									"content": "How would you rate your daytime energy level?"
+								}, {
+									"contentKey": "hoursSleptHoursPerNightLabel",
+									"content": "hours per night"
+								}, {
+									"contentKey": "sleepBackToSummaryButton",
+									"content": "See My Summary"
+								}, {
+									"contentKey": "sleepLengthOfTimeLabel",
+									"content": "Length of Time"
+								}, {
+									"contentKey": "sleepSaveButton",
+									"content": "Save"
+								}, {
+									"contentKey": "howCanTrackingSleepHelpContent",
+									"content": "Tracking your sleep can help you understand your sleep patterns, what's working and not working, and your overall progress. Log in daily to track your sleep or print out the <a href=\" https://localhost-media.healthmedia.net//media/pdfs/program_sleep_skills/sleep_log.pdf\" target=\"_blank\">Sleep Log PDF</a> and check in weekly. Learn more about the numbers and graphs below in the <a href=\"https://localhost-media.healthmedia.net//media/pdfs/program_sleep_skills/how_to_use.pdf\" target=\"_blank\">How Do I Use the Sleep Tracker? PDF</a>."
+								}, {
+									"contentKey": "allQuestionsAreRequiredText",
+									"content": "All Questions Are Required"
+								}, {
+									"contentKey": "sleepLogWakingUpTitle",
+									"content": "Waking up"
+								}, {
+									"contentKey": "sleepLogTimeWakeUpQuestion",
+									"content": "What time did you wake up for the day?"
+								}, {
+									"contentKey": "sleepWakingUpExtremelyLowEnergyLabel",
+									"content": "Extremely low energy"
+								}, {
+									"contentKey": "sleepQuestionsIDidntFallAsleepText",
+									"content": "I didn't fall asleep"
+								}, {
+									"contentKey": "sleepTimesGraphAwakeLabel",
+									"content": "Awake"
+								}, {
+									"contentKey": "sleepWakingUpExtremelyHighEnergyLabel",
+									"content": "Extremely high energy"
+								}, {
+									"contentKey": "sleepTimesContent",
+									"content": "Pay attention to your wake and sleep times and how well you're sleeping through the night. Sticking to a consistent sleep schedule, even on the weekends, can help get your sleep back on track."
+								}, {
+									"contentKey": "weeklyAverageContent",
+									"content": "The graphs below show weekly averages of your hours of sleep and energy level."
+								}, {
+									"contentKey": "hoursSleptHourPerNight",
+									"content": "hour per night"
+								}
+							]
+						},{
+							"name": "weightCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "currentWeight",
+									"content": "Current Weight"
+								}, {
+									"contentKey": "weightUnits",
+									"content": "lbs"
+								}, {
+									"contentKey": "bmi",
+									"content": "BMI"
+								}, {
+									"contentKey": "StatusUpdateText",
+									"content": "Tri-tip dolore <strong>pastrami</strong>, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "newWeightLabel",
+									"content": "Your current weight in lbs"
+								}, {
+									"contentKey": "newBmiLabel",
+									"content": "Your current BMI"
+								}, {
+									"contentKey": "BMIOverweight",
+									"content": "<strong>Welcome!</strong> It's great to hear that you are interested in losing some weight. We understand that losing weight isn't always an easy task. But if you work at it, we're confident we can help you reach your goal. The weight you entered tells us that you are considered overweight. We don't want you to feel like that's a bad thing; after all, everyone starts somewhere, and we're here to help. We use the information you shared with us to calculate your Body Mass Index, or BMI, so we can determine where you are. Your BMI measures the amount of fat in your body, so it is useful for predicting health risks related to body fat. A BMI of between 18.5 to 24.9 is considered healthy. While you aren't obese, we'd like to help you reach a healthier weight. We'll share some personalized skills and action steps with you to help you build healthy habits so you can start losing some weight and reaching your goals. Let's get started."
+								}, {
+									"contentKey": "BMINormal",
+									"content": "Welcome! It's great to hear that you are interested in losing weight. We know that losing weight isn't an easy task. We're here to help you reach your goal. The weight you entered tells us that you are at what is considered a normal weight. We used the information you shared with us to calculate your Body Mass Index, or BMI, to determine where you are. Your BMI measures the amount of fat in your body, and it is useful for predicting health risks related to body fat. A healthy range for a BMI is between 18.5 and 24.9. You are within the healthy BMI range. That's great! This program will provide you with skills and action steps that will be a great addition to your healthy habits, and make it even easier for you to maintain a healthy weight."
+								}, {
+									"contentKey": "BMIFirstTimer",
+									"content": "Welcome! Let's Get Started"
+								}
+							]
+						}, {
+							"name": "chronicConditionCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "LifestyleLabel",
+									"content": "Lifestyle"
+								}, {
+									"contentKey": "EmotionalLabel",
+									"content": "Emotional"
+								}, {
+									"contentKey": "MedicalLabel",
+									"content": "Medical"
+								}, {
+									"contentKey": "MedicalDescription",
+									"content": "Taking care of my medical needs"
+								}, {
+									"contentKey": "LifestyleDescription",
+									"content": "Living a healthy lifestyle"
+								}, {
+									"contentKey": "EmotionalDescription",
+									"content": "Managing emotional issues"
+								}, {
+									"contentKey": "MedicalExamples",
+									"content": "(such as taking medicine, going to the doctor, describing my symptoms, etc.)"
+								}, {
+									"contentKey": "EmotionalExamples",
+									"content": "(such as fear, anger, uncertainty about the future, relationships with friends and family, stress, depression, etc.)"
+								}, {
+									"contentKey": "LifestyleExamples",
+									"content": "(such as carrying out daily activities, exercising, eating well, keeping an active social life, etc.)"
+								}, {
+									"contentKey": "statusUpdateText",
+									"content": "Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "LifestyleGood",
+									"content": "You are living healthy! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "LifestyleBad",
+									"content": "<strong>There are some changes to make.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalGood",
+									"content": "You are doing great! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalBad",
+									"content": "<strong>There is room for improvement.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "MedicalGood",
+									"content": "You are feeling great! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "MedicalBad",
+									"content": "<strong>Let's find solutions to your pain.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalFirstTimer",
+									"content": "Hello First Timer, Let's get started"
+								}
+							]
+						}, {
+							"name": "diabetesCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "LifestyleLabel",
+									"content": "Lifestyle"
+								}, {
+									"contentKey": "EmotionalLabel",
+									"content": "Emotional"
+								}, {
+									"contentKey": "MedicalLabel",
+									"content": "Medical"
+								}, {
+									"contentKey": "MedicalDescription",
+									"content": "Taking care of my medical needs"
+								}, {
+									"contentKey": "EmotionalDescription",
+									"content": "Living a healthy lifestyle"
+								}, {
+									"contentKey": "LifestyleDescription",
+									"content": "Managing emotional issues"
+								}, {
+									"contentKey": "MedicalExamples",
+									"content": "(such as taking medicine, going to the doctor, describing my symptoms, etc.)"
+								}, {
+									"contentKey": "EmotionalExamples",
+									"content": "(such as fear, anger, uncertainty about the future, relationships with friends and family, stress, depression, etc.)"
+								}, {
+									"contentKey": "LifestyleExamples",
+									"content": "(such as carrying out daily activities, exercising, eating well, keeping an active social life, etc.)"
+								}, {
+									"contentKey": "statusUpdateText",
+									"content": "Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "LifestyleGood",
+									"content": "You are living healthy! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "LifestyleBad",
+									"content": "<strong>There are some changes to make.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalGood",
+									"content": "You are doing great! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalBad",
+									"content": "<strong>There is room for improvement.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "MedicalGood",
+									"content": "You are feeling great! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "MedicalBad",
+									"content": "<strong>Let's find solutions to your pain.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "EmotionalFirstTimer",
+									"content": "Hello First Timer, Let's get started"
+								}
+							]
+						}, {
+							"name": "depressionCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "statusUpdateText",
+									"content": "Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "questionPageLeadIn",
+									"content": "How did you feel during the past week?"
+								}, {
+									"contentKey": "depressionSymptomsGraph",
+									"content": "How much are symptoms of depression affecting you?"
+								}, {
+									"contentKey": "depDepressed",
+									"content": "I felt depressed."
+								}, {
+									"contentKey": "depDisliked",
+									"content": "I felt that people disliked me."
+								}, {
+									"contentKey": "depHappy",
+									"content": "I was happy."
+								}, {
+									"contentKey": "depFeltEffort",
+									"content": "I felt that everything I did was an effort."
+								}, {
+									"contentKey": "depRestless",
+									"content": "My sleep was restless."
+								}, {
+									"contentKey": "depFeltLonely",
+									"content": "I felt lonely."
+								}, {
+									"contentKey": "depOthersUnfriendly",
+									"content": "People were unfriendly."
+								}, {
+									"contentKey": "depEnjoyedLife",
+									"content": "I enjoyed life."
+								}, {
+									"contentKey": "depFeltSad",
+									"content": "I felt sad."
+								}, {
+									"contentKey": "depNotGetGoing",
+									"content": "I could not \"get going.\""
+								}, {
+									"contentKey": "depCrying",
+									"content": "I had or felt like having crying spells."
+								}, {
+									"contentKey": "depHopeful",
+									"content": "I felt hopeful about the future."
+								}, {
+									"contentKey": "depUseful",
+									"content": "I felt that I was useful and needed."
+								}, {
+									"contentKey": "depAnxious",
+									"content": "I felt anxious or nervous."
+								}, {
+									"contentKey": "CESDGood",
+									"content": "You are living healthy! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "CESDBad",
+									"content": "<strong>There are some changes to make.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "CESDFirstTimer",
+									"content": "Hello First Timer, Let's get started"
+								}, {
+									"contentKey": "none",
+									"content": "Not at all"
+								}, {
+									"contentKey": "veryLittle",
+									"content": "Very Little"
+								}, {
+									"contentKey": "somewhat",
+									"content": "Somewhat"
+								}, {
+									"contentKey": "considerably",
+									"content": "Considerably"
+								}, {
+									"contentKey": "aLot",
+									"content": "A Lot"
+								}
+							]
+						}, {
+							"name": "physicalActivityCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "physicalActivityScore",
+									"content": "Physical Activity Score"
+								}, {
+									"contentKey": "statusUpdateText",
+									"content": "Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "moderateActivityLabel",
+									"content": "Moderate Activity"
+								}, {
+									"contentKey": "vigorousActivityLabel",
+									"content": "Vigorous Activity"
+								}, {
+									"contentKey": "strengthTrainingLabel",
+									"content": "Strength Training"
+								}, {
+									"contentKey": "RarelyOrNever",
+									"content": "Rarely or never"
+								}, {
+									"contentKey": "1DayPerWeek",
+									"content": "Once a week"
+								}, {
+									"contentKey": "2DaysPerWeek",
+									"content": "Twice a week"
+								}, {
+									"contentKey": "3DaysPerWeek",
+									"content": "3 times a week"
+								}, {
+									"contentKey": "4To5DaysPerWeek",
+									"content": "4-5 times a week"
+								}, {
+									"contentKey": "6To7DaysPerWeek",
+									"content": "6-7 times a week"
+								}
+							]
+						}, {
+							"name": "stressCoachingTool",
+							"contentValues": [
+								{
+									"contentKey": "statusUpdateText",
+									"content": "Tri-tip dolore pastrami, officia est nulla proident ullamco salami beef ham hock ea spare ribs. Kevin swine venison short loin. Shoulder nostrud laborum rump sint nisi. Veniam fugiat biltong proident anim. Jerky fugiat consectetur pork loin in eiusmod."
+								}, {
+									"contentKey": "questionPageLeadIn",
+									"content": "In the last month, how often have you..."
+								}, {
+									"contentKey": "relaxUpsetUnexpected",
+									"content": "been upset because of something that happened unexpectedly?"
+								}, {
+									"contentKey": "relaxNoControl",
+									"content": "felt that you couldn't control the important things in your life?"
+								}, {
+									"contentKey": "relaxNervousStressed",
+									"content": "felt nervous or stressed?"
+								}, {
+									"contentKey": "relaxConfident",
+									"content": "felt confident that you could handle your personal problems?"
+								}, {
+									"contentKey": "relaxGoingYourWay",
+									"content": "felt that things were going your way?"
+								}, {
+									"contentKey": "relaxCopeWithThings",
+									"content": "found that you could not cope with all the things you had to do?"
+								}, {
+									"contentKey": "relaxControlIrritations",
+									"content": "been able to control irritations in your life?"
+								}, {
+									"contentKey": "relaxOnTopOfThings",
+									"content": "felt like you were on top of things?"
+								}, {
+									"contentKey": "relaxAngered",
+									"content": "been angered because of things outside of you control?"
+								}, {
+									"contentKey": "relaxTooManyDifficulties",
+									"content": "felt that difficulties were piling up so high that you couldn't overcome them?"
+								}, {
+									"contentKey": "relaxGood",
+									"content": "You are living healthy! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "relaxBad",
+									"content": "<strong>There are some changes to make.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua."
+								}, {
+									"contentKey": "relaxFirstTimer",
+									"content": "Hello First Timer, Let's get started"
+								}, {
+									"contentKey": "none",
+									"content": "Not at all"
+								}, {
+									"contentKey": "veryLittle",
+									"content": "Very Little"
+								}, {
+									"contentKey": "somewhat",
+									"content": "Somewhat"
+								}, {
+									"contentKey": "considerably",
+									"content": "Considerably"
+								}, {
+									"contentKey": "aLot",
+									"content": "A Lot"
+								}, {
+									"contentKey": "never",
+									"content": "Never"
+								}, {
+									"contentKey": "rarely",
+									"content": "Rarely"
+								}, {
+									"contentKey": "sometimes",
+									"content": "Sometimes"
+								}, {
+									"contentKey": "fairlyOften",
+									"content": "Fairly Often"
+								}, {
+									"contentKey": "always",
+									"content": "Always"
+								}, {
+									"contentKey": "lowLabel",
+									"content": "Low"
+								}, {
+									"contentKey": "moderateLabel",
+									"content": "Moderate"
+								}, {
+									"contentKey": "highLabel",
+									"content": "High"
+								}, {
+									"contentKey": "veryHighLabel",
+									"content": "Very High"
+								}
+							]
+						}, {
+							"name": "smokingCessationCoachingTool",
+								"contentValues": [
+									{
+										"contentKey": "header",
+										"content": "Widget Heading"
+									},
+									{
+										"contentKey": "slipTrackingPreQuitText",
+										"content": "This is where the text that replaces slip tracking for pre-quit date users would go."
+									},
+									{
+										"contentKey": "slipTrackingQuestionLeadIn",
+										"content": "This is where the text that leads into the slip tracking question would go."
+									},
+									{
+										"contentKey": "slipTrackingQuestion",
+										"content": "Have you smoked since you quit?"
+									},
+									{
+										"contentKey": "improvementNoticedBannerPrefix",
+										"content": "You've noticed "
+									},
+									{
+										"contentKey": "improvementNoticedBannerInfix",
+										"content": " of "
+									},
+									{
+										"contentKey": "improvementNoticedBannerPostfix",
+										"content": " improvements to your health since you quit. Nice!"
+									},
+									{
+										"contentKey": "improvementNoticedCheckboxLabel",
+										"content": "I've noticed this improvement since I quit!"
+									},
+									{
+										"contentKey": "SmokingImpactHearingImprovementName",
+										"content": "SmokingImpactHearing improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactHearingImprovementPostQuitDescription",
+										"content": "SmokingImpactHearing post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactHearingImprovementPreQuitDescription",
+										"content": "SmokingImpactHearing pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactVisionImprovementName",
+										"content": "SmokingImpactVision improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactVisionImprovementPostQuitDescription",
+										"content": "SmokingImpactVision post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactVisionImprovementPreQuitDescription",
+										"content": "SmokingImpactVision pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactMouthImprovementName",
+										"content": "SmokingImpactMouth improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactMouthImprovementPostQuitDescription",
+										"content": "SmokingImpactMouth post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactMouthImprovementPreQuitDescription",
+										"content": "SmokingImpactMouth pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactFaceSkinImprovementName",
+										"content": "SmokingImpactFaceSkin improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactFaceSkinImprovementPostQuitDescription",
+										"content": "SmokingImpactFaceSkin post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactFaceSkinImprovementPreQuitDescription",
+										"content": "SmokingImpactFaceSkin pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactSmellTasteImprovementName",
+										"content": "SmokingImpactSmellTaste improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactSmellTasteImprovementPostQuitDescription",
+										"content": "SmokingImpactSmellTaste post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactSmellTasteImprovementPreQuitDescription",
+										"content": "SmokingImpactSmellTaste pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactBellyImprovementName",
+										"content": "SmokingImpactBelly improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactBellyImprovementPostQuitDescription",
+										"content": "SmokingImpactBelly post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactBellyImprovementPreQuitDescription",
+										"content": "SmokingImpactBelly pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactMusclesImprovementName",
+										"content": "SmokingImpactMuscles improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactMusclesImprovementPostQuitDescription",
+										"content": "SmokingImpactMuscles post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactMusclesImprovementPreQuitDescription",
+										"content": "SmokingImpactMuscles pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactHormonesImprovementName",
+										"content": "SmokingImpactHormones improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactHormonesImprovementPostQuitDescription",
+										"content": "SmokingImpactHormones post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactHormonesImprovementPreQuitDescription",
+										"content": "SmokingImpactHormones pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactSexualHealthImprovementName",
+										"content": "SmokingImpactSexualHealth improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactSexualHealthImprovementPostQuitDescription",
+										"content": "SmokingImpactSexualHealth post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactSexualHealthImprovementPreQuitDescription",
+										"content": "SmokingImpactSexualHealth pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactHeartHealthImprovementName",
+										"content": "SmokingImpactHeartHealth improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactHeartHealthImprovementPostQuitDescription",
+										"content": "SmokingImpactHeartHealth post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactHeartHealthImprovementPreQuitDescription",
+										"content": "SmokingImpactHeartHealth pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactLungsImprovementName",
+										"content": "SmokingImpactLungs improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactLungsImprovementPostQuitDescription",
+										"content": "SmokingImpactLungs post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactLungsImprovementPreQuitDescription",
+										"content": "SmokingImpactLungs pre-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactAirwaysImprovementName",
+										"content": "SmokingImpactAirways improvement name"
+									},
+									{
+										"contentKey": "SmokingImpactAirwaysImprovementPostQuitDescription",
+										"content": "SmokingImpactAirways post-quit description"
+									},
+									{
+										"contentKey": "SmokingImpactAirwaysImprovementPreQuitDescription",
+										"content": "SmokingImpactAirways pre-quit description"
+									}
+								]
+						}, {
+							"name": "segmentation",
+							"contentValues": [
+								{
+									"contentKey": "programTitle",
+									"content": "wellness type"
+								}, {
+									"contentKey": "title",
+									"content": "Discover Your Wellness Type"
+								}, {
+									"contentKey": "introText",
+									"content": "Understanding what motivates you can help you make the most of health and wellness efforts."
+								}, {
+									"contentKey": "start",
+									"content": "Which one are you?"
+								}, {
+									"contentKey": "surveyTitle",
+									"content": "Your Approach to Health"
+								}, {
+									"contentKey": "surveyDescription",
+									"content": "We would like to learn about your thoughts regarding health programs as well as what works for you in terms of support. Below are 7 statements. For each statement, indicate how you feel about each when it comes to health and wellness programs."
+								}, {
+									"contentKey": "allFieldsRequired",
+									"content": "All Questions Required."
+								}, {
+									"contentKey": "boosterClubberTitle",
+									"content": "Community Enthusiast"
+								}, {
+									"contentKey": "committedMultitaskerTitle",
+									"content": "Committed Multitasker"
+								}, {
+									"contentKey": "energizedChampionTitle",
+									"content": "Energized Champion"
+								}, {
+									"contentKey": "freeAgentTitle",
+									"content": "Free Agent"
+								}, {
+									"contentKey": "teamPlayerTitle",
+									"content": "Team Player"
+								}, {
+									"contentKey": "skepticalStarterTitle",
+									"content": "Skeptical Starter"
+								}, {
+									"contentKey": "boosterClubberDescription",
+									"content": "Many people who respond the way you did are looking for fun, encouragement, and expert advice on their path to better  health. Like them, you probably find it motivating to share your journey with others. If so, take advantage of group or team-based programs that can help you enjoy the things and people in your life even more."
+								}, {
+									"contentKey": "committedMultitaskerDescription",
+									"content": "Many people who respond the way you did feel there are much bigger issues to deal with before they can begin focusing on their health. So, chances are, your overall wellness efforts get put on the back burner because of other things in life that take a  higher priority.  If so, you're probably only interested in making small changes — ones that fit into your busy life (and might even help you handle those bigger concerns)."
+								}, {
+									"contentKey": "energizedChampionDescription",
+									"content": "Based on your responses, you probably take  a very disciplined, \"Just Do It\" approach to wellness. Even if you're already working on your health and fitness, chances are high that you enjoy it and would welcome additional resources to keep meeting your goals."
+								}, {
+									"contentKey": "freeAgentDescription",
+									"content": "Based on your responses, you're probably pretty independent and prefer to do things on your own terms, especially when it comes to your health. Chances are, you don't want others concerning themselves with your efforts or goals. If so, programs that are completely confidential and personalized around your priorities probably fit your style the best."
+								}, {
+									"contentKey": "teamPlayerDescription",
+									"content": "Based on your responses, you probably prefer some team accountability when it comes to your health. Chances are, being able to track your progress and a little friendly competition help to energize you, too. Take advantage of wellness programs that offer this type of team support."
+								}, {
+									"contentKey": "skepticalStarterDescription",
+									"content": "Many people who respond the way you did might need a little motivation boost to take care of their health. It's easy to feel overwhelmed about figuring out what the first step should be, which makes getting started all the more of a challenge - right? If so, you're probably only interested in wellness programs that make taking care of yourself easier."
+								}, {
+									"contentKey": "confirmButtonText",
+									"content": "Choose This Type"
+								}, {
+									"contentKey": "getStarted",
+									"content": "Get Started"
+								}, {
+									"contentKey": "SegmentationConfidenceManageHealth",
+									"content": "1. I am extremely confident in my ability to manage my health."
+								}, {
+									"contentKey": "SegmentationBarrierProgramParticipationIsFearOfFailure",
+									"content": "2. When I think about starting a health &amp; wellness program, I tend to feel scared that I won't be successful."
+								}, {
+									"contentKey": "SegmentationGroupIsBestSupport",
+									"content": "3. The kind of support that works best for me is a group setting."
+								}, {
+									"contentKey": "SegmentationBarrierProgramParticipationIsFamilyResentmentOfTimeSpent",
+									"content": "4. My family would resent me taking on a program to improve my health &amp; wellness because of the extra time it will require."
+								}, {
+									"contentKey": "SegmentationMotivationMaintainedByTalkingAboutFeelings",
+									"content": "5. To me, exercise just isn't all that fun / enjoyable."
+								}, {
+									"contentKey": "SegmentationMotivationMaintainedBySeeingImpactToLifeOrHealth",
+									"content": "6. What keeps me motivated along the way is showing me how the changes I have made so far have potentially impacted me, my life, and/or my health."
+								}, {
+									"contentKey": "SegmentationBarrierPhysicalActivityIsNotEnjoyable",
+									"content": "7. What keeps me motivated along the way is continually talking to others about my feelings."
+								}, {
+									"contentKey": "stronglyDisagree",
+									"content": "Strongly Disagree"
+								}, {
+									"contentKey": "mostlyDisagree",
+									"content": "Mostly Disagree"
+								}, {
+									"contentKey": "slightlyDisagree",
+									"content": "Slightly Disagree"
+								}, {
+									"contentKey": "slightlyAgree",
+									"content": "Slightly Agree"
+								}, {
+									"contentKey": "mostlyAgree",
+									"content": "Mostly Agree"
+								}, {
+									"contentKey": "stronglyAgree",
+									"content": "Strongly Agree"
+								}, {
+									"contentKey": "calculatingSegment",
+									"content": "We're calculating your segment now."
+								}, {
+									"contentKey": "decidingSegment",
+									"content": "Your patience is appreciated."
+								}, {
+									"contentKey": "youAreA",
+									"content": "Your wellness type is: "
+								}, {
+									"contentKey": "doesNotSoundLikeYou",
+									"content": "Doesn't sound like you? Use the button below to choose your own wellness type."
+								}, {
+									"contentKey": "chooseSegmentButton",
+									"content": "Choose Your Own"
+								}, {
+									"contentKey": "confirmAnswers",
+									"content": "Please confirm your answers. You can go back and change your answers before confirming."
+								}, {
+									"contentKey": "confirmAnswersLabel",
+									"content": "Confirm Answers"
+								}, {
+									"contentKey": "changeAnswer",
+									"content": "Change Answer"
+								}
+							]
+						}, {
+							"name": "programListingContainer",
+							"contentValues": [
+								{
+									"contentKey": "uninterestedTitleOpen",
+									"content": "You have "
+								}, {
+									"contentKey": "uninterestedTitleProgramSingle",
+									"content": " program"
+								}, {
+									"contentKey": "uninterestedTitleProgramPlural",
+									"content": " programs"
+								}, {
+									"contentKey": "uninterestedTitleClose",
+									"content": " you're not interested in"
+								}
+							]
+						}, {
+							"name": "programListingWidget",
+							"contentValues": [
+								{
+									"contentKey": "closeDetailsText",
+									"content": "Back"
+								}, {
+									"contentKey": "learnMoreText",
+									"content": "Learn more"
+								}, {
+									"contentKey": "startText",
+									"content": "Get started"
+								}, {
+									"contentKey": "detailsText",
+									"content": "Details"
+								}, {
+									"contentKey": "continueText",
+									"content": "Continue Consultation"
+								}, {
+									"contentKey": "planCreatedText",
+									"content": "Plan created on"
+								}, {
+									"contentKey": "availableText",
+									"content": "is now available"
+								}, {
+									"contentKey": "viewNowText",
+									"content": "View Now"
+								}, {
+									"contentKey": "yearSinceText",
+									"content": "It's been a year since you started."
+								}, {
+									"contentKey": "freshStartText",
+									"content": "You have the option to restart your program for a fresh start"
+								}, {
+									"contentKey": "noThanksText",
+									"content": "No Thanks"
+								}, {
+									"contentKey": "notInterested",
+									"content": "Not Interested"
+								}, {
+									"contentKey": "interested",
+									"content": "I'm Interested"
+								}, {
+									"contentKey": "startedOn",
+									"content": "Started on"
+								}, {
+									"contentKey": "retakeTitle",
+									"content": "It's been a year since you started."
+								}, {
+									"contentKey": "retakeDescription",
+									"content": "You have the option to restart your program for a fresh start"
+								}, {
+									"contentKey": "retakeMoreInfo",
+									"content": "Restarting clears your program for a fresh start. We'll learn where you are today with a consultation to recommend new skills and action steps."
+								}, {
+									"contentKey": "noThanks",
+									"content": "No Thanks"
+								}, {
+									"contentKey": "whatsRestarting",
+									"content": "What is restarting?"
+								}, {
+									"contentKey": "retakeProgram",
+									"content": "Restart"
+								}, {
+									"contentKey": "isNowAvailable",
+									"content": "is now available"
+								}, {
+									"contentKey": "skillDetailsButton",
+									"content": "Details"
+								}, {
+									"contentKey": "viewNowButton",
+									"content": "View Now"
+								}, {
+									"contentKey": "continueConsulation",
+									"content": "Continue Consultation"
+								}, {
+									"contentKey": "consultation",
+									"content": "Consultation"
+								}, {
+									"contentKey": "complete",
+									"content": "complete"
+								}, {
+									"contentKey": "completeNote",
+									"content": "Upon completion, a personalized plan will be created to help you reach your goal"
+								}
+							]
+						}, {
+							"name": "balanceProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "balance"
+								}, {
+									"contentKey": "title",
+									"content": "Manage Your Weight"
+								}, {
+									"contentKey": "description",
+									"content": "Perfect the blend of mind, body, and food. Balance can help you reach your goal weight and maximize health and performance."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Let's hear it for equilibrium!"
+								}, {
+									"contentKey": "details",
+									"content": "It's not easy to master the mix of exercise and food - 2/3 of us wrestle with our weight. But we'll teach you how to reach that ideal balance. The benefits will be obvious, and can be - if you stick with it - permanent. With Balance, we won't crack whips while you run marathons or toss your chocolate. All we ask is simple changes to how you eat, move, and think about how you eat and move. And we'll show you how."
+								}
+							]
+						}, {
+							"name": "moveProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "move"
+								}, {
+									"contentKey": "title",
+									"content": "Be More Active"
+								}, {
+									"contentKey": "description",
+									"content": "By sneaking movement into your routine, Move can help inspire anyone — even a certified couch potato — to get up, moving, and healthy."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Life moves better when you do."
+								}, {
+									"contentKey": "details",
+									"content": "Remember when you were a kid and you tore around, pretending to be a dancer, or a jet pilot, or a dancing jet pilot. Maybe you drove your parents nuts, but you did one thing right: constant motion. We might not make you as active as back then, but with Move, we'll help you realize the benefits of all that movement: more energy, improved range of motion, better health — maybe even a more youthful outlook on life."
+								}
+							]
+						}, {
+							"name": "nourishProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "nourish"
+								}, {
+									"contentKey": "title",
+									"content": "Eat Healthier"
+								}, {
+									"contentKey": "description",
+									"content": "Nourish offers easy-to-understand, one-on-one nutritional counseling to help improve your eating habits — for life."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Fiber and folates and fat, oh my!"
+								}, {
+									"contentKey": "details",
+									"content": "These days it can take a small army to figure out how to eat right. Nutritional landmines are everywhere and even \"good\" foods can pack a day's worth of salt, fat, or calories. No need to call in the Marines — just us. And we won't make you toss the fries (although we might body-block you if you supersize). Nourish will show you how balance, portions, and small adjustments will fuel you the right way."
+								}
+							]
+						}, {
+							"name": "relaxProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "relax"
+								}, {
+									"contentKey": "title",
+									"content": "Deal with Stress"
+								}, {
+									"contentKey": "description",
+									"content": "Relax puts your sources and symptoms of tension under a microscope, then unveils proven strategies to help keep you calm under pressure."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Don't snap. Give yourself a break."
+								}, {
+									"contentKey": "details",
+									"content": "Traffic. Work. The in-laws\" surprise visit. And life's big curveballs — illness, divorce, the death of a loved one. Stress can savage sleep, your heart, your weight ... no wonder it's been called our biggest health threat. We can't deflect your boss's Sunday morning calls or time-travel you through your commute. But with Relax, we'll teach you how to catch and handle tension before it gets the upper hand."
+								}
+							]
+						}, {
+							"name": "breatheProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "breathe"
+								}, {
+									"contentKey": "title",
+									"content": "Quit Smoking"
+								}, {
+									"contentKey": "description",
+									"content": "Based on 7 key principles, Breathe crafts a quit plan that plays to your strengths to help get you past old roadblocks."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Clear the air — for good."
+								}, {
+									"contentKey": "details",
+									"content": "\"Quitting is easy. I've done it a thousand times.\" What Mark Twain said might be true for you too. Quitting smoking is a process, not a moment. With Breathe, we'll cover before, during, and after with you. We'll craft a plan to help get you through the toughest moments and focus on the prize: decreased disease risk, more energy, a restored sense of taste and smell... we could go on, but you get the point."
+								}
+							]
+						}, {
+							"name": "depressionProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "depression"
+								}, {
+									"contentKey": "title",
+									"content": "Care for Depression"
+								}, {
+									"contentKey": "description",
+									"content": "Whether it's the blues or more serious, Care for Depression provides individualized, confidential help that gets results."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Let the sun shine in."
+								}, {
+									"contentKey": "details",
+									"content": "Sometimes depression sneaks up. Other times, it seems we'll never escape it. Maybe we know we need help, but are afraid to ask. We're not alone, 1 in 5 Americans has grappled with it. Learn how you can cope with symptoms, change negative thinking, and help prevent relapses with Care for Depression. Your plan will help you get the most from treatments, doctors, and life."
+								}
+							]
+						}, {
+							"name": "insomniaProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "insomnia"
+								}, {
+									"contentKey": "title",
+									"content": "Sleep Better"
+								}, {
+									"contentKey": "description",
+									"content": "Short of energy and focus during the day? Care for Sleep is packed with effective strategies for conquering sleepless nights."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Saw logs, don't sleepwalk through life."
+								}, {
+									"contentKey": "details",
+									"content": "\"If I can just fall asleep by 1:30 or 2 a.m., I'll be fine...\" Sound familiar? As much as a third of the adult U.S. population sleeps poorly. And you don't need a lecture on what sleeplessness can do to your health and your life. Care for Sleep offers a range of solutions to help improve your sleep without medication. We'll turn off the lights on the way out."
+								}
+							]
+						}, {
+							"name": "bingeProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "binge"
+								}, {
+									"contentKey": "title",
+									"content": "Stop Binge Eating"
+								}, {
+									"contentKey": "description",
+									"content": "Binge Eating uses emotional healing and interactive exercises to help change negative thoughts and normalize eating."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Redefining your relationship with food."
+								}, {
+									"contentKey": "details",
+									"content": "We've all overdosed on ice cream, or had a third serving. But for some of us overeating becomes a disorder, hidden and cloaked in shame. Bingeing is the most common eating disorder and affects almost twice as many women as men. With Binge Eating, we'll help you define and address the roots of it, guide you to a healthier relationship with food, and give you tools and structure to help you stay there."
+								}
+							]
+						}, {
+							"name": "controlProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "control"
+								}, {
+									"contentKey": "title",
+									"content": "Manage Your Blood Pressure"
+								}, {
+									"contentKey": "description",
+									"content": "Care for Blood Pressure starts with a comprehensive overview, then provides techniques and tools to help keep you out of the danger zone."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Evening out the pressure"
+								}, {
+									"contentKey": "details",
+									"content": "Because blood pressure is — well, at the heart of things — keeping it within safe limits is critical to well-being. Hypertension elevates heart attack and stroke risk and increases wear and tear on your vessels. That's no better for your body than overinflated tires are for your car. Managing it may take time and effort, lifestyle changes, or medication. Care for Blood Pressure can help clear your path to better health."
+								}
+							]
+						}, {
+							"name": "achieveProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "achieve"
+								}, {
+									"contentKey": "title",
+									"content": "Manage Your Cholesterol"
+								}, {
+									"contentKey": "description",
+									"content": "Simple lifestyle changes and in-depth education can mean improved A1c levels and better health. Discover Care for Diabetes."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Be part of the solution."
+								}, {
+									"contentKey": "details",
+									"content": "One in 10 American adults has diabetes, and the disease is spreading — 7 million new cases worldwide every year. But the epidemic can be managed a at a time, starting with you. Care for Diabetes puts you in charge of your condition so you can live life on your terms. We'll cover how to improve eating, manage meds, and get more from your health care team."
+								}
+							]
+						}, {
+							"name": "careProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "care"
+								}, {
+									"contentKey": "title",
+									"content": "Care for Chronic Conditions"
+								}, {
+									"contentKey": "description",
+									"content": "Be the quarterback of your health care team, not a spectator. Care for Your Health reveals the 10 secrets to help manage any chronic condition."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Take Charge"
+								}, {
+									"contentKey": "details",
+									"content": "Handling one persistent health issue can be a lot. Dealing with several at once is like juggling porcupines. But sometimes a little well-timed help is all it takes to turn things around. Care for Your Health can lead you toward a fuller, happier, healthier life by putting you in the driver's seat where you belong (even if you have some uninvited passengers along)."
+								}
+							]
+						}, {
+							"name": "diabetesProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "diabetes"
+								}, {
+									"contentKey": "title",
+									"content": "Care for Diabetes"
+								}, {
+									"contentKey": "description",
+									"content": "Simple lifestyle changes and in-depth education can mean improved A1c levels and better health. Discover Care for Diabetes."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Be part of the solution."
+								}, {
+									"contentKey": "details",
+									"content": "One in 10 American adults has diabetes, and the disease is spreading — 7 million new cases worldwide every year. But the epidemic can be managed a case at a time, starting with you. Care for Diabetes puts you in charge of your condition so you can live life on your terms. We'll cover how to improve eating, manage meds, and get more from your health care team."
+								}
+							]
+						}, {
+							"name": "backProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "back"
+								}, {
+									"contentKey": "title",
+									"content": "Care for Back Pain"
+								}, {
+									"contentKey": "description",
+									"content": "Care for Your Back unfolds a personal roadmap to help reduce pain and regain control of your daily life."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "We've got your back."
+								}, {
+									"contentKey": "details",
+									"content": "Cervical, thoracic, lumbar, or all three — a bad back is bad news. And anybody who's suffered from this type of pain understands how it can turn something as simple as tying your shoes into a major ordeal. Care for Your Back takes a scientific, multi-step approach that combines exercise and small, smart lifestyle changes to help put back pain behind you. So to speak."
+								}
+							]
+						}, {
+							"name": "carepainProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "carepain"
+								}, {
+									"contentKey": "title",
+									"content": "Care for Chronic Pain"
+								}, {
+									"contentKey": "description",
+									"content": "Uncover pressure-tested solutions to this widespread, debilitating problem in Care for Pain. You deserve to reclaim your life."
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Put out the fire."
+								}, {
+									"contentKey": "details",
+									"content": "Your pain is unique, and so is the way you respond to it. That's why one-size-fits-all approaches don't work. Care for Pain is patterned just for you — we'll help you manage it by showing you techniques to hem in your pain and trim your stress. We'll also explore ways of getting the most from your meds and your health care team. You deserve a better life. Why not start now?"
+								}
+							]
+						}, {
+							"name": "chronicConditionSkillsProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "chronicConditionSkills"
+								}, {
+									"contentKey": "title",
+									"content": "Chronic Condition Skills"
+								}, {
+									"contentKey": "description",
+									"content": "Chronic Condition Skills description"
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Chronic Condition Skills Detail Title"
+								}, {
+									"contentKey": "details",
+									"content": "Chronic Condition Skills description"
+								}
+							]
+						}, {
+							"name": "weightSkillsProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "weightSkills"
+								}, {
+									"contentKey": "title",
+									"content": "Weight Skills"
+								}, {
+									"contentKey": "description",
+									"content": "Weight Skills description"
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Weight Skills Detail Title"
+								}, {
+									"contentKey": "details",
+									"content": "Weight Skills details"
+								}
+							]
+						}, {
+							"name": "depressionSkillsProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "depressionSkills"
+								}, {
+									"contentKey": "title",
+									"content": "Depression Skills Title"
+								}, {
+									"contentKey": "description",
+									"content": "Depression Skills description"
+								}, {
+									"contentKey": "detailsTitle",
+									"content": "Depression Skills Detail TItle"
+								}, {
+									"contentKey": "details",
+									"content": "Depression Skills details"
+								}
+							]
+						}, {
+							"name": "physicalActivitySkillsProgramListing",
+							"contentValues": [
+								{
+									"contentKey": "programName",
+									"content": "PhysicalActivity"
+								}, {
+									"contentKey": "title",
+									"content": "Physical Activity Skills Title"
+								}, {
+									"contentKey": "description",
+									"content": ""
+								}, {
+									"contentKey": "detailsTitle",
+									"content": ""
+								}, {
+									"contentKey": "details",
+									"content": ""
+								}
+							]
+						}, {
+							"name": "linkMobileAppActionSteps",
+							"contentValues": [
+								{
+									"contentKey":"getStartedHeader",
+									"content":"How to Get Started"
+								},
+								{
+									"contentKey":"downloadInstructions",
+									"content":"Download the app from your app marketplace"
+								},
+								{
+									"contentKey":"appleStoreAltText",
+									"content":"appleStoreAltText"
+								},
+								{
+									"contentKey":"googleStoreAltText",
+									"content":"googleStoreAltText"
+								},
+								{
+									"contentKey":"codeGenInstructions",
+									"content":"We'll make it easy for you to login by assigning an account key code."
+								},
+								{
+									"contentKey":"codeGenButtonText",
+									"content":"Generate Your Key Code"
+								},
+								{
+									"contentKey":"codeGenLabel",
+									"content":"Your keycode is"
+								}
+							]
+						}
+					],
+					"responseCode": 0,
+					"responseDesc": "Success"
+				}
+			},
+			"/externalservices/resourcebundle?q=findByBundleNameAndLocale&bundleName=serviceFailure&locale=en_US": {
+				"responseCode": 100,
+				"responseDesc": "Illegal Argument"
+			}
+		},
+		"assessAuthToken": {
+			"": {
+				"resourceBundleResponse": {
+					"resourceBundle": [
+						{
+							"contentValues": [
+								{
+									"content": "Not interested",
+									"contentKey": "notInterested"
+								}, {
+									"content": "You have the option to restart your program for a fresh start.",
+									"contentKey": "freshStartText"
+								}, {
+									"content": "No Thanks",
+									"contentKey": "noThanks"
+								}, {
+									"content": "Back",
+									"contentKey": "closeDetailsText"
+								}, {
+									"content": "is now available",
+									"contentKey": "availableText"
+								}, {
+									"content": "Restart Program",
+									"contentKey": "retakeProgram"
+								}, {
+									"content": "You have the option to restart your program for a fresh start.",
+									"contentKey": "retakeDescription"
+								}, {
+									"content": "It's been a year since you started.",
+									"contentKey": "yearSinceText"
+								}, {
+									"content": "Upon completion, a personalized plan will be created to help you reach your goal.",
+									"contentKey": "completeNote"
+								}, {
+									"content": "Continue",
+									"contentKey": "continueText"
+								}, {
+									"content": "It's been a while since you started.",
+									"contentKey": "retakeTitle"
+								}, {
+									"content": "I'm interested",
+									"contentKey": "interested"
+								}, {
+									"content": "Learn more",
+									"contentKey": "detailsText"
+								}, {
+									"content": "Restarting clears your program for a fresh start. We'll learn where you are today with a consultation to recommend new skills and action steps.",
+									"contentKey": "retakeMoreInfo"
+								}, {
+									"content": "What is restarting?",
+									"contentKey": "whatsRestarting"
+								}, {
+									"content": "Consultation",
+									"contentKey": "consultation"
+								}, {
+									"content": "Learn More",
+									"contentKey": "learnMoreText"
+								}, {
+									"content": "View Now",
+									"contentKey": "viewNowText"
+								}, {
+									"content": "View Now",
+									"contentKey": "viewNowButton"
+								}, {
+									"content": "Started on",
+									"contentKey": "startedOn"
+								}, {
+									"content": "complete",
+									"contentKey": "complete"
+								}, {
+									"content": "Plan created on",
+									"contentKey": "planCreatedText"
+								}, {
+									"content": "Details",
+									"contentKey": "skillDetailsButton"
+								}, {
+									"content": "Get Started",
+									"contentKey": "startText"
+								}
+							],
+							"name": "programListingWidget"
+						}, {
+							"contentValues": [
+								{
+									"content": "Assess Your Health",
+									"contentKey": "title"
+								}, {
+									"content": "Health is made up of many parts, our lifestyle: our bodies, our biometrics, and our minds. Checking in, and taking a quick look at how things are going in each of these areas can give you a good picture of your health. Health Assessment poses a brief series of questions, and then uses what you share to offer you creative ideas to make the most of your health and well-being.",
+									"contentKey": "details"
+								}, {
+									"content": "Health Assessment helps you get an overview of your health and provides action steps to help you make improvements where it makes the most sense for you.",
+									"contentKey": "description"
+								}, {
+									"content": "Take a look at the big picture.",
+									"contentKey": "detailsTitle"
+								}, {
+									"content": "Health Assessment",
+									"contentKey": "programName"
+								}
+							],
+							"name": "assessProgramListing"
+						}, {
+							"contentValues": [
+								{
+									"content": "[DATE]",
+									"contentKey": "checkinModalEndDate"
+								}, {
+									"content": "minutes",
+									"contentKey": "minutes"
+								}, {
+									"content": "Submit",
+									"contentKey": "submit"
+								}, {
+									"content": "no",
+									"contentKey": "no"
+								}, {
+									"content": "No, thanks. I'll check in later.",
+									"contentKey": "checkinModalClose"
+								}, {
+									"content": "Next",
+									"contentKey": "next"
+								}, {
+									"content": "Back",
+									"contentKey": "back"
+								}, {
+									"content": "There was an issue communicating with a service.",
+									"contentKey": "serviceFailureHeader"
+								}, {
+									"content": "Cancel",
+									"contentKey": "cancel"
+								}, {
+									"content": "yes",
+									"contentKey": "yes"
+								}, {
+									"content": "New",
+									"contentKey": "new"
+								}, {
+									"content": "more",
+									"contentKey": "more"
+								}, {
+									"content": "Okay",
+									"contentKey": "okay"
+								}, {
+									"content": "day(s)",
+									"contentKey": "days"
+								}, {
+									"content": "Skill",
+									"contentKey": "skill"
+								}, {
+									"content": "Complete",
+									"contentKey": "complete"
+								}, {
+									"content": "Go to my check-in",
+									"contentKey": "checkinModalGoToCheckin"
+								}, {
+									"content": "Active",
+									"contentKey": "active"
+								}, {
+									"content": "Your check-in should only take about 5 minutes. You'll be able to give feedback on your progress and tell us how well we're doing our job of helping you.",
+									"contentKey": "checkinModalInformation"
+								}, {
+									"content": "Reload the application",
+									"contentKey": "serviceFailureButtonText"
+								}, {
+									"content": "Please reload the page. We apologize for the inconvenience.",
+									"contentKey": "serviceFailureContent"
+								}, {
+									"content": "less",
+									"contentKey": "less"
+								}, {
+									"content": "Small steps can add up to big changes. Take a few minutes to let us know how you're doing. Your check-in will be available until:",
+									"contentKey": "checkinModalContent"
+								}, {
+									"content": "Completed",
+									"contentKey": "completed"
+								}
+							],
+							"name": "common"
+						}, {
+							"contentValues": [
+								{
+									"content": "Logout",
+									"contentKey": "linksLogout"
+								}, {
+									"content": "Submit",
+									"contentKey": "questionNavSubmitButton"
+								}, {
+									"content": "Your Action Steps!",
+									"contentKey": "actionStepTitle"
+								}, {
+									"content": "Privacy Policy",
+									"contentKey": "privacyPolicy"
+								}, {
+									"content": "Skip",
+									"contentKey": "questionNavSkipButton"
+								}, {
+									"content": "Level",
+									"contentKey": "homeCategoryProgress"
+								}, {
+									"content": "Lifestyle Results",
+									"contentKey": "resultsLifestyleTitle"
+								}, {
+									"content": "Disagree",
+									"contentKey": "termsDisagreeButton"
+								}, {
+									"content": "Welcome to <br>Health Assessment.",
+									"contentKey": "welcomeIntroSuffix"
+								}, {
+									"content": "Please enter a whole number between {{min}} and {{max}}.",
+									"contentKey": "errorMessageNumericInput"
+								}, {
+									"content": "Systolic must be greater than Diastolic.",
+									"contentKey": "errorBloodPressureRatio"
+								}, {
+									"content": "Systolic",
+									"contentKey": "systolic"
+								}, {
+									"content": "Diastolic",
+									"contentKey": "diastolic"
+								}, {
+									"contentKey": "cholesterolAdditionIncorrect",
+									"content": "HDL plus LDL must equal total cholesterol"
+								}, {
+									"content": "Help",
+									"contentKey": "help"
+								}, {
+									"content": "Find out how your habits may influence your health.",
+									"contentKey": "homeLifestyleDescription"
+								}, {
+									"content": "You're about to leave this application. Would you like to proceed?",
+									"contentKey": "dialogExitApplication"
+								}, {
+									"content": "References",
+									"contentKey": "linksReferences"
+								}, {
+									"content": "Now that you've completed all levels in this category you can view your results.",
+									"contentKey": "resultsCompletedPathMessage"
+								}, {
+									"content": "Privacy Statement",
+									"contentKey": "linksPrivacy"
+								}, {
+									"content": "Home",
+									"contentKey": "questionNavHomeButton"
+								}, {
+									"content": "Action Step",
+									"contentKey": "actionStepHeader"
+								}, {
+									"content": "Home",
+									"contentKey": "navHome"
+								}, {
+									"content": "Choose a Category",
+									"contentKey": "introScreenOneTitle"
+								}, {
+									"content": "Agree",
+									"contentKey": "termsAgreeButton"
+								}, {
+									"content": "Complete!",
+									"contentKey": "homeCategoryCompleteTitle"
+								}, {
+									"content": "Tap the Get Started button to choose a category to dive into.",
+									"contentKey": "introScreenFiveTextReturningUser"
+								}, {
+									"content": "Terms and Conditions",
+									"contentKey": "termsLink"
+								}, {
+									"content": "View Another Category",
+									"contentKey": "resultsCategoryHomeButton"
+								}, {
+									"content": "<p>&copy; Johnson &amp; Johnson Health and Wellness Solutions, Inc. 1999-2014. All rights reserved.</p><p>This site is published by Johnson &amp; Johnson Health and Wellness Solutions, Inc. which is solely responsible for its contents, except for the content provided by third parties. This site is intended for visitors from the US only.</p>",
+									"contentKey": "copyrightText"
+								}, {
+									"content": "To get the most out of your Health Assessment experience, we recommend using your mobile device.",
+									"contentKey": "mobileOptimizedMessage"
+								}, {
+									"content": "TERMS AND CONDITIONS",
+									"contentKey": "termsTitle"
+								}, {
+									"content": "Things You Can Do",
+									"contentKey": "actionStepDo"
+								}, {
+									"content": "Continue",
+									"contentKey": "homeCategoryContinueButton"
+								}, {
+									"content": "Continue",
+									"contentKey": "questionNavNextButton"
+								}, {
+									"contentKey": "requiredButUnansweredQuestionForwardNavButtonText",
+									"content": "Response Required"
+								}, {
+									"content": "<strong>Privacy Statement</strong><p>This Privacy Statement is designed to tell you about our practices regarding the collection, use, and disclosure of information about you throughout your participation in health and performance programs (the \u201cPrograms\u201d) provided to you by Johnson &amp; Johnson Health and Wellness Solutions, Inc. (\u201cJ&amp;J Health and Wellness Solutions\u201d, \u201cWe\u201d, or \u201cUs\u201d). Please be sure to read this entire Privacy Statement before participating in the Programs.</p><p>In particular, this website and the information and content contained therein (the \u201cWebsite\u201d) allow you to use health and performance services made available to you by your sponsor (i.e., your employer, health plan, or healthcare provider). The Website\u2019s primary functions are to provide a variety of digital health services. In addition, the Website also serves as a central point through which you may access other Programs and information made available to you.</p><p>The Programs and this Website are provided to you by J&amp;J Health and Wellness Solutions in coordination with your sponsor. Your participation in the Programs and use of this Website are voluntary and based on your eligibility as determined by your sponsor.</p><p>This Privacy Statement was last updated on 16 October 2012 and became effective at that time. As We update this Privacy Statement from time to time, We will post the revised statement on the Website. Please check back periodically.</p><p>By registering for this Website or otherwise participating in the Programs, you agree to the terms of this Privacy Statement. Specifically, you authorize the collection, processing, retention, and disclosure of information about you by J&amp;J Health and Wellness Solutions and its affiliates, business partners, and service providers for the purposes described in this Privacy Statement. You may revoke this authorization by cancelling your registration by contacting <a href=\"/mhmsite/contact-us\">Customer Care</a>. If you cancel your registration, We may store and process information about you that is required for recordkeeping purposes, as otherwise allowed for according to this Privacy Statement, and as allowed under applicable law and regulations.</p><strong>Information about You</strong><p>Information about you is collected through a variety of sources, including directly from you, through your participation in certain Program-related events and activities, from your sponsor, and through your interactivity with the Website. Some areas of the Website may require you to submit information in order for you to benefit from the specified features or to participate in a particular activity. We will inform you when information is required.</p><strong>Our Use of Information about You</strong><p>We, along with our affiliates, business partners, and service providers, use the information about you as input to various Programs.</p><p>If you provide information to us, We may combine such information with other information We have about you through your participation in any of our Programs that are arranged by your sponsor, unless We specify otherwise at the point of collection.</p><p>Except as otherwise stated, We may also use information about you to improve our Programs or the content of our Website, and for our analysis. In cases where We remove the elements of your information that could identify you, We may use and disclose the resulting \u201cde-identified\u201d information without restrictions.</p><p>For example, J&amp;J Health and Wellness Solutions may create de-identified, statistical, and aggregate data results for research purposes and for reporting to other organizations, including your sponsor (i.e., your employer, health plan, or healthcare provider). This data reported will not contain personal identifiers and will not identify individual participants.</p><p>We may share information with the following parties for the purposes described below:</p><div id=\"blist\"><ul><li>To your sponsoring health plan or healthcare provider, We may provide all information about you and your participation in the Programs and your use of the Website, including information you disclose to Us about more sensitive topics (e.g., substance abuse, mental health, and HIV/AIDS, if you have provided that information to us).</li><li>To your sponsoring employer:<ul><li>We may provide aggregate and statistical information and reporting (i.e., information that does not identify you).</li><li>To support an incentive management program related to the Programs, We may provide your sponsoring employer information about your use of the Website and general information about your participation in the various components of the Programs; We would not, however, provide your sponsoring employer the names or identifiers of the specific components of the Programs in which you participated.</li><li>However, We may provide information about you and your participation in the Programs if you specifically authorize Us to do so.</li></ul></li><li>To counselors and health coaches who may assist you with your participation in the Programs.</li><li>To our affiliate companies, third party service providers, business partners, and contractors who assist Us in managing, administering or delivering the Programs, We may provide information about you and your participation in the Programs including information about your use of the Website. We will require such parties to protect and govern the use of the information about you according to this Privacy Statement and other requirements that We place upon them.</li><li>In connection with the sale, assignment, or other transfer of the business of our Programs or this Website, We may transfer the information about you, in which case We will require any such buyer or acquiring party to agree to treat the information in accordance with this Privacy Statement and use it for similar purposes.</li><li>To respond to law enforcement requests or where required by applicable laws, court orders, or government regulations, We may transfer information about you to other parties for legal purposes.</li></ul></div><p>We will not sell or otherwise give information about you to other parties for their marketing purposes.</p><p>We may use your contact information to send you material about our or your sponsor\u2019s other Programs and products. We may also send you invitations to participate in research studies, such as to develop, evaluate, and update our Programs.</p><strong>Website Techniques</strong><p>As you use the Website, your browser and other devices communicate with the servers involved to coordinate the interactivity and content that you request. Those servers (which include those operated by Us and also those of our affiliates, business partners, and services providers) keep records of your interactivity and requests for services and content to assist Us in managing and improving the utility of the Website, and to conduct research and analysis on your use of our Programs and tools. We may share this information with your sponsoring health plan or sponsoring employer and incentive management vendor for the purposes of administering its incentive program. We will not disclose to your sponsoring employer the names of the specific components of the Programs in which you participated.</p><p>The types of such interactive information include your Internet protocol (IP) addresses, browser types, URLs of referring hyperlinks (i.e., if you clicked through to a page in our Website), and related web usage information.</p><p>The information is stored in web server logs and also in web cookies kept on your computer or mobile device, which are then transmitted back to our Website or those of our affiliates, business partners, or service providers by your computer or other device. These servers may be operated and the cookies managed by us, our affiliates, business partners, and/or service providers.</p><p>We use cookies to store your user id and to then authenticate you to the protected portions of the Website, to analyze how the Website is accessed and used, and to help Us tailor our services to our participants. Our affiliates, business partners, and service providers may also use cookies for these purposes. Acceptance of cookies by your browser is required for the correct functioning of the Website.</p><p>A &quot;cookie&quot; is a small amount of information that a web server sends to your browser that stores information about your account, your preferences, and your use of the Website. Some cookies contain serial numbers that allow Us to connect your website activity with other information We store about you or as it relates to your use of the Website.</p><p>Some cookies are temporary, whereas others may be configured to last longer. &quot;Session&quot; cookies are temporary cookies used for various reasons in the Website, such as to unlock the Website to you once you have been authenticated and to identify you as you use the various features. Your browser usually erases session cookies once you exit your browser.</p><p>&quot;Persistent&quot; cookies are more permanent cookies that are stored on your computer or mobile device even beyond when you exit your browser. We use persistent cookies for a number of purposes, such as retrieving certain information you have previously provided (e.g., your user id if you asked to be remembered), and storing your preferences (e.g., email subscriptions, how you like to display the Website).</p><p>We and our affiliates, business partners, and service providers, use cookies and other technical means to record other interactivity information about the use of the Website and to analyze those records for those purposes.</p><strong>Links to Other Websites</strong><p>Our Website may contain links and references to other websites. Our Privacy Statement does not apply to such websites. We encourage you to become familiar with the privacy practices of the other websites that you use.</p><strong>Security</strong><p>We take reasonable steps to protect information about you in our possession and control, such as for information associated with the Website, and to protect such information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. You should keep in mind that no Internet transmission is ever completely secure or error-free. In particular, email sent between you and Us may not be secure.</p><strong>Information about Children</strong><p>Other than those specifically designed for teens, our Programs are not intended for use by anyone under the age of 18.</p><strong>Managing Information about You</strong><p>You may review and edit certain information in your profile by editing your account information after you have logged in to the Website. You may also review and update certain self-reported, unverified information through the various Programs that you use by contacting <a href=\"/mhmsite/contact-us\">Customer Care</a>. You may also cancel your registration and participation in our Programs by contacting Customer Care.</p><p>You may review the verified and self-reported information in the various Programs that you use. You may not directly change verified information, but may follow procedures of the specific programs to have certain updated information included. Please contact <a href=\"/mhmsite/contact-us\">Customer Care</a> using the methods described in the Contacting Us section below.</p><strong>Contacting Us</strong><p>If you have any questions or concerns about this privacy statement, or the practices of our Programs or Website, you may contact:</p><p>Customer Care<br />Johnson &amp; Johnson Health and Wellness Solutions, Inc.<br />130 S. First Street<br />Ann Arbor, Michigan 48104 USA<br />+1-866-433-9284<br /><a href=\"mailto:admin@myhealthyskills.com\">admin@myhealthyskills.com</a></p>",
+									"contentKey": "privacyText"
+								}, {
+									"content": "GET STARTED",
+									"contentKey": "welcomeStartButton"
+								}, {
+									"content": "CONTINUE",
+									"contentKey": "welcomeContinueButton"
+								}, {
+									"content": "View Your Results",
+									"contentKey": "welcomeResultsReadyButton"
+								}, {
+									"content": "Get tips based on your personal health.",
+									"contentKey": "homeBodyDescription"
+								}, {
+									"content": "Help",
+									"contentKey": "linksHelp"
+								}, {
+									"content": "Congratulations, you've completed all of the levels!",
+									"contentKey": "homeCategoryCompleteHelperText"
+								}, {
+									"content": "Next Action",
+									"contentKey": "actionStepNextHeader"
+								}, {
+									"content": "Add to My To Do List",
+									"contentKey": "addToMyToDoList"
+								}, {
+									"content": "Copied to My To Do List",
+									"contentKey": "copiedToMyToDoList"
+								}, {
+									"content": "Looks like we're having some issues. Please try reloading the page or logging out and logging back in.",
+									"contentKey": "errorMessageFrontEnd"
+							    }, {
+									"content": "Body Results",
+									"contentKey": "resultsBodyTitle"
+								}, {
+									"content": "Mind Results",
+									"contentKey": "resultsMindTitle"
+								}, {
+									"content": "Welcome Back to <br>Health Assessment.",
+									"contentKey": "welcomeReturnSuffix"
+								}, {
+									"content": "Home",
+									"contentKey": "home"
+								}, {
+									"content": "Terms of Use",
+									"contentKey": "linksTerms"
+								}, {
+									"content": "Back",
+									"contentKey": "questionNavBackButton"
+								}, {
+									"content": "Home",
+									"contentKey": "linksHome"
+								}, {
+									"content": "No thanks",
+									"contentKey": "feedbackDeclineGoalButton"
+								}, {
+									"content": "View Your Results",
+									"contentKey": "introScreenThreeTitle"
+								}, {
+									"content": "Results",
+									"contentKey": "linksResults"
+								}, {
+									"content": "Set A Goal",
+									"contentKey": "feedbackSetGoalTitle"
+								}, {
+									"content": "View",
+									"contentKey": "resultsViewButton"
+								}, {
+									"content": "<h3 class=\"wl_skip\">Participant Consent</h3><div id=\"participant-authorization-content\">Please carefully read the following along with our <a href=\"/mhmsite/privacy-statement\" target=\"_blank\" title=\"Privacy Statement (opens new window)\">Privacy Statement (opens new window)</a> and <a href=\"/mhmsite/terms-of-use\" target=\"_blank\" title=\"Terms of Use (opens new window)\">Terms of Use (opens new window)</a>, as participation in the various Johnson &amp; Johnson Health and Wellness Solutions, Inc. programs require that you fully understand and consent to these terms related to the personal information about you and your past and current involvement with J&amp;J Health and Wellness Solutions programs:<ul><li>J&amp;J Health and Wellness Solutions will keep information about me private, and will not voluntarily disclose the information except as described in the Privacy Statement.</li><li>Information about me may be provided to counselors and health coaches who assist me with my participation in the programs.</li><li>If I participate in an incentive program, J&amp;J Health and Wellness Solutions may provide information about me and about the programs in which I have participated to my sponsor and the incentive management vendor. However, if the program sponsor is your employer, J&amp;J Health and Wellness Solutions will not send them the names of the specific programs.</li><li>J&amp;J Health and Wellness Solutions may provide de-identified aggregate and statistical information about its participants:<ul><li>To my sponsor and other supporting organizations for the administration of the programs.</li><li>To other parties for their analysis and research.</li></ul></li></ul></div><div id=\"terms-of-use-content\"><p>These are the general terms of use governing your use of this website and our products and services, including applications designed to be used on your computer and/or mobile device. By accessing, using, or subscribing to this website or receiving any other products and/or services from us, you are entering into a legally binding agreement based on these terms with Johnson &amp; Johnson Health and Wellness Solutions, Inc. (\u201cJ&amp;J Health and Wellness Solutions\u201d, \u201cWe\u201d or \u201cUs\u201d), a Michigan corporation with its principal place of business at 130 South First Street, Ann Arbor, Michigan, 48104 USA.</p><h3>Introduction</h3><p>This website and the information and content contained therein (the \u201cWebsite\u201d), as well as the information, content, products, and other services J&amp;J Health and Wellness Solutions makes available to you (collectively referred to as the &quot;Programs&quot;), are provided to you by J&amp;J Health and Wellness Solutions. These Terms of Use (this &quot;Agreement&quot;) set forth the terms and conditions governing your use of this Website and participation in the Programs.</p><h3>Website Intended Audience</h3><p>Other than our modules designed specifically for teens (e.g., our youth health risk assessments), this Website and the Programs are not intended for use by anyone under the age of 18. Our teen programs are intended for use by participants who are between 13 and 19 years old.</p><h3>Use of Content and Information and Disclaimer with Respect to Content</h3><p>We will use reasonable efforts to include up-to-date and accurate information on the Website and in the Program materials, but We make no representations, warranties, or assurances as to the accuracy, currency, or completeness of the information provided.</p><p>THE INFORMATION, DATA, RECOMMENDATIONS, AND ANY OTHER MATERIALS PROVIDED BY US ON THE WEBSITE, IN THE PROGRAMS, AND IN ANY OTHER FORM ARE NOT, NOR ARE THEY INTENDED TO BE, MEDICAL EVALUATIONS, EXAMINATIONS, ADVICE, CONSULTATION, DIAGNOSIS, OR TREATMENT. J&amp;J HEALTH AND WELLNESS SOLUTIONS RECOMMENDS THAT YOU CONSULT A PHYSICIAN OR OTHER HEALTH CARE PROVIDER FOR ALL MEDICAL AND HEALTH-RELATED MATTERS. WE AND OUR PARENT, SUBSIDIARIES, AFFILIATES, LICENSORS, AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR, AND YOU WAIVE ANY CLAIM FOR, ANY PERSONAL INJURY, DAMAGE, AND/OR LIABILITY ARISING OUT OF YOUR USE OF OR YOUR RELIANCE ON THE INFORMATION, DATA, RECOMMENDATIONS, AND ANY OTHER MATERIALS MADE AVAILABLE TO YOU BY J&amp;J HEALTH AND WELLNESS SOLUTIONS.</p><p>THE PROGRAMS ARE NOT DESIGNED TO RESPOND TO IMMEDIATE, CRITICAL SITUATIONS SUCH AS THOUGHTS OF SUICIDE OR MEDICAL EMERGENCIES. IF YOU ARE THINKING ABOUT SUICIDE, OR YOU FEEL THAT YOU MAY TRY TO HARM YOURSELF OR OTHERS, OR IF YOU HAVE ANY OTHER TYPE OF MEDICAL EMERGENCY, IMMEDIATELY DIAL &quot;911&quot; OR IMMEDIATELY GO TO THE NEAREST HOSPITAL EMERGENCY ROOM. IF YOU ARE CURRENTLY RECEIVING TREATMENT, PLEASE FOLLOW THE EMERGENCY PROCEDURES PROVIDED BY YOUR DOCTOR OR THERAPIST.</p><p>This Website may include content from other third party providers and may provide links or references to other websites, but We have no responsibility for the content of such other websites or the functionality of such other websites and shall not be liable for any damages or injury arising from that content or functionality. Any content from third party providers or links to other websites are provided as merely a convenience to the users of this Website.</p><p>Email links and other methods used to contact Us on this Website are intended to answer non-medical-related questions about the Programs, such as technical problems or general comments regarding the Website. For all medical questions, users must contact their physicians or therapists directly. We will not provide answers to your own personal medical or mental health questions.</p><h3>Ownership and Intellectual Property Rights</h3><h3>Ownership</h3><p>This Website and the Programs are owned by J&amp;J Health and Wellness Solutions. All right to, title to, and interest in the content available via the Website, the Website's look and feel, the designs, trademarks, service marks, and trade names displayed on the Website, and the Website URLs, are the property of J&amp;J Health and Wellness Solutions or its licensors, and are protected by copyrights, trademarks, patents, or other proprietary rights and laws.</p><h3>License to Use Content</h3><p>J&amp;J Health and Wellness Solutions grants you a nonexclusive, nontransferable, revocable, limited license to view, copy, print, and distribute content retrieved from the Website only for your personal, noncommercial use, provided that you do not remove or obscure any copyright notice, trademark notice, or other proprietary rights notices displayed on or in conjunction with the content. You may not use any content available via the Website in any other manner or for any other purpose without the prior written permission of J&amp;J Health and Wellness Solutions. All rights not expressly granted in this Agreement are expressly reserved to J&amp;J Health and Wellness Solutions.</p><h3>Trademark Notices</h3><p>All trademarks, service marks, logos and designs used on this Website or in the Programs, whether registered or unregistered, are owned by J&amp;J Health and Wellness Solutions or other third parties. You may not use or display any trademarks, service marks, logos or designs owned by J&amp;J Health and Wellness Solutions or its affiliates without the prior written consent of J&amp;J Health and Wellness Solutions.</p><h3>Privacy</h3><p>Our collection, processing, storage, and transfer of personal information related to your use of this Website and participation in the Programs are governed by the Website and Program <a href=\"/mhmsite/privacy-statement\" target=\"_blank\" title=\"Privacy Statement (opens new window)\">Privacy Statement (opens new window)</a>.</p><p>J&amp;J Health and Wellness Solutions and its affiliates shall be free to use or copy all other information in any communications to this Website or in connection with the Programs, including any ideas, inventions, concepts, techniques, or know-how disclosed herein or therein, for any purposes. Such purposes may include disclosure to third parties and/or developing, manufacturing, and/or marketing goods or services.</p><h3>User Content</h3><p>The sender of any communications to this Website or otherwise to J&amp;J Health and Wellness Solutions shall be responsible for the content and information contained therein, including its truthfulness and accuracy.</p><h3>Disclaimer of Warranties</h3><p>THE WEBSITE AND THE PROGRAMS ARE PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS. J&amp;J HEALTH AND WELLNESS SOLUTIONS EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p><p>J&amp;J HEALTH AND WELLNESS SOLUTIONS DOES NOT MAKE ANY WARRANTY THAT THE WEBSITE OR THE PROGRAMS WILL MEET YOUR REQUIREMENTS, OR THAT ACCESS TO THE WEBSITE OR PARTICIPATION IN THE PROGRAMS WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED. J&amp;J HEALTH AND WELLNESS SOLUTIONS MAKES NO WARRANTIES AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE WEBSITE OR THE PROGRAMS OR AS TO THE ACCURACY, QUALITY, OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THE WEBSITE OR THE PROGRAMS.</p><h3>Limitations of Liability</h3><p>J&amp;J HEALTH AND WELLNESS SOLUTIONS AND ITS PARENT, SUBSIDIARIES AND AFFILIATES ASSUME NO RESPONSIBILITY FOR ANY CONSEQUENCE RELATING DIRECTLY OR INDIRECTLY TO ANY ACTION OR INACTION YOU TAKE BASED ON THE CONTENT AVAILABLE VIA THE WEBSITE OR PROVIDED IN CONNECTION WITH THE PROGRAMS. YOU MUST EVALUATE, AND BEAR ALL RISKS ASSOCIATED WITH, THE USE OF ANY CONTENT, INCLUDING ANY RELIANCE ON THE ACCURACY, COMPLETENESS, OR USEFULNESS OF SUCH CONTENT AND/OR PROGRAMS.</p><p>ADDITIONALLY, IN NO EVENT WILL J&amp;J HEALTH AND WELLNESS SOLUTIONS OR ITS PARENT, SUBSIDIARIES OR AFFILIATES BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, ANY LOSS OF USE, LOSS OF PROFITS, LOSS OF DATA, COST OF PROCUREMENT OF SUBSTITUTE PRODUCTS OR SERVICES, OR ANY OTHER SUCH DAMAGES, HOWSOEVER CAUSED, AND ON ANY THEORY OF LIABILITY, WHETHER FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE AND STRICT LIABILITY), OR OTHERWISE RESULTING FROM (1) THE USE OF, OR THE INABILITY TO USE THE WEBSITE; (2) THE COST OF PROCUREMENT OF SUBSTITUTE SERVICES, ITEMS, WEBSITES, OR PROGRAMS; (3) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA (INCLUDING WITHOUT LIMITATION DUE TO THE THEFT, DESTRUCTION, OR OTHER THIRD-PARTY MANIPULATION OF YOUR COMPUTER, MOBILE DEVICE OR OTHER DEVICE); (4) THE STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE WEBSITE; OR (5) ANY OTHER MATTER RELATING TO THE WEBSITE OR THE PROGRAMS. THESE LIMITATIONS WILL APPLY WHETHER OR NOT J&amp;J HEALTH AND WELLNESS SOLUTIONS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.</p><h3>Indemnification</h3><p>You agree to indemnify and hold harmless J&amp;J Health and Wellness Solutions, its directors, officers, employees, agents, and affiliates from and against any and all liability, damages, losses, claims, and expenses of any kind (including, without limitation, reasonable attorneys' fees) directly or indirectly related to (1) your breach of the Agreement; (2) the content you submit, post, or transmit through the Website, or (3) the unauthorized use of any personal information or data downloaded from the Website or received in connection with the Programs.</p><h3>Your Account</h3><p>You are responsible for maintaining the confidentiality of any passwords associated with your J&amp;J Health and Wellness Solutions account, monitoring all activity under the account, and assuming full responsibility for all activities that occur under your account (unless caused by J&amp;J Health and Wellness Solutions).</p><h3>Modification or Suspension</h3><p>J&amp;J Health and Wellness Solutions may at any time modify, discontinue, or suspend its operation of this Website or the delivery of the Programs, or any part thereof, temporarily or permanently, without notice to you.</p><h3>Termination</h3><p>J&amp;J Health and Wellness Solutions may terminate this Agreement for any or no cause, at any time, by notice, which shall be effective immediately or as specified in the notice. After termination, you shall no longer access the Website or use the Programs. Regardless of any termination of this Agreement, the provisions of this Agreement shall continue to apply indefinitely.</p><h3>Severability of Agreement</h3><p>If any provision of this Agreement is found by a court or other binding authority to be invalid, you agree that every attempt shall be made to give effect to the parties' intentions as reflected in that provision, and the remaining provisions contained in the Agreement shall continue in full force and effect.</p><h3>Applicable Law</h3><p>This Agreement and the resolution of any dispute related to this Agreement, the Website, or the Programs shall be governed by and construed in accordance with the laws of New Jersey, USA without giving effect to any principles of conflicts of law. Any legal action or proceeding between J&amp;J Health and Wellness Solutions and you related to the Agreement shall be brought exclusively in a court of competent jurisdiction sitting in New Jersey, USA, and you agree to submit to the personal and exclusive jurisdiction of such courts.</p><h3>Modifications to this Agreement</h3><p>J&amp;J Health and Wellness Solutions may make changes to this Agreement from time to time in its sole discretion, by updating this posting on this Website, and specifying the effective date of the new version of the Agreement. Your continued use of the Website or participation in the Programs following the posting of a new version of the Agreement constitutes your acceptance of any such changes. Accordingly, whenever you visit this Website you should check to see if a new version of this Agreement has been posted.</p><h3>Contacting Us</h3><p>If you have any questions or concerns with respect to this Agreement or the Website, you may contact us at:</p><br /><p>Customer Care<br /> Johnson &amp; Johnson Health and Wellness Solutions, Inc.<br /> 130 South First Street<br /> Ann Arbor, Michigan, 48104 USA<br /> +1-866-433-9284<br /> <a href=\"mailto:admin@myhealthyskills.com\">admin@myhealthyskills.com</a></p><p>These Terms of Use were last revised on 16 October 2012.</p></div>",
+									"contentKey": "termsText"
+								}, {
+									"content": "Whoops! We're unable to communicate with the server right now. Please try again.",
+									"contentKey": "errorMessageBackEndServices"
+								}, {
+									"content": "Whoops!",
+									"contentKey": "errorReloadHeading"
+								}, {
+									"content": "If you continue to encounter problems you can contact us for technical support at +1-866-433-9284, 7 days a week, 24 hours a day.",
+									"contentKey": "errorReloadSupport"
+								}, {
+									"content": "Reload",
+									"contentKey": "errorReloadButton"
+								}, {
+									"content": "Simple Questions",
+									"contentKey": "introScreenTwoTitle"
+								}, {
+									"content": "Discover more about your mental well-being.",
+									"contentKey": "homeMindDescription"
+								}, {
+									"content": "Insight",
+									"contentKey": "feedbackTitle"
+								}, {
+									"content": "There are many aspects to health. That\u2019s why Health Assessment is made up of four categories: Bio, Body, Mind, and Lifestyle. Each category has two levels.",
+									"contentKey": "introScreenOneText"
+								}, {
+									"content": "We\u2019ll use what you told us to give you a picture of your overall health. And you\u2019ll get personalized tips for a healthier lifestyle.",
+									"contentKey": "introScreenThreeText"
+								}, {
+									"content": "Bio Results",
+									"contentKey": "resultsBioTitle"
+								}, {
+									"content": "Start",
+									"contentKey": "homeCategoryStartButton"
+								}, {
+									"content": "I'm not sure",
+									"contentKey": "questionNotSureText"
+								}, {
+									"content": "Let\u2019s Go!",
+									"contentKey": "introScreenFiveTitle"
+								}, {
+									"content": "Your path through Health Assessment is up to you, but we recommend that you start with the Bio category.",
+									"contentKey": "introScreenFiveText"
+								}, {
+									"content": "Your Numbers",
+									"contentKey": "introScreenFourTitle"
+								}, {
+									"content": "We\u2019ve received some health info from your <biometric health screening>. You\u2019ll see that these biometric numbers have already been filled in for you.",
+									"contentKey": "introScreenFourText"
+								}, {
+									"content": "You won\u2019t be able to update these numbers so if anything looks amiss, please contact +1 (866) 433-9284 so we can resolve your concerns.",
+									"contentKey": "introScreenFourTextLocked"
+								}, {
+									"content": "If anything looks amiss, please go ahead and correct the numbers as you go through the Categories.",
+									"contentKey": "introScreenFourTextUnlocked"
+								}, {
+									"content": "on",
+									"contentKey": "collectedOnAnswerText"
+								}, {
+									"content": "This isn't my best angle. Rotate me!",
+									"contentKey": "dialogRotateDevice"
+								}, {
+									"content": "Understand what the basic screenings your doctor orders mean for you.",
+									"contentKey": "homeBioDescription"
+								}, {
+									"content": "We\u2019ll ask you a series of simple questions. It\u2019ll be painless, we promise. Tap on the answers that best fit you. You'll get a chance to review and update your answers as needed along the way.",
+									"contentKey": "introScreenTwoText"
+								}, {
+									"content": "Hello,",
+									"contentKey": "welcomeIntroPrefix"
+								}, {
+									"content": "Technical problems? Suggestions for improvements on our site? General comments? We'd love to hear from you. You can always call us at +1-866-433-9284, 7 days a week, 24 hours a day.<br /><br />If you have a medical question, contact your health care provider. If this is a medical emergency, call 911.",
+									"contentKey": "helpText"
+								}, {
+									"content": "Results",
+									"contentKey": "homeCategoryResultsButton"
+								}, {
+									"content": "Collected From",
+									"contentKey": "collectedFromAnswerText"
+								}, {
+									"content": "All Results",
+									"contentKey": "resultsTitle"
+								}, {
+									"content": "Logout",
+									"contentKey": "logout"
+								}, {
+									"content": "Getting Started",
+									"contentKey": "linksTutorial"
+								}, {
+									"content": "<strong>The following references were used to develop Health Assessment.</strong><br /><br />American Cancer Society (2014). American Cancer Society Guidelines for the Early Detection of Cancer. Retrieved from: http://www.cancer.org/healthy/findcancerearly/cancerscreeningguidelines/american-cancer-society-guidelines-for-the-early-detection-of-cancer<br /><br />American Heart Association  (2014). Understanding Blood Pressure Readings. Retrieved from: http://www.heart.org/HEARTORG/Conditions/HighBloodPressure/AboutHighBloodPressure/Understanding-Blood-Pressure-Readings_UCM_301764_Article.jsp#<br /><br />Centers for Disease Control and Prevention. (2014). Five minutes or less for health weekly tip: Take a break. Retrieved from: http://www.cdc.gov/Family/minutes/tips/takeabreak/index.htm<br /><br />Centers for Disease Control and Prevention (2014). How much physical activity do adults need? Retrieved from: http://www.cdc.gov/physicalactivity/everyone/guidelines/adults.html<br /><br />Centers for Disease Control and Prevention (2014). What Can I Do to Reduce My Risk? Cervical Cancer Basic Information. Retrieved from: http://www.cdc.gov/cancer/cervical/basic_info/prevention.htm<br />Centers for Disease Control and Prevention (2014). Vaccination: Who Should Do It, Who Should Not and Who Should Take Precautions; Seasonal Influenza (flu). Retrieved from: http://www.cdc.gov/flu/protect/whoshouldvax.htm<br /><br />FUTURE I/II Study Group, Dillner J, Kjaer SK, Wheeler CM, Sigurdsson K, Iversen OE, et al. Four year efficacy of prophylactic human papillomavirus quadrivalent vaccine against low grade cervical, vulvar, and vaginal intraepithelial neoplasia and anogenital warts: randomised controlled trial. BMJ 2010 Jul 20;341:c3493 [Abstract available at http://www.ncbi.nlm.nih.gov/pubmed/20647284.<br />Hindmarch, I. 2000 A naturalistic investigation of the effects of day-long consumption of tea, coffee and water on alertness, sleep onset, and sleep quality. Psychopharmacology 149 3 203-16 http://rd.springer.com/article/10.1007/s002130000383<br /><br />Johnson & Johnson. The JNJ Official 7 Minute Workout. (2014). Retrieved from: https://7minuteworkout.jnj.com/<br /><br />Loprinzi, P. D., & Cardinal, B. J. (2013). Association between biologic outcomes and objectively measured physical activity accumulated in \u226510-minute bouts and <10-minute bouts. American Journal of Health Promotion, 27(3): 143-51. Retrieved from: http://www.ajhpcontents.org/doi/abs/10.4278/ajhp.110916-QUAN-348<br /><br />Loy, B. D., O'Connor, P. D., & Dishman, R. K., (2013). Fatigue: Biomedicine,<br />Health & Behavior: The effect of a single bout of exercise on energy and fatigue states: a<br />systematic review and meta-analysis. Fatigue: Biomedicine, Health & Behavior 1(4): 223-42. Retrieved from: http://www.tandfonline.com/doi/abs/10.1080/21641846.2013.843266#.U3-C9fldXpU<br /><br />Mayo Clinic. (2013). Strength Training: Get Stronger, Leaner, Healthier. Retrieved from: http://www.mayoclinic.org/healthy-living/fitness/in-depth/strength-training/art-20046670?pg=1<br />Medline Plus, National Institutes of Health (2014). Blood sugar test \u2013 blood. Updated by: Brent Wisse and reviewed by David Zieve, MD, MHA, Isla Ogilvie, PhD, and the A.D.A.M. Editorial Team. Retrieved from: http://www.nlm.nih.gov/medlineplus/ency/article/003482.htm<br /><br />Milner, C. E., & Cote, K. A. 2009 Benefits of napping in healthy adults: Impact of nap length, time of day, age, and experience with napping Journal of Sleep Research 18 2 272-81 http://onlinelibrary.wiley.com/doi/10.1111/j.1365-286<br /><br />National Heart, Lung, and Blood Institute (2014). Asessing Your Weight and Health Risk. Retrieved from: http://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm<br /><br />National Heart, Lung, and Blood Institute (2014). Body Mass Index Table 1. Retrieved from: http://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmi_tbl.htm<br /><br />National Heart, Lung, and Blood Institute (2014). Classification of Overweight and Obesity by BMI, Waist Circumference, and Associated Disease Risks. Retrieved from: http://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmi_dis.htm<br /><br />National Heart, Lung, and Blood Institute (2011). Your Guide to Sleep In Brief Fact Sheets. US Department of Health and Human Services, National Heart, Lung, and Blood Institute US Department of Health and Human Services, National Heart, Lung, and Blood Institute http://www.nhlbi.nih.gov/health/public/sleep/healthysleepfs.pdf<br /><br />Thoren, P., Floras, J. S., Hoffman, P., & Seals, D. R. (1990). Endorphins and exercise: physiological mechanisms and clinical implications. Medicine and Science in Sports and Exercise, 22(4): 417-28. Retrieved from: http://psycnet.apa.org/psycinfo/1991-00542-001<br /><br />USDA (2014). Tips to Help You Eat Whole Grains. Retrieved from: http://www.choosemyplate.gov/food-groups/grains-tips.html<br /><br />USDA (2014). Tips to Help You Eat Vegetables. Retrieved from: http://www.choosemyplate.gov/food-groups/vegetables-tips.html<br /><br />United States Department of Agriculture (2014). Why Is it Important to Eat Vegetables? Retrieved from: http://www.choosemyplate.gov/food-groups/vegetables-why.html<br /><br />U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES, National Heart, Lung, and Blood Institute (2001). ATP III Guidelines At-A-GlanceQuick Desk Reference . Retrieved from: https://www.nhlbi.nih.gov/files/docs/guidelines/atglance.pdf<br /><br />U.S. Preventive Services Task Force (2009). Breast Cancer: Screening. Retrieved from: http://www.uspreventiveservicestaskforce.org/uspstf/uspsbrca.htm<br /><br />U.S. Preventive Services Task Force. Screening for Colorectal Cancer: U.S. Preventive Services Task Force Recommendation Statement. AHRQ Publication 08-05124-EF-3, October 2008. Agency for Healthcare Research and Quality, Rockville, MD.<br /><br />Wood, B., Rea M. S., Plitnick, B., & Figueiro, M. G., (2013). Light level and duration of exposure determine the impact of self-luminous tablets on melatonin suppression. Applied Ergonomics, 44(2):237-40. Retrieved from http://www.sciencedirect.com/science/article/pii/S0003687012001159.",
+									"contentKey": "referencesText"
+								}, {
+									"content": "Complete this category to view your results.",
+									"contentKey": "resultsIncompletePathMessage"
+								}, {
+									"content": "My Account",
+									"contentKey": "linksSettings"
+								}, {
+									"content": "Things You Can Learn",
+									"contentKey": "actionStepLearn"
+								}, {
+									"content": "Dismiss",
+									"contentKey": "dismiss"
+								}, {
+									"content": "Back to {{category}} Results",
+									"contentKey": "buttonBackToCategory"
+								}, {
+									"content": "BIO",
+									"contentKey": "categoryBioTitle"
+								}, {
+									"content": "BODY",
+									"contentKey": "categoryBodyTitle"
+								}, {
+									"content": "MIND",
+									"contentKey": "categoryMindTitle"
+								}, {
+									"content": "LIFESTYLE",
+									"contentKey": "categoryLifestyleTitle"
+								}
+							],
+							"name": "assessResources"
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"/externalservices/resourcebundle?q=findByBundleNameAndLocale&bundleName=serviceFailure&locale=en_US": {
+				"responseCode": 100,
+				"responseDesc": "Illegal Argument"
+			}
+		},
+		"ampAuthToken": {
+			"": {
+				"resourceBundleResponse": {
+					"resourceBundle": [
+						{
+							"name": "ampResources",
+							"contentValues": [
+								{
+									"contentKey": "programTitle",
+									"content": "Account Management Portal"
+								}, {
+									"contentKey": "linksCreateRoot",
+									"content": "Create Root Company"
+								}, {
+									"contentKey": "linksManageExisting",
+									"content": "Manage Existing Company"
+								}, {
+									"contentKey": "linksManage",
+									"content": "Manage"
+								}, {
+									"contentKey": "linksHome",
+									"content": "Home"
+								}, {
+									"contentKey": "linksCreate",
+									"content": "Create"
+								}, {
+									"contentKey": "companiesColumnHeader1",
+									"content": "Company"
+								}, {
+									"contentKey": "companiesColumnHeader2",
+									"content": "Used By"
+								}, {
+									"contentKey": "companiesColumnHeader3",
+									"content": "Status"
+								}, {
+									"contentKey": "templateColumnHeader",
+									"content": "Status"
+								}, {
+									"contentKey": "companiesNotFoundError",
+									"content": "This company has no children"
+								}, {
+									"contentKey": "titleCreateRoot",
+									"content": "Create Root Company"
+								}, {
+									"contentKey": "titleHome",
+									"content": "Home"
+								}, {
+									"contentKey": "titleManageExisting",
+									"content": "Manage Existing Company"
+								}, {
+									"contentKey": "titleConfirm",
+									"content": "Confirm"
+								}, {
+									"contentKey": "createSuccessMsg",
+									"content": "<strong>Success!</strong>"
+								}, {
+									"contentKey": "labelCompanyId",
+									"content": "Company ID"
+								}, {
+									"contentKey": "labelDisplayName",
+									"content": "Display Name"
+								}, {
+									"contentKey": "labelUsedBy",
+									"content": "Used By"
+								}, {
+									"contentKey": "cancel",
+									"content": "Cancel"
+								}, {
+									"contentKey": "reset",
+									"content": "Reset"
+								}, {
+									"contentKey": "modalConfirmText",
+									"content": "Are you sure?"
+								}, {
+									"contentKey": "childListTitle",
+									"content": "Company List"
+								}, {
+									"contentKey": "optionActive",
+									"content": "Active"
+								}, {
+									"contentKey": "optionDisabled",
+									"content": "Disabled"
+								}, {
+									"contentKey": "optionTemplate",
+									"content": "Template"
+								}, {
+									"contentKey": "optionDemo",
+									"content": "Demo"
+								}, {
+									"contentKey": "titleSearch",
+									"content": "Search within"
+								}, {
+									"contentKey": "labelSearch",
+									"content": "Search within the current customer you have selected."
+								}, {
+									"contentKey": "buttonSearch",
+									"content": "Search"
+								}, {
+									"contentKey": "captionChildList",
+									"content": "Select a company from the list below to search."
+								}, {
+									"contentKey": "captionRootList",
+									"content": "Select a company from the list below to begin search."
+								}, {
+									"contentKey": "footerCopyright",
+									"content": "All contents &copy; Copyright Johnson &amp; Johnson Services, Inc.1997-2015. All Rights Reserved."
+								}, {
+									"contentKey": "titleActions",
+									"content": "Actions"
+								}, {
+									"contentKey": "captionActions",
+									"content": "You can perform the following actions on"
+								}, {
+									"contentKey": "buttonEditFeatures",
+									"content": "Edit Features"
+								}, {
+									"contentKey": "buttonAccessCode",
+									"content": "View/Create Access Code"
+								}, {
+									"contentKey": "buttonCreateCompany",
+									"content": "Create Company"
+								}, {
+									"contentKey": "titleTemplateCompany",
+									"content": "Template Company List"
+								}, {
+									"contentKey": "captionTemplateCompany",
+									"content": "Template companies have no parent."
+								}, {
+									"contentKey": "labelParentCompany",
+									"content": "Parent Company"
+								}, {
+									"contentKey": "labelAccessCode",
+									"content": "Access Code"
+								}, {
+									"contentKey": "labelAccessCodeName",
+									"content": "Access Code Name"
+								}, {
+									"contentKey": "labelStatus",
+									"content": "Status"
+								}, {
+									"contentKey": "headerApplication",
+									"content": "Account Management Portal"
+								}, {
+									"contentKey": "headerLoading",
+									"content": "Account Management Portal - Loading"
+								}, {
+									"contentKey": "headerError",
+									"content": "Account Management Portal - Error"
+								}, {
+									"contentKey": "headerCreate",
+									"content": "Create Root Customer"
+								}, {
+									"contentKey": "headerCompanies",
+									"content": "Account Management Portal"
+								}, {
+									"contentKey": "headerLogs",
+									"content": "View Log"
+								}, {
+									"contentKey": "headerCompany",
+									"content": "Companies"
+								}, {
+									"contentKey": "headerCompanyLoading",
+									"content": "Companies - Loading"
+								}, {
+									"contentKey": "headerCompanyError",
+									"content": "Companies - Error"
+								}, {
+									"contentKey": "headerCompanyEdit",
+									"content": "Edit Features"
+								}, {
+									"contentKey": "headerCodesIndex",
+									"content": "View/Create Access Code"
+								}, {
+									"contentKey": "headerCodeEdit",
+									"content": "Edit Access Code"
+								}, {
+									"contentKey": "headerCompanyCreate",
+									"content": "Create a Company"
+								}, {
+									"contentKey": "headerCompanySearch",
+									"content": "Search Results"
+								}, {
+									"contentKey": "headerCompanyProducts",
+									"content": "Authorized Products"
+								}, {
+									"contentKey": "headerCompanyIndex",
+									"content": "Companies"
+								}, {
+									"contentKey": "headerIndex",
+									"content": "Account Management Portal"
+								}, {
+									"contentKey": "headerFeaturesView",
+									"content": "View Features"
+								}, {
+									"contentKey": "headerFeaturesEdit",
+									"content": "Edit Features"
+								}, {
+									"contentKey": "headerCodeIndex",
+									"content": "Authorized Products"
+								}
+							]
+						}
+					],
+					"responseCode": 0
+				}
+			},
+			"/externalservices/resourcebundle?q=findByBundleNameAndLocale&bundleName=serviceFailure&locale=en_US": {
+				"responseCode": 100,
+				"responseDesc": "Illegal Argument"
+			}
+		}
+	}
+}

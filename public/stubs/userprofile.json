@@ -1,0 +1,56 @@
+{
+    "get": {
+        "": {
+            "/externalservices/userprofile?q=": {
+                "retrieveUserProfileResponse": {
+                    "userFound": true,
+                    "profileData": {
+                        "firstName": "Firstname",
+                        "lastName": "Lastname",
+                        "birthDate": "1990-06-27T12:00:00.000-0400",
+                        "gender": "MALE",
+                        "userEmailContacts": [
+                            {
+                                "emailType": "PRIMARY",
+                                "emailAddress": "email@domain.com"
+                            }
+                        ],
+                        "emailPreferredMethodOfContact": "PRIMARY",
+                        "preferredMethodOfContact": "EMAIL",
+                        "biometricsValidated": "NA",
+                        "guid": "b440546f-84fb-404e-a021-c56dc250f5c5"
+                    },
+                    "missionData": {
+                        "message": [
+                            {
+                                "messageText": " "
+                            }
+                        ],
+                        "photo": []
+                    },
+                    "preferences": {
+                        "optIn": [
+                            {
+                                "optInTo": "EMAIL",
+                                "optInSelected": false
+                            }
+                        ],
+                        "healthNews": {
+                            "selections": ""
+                        }
+                    },
+                    "rootReportingId": 1,
+                    "responseCode": 0
+                }
+            },
+            "": {
+                "retrieveUserProfileResponse":{
+                    "userFound":false,
+                    "rootReportingId":0,
+                    "responseCode":1000,
+                    "responseDesc":"Argument Not Found"
+                }
+            }
+        }
+    }
+}

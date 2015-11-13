@@ -1,0 +1,23 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/fullScreenSpinner\.scss}line{font-family:\000031}}
+[data-wnpwidget-container="fullScreenSpinner"] {
+  background: #CCC;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/development\/widgets\/core\/utilities\/app\/styles\/fullScreenSpinner\.scss}line{font-family:\0000310}}
+[data-wnpwidget-container="fullScreenSpinner"] .loader {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,145 @@
+{
+	"questionnairePageRetriever": {
+		"digest": {
+			"sectionGroup": [
+				{
+					"id": 987,
+					"name":"COACHING_QUESTIONNAIRE",
+					"section": [
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Section_Intro_Clear.jpg",
+							"completeFirst": true,
+							"firstPage": 10,
+							"name": "Your Health",
+							"pageCount": 5,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_About_Me_Tailored_Blur.jpg",
+							"id": 77902,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 80,
+							"name": "Goals",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Habit_Formation_Tailored_Blur.jpg",
+							"id": 77903,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 90,
+							"name": "Challenges",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Barriers_Tailored_Blur.jpg",
+							"id": 77904,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 100,
+							"name": "Motivation",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Motivation_Tailored_Blur.jpg",
+							"id": 77905,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 110,
+							"name": "Support",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Social_Support_Tailored_Blur.jpg",
+							"id": 77906,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 120,
+							"name": "Energy",
+							"pageCount": 1,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_Energy_and_Sleep_Tailored_Blur.jpg",
+							"id": 81010,
+							"status": "COMPLETED"
+						},
+						{
+							"backgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Section_Intro_Clear.jpg",
+							"completeFirst": false,
+							"firstPage": 130,
+							"name": "More About You",
+							"pageCount": 2,
+							"secondaryBackgroundImage": "https://dpdevcr03-media.healthmedia.com/media/images/consultation/background/physicalActivitySkills/Move_More_About_You_Tailored_Blur.jpg",
+							"id": 78082,
+							"status": "COMPLETED"
+						}
+					]
+				}
+			]
+		}, 
+		"finalPage": 140, 
+		"questionnairePage": {
+			"content": [
+				{
+					"text": "<p>The current Physical Activity Guidelines for Americans are to do 150 minutes of moderate activity or 75 minutes of vigorous activity a week, plus strength training 2 days a week.</p><p>You're already exercising regularly. Keeping up this routine can help you feel healthier. There are a few more areas we'd like to ask you about. The more you tell us, the more we can help you develop skills meet your goals. Let's get to it.</p>", 
+					"type": "inline"
+				}, 
+				{
+					"childQuestions": null, 
+					"choices": {
+						"choice": [
+							{
+								"dataDefinitionName": "PhysicalActivityPrimaryFocus", 
+								"helpText": "", 
+								"ordinal": 1, 
+								"selected": true, 
+								"text": "Cardio activity (anything that gets my heart rate up)", 
+								"value": "Cardio"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityPrimaryFocus", 
+								"helpText": "", 
+								"ordinal": 2, 
+								"selected": false, 
+								"text": "Strength training (either with weights or with my own body weight)", 
+								"value": "Strength"
+							}, 
+							{
+								"dataDefinitionName": "PhysicalActivityPrimaryFocus", 
+								"helpText": "", 
+								"ordinal": 3, 
+								"selected": false, 
+								"text": "Both cardio and strength training", 
+								"value": "CardioAndStrength"
+							}
+						]
+					}, 
+					"dataInfo": {
+						"collectionDate": "2014-08-20T10:33:25.000-0400", 
+						"dataSourceName": "Move"
+					}, 
+					"helpText": "", 
+					"id": 77860, 
+					"ordinal": 2, 
+					"text": "To help you reach your immediate goals, what would you like to focus on right now?", 
+					"type": "radio", 
+					"validations": {
+						"validation": [
+							{
+								"name": "required"
+							}
+						]
+					}
+				}
+			], 
+			"isQuitPage": false, 
+			"page": 80, 
+			"prepopulated": true, 
+			"previousPage": 70
+		}, 
+		"responseCode": 0
+	}
+}
