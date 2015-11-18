@@ -22,11 +22,11 @@
       "stubs" : false,
       "locale" : "en_US",
       "wnpSessionId" : "12345",
-      "authToken" : "ca67eda8-175e-4f07-a7d5-f416804fa1ae",
+      "authToken" : "8f0ae87d-d8ef-4934-ab12-0fbf840424e3",
       "authTokenType" : "bearer",
       "refreshToken" : "66666",
       "refreshAuthHeader" : "Basic dGVzdF9zaG9ydDpzZWNyZXQ=",
       "correlationId": "",
-      "serviceBaseUrl": "http://localhost:3000/externalservices/"
+      "serviceBaseUrl": "https://dpqacr01-coaching.healthmedia.com/externalservices/"
   }
 }

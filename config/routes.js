@@ -20,8 +20,7 @@ module.exports = function(app){
     app.all('/contacts', function(req, res, next) {
     	require('../controllers/Page').run('contacts', req, res, next);
     });
-    app.all('/', function(req, res, next) {
+    app.all('/*', function(req, res, next) {
         require('../controllers/Home').run(req, res, next);
     });
-
 };
