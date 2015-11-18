@@ -14,12 +14,6 @@ module.exports = function(app){
     app.all('/product/:product', function(req, res, next) {
     	require('../controllers/Product').run(req, res, next);
     });
-    app.all('/careers', function(req, res, next) {
-    	require('../controllers/Page').run('careers', req, res, next);
-    });
-    app.all('/contacts', function(req, res, next) {
-    	require('../controllers/Page').run('contacts', req, res, next);
-    });
     app.all('/*', function(req, res, next) {
         require('../controllers/Home').run(req, res, next);
     });
