@@ -1,7 +1,6 @@
 var BaseController = require("./Base"),
 	View = require("../views/Base"),
 	Promise = require('promise');
-	//model = new (require("../models/ContentModel"));
 
 module.exports = BaseController.extend({
 	name: "Home",
