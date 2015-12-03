@@ -7,7 +7,9 @@
   },
   "dependencies": {
     "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
     "express": ">=3.2.6",
+    "express-session": "^1.12.1",
     "hogan-express": "^0.5.2",
     "jQuery": "^1.7.4",
     "jsdom": "^7.0.2",
@@ -18,15 +20,18 @@
     "xmlhttprequest": "^1.8.0"
   },
   "config": {
-      "debug" : false,
-      "stubs" : false,
-      "locale" : "en_US",
-      "wnpSessionId" : "12345",
-      "authToken" : "8f0ae87d-d8ef-4934-ab12-0fbf840424e3",
-      "authTokenType" : "bearer",
-      "refreshToken" : "66666",
-      "refreshAuthHeader" : "Basic dGVzdF9zaG9ydDpzZWNyZXQ=",
-      "correlationId": "",
-      "serviceBaseUrl": "https://dpqacr01-coaching.healthmedia.com/externalservices/"
+    "debug": false,
+    "stubs": false,
+    "locale": "en_US",
+    "accessCode": "HMITESTCD",
+    "externalUserId": "sectst23",
+    "externalUserIdType": "DRUPALID",
+    "wnpSessionId": "12345",
+    "authToken": "3b2f47fc-45da-4f2c-8a64-012bf9bbaaff",
+    "authTokenType": "bearer",
+    "refreshToken": "66666",
+    "refreshAuthHeader": "Basic dGVzdF9zaG9ydDpzZWNyZXQ=",
+    "correlationId": "",
+    "serviceBaseUrl": "https://dpqacr01-coaching.healthmedia.com/externalservices/"
   }
 }

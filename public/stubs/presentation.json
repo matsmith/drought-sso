@@ -1,7 +1,6 @@
 {
 	"get": {
 		"": {
-			"": {},
 			"/externalservices/presentation?q=page-type&page=assess&type=navigation": {
 				"presentations": {
 					"responseCode": 0,
@@ -227,7 +226,7 @@
 									"properties": [
 										{
 											"name": "href",
-											"value": "/mhmsite/program-coaching/digital-health-coaching#assess"
+											"value": "/mhmsite/product/assess"
 										}
 									]
 								},
@@ -238,7 +237,7 @@
 									"properties": [
 										{
 											"name": "href",
-											"value": "/mhmsite/coaching"
+											"value": "/mhmsite/program-coaching/digital-health-coaching"
 										}
 									]
 								},
@@ -272,72 +271,6 @@
 										{
 											"name": "href",
 											"value": "/mhmsite/resources"
-										}
-									]
-								},
-								{
-									"name": "helpLink",
-									"value": "Help",
-									"type": "link",
-									"properties": [
-										{
-											"name": "href",
-											"value": "/mhmsite/help"
-										}
-									]
-								},
-								{
-									"name": "privacyLink",
-									"value": "Privacy Policy",
-									"type": "link",
-									"properties": [
-										{
-											"name": "href",
-											"value": "/mhmsite/privacy-statement"
-										}
-									]
-								},
-								{
-									"name": "termsLink",
-									"value": "Terms of Use",
-									"type": "link",
-									"properties": [
-										{
-											"name": "href",
-											"value": "/mhmsite/terms-of-use"
-										}
-									]
-								},
-								{
-									"name": "pointsLink",
-									"value": "500",
-									"type": "content"
-								},
-								{
-									"name": "pointsIcon",
-									"type": "icon",
-									"blocks": [
-										{
-											"name": "incentivesLink",
-											"value": "My Incentives",
-											"type": "link",
-											"properties": [
-												{
-													"name": "href",
-													"value": "#"
-												}
-											]
-										},
-										{
-											"name": "achievementsLink",
-											"value": "My Achievements",
-											"type": "link",
-											"properties": [
-												{
-													"name": "href",
-													"value": "#"
-												}
-											]
 										}
 									]
 								},

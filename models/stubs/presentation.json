@@ -1,7 +1,6 @@
 {
 	"get": {
 		"": {
-			"": {},
 			"/externalservices/presentation?q=page-type&page=assess&type=navigation": {
 				"presentations": {
 					"responseCode": 0,

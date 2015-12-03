@@ -5,6 +5,15 @@
     {{#nav}}
         <li class="item desktop"><a href="{{href}}" data-dom-id="{{name}}" data-name="{{name}}">{{content}}</a></li>
     {{/nav}}
+        <li class="item header-icon mobile">
+            <a href="#" class="icon icon-profile"></a>
+            <ul class="sub-list">
+            {{#subNav}}
+                <li class="item"><a href="{{href}}" data-dom-id="{{name}}" data-name="{{name}}">{{content}}</a></li>
+            {{/subNav}}
+            <div class="arrow-up"></div>
+            </ul>
+        </li>
 </ul>
 </div>
 </div>

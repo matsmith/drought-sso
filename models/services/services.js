@@ -2,7 +2,8 @@
 var CompanyConfigService = require("./companyConfigService"),
 	ResourceBundleService = require("./resourceBundleService"),
 	PresentationService = require("./presentationService"),
-	AvailableProductsService = require('./availableProductsService');
+	AvailableProductsService = require('./availableProductsService'),
+	SecurityService = require('./securityservice');
 
 module.exports = function() {
 	"use strict";
@@ -60,7 +61,8 @@ module.exports = function() {
 			CompanyConfigService,
 			ResourceBundleService,
 			PresentationService,
-			AvailableProductsService
+			AvailableProductsService,
+			SecurityService
 		],
 		/**
 		 * Sets up the shared configuration, including default values

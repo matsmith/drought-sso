@@ -14,6 +14,10 @@ module.exports = BaseController.extend({
 		]).then(function(serviceResults){
 			self.getNav(serviceResults[0]);
 			self.getContent(serviceResults[1]);
+		}).then(undefined, function(err){
+			var exception = JSON.parse(err.responseText);
+			console.log('Promise Error Type: ', exception.error);
+			console.log('Promise Error Description: ', exception.error_description);
 		}).done(function(success, error){
 			new View(res, 'home').render( self.content, { navigation: '_nav' } );
 		});
@@ -24,8 +28,17 @@ module.exports = BaseController.extend({
 	},
 	getNav: function(data) {
 		var self = this;
+		var primaryNav = [], subNav = [];
 		data.model.areas.forEach(function(area){
-			self.content.nav = area.blocks;
+			area.blocks.forEach(function(block){
+				if(block.hasOwnProperty('blocks')){
+					subNav = block.blocks;
+				} else {
+					primaryNav.push(block);
+				}
+			});
+			self.content.nav = primaryNav;
+			self.content.subNav = subNav;
 		});
 	}
 });

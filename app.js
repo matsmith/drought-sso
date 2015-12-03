@@ -6,7 +6,9 @@ var express = require('express'),
 	config = require('./config')(),
 	routes = require('./config/routes'),
 	app = express(),
-	cookieParser = require('cookie-parser');
+	cookieParser = require('cookie-parser'),
+ 	session= require('express-session');
+	//cookieSession = require('cookie-session');
 
 // Setup a global var for this apps config
 global.wnp = global.wnp || {};
@@ -17,6 +19,12 @@ app.set('views', __dirname + '/templates');
 app.set('layout', 'layout')
 app.engine('html', require('hogan-express'));
 app.use(cookieParser());
+app.use(session({
+	secret: 'keyboard cat',
+	resave: false,
+	saveUninitialized: false
+}));
+//app.use(cookieSession({ name: 'session', keys: ['key1', 'key2'] }));
 app.use(require('less-middleware')( __dirname + '/public' ));
 app.use(express.static(path.join(__dirname, 'public')));
 

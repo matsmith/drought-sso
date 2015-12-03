@@ -24,9 +24,9 @@ module.exports = BaseController.extend({
 			// 1 getCompanyConfig
 			// 2 presentation
             return Promise.all([
-                self.service.resourceBundle.getResourceBundles(prodList),
-        		self.service.companyConfig.getCompanyConfig(['ProductRenaming']),
-                self.service.presentation.getBy({ page: 'portal', type: 'navigation' })
+				self.service.resourceBundle.getResourceBundles(prodList),
+				self.service.companyConfig.getCompanyConfig(['ProductRenaming']),
+				self.service.presentation.getBy({ page: 'portal', type: 'navigation' })
             ]);
         }).then(function(serviceResults){
             model.resourceBundle = serviceResults[0].model;

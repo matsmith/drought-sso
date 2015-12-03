@@ -21,13 +21,15 @@ module.exports = function() {
 
 	Service.prototype.CPUD_ENDPOINT_TYPE = "cpud";
 	Service.prototype.LAMBERT_ENDPOINT_TYPE = "lambert";
+	Service.prototype.INTERNAL_ENDPOINT_TYPE = "internal";
 	// Custom endpoints must overwrite get and post, which is where we check
 	// for endpointType validity. Any service may overwrite helpers like
 	// _buildApplyHeadersFunction or overwrite or create their own response
 	// validator.
 	Service.prototype.endpointTypes = [
 		Service.prototype.CPUD_ENDPOINT_TYPE,
-		Service.prototype.LAMBERT_ENDPOINT_TYPE
+		Service.prototype.LAMBERT_ENDPOINT_TYPE,
+		Service.prototype.INTERNAL_ENDPOINT_TYPE
 	];
 
 	Service.prototype.hasValidEndpointType = function() {
@@ -40,6 +42,9 @@ module.exports = function() {
 
 	Service.prototype.buildEndpoint = function(verb, urlParams) {
 		var endpoint = this.options.serviceBaseUrl;
+		if(this.endpointType === this.INTERNAL_ENDPOINT_TYPE){
+			endpoint = 'http://172.16.18.33:8080/';
+		}
 		endpoint += this.serviceName.toLowerCase();
 
 		var resourceString = this.resourceStrings[verb];
@@ -218,6 +223,8 @@ module.exports = function() {
 				return this._buildLambertApplyHeadersFunction(contentType);
 			case this.CPUD_ENDPOINT_TYPE:
 				return this._buildCpudApplyHeadersFunction();
+			case this.INTERNAL_ENDPOINT_TYPE:
+				return this._buildInternalApplyHeadersFunction();
 			default:
 				throw "Failure applying headers, no valid endpointType";
 		}
@@ -226,8 +233,7 @@ module.exports = function() {
 	Service.prototype._buildLambertApplyHeadersFunction = function(contentType) {
 		var self = this;
 		return function(xhrObj, settings) {
-			xhrObj.setRequestHeader("Authorization",
-				self.options.authTokenType + " " + self.options.authToken);
+			xhrObj.setRequestHeader("Authorization", self.options.authTokenType + " " + self.options.authToken);
 			xhrObj.setRequestHeader("correlationId", self.options.correlationId);
 			xhrObj.setRequestHeader("transactionId", new Date().getTime());
 			xhrObj.setRequestHeader("Json-Namespace-Separator", "__");
@@ -241,8 +247,7 @@ module.exports = function() {
 	Service.prototype._buildCpudApplyHeadersFunction = function() {
 		var self = this;
 		return function(xhrObj, settings) {
-			xhrObj.setRequestHeader("Authorization",
-				self.options.authTokenType + " " + self.options.authToken);
+			xhrObj.setRequestHeader("Authorization", self.options.authTokenType + " " + self.options.authToken);
 			xhrObj.setRequestHeader("Accept", "application/json");
 			if (settings.type === "POST" || settings.type === "PUT") {
 				xhrObj.setRequestHeader("Content-Type", "application/json");
@@ -252,6 +257,15 @@ module.exports = function() {
 		};
 	};
 
+	Service.prototype._buildInternalApplyHeadersFunction = function() {
+		var self = this;
+		return function(xhrObj, settings) {
+			xhrObj.setRequestHeader("Accept", "application/json");
+			xhrObj.setRequestHeader("ExternalUserId", self.options.externalUserId);
+			xhrObj.setRequestHeader("ExternalUserIdType", self.options.externalUserIdType);
+			xhrObj.setRequestHeader("AccessCode", self.options.accessCode);
+		};
+	};
 
 	Service.prototype._sendWithAuthRetry = function(ajaxOptions) {
 		var self = this;
@@ -360,10 +374,10 @@ module.exports = function() {
 	};
 
 	function filterResponseFragment(responseFragment, key) {
-		if (!responseFragment[""] && key !== "get" && key !== "post") {
-			console.error("WARNING: stub data malformed", responseFragment, key);
-			return responseFragment;
-		}
+		// if (!responseFragment[""] && key !== "get" && key !== "post") {
+		// 	console.error("WARNING: stub data malformed", responseFragment, key);
+		// 	return responseFragment;
+		// }
 		var matchedResponse = responseFragment[key];
 		if (!matchedResponse) {
 			return responseFragment[""];
