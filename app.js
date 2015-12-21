@@ -7,6 +7,7 @@ var express = require('express'),
 	routes = require('./config/routes'),
 	app = express(),
 	cookieParser = require('cookie-parser'),
+	bodyParser = require('body-parser'),
  	session= require('express-session');
 	//cookieSession = require('cookie-session');
 
@@ -14,6 +15,8 @@ var express = require('express'),
 global.wnp = global.wnp || {};
 global.wnp.config = global.wnp.config || require('./package.json').config;
 
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 app.set('view engine', 'html');
 app.set('views', __dirname + '/templates');
 app.set('layout', 'layout')

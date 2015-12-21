@@ -1,0 +1,18 @@
+<script>
+$(function(){
+    $('#saml-form').submit();
+});
+</script>
+<div id="container">
+  <img id='ie-background' style='display: none;' src='https://media.healthmedia.com/media/images/backgrounds/victory.jpg' />
+  <div id="container-inner" class="pngIE">
+      <div id="wrap">
+          <div id="content-inner" class="clearfix">
+              <form id="saml-form" action="https://localhost-coaching.healthmedia.net/saml/module.php/saml/sp/saml2-acs.php/sp-localhost-coaching" method="post">
+                  <input type="hidden" name="SAMLResponse" value="{{samlresponse}}">
+                  <input type="hidden" name="RelayState" value="http://localhost-coaching.healthmedia.net/mhmsite/program/succeed/options">
+              </form>
+          </div>
+      </div>
+  </div>
+</div>

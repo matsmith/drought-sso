@@ -47,6 +47,26 @@ var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-33621953-2"]);_gaq.push(['_s
         },
         programName: "{{programName}}"
     };
+
+    $(function(){
+        $('a').on('click', function(evt){
+            var $href = $(this).attr('href');
+            if( $href == '/mhmsite/program/succeed/options' ){
+                evt.preventDefault();
+                $.ajax({
+                    method: 'POST',
+                    url: "/saml/createresponse"
+                }).done(function(samlResponse){
+                    $href = 'http://localhost-coaching.healthmedia.net' + $href;
+                    $.post(
+                        "/saml/authenticate",
+                        { samlresponse: samlResponse, relaystate: $href },
+                        function(){}
+                    );
+                });
+            }
+        })
+    });
 </script>
 <style>{{style}}</style>
 </head>

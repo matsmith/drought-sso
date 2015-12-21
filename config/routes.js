@@ -2,11 +2,17 @@ var request = require('request');
 
 module.exports = function(app, session){
 
+    // Service Proxies
     app.all('/externalservices*', function(req, res, next) {
         var options = {
             url: 'https://dpqacr01-coaching.healthmedia.com' + req.url
         }
         req.pipe(request(options)).pipe(res);
+    });
+
+    // App Routes
+    app.all('/saml', function(req, res, next) {
+        require('../controllers/Saml').run(req, res, next);
     });
     app.all('/login', function(req, res, next) {
         require('../controllers/Login').run(req, res, next);

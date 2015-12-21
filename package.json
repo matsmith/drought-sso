@@ -6,6 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.14.2",
     "cookie-parser": "^1.4.0",
     "cookie-session": "^1.2.0",
     "express": ">=3.2.6",
@@ -14,6 +15,9 @@
     "jQuery": "^1.7.4",
     "jsdom": "^7.0.2",
     "less-middleware": ">=0.1.12",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-saml": "^0.14.0",
     "promise": "^7.0.4",
     "request": "^2.65.0",
     "underscore": ">=1.4.4",
@@ -27,7 +31,7 @@
     "externalUserId": "sectst23",
     "externalUserIdType": "DRUPALID",
     "wnpSessionId": "12345",
-    "authToken": "3b2f47fc-45da-4f2c-8a64-012bf9bbaaff",
+    "authToken": "3675e828-d2b4-4e43-98fe-2a24a564f3ec",
     "authTokenType": "bearer",
     "refreshToken": "66666",
     "refreshAuthHeader": "Basic dGVzdF9zaG9ydDpzZWNyZXQ=",
