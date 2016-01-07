@@ -9,7 +9,7 @@ var config = {
 	},
 	production: {
 		mode: 'production',
-		port: 5000
+		port: process.env.PORT
 	}
 }
 module.exports = function(mode) {
