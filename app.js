@@ -22,11 +22,11 @@ app.set('views', __dirname + '/templates');
 app.set('layout', 'layout')
 app.engine('html', require('hogan-express'));
 app.use(cookieParser());
-app.use(session({
-	secret: 'keyboard cat',
-	resave: false,
-	saveUninitialized: false
-}));
+// app.use(session({
+// 	secret: 'keyboard cat',
+// 	resave: false,
+// 	saveUninitialized: false
+// }));
 //app.use(cookieSession({ name: 'session', keys: ['key1', 'key2'] }));
 app.use(require('less-middleware')( __dirname + '/public' ));
 app.use(express.static(path.join(__dirname, 'public')));
