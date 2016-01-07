@@ -38,65 +38,1311 @@
 </style>
 <div class="wrapper-target widgets-wrapper" data-wnpwidget-container="widgetWrapper">
 <div data-wnpwidget-container="programListingContainer">
-<div class="program-listing-container container" data-wnptheme="default" data-wnpwidget="programListingContainer">
+    <div class="program-listing-container container" data-wnptheme="default" data-wnpwidget="programListingContainer">
+    	<div class="interested-programs row">
 
-	<div class="interested-programs row">
+    	<section data-widget-name="weightSkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container body" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 19px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With Balance, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
 
-        {{#products}}
-        <section data-widget-name="{{nameKey}}" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget">
-            <div class="flip-container body" data-wnptheme="default" data-wnpwidget="programListingWidget">
-            	<div class="flipper programSide">
-            		<div class="content-height">
-            			<header>
-                            <nav class="above">
-                                <button class="not-interested c3-color-hover">{{notInterestedText}}</button>
-                                <span class="icon-interested interested"></span>
-    	                    </nav>
-                        </header>
-                        <p class="program-description">{{details}}</p>
-                        <nav class="below">
-                        	<a href="#" class="button details c5-color-hover" aria-label="Close program details">{{backText}}</a>
-                        	<a href="#" class="button start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
-                        		{{startText}}<span class="fa fa-caret-right"></span>
-                        	</a>
-                        </nav>
-                    </div>
-            	    <div class="back c5-background-color">
-            			<header>
-                        <nav class="above">
-                            <button class="not-interested c3-color-hover">{{notInterestedText}}</button>
-                            <span class="icon-interested interested"></span>
-                        </nav>
-                        </header>
-                            <p class="program-description">{{details}}</p>
-                            <nav class="below">
-                                <a href="#" class="button details c5-color-hover" aria-label="Close program details">{{backText}}</a>
-                                <a href="#" class="button start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
-                                    {{startText}}<span class="fa fa-caret-right"></span>
-                                </a>
-                            </nav>
-            		</div>
-    		        <div class="front">
-                        <header>
-                            <h4 class="program-name c4-color c4-border-bottom-color">{{longName}}</h4>
-                            <h3 class="program-title c4-color">{{title}}</h3>
-                        </header>
-    					<p class="program-description">{{description}}</p>
-                        <nav class="below">
-                    		<a href="#" class="button details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-dom-id="details-{{nameKey}}">{{detailsText}}</a>
-                            <a href="/product/{{productLink}}" class="button start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-{{nameKey}}">
-                                {{startText}}<span class="fa fa-caret-right"></span>
-                            </a>
-                        </nav>
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        {{/products}}
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 19px;">It's not easy to master the mix of exercise and food, but we'll help you develop skills to improve that balance - for life. With Balance, we won't lecture or make you give up your favorite things. Instead, we’ll focus on simple changes to how you eat, move, and think (about eating and moving).</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
 
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Balance</h4>
+    	<h3 class="program-title c4-color">Manage Your Weight</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 19px;">Your mind, body, and food habits are all key to managing your weight. Balance addresses all three, to help you reach your goals and maximize your energy.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-weightSkills">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-weightSkills">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="physicalActivitySkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container move" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Remember when you were a kid, running around, pretending to be a dancer, or a jet pilot, or a dancing jet pilot? Whatever you were, you probably stayed in constant motion. While we can’t travel back to your dancing jet pilot days, Move can help you realize some benefits of all that movement, like more energy, greater range of motion, and improved moods.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Remember when you were a kid, running around, pretending to be a dancer, or a jet pilot, or a dancing jet pilot? Whatever you were, you probably stayed in constant motion. While we can’t travel back to your dancing jet pilot days, Move can help you realize some benefits of all that movement, like more energy, greater range of motion, and improved moods.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Move</h4>
+    	<h3 class="program-title c4-color">Be More Active</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">By sneaking movement into your routine, Move can help inspire anyone - even an exercise rookie - to get up, get moving, and get healthier.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-physicalActivitySkills">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-physicalActivitySkills">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="nourish" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container nutrition" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 19px;">These days it can take a small army to figure out how to eat right. Nutritional landmines are everywhere, and even "good" foods can pack a day's worth of salt, fat, or calories. No need to call in the troops — just us. Nourish will show you how balance, reasonable portions, and small adjustments can fuel you the right way.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 19px;">These days it can take a small army to figure out how to eat right. Nutritional landmines are everywhere, and even "good" foods can pack a day's worth of salt, fat, or calories. No need to call in the troops — just us. Nourish will show you how balance, reasonable portions, and small adjustments can fuel you the right way.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Nourish</h4>
+    	<h3 class="program-title c4-color">Eat Healthier</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 19px;">Nourish offers easy-to-understand, one-on-one nutritional counseling to help improve your eating habits — for life.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-nourish">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-nourish">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="relax" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container relax" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Stress can sabotage sleep, hurt your heart, and dominate your diet. We can't shrink your to-do list or time-travel you through a tough day. But with Relax, we'll look at ways to help you catch and handle tension before it gets the upper hand.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Stress can sabotage sleep, hurt your heart, and dominate your diet. We can't shrink your to-do list or time-travel you through a tough day. But with Relax, we'll look at ways to help you catch and handle tension before it gets the upper hand.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Relax</h4>
+    	<h3 class="program-title c4-color">Deal with Stress</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 38px;">Relax puts your sources and symptoms of tension under a microscope, then unveils strategies to help keep you calm under pressure.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-relax">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-relax">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="breathe" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container tobacco" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">"Quitting is easy. I've done it a thousand times." What Mark Twain said might be true for you. Quitting smoking is a process, not a moment. With Breathe, we'll craft a plan to help get you through the toughest moments and focus on the prize: decreased disease risk, breathing easier, a restored sense of taste and smell... we could go on.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">"Quitting is easy. I've done it a thousand times." What Mark Twain said might be true for you. Quitting smoking is a process, not a moment. With Breathe, we'll craft a plan to help get you through the toughest moments and focus on the prize: decreased disease risk, breathing easier, a restored sense of taste and smell... we could go on.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Breathe</h4>
+    	<h3 class="program-title c4-color">Quit Smoking</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Based on 7 key principles, Breathe crafts a quit plan that plays to your strengths to help get you past old roadblocks.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-breathe">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-breathe">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="depressionSkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container depression" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Learn about methods that have helped many people cope with symptoms, change negative thinking, and help prevent relapses with Care for Depression. Your skills will focus on helping you get the most from treatments, doctors, and life.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Learn about methods that have helped many people cope with symptoms, change negative thinking, and help prevent relapses with Care for Depression. Your skills will focus on helping you get the most from treatments, doctors, and life.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Depression</h4>
+    	<h3 class="program-title c4-color">Care for Depression</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 38px;">Care for Depression provides individualized help in the setting and at the time of your choice.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-depressionSkills">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-depressionSkills">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="insomnia" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container insomnia" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Up to one third of the adult U.S. population sleeps poorly. And poor sleep over time can cause anyone's quality of life to suffer. Dream offers a range of solutions to help improve your sleep, without medication. We'll turn off the lights on the way out.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 38px;">Up to one third of the adult U.S. population sleeps poorly. And poor sleep over time can cause anyone's quality of life to suffer. Dream offers a range of solutions to help improve your sleep, without medication. We'll turn off the lights on the way out.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Dream</h4>
+    	<h3 class="program-title c4-color">Sleep Better</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 38px;">Short of energy and focus during the day? Dream is packed with established strategies for conquering sleepless nights.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-insomnia">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-insomnia">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="binge" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container healthy eating" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">We've all had one too many servings at some point, but overeating and losing control can be a sign of a more serious problem. Binge eating is the most common eating disorder. Binge Eating will look at the roots of your habits, help guide you to a healthier relationship with food, and give you tools and structure to help you stay there.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">We've all had one too many servings at some point, but overeating and losing control can be a sign of a more serious problem. Binge eating is the most common eating disorder. Binge Eating will look at the roots of your habits, help guide you to a healthier relationship with food, and give you tools and structure to help you stay there.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Binge Eating</h4>
+    	<h3 class="program-title c4-color">Stop Binge Eating</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Binge Eating uses emotional support and interactive exercises to help change negative thoughts and normalize eating.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-binge">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-binge">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="control" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container heart health" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Because blood pressure is, well, at the heart of things, keeping it within safe limits is critical to health. Hypertension increases wear and tear on your blood vessels, which can elevate heart attack and stroke risk. Care for Blood Pressure addresses lifestyle changes, medication habits, and other topics – within the context of your life and your needs.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Because blood pressure is, well, at the heart of things, keeping it within safe limits is critical to health. Hypertension increases wear and tear on your blood vessels, which can elevate heart attack and stroke risk. Care for Blood Pressure addresses lifestyle changes, medication habits, and other topics – within the context of your life and your needs.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Blood Pressure</h4>
+    	<h3 class="program-title c4-color">Care for Blood Pressure</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Care for Blood Pressure starts with an overview of the condition and how you're doing, then provides techniques and tools to help get and keep you on track.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-control">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-control">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="achieve" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container heart health" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Managing cholesterol is tricky enough without jargon like hyperlipidemia and triglycerides… Achieve for Cholesterol wrestles the whole messy subject into a personalized plan to help you understand your numbers, habits, meds, and mindset. It also offers ways to adjust eating and exercise that could help improve your heart health.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Managing cholesterol is tricky enough without jargon like hyperlipidemia and triglycerides… Achieve for Cholesterol wrestles the whole messy subject into a personalized plan to help you understand your numbers, habits, meds, and mindset. It also offers ways to adjust eating and exercise that could help improve your heart health.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Achieve for Cholesterol</h4>
+    	<h3 class="program-title c4-color">Care for Cholesterol</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Achieve for Cholesterol helps you solve the puzzle with lifestyle changes that can help cut your risk of heart attack and stroke.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-achieve">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-achieve">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="chronicConditionSkills" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container take action" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Dealing with one or more chronic conditions can be like juggling porcupines. Care for Your Health can put you in the driver's seat, where you belong (even if you have some uninvited passengers onboard). We'll focus on what you can control, including your habits, your thoughts, and working with your health care team and others.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Dealing with one or more chronic conditions can be like juggling porcupines. Care for Your Health can put you in the driver's seat, where you belong (even if you have some uninvited passengers onboard). We'll focus on what you can control, including your habits, your thoughts, and working with your health care team and others.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Your Health</h4>
+    	<h3 class="program-title c4-color">Care for Chronic Conditions</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Be the quarterback of your health care team, not a spectator. Care for Your Health reveals tactics and secrets to help you handle any chronic condition.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-chronicConditionSkills">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-chronicConditionSkills">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="diabetes" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container diabetes" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">The diabetes epidemic can be addressed one case at a time, starting with you. Care for Diabetes helps put you in charge of your condition, with a focus on those things you can control. We'll cover ways to help improve habits and quality of life, take your meds as directed, reshape thoughts, and get the most from your health care team and others.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">The diabetes epidemic can be addressed one case at a time, starting with you. Care for Diabetes helps put you in charge of your condition, with a focus on those things you can control. We'll cover ways to help improve habits and quality of life, take your meds as directed, reshape thoughts, and get the most from your health care team and others.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Diabetes</h4>
+    	<h3 class="program-title c4-color">Care for Diabetes</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Simple lifestyle changes and in-depth education can mean improved A1C levels and better health. Discover Care for Diabetes.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-diabetes">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-diabetes">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="back" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container soothe" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Cervical, thoracic, lumbar, or all three — a bad back is bad news. And anybody who's suffered from this type of pain understands how it can turn something as simple as tying your shoes into a major ordeal. Care for Your Back takes a scientific approach to exercise and small, smart lifestyle changes to help put back pain behind you. So to speak.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Cervical, thoracic, lumbar, or all three — a bad back is bad news. And anybody who's suffered from this type of pain understands how it can turn something as simple as tying your shoes into a major ordeal. Care for Your Back takes a scientific approach to exercise and small, smart lifestyle changes to help put back pain behind you. So to speak.</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Your Back</h4>
+    	<h3 class="program-title c4-color">Care for Back Pain</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Care for Your Back unfolds a personal roadmap to help reduce pain and regain control of your daily life.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-back">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-back">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section><section data-widget-name="pain" class="col-sm-6 col-lg-4" data-wnpwidget-container="programListingWidget"><div class="flip-container soothe" data-wnptheme="default" data-wnpwidget="programListingWidget">
+    	<div class="flipper programSide" data-bind="css: flipSide">
+    		<div class="content-height">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Your pain is unique, and so is the way you respond to it. That's why one-size-fits-all approaches don't work. Care for Pain is patterned just for you. We'll identify techniques to help hem in your pain and trim your stress. We'll also explore ways of getting the most from your meds and your health care team. Why not start now?</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="back c5-background-color">
+    			<header>
+    	<nav class="above">
+    		<!--ko ifnot: programStarted() -->
+    			<button class="not-interested c3-color-hover" data-bind="text: interestStatusText">Not interested</button>
+    			<span class="icon-interested interested" data-bind="css: interestStatus() ? 'interested' : 'not interested', text:  interestStatus() ? '' : ''"></span>
+    		<!--/ko-->
+    		<!--ko if: programStarted() --><!--/ko-->
+    	</nav>
+    </header>
+    <!-- ko if: notRetakeAvailable -->
+    	<!--ko if: skill--><!--/ko -->
+    	<!--ko ifnot: skill-->
+    		<p class="program-description" data-bind="html: backProgramDescription" style="padding-bottom: 0px;">Your pain is unique, and so is the way you respond to it. That's why one-size-fits-all approaches don't work. Care for Pain is patterned just for you. We'll identify techniques to help hem in your pain and trim your stress. We'll also explore ways of getting the most from your meds and your health care team. Why not start now?</p>
+    	<!--/ko -->
+    <!--/ko -->
+    <!-- ko if: retakeAvailable--><!--/ko -->
+
+    <nav class="below">
+    	<button class="details c5-color-hover" aria-label="Close program details" data-bind="text: backDetailsButtonText">Back</button>
+    	<button class="start c5-color c5-color-border c5-background-color-hover" aria-label="Start Program">
+    		<!--ko text: backStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    	</button>
+    </nav>
+
+    		</div>
+    		<div class="front">
+    			<header>
+    	<h4 class="program-name c4-color c4-border-bottom-color">Care for Pain</h4>
+    	<h3 class="program-title c4-color">Care for Chronic Pain</h3>
+    </header>
+
+
+
+    	<!--ko if: retakeAvailable--><!--/ko-->
+    	<!-- ko if: notRetakeAvailable-->
+    		<!--ko if: skill--><!--/ko-->
+    		<!--ko ifnot: skill-->
+    			<!-- ko if: planIsReady --><!-- /ko -->
+    			<!-- ko ifnot: planIsReady -->
+    				<!-- ko if: currentProgress --><!-- /ko -->
+    				<!-- ko ifnot: currentProgress() -->
+
+    					<p class="program-description" data-bind="html: frontProgramDescription" style="padding-bottom: 0px;">Uncover solutions to this widespread, debilitating problem in Care for Pain. We want to help you focus more on the things that matter most to you.</p>
+    				<!-- /ko -->
+    			<!-- /ko -->
+    		<!--/ko-->
+    	<!--/ko-->
+    <nav class="below">
+    		<button class="details c5-border-color c5-color c5-background-color-hover" aria-label="Show program details" data-bind="{
+    			text: frontDetailsButtonText,
+    			attr: {
+    				'data-dom-id': 'details-'+product.name
+    			}
+    		}" data-dom-id="details-pain">Details</button>
+    		<button data-bind="{attr: {
+    			'data-dom-id': 'start-program-'+product.name
+    		}}" class="start c5-border-color c5-background-color c5-color-hover c5-border-color-hover" aria-label="Start Program" data-dom-id="start-program-pain">
+    			<!--ko text: frontStartButtonText-->Get Started<!--/ko--><span class="fa fa-caret-right"></span>
+    		</button>
+    </nav>
+
+    		</div>
+    	</div>
+    </div></section></div>
+    	<div class="uninterested-programs-wrap row hide-visibility ui-accordion ui-widget ui-helper-reset" data-bind="css: { 'hide-visibility': titleInt() < 1 }" role="tablist" style="margin-left: -158.5px; width: 1265px;">
+    		<h3 class="c3-color uninterested-programs-bar ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" data-bind="event: {click: updateChevronIcon}" role="tab" id="ui-accordion-1-header-0" aria-controls="ui-accordion-1-panel-0" aria-selected="false" aria-expanded="false" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+    			<span data-bind="text: titleOpen">You have&nbsp;</span>
+    			<span class="program-number" data-bind="text: titleInt">0</span>
+    			<span data-bind="text: titlePlural">programs</span>
+    			<span data-bind="text: titleClose">you're not interested in.</span>
+    			<span class="icon-chevron open-closed-indicator" data-bind="text: chevronIcon"></span>
+    		</h3>
+    		<div class="uninterested-programs row ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-1-panel-0" aria-labelledby="ui-accordion-1-header-0" role="tabpanel" aria-hidden="true" style="display: none;">
+
+    		</div>
+    	</div>
     </div>
-</div>
 </div>
 </div>
 

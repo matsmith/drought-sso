@@ -17,18 +17,8 @@ module.exports = function(app, session){
     app.all('/logout', function(req, res, next) {
         require('../controllers/Logout').run(req, res);
     });
-    app.all('/mhmsite/*', requireLogin, function(req, res, next) {
-        next();
-    });
-    app.all('/mhmsite/program-coaching/digital-health-coaching', function(req, res, next) {
+    app.all('/products', requireLogin, function(req, res, next) {
     	require('../controllers/Products').run(req, res, next);
-    });
-    // SAML over to Drupal site
-    app.all('/mhmsite/program/succeed/options', function(req, res, next) {
-        require('../controllers/Saml').run(req, res, next);
-    });
-    app.all('/product/:product', function(req, res, next) {
-    	require('../controllers/Product').run(req, res, next);
     });
     app.all('/*', function(req, res, next) {
         require('../controllers/Home').run(req, res, next);
