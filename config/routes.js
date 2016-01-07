@@ -11,9 +11,6 @@ module.exports = function(app, session){
     });
 
     // App Routes
-    app.all('/saml', function(req, res, next) {
-        require('../controllers/Saml').run(req, res, next);
-    });
     app.all('/login', function(req, res, next) {
         require('../controllers/Login').run(req, res, next);
     });
@@ -25,6 +22,10 @@ module.exports = function(app, session){
     });
     app.all('/mhmsite/program-coaching/digital-health-coaching', function(req, res, next) {
     	require('../controllers/Products').run(req, res, next);
+    });
+    // SAML over to Drupal site
+    app.all('/mhmsite/program/succeed/options', function(req, res, next) {
+        require('../controllers/Saml').run(req, res, next);
     });
     app.all('/product/:product', function(req, res, next) {
     	require('../controllers/Product').run(req, res, next);
