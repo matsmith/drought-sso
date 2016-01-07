@@ -3,7 +3,7 @@
  */
 var express = require('express'),
 	path = require('path'),
-	config = require('./config')('production'),
+	config = require('./config')('local'),
 	routes = require('./config/routes'),
 	app = express(),
 	cookieParser = require('cookie-parser'),

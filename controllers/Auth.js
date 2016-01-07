@@ -15,16 +15,13 @@ module.exports = BaseController.extend({
 
 		// Transform jQuery not-real promise into real promise
         if(req.session.hasOwnProperty('token')){
-    			authorized = req.session.token === result.model.jsonWebToken;
-
-                if(!authorized){
-                    console.log('Security Services Error: ', error);
-                    res.redirect('/login');
-                } else {
-                    next();
-                }
-
-    		});
+			authorized = req.session.token === result.model.jsonWebToken;
+            if(!authorized){
+                console.log('Security Services Error: ', error);
+                res.redirect('/login');
+            } else {
+                next();
+            }
         } else {
             res.redirect('/login');
         }
