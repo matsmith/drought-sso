@@ -19,26 +19,29 @@ module.exports = BaseController.extend({
 		// 	console.log('Promise Error Type: ', exception.error);
 		// 	console.log('Promise Error Description: ', exception.error_description);
 		// }).done(function(success, error){
-		// 	new View(res, 'home').render( self.content, { navigation: '_nav' } );
+			self.content.programName = "Mat App";
+			self.content.nav = [];
+			self.content.subNav = [];
+		 	new View(res, 'home').render( self.content, { navigation: '_nav' } );
 		// });
 	},
 	getContent: function(data) {
-		var self = this;
-		this.content.programName = "Mat App"; //data.model.features.ProductRenaming.bingeLongName;
+		// var self = this;
+		// this.content.programName = data.model.features.ProductRenaming.bingeLongName;
 	},
 	getNav: function(data) {
-		var self = this;
-		var primaryNav = [], subNav = [];
-		data.model.areas.forEach(function(area){
-			area.blocks.forEach(function(block){
-				if(block.hasOwnProperty('blocks')){
-					subNav = block.blocks;
-				} else {
-					primaryNav.push(block);
-				}
-			});
-			self.content.nav = []; //primaryNav;
-			self.content.subNav = []; //subNav;
-		});
+		// var self = this;
+		// var primaryNav = [], subNav = [];
+		// data.model.areas.forEach(function(area){
+		// 	area.blocks.forEach(function(block){
+		// 		if(block.hasOwnProperty('blocks')){
+		// 			subNav = block.blocks;
+		// 		} else {
+		// 			primaryNav.push(block);
+		// 		}
+		// 	});
+		// 	self.content.nav = primaryNav;
+		// 	self.content.subNav = subNav;
+		// });
 	}
 });
