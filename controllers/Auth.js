@@ -8,21 +8,16 @@ module.exports = BaseController.extend({
 		var self = this,
             authorized = false;
 
-// USED FOR TESTING ONLY
-var result = { model : { 'jsonWebToken' : 'thisIsMyWebToken' } };
-
 		this.content.htmlClass = 'front not-logged-in page-home no-sidebars fluid-width locale-en_us home-page-not-logged-in';
+
+		// USED FOR TESTING ONLY
+		var result = { model : { 'jsonWebToken' : 'thisIsMyWebToken' } };
 
 		// Transform jQuery not-real promise into real promise
         if(req.session.hasOwnProperty('token')){
-    		Promise.all([
-                // REMOVED FOR TESTING ONLY
-    			//self.service.securityServices.getJsonWebToken()
-                result
-    		]).then(function(serviceResults){
-    			authorized = req.session.token === serviceResults[0].model.jsonWebToken;
-    		}).done(function(success, error){
-                if(!authorized || error){
+    			authorized = req.session.token === result.model.jsonWebToken;
+
+                if(!authorized){
                     console.log('Security Services Error: ', error);
                     res.redirect('/login');
                 } else {
