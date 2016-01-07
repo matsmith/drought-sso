@@ -1,5 +1,5 @@
 var Service = require('./baseService'),
- 	$ = require('jQuery');
+ 	$ = require('./jQuery');
 
 module.exports = function() {
 	"use strict";

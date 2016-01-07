@@ -1,4 +1,4 @@
-var $ = require('jQuery'),
+var $ = require('./jQuery'),
 	_ = require('underscore');
 
 module.exports = function () {

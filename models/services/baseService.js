@@ -1,6 +1,6 @@
 /* globals $WNP */
 var serviceCache = require('./serviceCache'),
-	$ = require('jQuery'),
+	$ = require('./jQuery'),
 	fs = require('fs'),
 	window = window || global,
 	$WNP = $;

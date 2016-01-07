@@ -1,6 +1,6 @@
 /*global define*/
 var Service = require('./baseService'),
-	$ = require('jquery'),
+	$ = require('./jQuery'),
 	window = window || global;
 
 module.exports = function() {
