@@ -3,7 +3,7 @@ var CompanyConfigService = require("./companyConfigService"),
 	ResourceBundleService = require("./resourceBundleService"),
 	PresentationService = require("./presentationService"),
 	AvailableProductsService = require('./availableProductsService'),
-	SecurityService = require('./securityservice'),
+	SecurityService = require('./securityService'),
 	SamlResponseService = require('./samlResponseService');
 
 module.exports = function() {
